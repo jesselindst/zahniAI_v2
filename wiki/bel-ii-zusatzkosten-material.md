@@ -48,7 +48,28 @@ abrechenbar:
 
 → [[bel-ii-ukps]]
 
+## Umkehrschluss: was damit abgegolten ist
+
+Die Aufzählung ist **abschließend**. Was nicht darin steht, ist mit den Positionspreisen
+abgegolten — § 2 Ziff. 4 sagt das für die Halbfertigteile ausdrücklich („wie die **übrigen
+Materialien** … abgegolten") und damit für alles Übrige.
+
+Praktisch heißt das für die GKV: **nicht** gesondert berechenbar sind
+
+- **NEM-Legierung** — Kompensation nur über den Verarbeitungsaufwand L-Nr. 970 0
+- **Zirkon- und Lithiumdisilikat-Rohlinge** (CAD/CAM-Blanks)
+- Gips, Superhartgips, Einbettmasse, Wachs, Sintermasse/Sinterhilfsmittel, Abstrahlmittel
+- Verblendkeramik-Schichtmassen, Malfarben, Glasurmasse
+- Klebekomposit, Primer, Silikon der Gingivamaske
+
+⚠️ „Abgegoltenes Material als berechenbar geführt" war im Vorlagenreview einer der häufigsten
+Materialfehler (54 Befunde) → [[haeufige-abrechnungsfehler]].
+
+Auf dem **privaten** Weg gilt das nicht — dort besteht Kalkulationsfreiheit, dafür eine schärfere
+Nachweispflicht. Gegenüberstellung: [[material-abrechnung-privat]].
+
 ## Verwandt
+- **Privat**: [[material-abrechnung-privat]] — § 9/§ 10 GOZ, Legierung mit Gewicht und Tagespreis
 - Verarbeitungs*aufwand* (nicht Materialkosten) für NEM: L-Nr. 970 0 →
   [[bel-gruppe-zuschlaege-versand]]
 - Verarbeitung von Weich-/Sonderkunststoff als **Leistung**: 382 1 / 382 2 (ZE), 712 1 /

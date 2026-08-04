@@ -51,6 +51,36 @@ Läuft über die **KFO-Reparaturschiene**, nicht über 801 0:
 **861 0** (Grundeinheit Instandsetzung KFO **oder Aufbissbehelf**) i. V. m. 862 0, 863 0,
 802 1, 802 2, 802 3, 802 4 → [[bel-gruppe-reparatur-erweiterung]].
 
+## Digitale Fertigung: hier gilt die CAD/CAM-Regel NICHT
+
+Anders als bei Kronen und Brücken enthalten die Leistungstexte der 401 0/402 0 **keine Vorgabe
+zum Herstellungsverfahren**. Laut VDZI ist der Aufbissbehelf „in der Herstellungsweise nicht
+definiert" — ein gefräster oder gedruckter adjustierter Aufbissbehelf wird daher in der Regel
+nach 401 0 als Sachleistung berechnet.
+
+⚠️ **Aber: reale regionale KZV-Unterschiede.** KZV Berlin lehnt die 3D-gedruckte adjustierte
+Schiene für die GKV ab (Rundschreiben Nr. 8 vom 28.08.2019, unter Verweis auf SG Berlin
+09.01.2019, S 83 KA 77/17); in Bayern ist sie mit Vermerk „digitale Abformung" einreichbar,
+dann aber ohne Abformpauschale und ohne Modellherstellung (001 0), Versand nur einmal.
+**Vor der Abrechnung bei der zuständigen KZV klären.** → [[cadcam-digitale-verfahren]]
+
+## Kein Festzuschuss-Bereich
+
+Für Aufbissbehelfe existiert **kein Festzuschuss-Befund**. Sie sind Sachleistung nach der
+G-BA-Behandlungsrichtlinie (B.VI Nr. 2, adjustierter Aufbissbehelf bei
+Kiefergelenkstörungen/Myoarthropathien), BEMA-Teil 2 Nr. K1 — **nicht** Zahnersatz nach
+§§ 55 ff. SGB V.
+
+⚠️ Damit gibt es hier **auch keine „gleichartige" Versorgung** — diese Kategorie setzt einen
+Festzuschuss voraus. Wo Vorlagen eine Achse `Regelversorgung/` ↔ `gleichartig/` führen, ist das
+für Schienen sachlich unpassend; gemeint ist eine Wahlleistung/Privatvereinbarung.
+→ [[festzuschuss-versorgungsformen]]
+
+Funktionsanalytische und -therapeutische Leistungen (FAL/FTL) sind nach § 28 Abs. 2 S. 8 SGB V
+privat (GOZ 8000 ff.). Die Gesichtsbogen-Konstellation regelt die gemeinsame Erklärung
+KZBV/GKV-SV/VDZI vom 10.10.2014.
+
 ## Verwandt
 [[bel-gruppe-kieferorthopaedie]] · [[bel-ii-ukps]] (Schlafapnoe-Schienen laufen **nicht**
-hier, sondern im geschlossenen UKPS-Kreis) · [[bel-ausschlussregeln]]
+hier, sondern im geschlossenen UKPS-Kreis) · [[bel-ausschlussregeln]] ·
+[[cadcam-digitale-verfahren]]

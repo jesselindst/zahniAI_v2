@@ -20,6 +20,12 @@ verschiedene Preisarten.
 Der **G-BA** legt die Festzuschuss-Richtlinie fest: Beträge nach **§ 57 Abs. 1 und Abs. 2
 SGB V**, Abstaffelungen nach **§ 55 Abs. 1 Sätze 2, 3, 5 und Abs. 2 SGB V** (Bonusstufen).
 In die Berechnung fließen die **relativen Häufigkeiten** der einzelnen L-Nrn. ein.
+Details zur Richtlinie selbst: [[quelle-festzuschuss-richtlinie]]; zur Prozentmechanik:
+[[festzuschuss-haertefall-bonus]].
+
+**Kalkulationsbasis 2026** (Kopf der GKV-SV-Betragstabelle, offiziell): bundeseinheitlicher
+Zahnersatz-Punktwert **1,1844 €** ab 01.01.2026; **BEL-II-Preise nach Vereinbarung VDZI/GKV-SV
+ab 01.01.2026 +4,78 %** gegenüber 2025, zuzüglich „Modifikation Preisstruktur".
 
 Daraus folgt ein Mechanismus, der bei jeder BEL-Änderung greift:
 
@@ -41,11 +47,19 @@ Einrechnung eine echte Überabrechnung. → [[bel-ausschlussregeln]]
 ## Offen / nicht aus dieser Quelle belegt
 - [[quelle-bel-ii-2014]] führt **§ 57 Abs. 2 SGB V** als Grundlage der **regionalen**
   Vergütungsvereinbarungen an, diese Quelle denselben Absatz im Zusammenhang mit dem
-  **bundeseinheitlichen** Preis. Beides ist vereinbar, wenn der Bundeswert ein aus den
-  regionalen Vereinbarungen abgeleiteter Mittelwert ist — das ist hier jedoch **nicht belegt**.
-  Klärung über den Gesetzestext oder einen G-BA-Beschluss wäre der nächste Schritt.
+  **bundeseinheitlichen** Preis.
+  **Teilklärung (Recherche 20.07.2026, [[quelle-review-vorlagen-2026-08]]):** Die GKV-SV-Tabelle
+  2026 nennt ausdrücklich „BEL-II-Preise **nach Vereinbarung VDZI/GKV-SV**" als Kalkulationsbasis.
+  Der Bundeswert ist damit **eigenständig vereinbart**, nicht aus regionalen Werten gemittelt.
+  Die Vermutung eines abgeleiteten Mittelwerts ist damit hinfällig — der Wortlaut des § 57 Abs. 2
+  bleibt aber weiterhin ungeprüft.
 - Welche Preisart die Werte in `kataloge/bel.json` genau abbilden (regional welches Bundesland,
-  welcher Stand), ist im Repo nicht dokumentiert.
+  welcher Stand), ist im Repo weiterhin **nicht dokumentiert**.
+- **NEM-Verrechnungseinheiten** sind regional: bei EM statt NEM in der Regelversorgung rechnet
+  die KZV den BEL-Anteil über Verrechnungseinheiten an (z. B. KZV Berlin ab 01.01.2026:
+  10,53 €/Einheit bei 60 %, 12,29 € bei 70 %, 13,16 € bei 75 %). Für andere KZV-Bereiche nicht
+  erhoben. → [[material-abrechnung-privat]]
 
 ## Verwandt
-[[quelle-bel-ii-2014]] · [[bel-ii-rechnungsstellung]] · [[bel-gruppe-arbeitsvorbereitung]]
+[[quelle-bel-ii-2014]] · [[quelle-festzuschuss-richtlinie]] · [[bel-ii-rechnungsstellung]] ·
+[[bel-gruppe-arbeitsvorbereitung]] · [[festzuschuss-grundlagen]]
