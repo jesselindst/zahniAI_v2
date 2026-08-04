@@ -1,0 +1,98 @@
+| Bereich | Autor | erstellt am | Version |
+|--------|--------|--------|--------|
+| festsitzender Zahnersatz / Einzelkrone / gleichartig | CLAUDE | 2026-04-27 | v1 |
+
+# BEL-Positionen
+
+| BEL | Leistung | Menge | Bemerkung |
+|--------|--------|--------|--------|
+| 0010 | Modell | 2 | Arbeitsmodell + Gegenkiefermodell |
+| 0023 | Verwendung von Kunststoff | 1 | je Stumpfmodell für CAD-CAM (statt Gips-Stumpf) |
+| 0051 | Sägemodell | 1 |  |
+| 0120 | Mittelwertartikulator | 1 |  |
+| 9330 | Versandkosten | 2 | Hin- + Rückversand, entfällt bei Praxislabor |
+
+# Basisleistungen
+
+| BEB97 | Leistung | Menge | Bemerkung |
+|--------|--------|--------|--------|
+| 0850 | 3D-Auftragsanlage / CAD/CAM-Auftragsanlage | 1 | je Auftrag |
+| 0891 | CAD/CAM Modell einscannen | 1 | je Kiefer-Modell |
+| 0918 | CAD/CAM Konstruktionsgrenze festlegen | 1 | je Krone |
+| 0917 | Konstruktion CAD-Krone zur Verblendung | 1 | je Krone |
+| 2810 | CAD/CAM-Krone, vollständig verblendet | 1 | je Krone; bei Frontzahn alternativ 2807 (CAD/CAM Frontzahnkrone, vollständig verblendet) |
+| 2823 | CAD/CAM-Fräsen/-Schleifen einer CAD/CAM-Einheit | 1 | je Krone |
+| 2832 | CAD/CAM Krone/Brückenglied nacharbeiten | 1 | je Krone |
+| 2863 | Mehraufwand Sintern, je Auftrag | 1 | je Auftrag |
+| 2612 | Mehrflächige Verblendung aus Keramik | 1 | je Krone, Vollverblendung |
+
+# Zusatzleistungen
+
+| BEB97 | Leistung | Menge | Bemerkung |
+|--------|--------|--------|--------|
+| 2807 | CAD/CAM Frontzahnkrone, vollständig verblendet | 1 | alternativ zu 2810 bei Frontzahn |
+| 2829 | CAD/CAM-Seitenzahnkrone für keramische Vollverblendung | 1 | alternativ zu 2810 bei Seitenzahn |
+| 2876 | Zirkonoxidkrone, individuell verblendet | 1 | alternativ Vollkeramik-Pos |
+| 2160 | Scannen und konstruieren Zirkon/E-Max-Krone | 1 | bei kombinierter Scan-Konstruktion |
+| 2870 | Seitenzahn einscannen (Krone/Brücke) | 1 | bei Seitenzahn-Spezifik |
+| 2842 | Frontzahn einscannen (Krone/Brücke) | 1 | bei Frontzahn-Spezifik |
+| 2839 | Einzelzahn einscannen, Scan prüfen | 1 | bei Einzelzahn-Scan/Prüfung |
+| 2848 | Konstruktion CAD-Krone zur Verblendung | 1 | alternativ zu 0917 |
+| 2850 | Konstruktion CAD-Frontzahnkrone zur Verblendung | 1 | bei Front-Konstruktion |
+| 2611 | Teilverblendung aus Keramik | 1 | alternativ zu 2612 bei Teilverblendung |
+| 2616 | Keramikverblendung in Mehrschichttechnik | 1 | bei Mehrschicht-Schichtkeramik |
+| 2675 | Schulter aus Keramik/Glas | 1 | je Krone, Keramikschulter Front-/Sichtbereich |
+| 2676 | Papille aus Keramik/Glas | 1 | bei zervikaler Papillenmaskierung |
+| 2677 | Zahnfleisch aus Keramik/Glas | 1 | bei zervikaler Gingiva-Maskierung |
+| 2951 | Individuell charakterisieren, Keramik | 1 | je Krone, bei individueller Charakterisierung |
+| 2952 | Zuschlag bei Verarbeitung von Spezialkeramik | 1 | bei Spezialkeramik |
+| 2954 | Verbindungsstelle Keramik/Glas | 1 | bei Verbindungs-Bearbeitung |
+| 2955 | Glasieren, je Einheit | 1 | je Krone, Hochglanz-Brand |
+| 2959 | Mehraufwand durch Rohbrandeinprobe | 1 | je Krone, bei Zwischenanprobe vor Endglasur |
+| 2963 | Mehrere Farben in Kronen- oder Brückenverband | 1 | bei mehrfarbiger Schichtung |
+| 2689 | Farbgebung durch Bemalen | 1 | bei Bemalung statt Schichtung |
+| 2840 | Endkontrolle unter Stereomikroskop | 1 | je Krone, bei höchsten Qualitätsanforderungen |
+| 2965 | Zuschlag für Arbeiten unter Stereomikroskop | 1 | Alternativ-/Ergänzungsposition zu 2840 |
+| 2813 | CAD/CAM Zirkon anpassen, je Zahneinheit | 1 | bei Mehraufwand Anpassung |
+| 2802 | Kaufläche nach gnathologischen Kriterien (Keramik) | 1 | bei Vollkeramik-Kaufläche gnathologisch |
+| 2804 | Frontzahn nach gnathologischen Kriterien (Keramik) | 1 | bei Front-Keramik gnathologisch |
+| 2811 | Selektives Einschleifen nach Remontage | 1 | bei okklusaler Anpassung |
+| 2815 | Okklusaler Stop | 1 | bei Okklusionssicherung |
+| 2922 | Krone/Inlay/Brückenglied aufpassen | 1 | bei Anpassung auf Kontrollmodell |
+| 2911 | Krone, Brückenglied für Klammer vorbereiten | 1 | bei Kombination mit herausnehmbarem Zahnersatz |
+| 2912 | Krone, Brückenglied passend für vorhandene Prothese | 1 | bei Anpassung an vorhandene Prothese |
+| 5306 | Keramik konditionieren | 1 | bei Konditionierung Klebefläche innen |
+| 0019 | Frässockel | 1 | bei Fräs-Sockel für Modell |
+| 0103 | Modellsegment sägen | 1 | bei Stumpf-Sägeschnitt |
+| 0117 | Kunststoffstumpf festsitzend | 1 | je Stumpf, CAD-CAM-Stumpf |
+| 0825 | Segment digitalisieren, je Segment | 1 | bei Segment-Digitalisierung |
+| 0827 | Präparationsgrenze digitalisieren | 1 | bei digitaler Präp-Grenze |
+| 0840 | Scannen, CAD-Konstruktion Krone | 1 | alternativ zu 0891/0918/0917-Kette |
+| 0907 | Digitaler Datenversand | 1 | bei STL-/Daten-Versand |
+| 0908 | Empfang/Aufbereitung Mundscandaten | 1 | bei Intraoralscan-Empfang |
+| 0723 | Zahnfarbenbestimmung I | 1 | bei Bedarf |
+| 0724 | Zahnfarbenbestimmung II | 1 | bei mehreren Farben/Schichtung |
+| 0732 | Desinfektion | 2 | Eingangs- + Ausgangsdesinfektion |
+| 0710 | Eilterminzuschlag | 1 | bei urgency=urgent/express |
+| 0706 | Foto- oder Video-Dokumentation | 1 | bei Bedarf |
+| 0721 | Zeiteinheit; Zahntechniker-Meister | je | bei Sonderaufwand |
+| 0722 | Zeiteinheit; Zahntechniker | je | bei Sonderaufwand |
+| 0701 | Versand je Versandgang | je | bei zusätzlichem Versandgang |
+| 0702 | Sonderversand oder Fahrtkosten | 1 | bei express/Sonderaufwand |
+| 0731 | Individuelle Namenskennzeichnung I | 1 | bei Auftragsmarkierung |
+| 0911 | Foto auf Bildbearbeitungssoftware matchen | 1 | bei digitaler Farb-/Form-Abstimmung |
+| 0912 | Foto-/Videodokumentation zur Auswertung | 1 | bei diagnostischer Doku |
+
+# Material
+
+| Material | Menge | Bemerkung |
+|--------|--------|--------|
+| CAD/CAM Block Zirkon | 1 Stück | je Krone, Zirkonoxid-Block für Fräsung |
+| Verblendkeramik | — | je Krone, Schichtkeramik für Vollverblendung |
+| Modellgips (Hartgips) | — | Arbeitsmodell + Gegenkiefermodell |
+| Stumpf-Kunststoff | — | je Stumpf für CAD-CAM (Sägemodell) |
+| Sintermasse / Sinterhilfsmittel | — | für Zirkon-Sintervorgang |
+
+# Hinweise
+
+CAD-CAM gefräste Zirkon-Vollkrone mit Schichtkeramik-Vollverblendung ist gleichartige Versorgung — gilt unabhängig von der Position (Front-, Prämolar- oder Molarenbereich). Begründung: BEL II 2014 stellt klar, dass CAD-CAM gefräste Kronen IMMER gleichartig sind, unabhängig von Material oder Verblendung. BEL deckt Modelle, Artikulator und Versand ab; die Zirkon-Krone selbst und der gesamte CAD-CAM-Prozess werden über BEB97 abgerechnet. Patient erhält Festzuschuss in Höhe der Regelversorgung (Befund 1.1, NEM-Krone vestibulär verblendet) und trägt die Mehrkosten privat.

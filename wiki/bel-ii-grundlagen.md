@@ -1,0 +1,73 @@
+# BEL II – Grundlagen & Geltungsbereich
+
+Wann gilt das BEL II überhaupt, und was folgt daraus für den KV?
+Quelle: [[quelle-bel-ii-2014]], Einleitende Bestimmungen § 1–2 (S. 5–6).
+
+## Anwendungsbereich (§ 1 Ziff. 1)
+Das BEL II bestimmt den Inhalt der abrechnungsfähigen zahntechnischen Leistungen in der
+**vertragszahnärztlichen Versorgung** — und zwar für:
+
+1. **Zahnersatz**, *soweit die gewählte Versorgung der Regelversorgung nach § 56 Abs. 2
+   SGB V entspricht*,
+2. Leistungen im Rahmen der **kieferorthopädischen Behandlung**,
+3. Behandlung mit **Aufbissbehelfen**,
+4. Behandlung mit **Unterkieferprotrusionsschienen** (seit 01.01.2022).
+
+**Abgrenzung für den KV-Agenten:** BEL II ist der Katalog für **GKV-Regelversorgung**.
+Gleichartige und andersartige Versorgungen werden für den über die Regelversorgung
+hinausgehenden Anteil nach **BEB** abgerechnet; PKV komplett nach BEB. Der Regelversorgungs-
+Anteil bleibt auch bei gleichartiger Versorgung BEL. → siehe Abrechnungsvorlagen.
+
+## Kompatibilität und Menge (§ 1 Ziff. 2)
+> Die zahntechnischen Einzelleistungen der einzelnen Gruppen des BEL II sind **miteinander
+> kompatibel** und **nach tatsächlich erbrachter Menge** abrechnungsfähig, soweit nicht in
+> den Erläuterungen zu den Leistungspositionen etwas Anderes geregelt ist.
+
+Das ist die **Grundregel**: Positionen aus verschiedenen Gruppen dürfen frei kombiniert und
+nach Ist-Menge angesetzt werden. Jede Einschränkung ist eine **benannte Ausnahme** in den
+Erläuterungen der jeweiligen Position → [[bel-ausschlussregeln]], [[bel-mengenregeln]].
+
+**Ausnahme UKPS:** Bei Herstellung und Instandsetzung/Erweiterung von
+Unterkieferprotrusionsschienen sind **nur die mit UKPS gekennzeichneten Leistungen**
+abrechenbar — die Gruppenkompatibilität ist hier aufgehoben → [[bel-ii-ukps]].
+
+## Informationspflicht des Zahnarztes bei Auftragsvergabe (§ 1 Ziff. 3)
+Der Vertragszahnarzt ist gehalten, dem Labor mitzuteilen:
+- den **Versichertenstatus (GKV)** des Patienten,
+- bei Zahnersatz die im **genehmigten Heil- und Kostenplan ausgewiesenen Befundnummern**.
+
+→ Fehlen diese Angaben in einer Anfrage und hängt die Abrechnung daran (z. B.
+Regelversorgung ja/nein, Ausnahmeindikation Implantat), ist **Rückfrage** die korrekte
+Reaktion, nicht Raten.
+
+## Leistungen außerhalb des Verzeichnisses (§ 2 Ziff. 1)
+Leistungen für **Kieferbruchbehandlungen, Epithesen, Resektionsprothesen und Obturatoren**,
+die nicht im Verzeichnis aufgeführt sind, werden **nach tatsächlichem Aufwand** abgerechnet
+— nicht analog über eine BEL-Position.
+
+## Ein Labor je Leistungsposition (§ 4 Ziff. 2)
+Zahntechnische Leistungen, die in **einer** Leistungsposition zusammengefasst sind, dürfen
+nur von **einem** Labor erbracht werden — außer in Ausnahmefällen (z. B. Mängelbeseitigung).
+Arbeitsteilung ist also auf Positionsgrenzen zulässig, nicht innerhalb einer Position.
+→ Rechnungsfolgen: [[bel-ii-rechnungsstellung]]
+
+## Struktur der Leistungsnummern
+L-Nrn. sind vierstellig, geschrieben als `XXX Y` (z. B. `102 1`). Systematik der letzten
+Ziffer bzw. des Nummernkreises:
+
+| Muster | Bedeutung |
+|--------|-----------|
+| `___ 5` | Variante für **UKPS** (z. B. 001 5, 011 5, 012 5, 808 5) |
+| `___ 8` | Variante für **Implantatversorgung** nach Nr. 36 ZE-RL (z. B. 001 8, 102 8, 361 8) |
+| 001–032 | Arbeitsvorbereitung |
+| 101–165 | Festsitzender Zahnersatz |
+| 201–212 | Modellguss |
+| 301–384 | Herausnehmbarer Zahnersatz |
+| 401–404 | Aufbissbehelfe |
+| 501–521 | Unterkieferprotrusionsschienen |
+| 701–751 | Kieferorthopädie |
+| 801–870 | Reparatur / Erweiterungen |
+| 933, 970 | Versandkosten, NEM-Verarbeitungsaufwand |
+
+Die `5`- und `8`-Varianten sind **keine Zuschläge**, sondern eigenständige Positionen, die
+die Grundposition ersetzen. Nie beides für denselben Vorgang ansetzen.

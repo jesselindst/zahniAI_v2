@@ -1,0 +1,10162 @@
+[
+  {
+    "nr": "0001",
+    "name": "Modell aus Hartgips",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0002",
+    "name": "Modell aus Superhartgips",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0003",
+    "name": "Okklusionsmodell",
+    "dauer_min": 18,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0004",
+    "name": "Modell nach Abformgerät",
+    "dauer_min": 21,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0005",
+    "name": "Modell für Modellguss",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0006",
+    "name": "Zahnkranz ausgießen",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0007",
+    "name": "Kontrollmodell",
+    "dauer_min": 6,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0008",
+    "name": "Modell für Facette",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0009",
+    "name": "Modell aus Kunststoff",
+    "dauer_min": 25,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0010",
+    "name": "Spezialmodell",
+    "dauer_min": 33,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0011",
+    "name": "Modell aus feuerfester Masse",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0012",
+    "name": "Teilmodell aus feuerfester Masse",
+    "dauer_min": 13,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0014",
+    "name": "Lötmodell aus feuerfester Masse",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0015",
+    "name": "Modell UKPS",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0015"
+      ]
+    }
+  },
+  {
+    "nr": "0018",
+    "name": "Modell bei Implantatversorgung",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0018"
+      ]
+    }
+  },
+  {
+    "nr": "0019",
+    "name": "Frässockel",
+    "dauer_min": 9,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0020",
+    "name": "Remontage-Model",
+    "dauer_min": 25,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0021",
+    "name": "Modell für Sägesegmente",
+    "dauer_min": 14,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0022",
+    "name": "Okklusionsmodell für Sägesegmente",
+    "dauer_min": 22,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0023",
+    "name": "Modell für Einzelstümpfe",
+    "dauer_min": 13,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0024",
+    "name": "Galvanisieren",
+    "dauer_min": 30,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0024"
+      ]
+    }
+  },
+  {
+    "nr": "0025",
+    "name": "Dosierungsstumpf",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0025"
+      ]
+    }
+  },
+  {
+    "nr": "0026",
+    "name": "Modell nach Funktionsabdruck",
+    "dauer_min": 13,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0030",
+    "name": "Modell digitales Antagonistenmodell",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0030"
+      ],
+      "intern": [
+        "0030"
+      ]
+    }
+  },
+  {
+    "nr": "0031",
+    "name": "Modell digitales Arbeitsmodell CAD",
+    "dauer_min": 20,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0031"
+      ],
+      "intern": [
+        "0031"
+      ]
+    }
+  },
+  {
+    "nr": "0032",
+    "name": "Modell digitales Präparationsmodell CAD",
+    "dauer_min": 22,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0032"
+      ],
+      "intern": [
+        "0032"
+      ]
+    }
+  },
+  {
+    "nr": "0036",
+    "name": "Bissnahme digital",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0036"
+      ],
+      "intern": [
+        "0036"
+      ]
+    }
+  },
+  {
+    "nr": "0051",
+    "name": "Sägemodell",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0051"
+      ],
+      "intern": [
+        "0051"
+      ],
+      "dent_content": [
+        "0051"
+      ]
+    }
+  },
+  {
+    "nr": "0052",
+    "name": "Einzelstumpfmodell",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0052"
+      ]
+    }
+  },
+  {
+    "nr": "0053",
+    "name": "Modell nach Überabdruck",
+    "dauer_min": 18,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0053"
+      ],
+      "intern": [
+        "0053"
+      ],
+      "dent_content": [
+        "0053"
+      ]
+    }
+  },
+  {
+    "nr": "0055",
+    "name": "Fräsmodell",
+    "dauer_min": 25,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0055"
+      ],
+      "intern": [
+        "0055"
+      ],
+      "dent_content": [
+        "0055"
+      ]
+    }
+  },
+  {
+    "nr": "0103",
+    "name": "Modellsegment sägen",
+    "dauer_min": 5,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0104",
+    "name": "Stumpf aus Superhartgips",
+    "dauer_min": 6,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0105",
+    "name": "Stumpf aus Kunststoff",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0106",
+    "name": "Stumpf aus Metall",
+    "dauer_min": 16,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0111",
+    "name": "Modellpaar trimmen",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0111"
+      ]
+    }
+  },
+  {
+    "nr": "0112",
+    "name": "Stumpf aus feuerfester Masse",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0114",
+    "name": "Zweitstumpf aus Superhartgips",
+    "dauer_min": 5,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0115",
+    "name": "Zweitstumpf aus Kunststoff",
+    "dauer_min": 6,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0116",
+    "name": "Zweitstumpf aus Metall",
+    "dauer_min": 9,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0117",
+    "name": "Kunststoffstumpf festsitzend",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0118",
+    "name": "Implantatfrässtumpf",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0120",
+    "name": "Mittelwertartikulator",
+    "dauer_min": 18,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0120"
+      ],
+      "intern": [
+        "0120"
+      ],
+      "dent_content": [
+        "0120"
+      ]
+    }
+  },
+  {
+    "nr": "0125",
+    "name": "Mittelwertartikulator UKPS",
+    "dauer_min": 18,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0125"
+      ]
+    }
+  },
+  {
+    "nr": "0128",
+    "name": "Mittelwertartikulator bei Implantatversorgung",
+    "dauer_min": 18,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0128"
+      ]
+    }
+  },
+  {
+    "nr": "0201",
+    "name": "Stumpfabdruck galvanisieren",
+    "dauer_min": 6,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0202",
+    "name": "Basis für Konstruktionsbiss",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0202"
+      ]
+    }
+  },
+  {
+    "nr": "0205",
+    "name": "Abdruck galvanisieren",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0210",
+    "name": "Basis Autopolymerisat",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0210"
+      ]
+    }
+  },
+  {
+    "nr": "0211",
+    "name": "Abdruckmanschette",
+    "dauer_min": 3,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0212",
+    "name": "Dowel-Pin setzen",
+    "dauer_min": 2,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0213",
+    "name": "Ausblocken eines Stumpfes",
+    "dauer_min": 3,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0214",
+    "name": "Reponieren eines Stumpfes",
+    "dauer_min": 4,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0215",
+    "name": "Zweitstumpfübertragung in Arbeitsmodell",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0216",
+    "name": "Stumpf vorbereiten",
+    "dauer_min": 4,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0217",
+    "name": "Stumpf unter Mikroskop vorbereiten",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0218",
+    "name": "Vorbereiten eines Stumpfes zum direkten Aufgalvanisieren",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0220",
+    "name": "Bisswall",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0220"
+      ],
+      "dent_content": [
+        "0220"
+      ]
+    }
+  },
+  {
+    "nr": "0221",
+    "name": "Hilfsteil in Abdruck",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0222",
+    "name": "Modellergänzung aus Kunststoff",
+    "dauer_min": 22,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0223",
+    "name": "Zahnfleischmaske, abnehmbar",
+    "dauer_min": 22,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0224",
+    "name": "Modellimplantat repositionieren",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0225",
+    "name": "Implantatpfosten auf Modellierimplantat aufschrauben",
+    "dauer_min": 4,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0228",
+    "name": "Bisswall bei Implantatversorgung",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0228"
+      ]
+    }
+  },
+  {
+    "nr": "0230",
+    "name": "Registrierplatte und -stift auf Basen",
+    "dauer_min": 25,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0230"
+      ]
+    }
+  },
+  {
+    "nr": "0231",
+    "name": "Stumpfmodell aus Metall für galvanischen Aufbau",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0240",
+    "name": "Übertragungskappe Kunststoff/Metall",
+    "dauer_min": 20,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0240"
+      ],
+      "intern": [
+        "0240"
+      ],
+      "dent_content": [
+        "0240"
+      ]
+    }
+  },
+  {
+    "nr": "0241",
+    "name": "Dublieren eines Modells oder Modellteils",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0243",
+    "name": "Dublieren eines Einzelstumpfes",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0251",
+    "name": "Angeliefertes Modell untersockeln",
+    "dauer_min": 7,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0252",
+    "name": "Angeliefertes Modell oder Zahnkranz bearbeiten",
+    "dauer_min": 3,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0253",
+    "name": "Split-Cast-Sockel an Modell",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0301",
+    "name": "Zahn vermessen",
+    "dauer_min": 1,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0302",
+    "name": "Modell vermessen",
+    "dauer_min": 6,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0303",
+    "name": "Modell ausblocken",
+    "dauer_min": 2,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0304",
+    "name": "Zahn radieren",
+    "dauer_min": 1,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0306",
+    "name": "Abdecken eines Kieferteiles",
+    "dauer_min": 3,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0307",
+    "name": "Radieren des Abschlussrandes",
+    "dauer_min": 3,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0308",
+    "name": "Radieren nach System",
+    "dauer_min": 5,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0309",
+    "name": "Modell vermessen, digital",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0309"
+      ],
+      "dent_content": [
+        "0926"
+      ]
+    }
+  },
+  {
+    "nr": "0310",
+    "name": "Modell ausblocken, digital",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0310"
+      ],
+      "dent_content": [
+        "0890",
+        "0921",
+        "0922"
+      ]
+    }
+  },
+  {
+    "nr": "0401",
+    "name": "Montage eines Modellpaares in Fixator",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0402",
+    "name": "Modellmontage in Mittelwertartikulator I",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0403",
+    "name": "Modellmontage in Mittelwertartikulator II",
+    "dauer_min": 13,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0404",
+    "name": "Modellmontage in individuellen Artikulator I",
+    "dauer_min": 13,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0405",
+    "name": "Modellmontage in individuellen Artikulator II",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0406",
+    "name": "Modellmontage in individuellen Artikulator III",
+    "dauer_min": 22,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0408",
+    "name": "Montage eines Gegenkiefermodelles",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0410",
+    "name": "Nutzung virtueller Artikulator",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0410"
+      ],
+      "dent_content": [
+        "0899",
+        "0931"
+      ]
+    }
+  },
+  {
+    "nr": "0411",
+    "name": "Modellmontage in Mandibular-Position-Variator (MPV)",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0420",
+    "name": "Artikulation digital",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0420"
+      ],
+      "intern": [
+        "0420"
+      ]
+    }
+  },
+  {
+    "nr": "0501",
+    "name": "Übertragungslehre für Zweitmontage",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0511",
+    "name": "Mehraufwand für Einstellen nach Zentrikregistrat",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0521",
+    "name": "Auswerten eines Registrates",
+    "dauer_min": 6,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0522",
+    "name": "Frontzahnführungsteller individuell",
+    "dauer_min": 17,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0523",
+    "name": "Pfeilwinkel auf Frontzahnführungsteller übertragen",
+    "dauer_min": 17,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0531",
+    "name": "Zusatzaufwand für Einstellen nach Remontage",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0551",
+    "name": "Mehraufwand für Einstellen nach Zentrikregistrat",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0551"
+      ]
+    }
+  },
+  {
+    "nr": "0601",
+    "name": "Modellpaar trimmen, okklusionsbezogen",
+    "dauer_min": 16,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0602",
+    "name": "Modellpaar sockeln, dreidimensional",
+    "dauer_min": 33,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0603",
+    "name": "Modellpaar sockeln, dreidimensional, in Kunststoff-Form",
+    "dauer_min": 33,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0604",
+    "name": "Modellpaar in Gipssockel fixieren",
+    "dauer_min": 9,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0701",
+    "name": "Versand je Versandgang",
+    "dauer_min": 5,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0702",
+    "name": "Sonderversand oder Fahrtkosten",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0703",
+    "name": "Depotführung Zähne",
+    "dauer_min": 5,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0704",
+    "name": "Depotführung Legierung",
+    "dauer_min": 5,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0706",
+    "name": "Foto- oder Video-Dokumentation",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0710",
+    "name": "Eilterminzuschlag",
+    "dauer_min": 5,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0711",
+    "name": "Artikulator teiladjustierbar ausleihen",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0712",
+    "name": "Artikulator volladjustierbar ausleihen",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0721",
+    "name": "Zeiteinheit; Zahntechniker-Meister",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0722",
+    "name": "Zeiteinheit; Zahntechniker",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0723",
+    "name": "Zahnfarbenbestimmung I",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0724",
+    "name": "Zahnfarbenbestimmung II",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0731",
+    "name": "Individuelle Namenskennzeichnung I",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0732",
+    "name": "Desinfektion",
+    "dauer_min": 6,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0801",
+    "name": "Prothetische Planung",
+    "dauer_min": 30,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0802",
+    "name": "Prothetische Alternativplanung",
+    "dauer_min": 25,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0803",
+    "name": "Prächirurgische Planung",
+    "dauer_min": 25,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0811",
+    "name": "Modellanalyse für Prothetik",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0812",
+    "name": "Modellanalyse für KFO",
+    "dauer_min": 25,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0813",
+    "name": "Modellanalyse für Gnathologie",
+    "dauer_min": 38,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0814",
+    "name": "Modellanalyse für Implantologie",
+    "dauer_min": 35,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0815",
+    "name": "Implantatachse und Ort festlegen",
+    "dauer_min": 30,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0816",
+    "name": "Implantatachse und -ort mit Planungsprogramm festlegen",
+    "dauer_min": 45,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0817",
+    "name": "Implantatabutment-Auswahl",
+    "dauer_min": 20,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0821",
+    "name": "Kostenplan für Prothetik",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0822",
+    "name": "Kostenplan für KFO",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0825",
+    "name": "Segment digitalisieren, je Segment",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0825"
+      ],
+      "intern": [
+        "0825"
+      ]
+    }
+  },
+  {
+    "nr": "0827",
+    "name": "Präparationsgrenze digitalisieren, je Segment",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0827"
+      ],
+      "intern": [
+        "0827"
+      ]
+    }
+  },
+  {
+    "nr": "0831",
+    "name": "Zahn diagnostisch beschleifen oder radieren",
+    "dauer_min": 5,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0832",
+    "name": "Diagnostisches Modellieren oder Aufwachsen",
+    "dauer_min": 13,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0833",
+    "name": "Set-Up, je Zahn",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0834",
+    "name": "Diagnostisches Aufstellen von Konfektionszähnen",
+    "dauer_min": 6,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0835",
+    "name": "Vermessen und Auswerten im Mandibular-Positions-Indikator (MPI)",
+    "dauer_min": 25,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0836",
+    "name": "Vermessen und Auswerten im Mandibular-Positions-Variator (MPV)",
+    "dauer_min": 25,
+    "hg": "HG0",
+    "type": "standard"
+  },
+  {
+    "nr": "0840",
+    "name": "Scannen, CAD-Konstruktion Krone/Brückenglied",
+    "dauer_min": 35,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0840"
+      ],
+      "intern": [
+        "0840"
+      ]
+    }
+  },
+  {
+    "nr": "0842",
+    "name": "CAM-Element nacharbeiten",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0842"
+      ],
+      "intern": [
+        "0842"
+      ]
+    }
+  },
+  {
+    "nr": "0850",
+    "name": "3D-Auftragsanlage / CAD/CAM-Auftragsanlage",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0850"
+      ],
+      "dent_content": [
+        "0850",
+        "0884"
+      ]
+    }
+  },
+  {
+    "nr": "0851",
+    "name": "3D-Baujob platzieren",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0851"
+      ],
+      "dent_content": [
+        "0851"
+      ]
+    }
+  },
+  {
+    "nr": "0852",
+    "name": "Datenimport in Drucker/Fräseinheit",
+    "dauer_min": 6,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0852"
+      ],
+      "dent_content": [
+        "0852",
+        "0853",
+        "0858",
+        "0860",
+        "0902",
+        "0903"
+      ]
+    }
+  },
+  {
+    "nr": "0854",
+    "name": "3D-Präzisionsanpassung Schiene",
+    "dauer_min": 30,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0854"
+      ],
+      "dent_content": [
+        "0854"
+      ]
+    }
+  },
+  {
+    "nr": "0855",
+    "name": "3D-Aufbiss",
+    "dauer_min": 20,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0855"
+      ],
+      "dent_content": [
+        "0855"
+      ]
+    }
+  },
+  {
+    "nr": "0856",
+    "name": "3D-Modell, gedruckt",
+    "dauer_min": 30,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0856",
+        "0857",
+        "0864"
+      ],
+      "dent_content": [
+        "0856",
+        "0857",
+        "0864"
+      ]
+    }
+  },
+  {
+    "nr": "0859",
+    "name": "3D-Modell, Artikulatorfixierung",
+    "dauer_min": 25,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0859"
+      ],
+      "dent_content": [
+        "0859"
+      ]
+    }
+  },
+  {
+    "nr": "0861",
+    "name": "3D-Modell, Design",
+    "dauer_min": 25,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0861"
+      ],
+      "dent_content": [
+        "0861"
+      ]
+    }
+  },
+  {
+    "nr": "0862",
+    "name": "3D-Modell, Laboranalog fixieren",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0862"
+      ],
+      "dent_content": [
+        "0862"
+      ]
+    }
+  },
+  {
+    "nr": "0863",
+    "name": "3D-Modell, Zahnfleischmaske",
+    "dauer_min": 35,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0863"
+      ],
+      "dent_content": [
+        "0863"
+      ]
+    }
+  },
+  {
+    "nr": "0865",
+    "name": "3D-Modell, gesockelt",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0865",
+        "0873"
+      ],
+      "dent_content": [
+        "0865",
+        "0873"
+      ]
+    }
+  },
+  {
+    "nr": "0866",
+    "name": "3D-Modellsegment teilen",
+    "dauer_min": 25,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0866"
+      ],
+      "dent_content": [
+        "0866"
+      ]
+    }
+  },
+  {
+    "nr": "0867",
+    "name": "3D-Schiene, adjustiert",
+    "dauer_min": 40,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0867",
+        "0869"
+      ],
+      "dent_content": [
+        "0867",
+        "0869"
+      ]
+    }
+  },
+  {
+    "nr": "0868",
+    "name": "3D-Schiene, Aufwand für Fertigstellung",
+    "dauer_min": 25,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0868"
+      ],
+      "dent_content": [
+        "0868"
+      ]
+    }
+  },
+  {
+    "nr": "0870",
+    "name": "3D-Segment, herausnehmbar",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0870"
+      ],
+      "dent_content": [
+        "0870"
+      ]
+    }
+  },
+  {
+    "nr": "0871",
+    "name": "3D-Spezialmodell, Design + gedruckt",
+    "dauer_min": 30,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0871",
+        "0872"
+      ],
+      "dent_content": [
+        "0871",
+        "0872"
+      ]
+    }
+  },
+  {
+    "nr": "0874",
+    "name": "Abdruckscan/Scan prüfen",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0804"
+      ],
+      "intern": [
+        "0874",
+        "0875"
+      ],
+      "dent_content": [
+        "0874",
+        "0875"
+      ]
+    }
+  },
+  {
+    "nr": "0876",
+    "name": "Abutment scannen",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0876"
+      ],
+      "dent_content": [
+        "0876"
+      ]
+    }
+  },
+  {
+    "nr": "0877",
+    "name": "Anlage der Scandaten",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0877"
+      ],
+      "dent_content": [
+        "0877"
+      ]
+    }
+  },
+  {
+    "nr": "0878",
+    "name": "Ausblocken eines Stumpfes, digital, auch chairside",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0878",
+        "0879"
+      ],
+      "dent_content": [
+        "0878",
+        "0879"
+      ]
+    }
+  },
+  {
+    "nr": "0880",
+    "name": "Auswertung der individuellen Gesichtslinien, auch digital",
+    "dauer_min": 20,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0880"
+      ],
+      "dent_content": [
+        "0880"
+      ]
+    }
+  },
+  {
+    "nr": "0881",
+    "name": "CAD/CAM Abdruck einscannen",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0881"
+      ],
+      "dent_content": [
+        "0881"
+      ]
+    }
+  },
+  {
+    "nr": "0882",
+    "name": "CAD/CAM Anpassung virtuelles Arbeitsmodell",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0882"
+      ],
+      "dent_content": [
+        "0882"
+      ]
+    }
+  },
+  {
+    "nr": "0883",
+    "name": "CAD/CAM Anpassung virtuelles Gegenkiefermodell",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0883"
+      ],
+      "dent_content": [
+        "0883"
+      ]
+    }
+  },
+  {
+    "nr": "0885",
+    "name": "CAD/CAM Auswerten eines Registrates, digital",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0885"
+      ],
+      "dent_content": [
+        "0885"
+      ]
+    }
+  },
+  {
+    "nr": "0887",
+    "name": "CAD/CAM Konstruktion individuelles Abutment",
+    "dauer_min": 40,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0887"
+      ],
+      "dent_content": [
+        "0887"
+      ]
+    }
+  },
+  {
+    "nr": "0891",
+    "name": "CAD/CAM Modell einscannen",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0891",
+        "0892"
+      ],
+      "dent_content": [
+        "0891",
+        "0892"
+      ]
+    }
+  },
+  {
+    "nr": "0893",
+    "name": "CAD/CAM Modellsegment vorbereiten",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0893"
+      ],
+      "dent_content": [
+        "0893"
+      ]
+    }
+  },
+  {
+    "nr": "0894",
+    "name": "Präparationsgrenze festlegen / mit Software markieren",
+    "dauer_min": 20,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0894",
+        "0895",
+        "0934"
+      ],
+      "dent_content": [
+        "0894",
+        "0895",
+        "0934"
+      ]
+    }
+  },
+  {
+    "nr": "0896",
+    "name": "CAD/CAM Scan, je Kiefer/Modell",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0896"
+      ],
+      "dent_content": [
+        "0896"
+      ]
+    }
+  },
+  {
+    "nr": "0900",
+    "name": "CAD/CAM virtuelles Arbeitsmodell",
+    "dauer_min": 20,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0900"
+      ],
+      "dent_content": [
+        "0900"
+      ]
+    }
+  },
+  {
+    "nr": "0901",
+    "name": "CAD/CAM virtuelles Gegenkiefermodell",
+    "dauer_min": 18,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0901"
+      ],
+      "intern": [
+        "0901"
+      ],
+      "dent_content": [
+        "0901"
+      ]
+    }
+  },
+  {
+    "nr": "0905",
+    "name": "Diagnostische Zahnoptimierung, je Zahn, auch digital",
+    "dauer_min": 25,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0905"
+      ],
+      "dent_content": [
+        "0905"
+      ]
+    }
+  },
+  {
+    "nr": "0906",
+    "name": "Diagnostisches Modellieren (digital)",
+    "dauer_min": 30,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "0906"
+      ],
+      "intern": [
+        "0906"
+      ],
+      "dent_content": [
+        "0906"
+      ]
+    }
+  },
+  {
+    "nr": "0907",
+    "name": "Digitaler Datenversand",
+    "dauer_min": 5,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0898",
+        "0907"
+      ],
+      "dent_content": [
+        "0898",
+        "0907"
+      ]
+    }
+  },
+  {
+    "nr": "0908",
+    "name": "Empfang und/oder Aufbereitung der Mundscandaten",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0908"
+      ],
+      "dent_content": [
+        "0908"
+      ]
+    }
+  },
+  {
+    "nr": "0909",
+    "name": "Endkontrolle unter Stereomikroskop",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0909"
+      ],
+      "dent_content": [
+        "0909"
+      ]
+    }
+  },
+  {
+    "nr": "0911",
+    "name": "Foto auf Bildbearbeitungssoftware matchen",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0911"
+      ],
+      "dent_content": [
+        "0911"
+      ]
+    }
+  },
+  {
+    "nr": "0912",
+    "name": "Foto-/Videodokumentation zur diagnostischen Auswertung",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0912",
+        "0913"
+      ],
+      "dent_content": [
+        "0912",
+        "0913"
+      ]
+    }
+  },
+  {
+    "nr": "0914",
+    "name": "Frontzahn einscannen",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0886",
+        "0914"
+      ],
+      "dent_content": [
+        "0886",
+        "0914"
+      ]
+    }
+  },
+  {
+    "nr": "0915",
+    "name": "Funktionslöffel, gedruckt",
+    "dauer_min": 20,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0915"
+      ],
+      "dent_content": [
+        "0915"
+      ]
+    }
+  },
+  {
+    "nr": "0916",
+    "name": "Gedruckten Zahnkranz sockeln",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0916"
+      ],
+      "dent_content": [
+        "0916"
+      ]
+    }
+  },
+  {
+    "nr": "0917",
+    "name": "Konstruktion CAD-Krone zur Verblendung",
+    "dauer_min": 40,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0917"
+      ],
+      "dent_content": [
+        "0917"
+      ]
+    }
+  },
+  {
+    "nr": "0918",
+    "name": "Konstruktionsgrenze festlegen / mit Software markieren",
+    "dauer_min": 20,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0888",
+        "0889",
+        "0918",
+        "0919"
+      ],
+      "dent_content": [
+        "0888",
+        "0889",
+        "0918",
+        "0919"
+      ]
+    }
+  },
+  {
+    "nr": "0920",
+    "name": "Kontrollschablone, verschraubt",
+    "dauer_min": 30,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0920"
+      ],
+      "dent_content": [
+        "0920"
+      ]
+    }
+  },
+  {
+    "nr": "0923",
+    "name": "Modell für Sägesegmente, gedruckt",
+    "dauer_min": 25,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0923"
+      ],
+      "dent_content": [
+        "0923"
+      ]
+    }
+  },
+  {
+    "nr": "0924",
+    "name": "Modell scannen",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0924"
+      ],
+      "dent_content": [
+        "0924"
+      ]
+    }
+  },
+  {
+    "nr": "0925",
+    "name": "Modell und ggf. WaxUp scannen – STL-Daten exportieren",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0925"
+      ],
+      "dent_content": [
+        "0925"
+      ]
+    }
+  },
+  {
+    "nr": "0927",
+    "name": "Modell, gedruckt, für Zebris®",
+    "dauer_min": 30,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0927"
+      ],
+      "dent_content": [
+        "0927"
+      ]
+    }
+  },
+  {
+    "nr": "0928",
+    "name": "Modellanalyse, auch digital",
+    "dauer_min": 20,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0928"
+      ],
+      "dent_content": [
+        "0928"
+      ]
+    }
+  },
+  {
+    "nr": "0929",
+    "name": "Modellieren, je Zahn, auch digital",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0929"
+      ],
+      "dent_content": [
+        "0929"
+      ]
+    }
+  },
+  {
+    "nr": "0930",
+    "name": "Modellsegment CAD/CAM vorbereiten",
+    "dauer_min": 20,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0930"
+      ],
+      "dent_content": [
+        "0930"
+      ]
+    }
+  },
+  {
+    "nr": "0932",
+    "name": "Optisch-elektronische Bissregistrateinstellung/-prüfung",
+    "dauer_min": 20,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0932"
+      ],
+      "dent_content": [
+        "0932"
+      ]
+    }
+  },
+  {
+    "nr": "0933",
+    "name": "Optische Darstellung von Unterschnitten/Disparallelitäten",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0933"
+      ],
+      "dent_content": [
+        "0933"
+      ]
+    }
+  },
+  {
+    "nr": "0937",
+    "name": "Präzisionsmodell, gedruckt",
+    "dauer_min": 30,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0935",
+        "0936",
+        "0937",
+        "0939"
+      ],
+      "dent_content": [
+        "0935",
+        "0936",
+        "0937",
+        "0939"
+      ]
+    }
+  },
+  {
+    "nr": "0938",
+    "name": "Präzisionsmodell, gesockelt",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0938"
+      ],
+      "dent_content": [
+        "0938"
+      ]
+    }
+  },
+  {
+    "nr": "0940",
+    "name": "Scanbody einschrauben und scannen",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0940"
+      ],
+      "dent_content": [
+        "0940"
+      ]
+    }
+  },
+  {
+    "nr": "0941",
+    "name": "Seitenzahn einscannen",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0941"
+      ],
+      "dent_content": [
+        "0941"
+      ]
+    }
+  },
+  {
+    "nr": "0942",
+    "name": "Snap-on-Schiene, je Kiefer",
+    "dauer_min": 35,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0942"
+      ],
+      "dent_content": [
+        "0942"
+      ]
+    }
+  },
+  {
+    "nr": "0943",
+    "name": "Stumpf aus Kunststoff, gedruckt",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0943"
+      ],
+      "dent_content": [
+        "0943"
+      ]
+    }
+  },
+  {
+    "nr": "0944",
+    "name": "Stumpf aus zahnfarbenem Kunststoff",
+    "dauer_min": 18,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0944"
+      ],
+      "dent_content": [
+        "0944"
+      ]
+    }
+  },
+  {
+    "nr": "0945",
+    "name": "Stumpf/Abutment vorbereiten, digital, auch chairside",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0945"
+      ],
+      "dent_content": [
+        "0945"
+      ]
+    }
+  },
+  {
+    "nr": "0946",
+    "name": "Werte vom digitalen Übertragungsbogen übernehmen",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0946"
+      ],
+      "dent_content": [
+        "0946"
+      ]
+    }
+  },
+  {
+    "nr": "0947",
+    "name": "Zahn vermessen, digital, auch chairside",
+    "dauer_min": 8,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0897",
+        "0947",
+        "0948",
+        "0949"
+      ],
+      "dent_content": [
+        "0897",
+        "0947",
+        "0948",
+        "0949"
+      ]
+    }
+  },
+  {
+    "nr": "0951",
+    "name": "Zahnfarbenbestimmung – Gingivafarbe",
+    "dauer_min": 12,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0951"
+      ],
+      "dent_content": [
+        "0951"
+      ]
+    }
+  },
+  {
+    "nr": "0953",
+    "name": "Zahnfarbenbestimmung – Stumpffarbe (III/IV)",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0910",
+        "0950",
+        "0953",
+        "0954"
+      ],
+      "dent_content": [
+        "0910",
+        "0950",
+        "0953",
+        "0954"
+      ]
+    }
+  },
+  {
+    "nr": "0955",
+    "name": "Zahnfarbenbestimmung, digital",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0952",
+        "0955"
+      ],
+      "dent_content": [
+        "0952",
+        "0955"
+      ]
+    }
+  },
+  {
+    "nr": "0956",
+    "name": "Zebris®-Attachment anpassen und bearbeiten",
+    "dauer_min": 20,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0956"
+      ],
+      "dent_content": [
+        "0956"
+      ]
+    }
+  },
+  {
+    "nr": "0957",
+    "name": "Zebris®-Frontzahnjig anpassen, je Kiefer",
+    "dauer_min": 20,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0957"
+      ],
+      "dent_content": [
+        "0957"
+      ]
+    }
+  },
+  {
+    "nr": "0958",
+    "name": "Zebris®-Modell anpassen",
+    "dauer_min": 18,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0958"
+      ],
+      "dent_content": [
+        "0958"
+      ]
+    }
+  },
+  {
+    "nr": "0959",
+    "name": "Übertragungsschlüssel/Einbringhilfe, je Implantat",
+    "dauer_min": 15,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0959"
+      ],
+      "dent_content": [
+        "0959"
+      ]
+    }
+  },
+  {
+    "nr": "0960",
+    "name": "CAD/CAM Übertrag der digitalen Gesichtsbogenwerte",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0960"
+      ],
+      "dent_content": [
+        "0960"
+      ]
+    }
+  },
+  {
+    "nr": "0961",
+    "name": "Intraoralscan konvertieren",
+    "dauer_min": 10,
+    "hg": "HG0",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "0961"
+      ]
+    }
+  },
+  {
+    "nr": "1001",
+    "name": "Basis aus thermoplastischem Material",
+    "dauer_min": 15,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1002",
+    "name": "Basis tiefgezogen",
+    "dauer_min": 22,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1003",
+    "name": "Basis aus Kunststoff",
+    "dauer_min": 24,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1004",
+    "name": "Funktionslöffel All Oral",
+    "dauer_min": 32,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1005",
+    "name": "Funktionslöffel aus Kunststoff",
+    "dauer_min": 27,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1006",
+    "name": "Individueller Löffel Kunststoff",
+    "dauer_min": 29,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1007",
+    "name": "Funktions- oder individueller Löffel aus Kunststoff für Implantate, geschlossene Abformung",
+    "dauer_min": 30,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1008",
+    "name": "Funktions- oder individueller Löffel aus Kunststoff für Implantate, offene Abformung",
+    "dauer_min": 30,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1011",
+    "name": "Basis aus Kunststoff, bei Defektversorgung",
+    "dauer_min": 30,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1012",
+    "name": "Basis aus Kunststoff, auf Implantat",
+    "dauer_min": 30,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1013",
+    "name": "Wurzelstiftkappe",
+    "dauer_min": 50,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1013"
+      ]
+    }
+  },
+  {
+    "nr": "1019",
+    "name": "Basis für neue Abdrucknahme vorbereiten",
+    "dauer_min": 30,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1020",
+    "name": "Basis für Röntgenschablone nach Wax-Up/Aufstellung",
+    "dauer_min": 30,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1021",
+    "name": "Vollkrone/Metall",
+    "dauer_min": 60,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1021"
+      ]
+    }
+  },
+  {
+    "nr": "1024",
+    "name": "Krone für vestibuläre Verblendung",
+    "dauer_min": 70,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1024"
+      ]
+    }
+  },
+  {
+    "nr": "1028",
+    "name": "Krone für vestibuläre Verblendung bei Implantatversorgung",
+    "dauer_min": 75,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1028"
+      ]
+    }
+  },
+  {
+    "nr": "1030",
+    "name": "Vorbereiten Krone",
+    "dauer_min": 15,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1030",
+        "1031"
+      ]
+    }
+  },
+  {
+    "nr": "1032",
+    "name": "Krone/Brücke einarbeiten",
+    "dauer_min": 20,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1032"
+      ]
+    }
+  },
+  {
+    "nr": "1050",
+    "name": "Stiftaufbau",
+    "dauer_min": 35,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1050"
+      ]
+    }
+  },
+  {
+    "nr": "1100",
+    "name": "Brückenglied",
+    "dauer_min": 50,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1100"
+      ]
+    }
+  },
+  {
+    "nr": "1111",
+    "name": "Bisswall aus Wachs, auf Basis",
+    "dauer_min": 10,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1112",
+    "name": "Bisswall aus thermoplastischem Material, auf Basis",
+    "dauer_min": 16,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1113",
+    "name": "Bisswall aus Kunststoff, auf Basis",
+    "dauer_min": 16,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1114",
+    "name": "Bisswall folienbeschichtet nach Schreinemakers, auf Basis",
+    "dauer_min": 15,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1115",
+    "name": "Registrierplatte und -stift auf Basen",
+    "dauer_min": 24,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1116",
+    "name": "FGB Registrierhilfe",
+    "dauer_min": 17,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1121",
+    "name": "Spezialbissplatte",
+    "dauer_min": 18,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1122",
+    "name": "Wachsplatte für Bissregistrierung in Artikulator vorbereitet",
+    "dauer_min": 9,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1125",
+    "name": "Kontrollschablone, Einbringungshilfe",
+    "dauer_min": 35,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1125"
+      ],
+      "dent_content": [
+        "1125"
+      ]
+    }
+  },
+  {
+    "nr": "1131",
+    "name": "Kunststoffaufbau zur Bissfixierung",
+    "dauer_min": 17,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1200",
+    "name": "Teleskopierende Krone",
+    "dauer_min": 90,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1200"
+      ]
+    }
+  },
+  {
+    "nr": "1201",
+    "name": "Übertragungskappe aus Kunststoff",
+    "dauer_min": 17,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1202",
+    "name": "Übertragungskappe aus Metall",
+    "dauer_min": 34,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1204",
+    "name": "Tiefziehteil",
+    "dauer_min": 18,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1205",
+    "name": "Prä-Justage für Abformpfosten",
+    "dauer_min": 20,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1221",
+    "name": "Parallelbohrschablone pro Zahn",
+    "dauer_min": 40,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1222",
+    "name": "Remontageschiene",
+    "dauer_min": 28,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1223",
+    "name": "Parallelbohrschablone für Implantat",
+    "dauer_min": 36,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1224",
+    "name": "Glasklare Positionierungsschiene",
+    "dauer_min": 40,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1225",
+    "name": "Implantat Kontrollschablone",
+    "dauer_min": 32,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1226",
+    "name": "Einbringhilfe, je Abutment",
+    "dauer_min": 15,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "dent_content": [
+        "1226",
+        "1862"
+      ]
+    }
+  },
+  {
+    "nr": "1231",
+    "name": "Paraokklusaler Löffel",
+    "dauer_min": 40,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1241",
+    "name": "Ätzmaske für Brackets",
+    "dauer_min": 30,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1242",
+    "name": "Übertragungsmaske für Brackets",
+    "dauer_min": 17,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1251",
+    "name": "Vorwall",
+    "dauer_min": 4,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1311",
+    "name": "Röntgenkugel positionieren",
+    "dauer_min": 2,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1312",
+    "name": "Positionierungsstift",
+    "dauer_min": 2,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1313",
+    "name": "Positionierung von Bohrhülsen",
+    "dauer_min": 30,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1314",
+    "name": "Korrektur von Bohrhülsen nach Diagnose",
+    "dauer_min": 25,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1321",
+    "name": "Prothetisches Hilfsteil in Basis einarbeiten",
+    "dauer_min": 25,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1331",
+    "name": "Individuelles Geschiebe",
+    "dauer_min": 80,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1331"
+      ]
+    }
+  },
+  {
+    "nr": "1341",
+    "name": "Walkhoffsche Tastkugel an Bissschablone",
+    "dauer_min": 20,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1343",
+    "name": "Konfektions-Anker",
+    "dauer_min": 35,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1343"
+      ]
+    }
+  },
+  {
+    "nr": "1349",
+    "name": "Wiederbefestigen Sekundärteil",
+    "dauer_min": 30,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1349"
+      ]
+    }
+  },
+  {
+    "nr": "1351",
+    "name": "Vorwall und Zähne nach Einprobe über Implantat anpassen",
+    "dauer_min": 10,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1360",
+    "name": "Schubverteilungsarm",
+    "dauer_min": 35,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1360"
+      ]
+    }
+  },
+  {
+    "nr": "1370",
+    "name": "Gefrästes Lager",
+    "dauer_min": 40,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1370"
+      ]
+    }
+  },
+  {
+    "nr": "1401",
+    "name": "Provisorische Krone, Brückenglied, Stiftzahn, Onlay, Inlay aus Kunststoff",
+    "dauer_min": 40,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1402",
+    "name": "Provisorische Krone, Brückenglied, Stiftzahn, Onlay, Inlay aus Metall",
+    "dauer_min": 52,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1403",
+    "name": "Metallarmierung für provisorische Versorgung",
+    "dauer_min": 34,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1404",
+    "name": "Formteil für provisorische Versorgung",
+    "dauer_min": 18,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1405",
+    "name": "Provisorischen Implantataufbau bearbeiten",
+    "dauer_min": 35,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1406",
+    "name": "Aufwand für provisorische Krone über Implantat",
+    "dauer_min": 40,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1411",
+    "name": "Aufstellen eines fehlenden Zahnes zum Herstellen eines Formteiles",
+    "dauer_min": 4,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1421",
+    "name": "Metallprovisorium verblenden, einfarbig",
+    "dauer_min": 28,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1422",
+    "name": "Metallprovisorium verblenden, mehrfarbig",
+    "dauer_min": 40,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1500",
+    "name": "Metallverbindung nach Brand",
+    "dauer_min": 25,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1500"
+      ]
+    }
+  },
+  {
+    "nr": "1550",
+    "name": "Konditionierung je Zahn/Flügel",
+    "dauer_min": 15,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1550"
+      ]
+    }
+  },
+  {
+    "nr": "1601",
+    "name": "Testplättchen aus Metall",
+    "dauer_min": 27,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1602",
+    "name": "Testplättchen aus Kunststoff",
+    "dauer_min": 27,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1603",
+    "name": "Testplättchen aus Keramik",
+    "dauer_min": 27,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1604",
+    "name": "Testplättchen aus Polymer-Glas",
+    "dauer_min": 27,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1606",
+    "name": "Testplättchen aus Metallkeramik",
+    "dauer_min": 15,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1610",
+    "name": "Zahnfleisch Kunststoff",
+    "dauer_min": 25,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1610"
+      ]
+    }
+  },
+  {
+    "nr": "1611",
+    "name": "Testplättchen aus Metall/Kunststoff",
+    "dauer_min": 15,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1612",
+    "name": "Testplättchen aus Metallkeramik",
+    "dauer_min": 15,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1613",
+    "name": "Testplättchen aus Metall/Polymer-Glas",
+    "dauer_min": 15,
+    "hg": "HG1",
+    "type": "standard"
+  },
+  {
+    "nr": "1620",
+    "name": "Vestibuläre Verblendung Keramik",
+    "dauer_min": 60,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1620"
+      ]
+    }
+  },
+  {
+    "nr": "1628",
+    "name": "Vestibuläre Verblendung Keramik bei Implantatversorgung",
+    "dauer_min": 65,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1628"
+      ]
+    }
+  },
+  {
+    "nr": "1630",
+    "name": "Zahnfleisch Keramik",
+    "dauer_min": 30,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1630"
+      ]
+    }
+  },
+  {
+    "nr": "1638",
+    "name": "Zahnfleisch Keramik bei Implantatversorgung",
+    "dauer_min": 35,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1638"
+      ]
+    }
+  },
+  {
+    "nr": "1640",
+    "name": "Vestibuläre Verblendung Komposit",
+    "dauer_min": 50,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1640"
+      ]
+    }
+  },
+  {
+    "nr": "1650",
+    "name": "Zahnfleisch Komposit",
+    "dauer_min": 25,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "1650"
+      ]
+    }
+  },
+  {
+    "nr": "1850",
+    "name": "Abutment einscannen",
+    "dauer_min": 10,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1850"
+      ],
+      "dent_content": [
+        "1850"
+      ]
+    }
+  },
+  {
+    "nr": "1851",
+    "name": "Ausblocken von Schraubenkanal",
+    "dauer_min": 15,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1851"
+      ],
+      "dent_content": [
+        "1851"
+      ]
+    }
+  },
+  {
+    "nr": "1852",
+    "name": "CAD/CAM Auftragsanlage (Krone/Brücke)",
+    "dauer_min": 10,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1852"
+      ],
+      "dent_content": [
+        "1852"
+      ]
+    }
+  },
+  {
+    "nr": "1853",
+    "name": "CAD/CAM Modell digitalisieren, je Modell",
+    "dauer_min": 20,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1853"
+      ],
+      "dent_content": [
+        "1853"
+      ]
+    }
+  },
+  {
+    "nr": "1854",
+    "name": "CAD/CAM Nutzung des virtuellen Artikulators",
+    "dauer_min": 20,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1854",
+        "1866"
+      ],
+      "dent_content": [
+        "1854",
+        "1866"
+      ]
+    }
+  },
+  {
+    "nr": "1855",
+    "name": "CAD/CAM Präparationsgrenze mit Software markieren",
+    "dauer_min": 12,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1855",
+        "1870"
+      ],
+      "dent_content": [
+        "1855",
+        "1870"
+      ]
+    }
+  },
+  {
+    "nr": "1856",
+    "name": "CAD/CAM Scan matchen",
+    "dauer_min": 20,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1856"
+      ],
+      "dent_content": [
+        "1856"
+      ]
+    }
+  },
+  {
+    "nr": "1857",
+    "name": "CAD/CAM Stumpf virtuell ausblocken",
+    "dauer_min": 20,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1857"
+      ],
+      "dent_content": [
+        "1857"
+      ]
+    }
+  },
+  {
+    "nr": "1858",
+    "name": "CAD/CAM Zahn/Stumpf virtuell vermessen",
+    "dauer_min": 20,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1858"
+      ],
+      "dent_content": [
+        "1858"
+      ]
+    }
+  },
+  {
+    "nr": "1859",
+    "name": "DICOM-Daten einlesen",
+    "dauer_min": 25,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1859"
+      ],
+      "dent_content": [
+        "1859"
+      ]
+    }
+  },
+  {
+    "nr": "1860",
+    "name": "Daten vorbereiten – Referenz-Ebene und Knochenniveau festlegen",
+    "dauer_min": 30,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1860"
+      ],
+      "dent_content": [
+        "1860"
+      ]
+    }
+  },
+  {
+    "nr": "1861",
+    "name": "Doppeltiefziehtechnik für Sportmundschutz",
+    "dauer_min": 40,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1861"
+      ],
+      "dent_content": [
+        "1861"
+      ]
+    }
+  },
+  {
+    "nr": "1863",
+    "name": "Formteil für Smile Creator, je Kiefer",
+    "dauer_min": 25,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1863"
+      ],
+      "dent_content": [
+        "1863"
+      ]
+    }
+  },
+  {
+    "nr": "1864",
+    "name": "Kamingestaltung für Implantatabformung, je Abformpfosten",
+    "dauer_min": 20,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1864"
+      ],
+      "dent_content": [
+        "1864"
+      ]
+    }
+  },
+  {
+    "nr": "1865",
+    "name": "Modell einscannen (Implantatworkflow)",
+    "dauer_min": 12,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1865"
+      ],
+      "dent_content": [
+        "1865"
+      ]
+    }
+  },
+  {
+    "nr": "1867",
+    "name": "OP-Plan exportieren",
+    "dauer_min": 15,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1867"
+      ],
+      "dent_content": [
+        "1867"
+      ]
+    }
+  },
+  {
+    "nr": "1868",
+    "name": "Passungskontrolle der Schiene auf dem Modell",
+    "dauer_min": 20,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1868"
+      ],
+      "dent_content": [
+        "1868"
+      ]
+    }
+  },
+  {
+    "nr": "1869",
+    "name": "Provisorische Krone/Brückenglied auf Implantat",
+    "dauer_min": 45,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1869"
+      ],
+      "dent_content": [
+        "1869"
+      ]
+    }
+  },
+  {
+    "nr": "1871",
+    "name": "STL in Planung einlesen und auf DICOM matchen",
+    "dauer_min": 20,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1871"
+      ],
+      "dent_content": [
+        "1871"
+      ]
+    }
+  },
+  {
+    "nr": "1872",
+    "name": "Scanbody einscannen (Implantatworkflow)",
+    "dauer_min": 10,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1872"
+      ],
+      "dent_content": [
+        "1872"
+      ]
+    }
+  },
+  {
+    "nr": "1873",
+    "name": "Seitenzahn einscannen (Implantatworkflow)",
+    "dauer_min": 8,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1873"
+      ],
+      "dent_content": [
+        "1873"
+      ]
+    }
+  },
+  {
+    "nr": "1874",
+    "name": "Virtuelles Design der Bohrschablone",
+    "dauer_min": 50,
+    "hg": "HG1",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "1874"
+      ],
+      "dent_content": [
+        "1874"
+      ]
+    }
+  },
+  {
+    "nr": "2001",
+    "name": "Wurzelstift gegossen",
+    "dauer_min": 34,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2002",
+    "name": "Stiftaufbau direkt",
+    "dauer_min": 27,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2003",
+    "name": "Stiftaufbau indirekt",
+    "dauer_min": 39,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2010",
+    "name": "Metallbasis",
+    "dauer_min": 80,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "2010"
+      ]
+    }
+  },
+  {
+    "nr": "2011",
+    "name": "Wurzelkappe direkt ohne Aufbau",
+    "dauer_min": 27,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2012",
+    "name": "Wurzelkappe indirekt ohne Aufbau",
+    "dauer_min": 46,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2021",
+    "name": "Galvano-Wurzelkappe",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2026",
+    "name": "Ney-Stiel",
+    "dauer_min": 15,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "2026"
+      ]
+    }
+  },
+  {
+    "nr": "2031",
+    "name": "Individuellen Implantataufbau für Kronen oder Brückenpfeiler herstellen",
+    "dauer_min": 72,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2032",
+    "name": "Verlängerungshülse für Implantat",
+    "dauer_min": 10,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2041",
+    "name": "Zweiarmige gegossene Halte- und Stützvorrichtung mit Auflage",
+    "dauer_min": 25,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "2041"
+      ]
+    }
+  },
+  {
+    "nr": "2051",
+    "name": "Hartkernstiftaufbau",
+    "dauer_min": 45,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2052",
+    "name": "Glasstiftaufbau gegossen",
+    "dauer_min": 64,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2081",
+    "name": "Rückenschutzplatte",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "2081"
+      ]
+    }
+  },
+  {
+    "nr": "2082",
+    "name": "Metallzahn, gegossen",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "2082"
+      ]
+    }
+  },
+  {
+    "nr": "2083",
+    "name": "Metallkaufläche, gegossen",
+    "dauer_min": 35,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "2083"
+      ]
+    }
+  },
+  {
+    "nr": "2100",
+    "name": "Lösungshilfe",
+    "dauer_min": 12,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "2100"
+      ]
+    }
+  },
+  {
+    "nr": "2101",
+    "name": "Krone gegossen",
+    "dauer_min": 60,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2102",
+    "name": "Krone gegossen, nach Stufenpräparation",
+    "dauer_min": 71,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2103",
+    "name": "Halbkrone gegossen",
+    "dauer_min": 74,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2104",
+    "name": "Dreiviertelkrone gegossen",
+    "dauer_min": 77,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2105",
+    "name": "Anker gegossen, für Klebebrücke",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2107",
+    "name": "Wurzelkappe gegossen, mit Aufbau für Krone",
+    "dauer_min": 52,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2109",
+    "name": "Implantat-Divergenz-Ausgleichskrone gegossen",
+    "dauer_min": 55,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2111",
+    "name": "Krone gegossen, für Kunststoffverblendung",
+    "dauer_min": 77,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2112",
+    "name": "Facette gegossen",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2117",
+    "name": "Wurzelkappe gegossen, mit Rückenplatte/Kaufläche für Kunststoffverblendung",
+    "dauer_min": 73,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2121",
+    "name": "Krone gegossen, für Keramik- oder Polymer-Glas-Teilverblendung",
+    "dauer_min": 65,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2122",
+    "name": "Krone gegossen, für Keramik- oder Polymer-Glas-Vollverblendung",
+    "dauer_min": 38,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2123",
+    "name": "Stufenkrone gegossen, für Keramik- oder Polymer-Glas-Teilverblendung",
+    "dauer_min": 77,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2124",
+    "name": "Stufenkrone gegossen, für Keramik- oder Polymer-Glas-Vollverblendung",
+    "dauer_min": 42,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2125",
+    "name": "Implantatkrone für Keramik-Vollverblendung",
+    "dauer_min": 90,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "2125"
+      ],
+      "intern": [
+        "2125"
+      ],
+      "dent_content": [
+        "2125"
+      ]
+    }
+  },
+  {
+    "nr": "2126",
+    "name": "Dreiviertelkrone gegossen, für Keramik- oder Polymer-Glas-Verblendung",
+    "dauer_min": 80,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2127",
+    "name": "Wurzelkappe gegossen, mit Rückenplatte/Kaufläche für Keramik oder Polymer-Glas-Verblendung",
+    "dauer_min": 69,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2131",
+    "name": "Galvanokrone für Verblendung",
+    "dauer_min": 60,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2132",
+    "name": "Galvano-Kaufläche oder -Rückenplatte",
+    "dauer_min": 60,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2141",
+    "name": "Foliengerüst für Krone zur Keramikverblendung",
+    "dauer_min": 32,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2151",
+    "name": "Krone gefräst",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2152",
+    "name": "Krone gefräst, nach Stufenpräparation",
+    "dauer_min": 55,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2153",
+    "name": "Halbkrone gefräst",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2154",
+    "name": "Dreiviertelkrone gefräst",
+    "dauer_min": 55,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2155",
+    "name": "Anker gefräst, für Klebebrücke",
+    "dauer_min": 60,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2160",
+    "name": "Scannen und konstruieren Zirkon/E-Max-Krone",
+    "dauer_min": 45,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "2160"
+      ]
+    }
+  },
+  {
+    "nr": "2161",
+    "name": "Krone gefräst, für Keramik- oder Polymer-Glas-Teilverblendung",
+    "dauer_min": 65,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2162",
+    "name": "Krone gefräst, für Keramik- oder Polymer-Glas-Vollverblendung",
+    "dauer_min": 75,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2163",
+    "name": "Stufenkrone gefräst, für Keramik- oder Polymer-Glas-Teilverblendung",
+    "dauer_min": 75,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2164",
+    "name": "Stufenkrone gefräst, für Keramik- oder Polymer-Glas-Vollverblendung",
+    "dauer_min": 85,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2165",
+    "name": "Individuelles Keramikabutment inkl. Verklebung auf Basis",
+    "dauer_min": 70,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "2165"
+      ]
+    }
+  },
+  {
+    "nr": "2171",
+    "name": "Sintergerüst für Krone zur Keramikverblendung",
+    "dauer_min": 45,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2181",
+    "name": "Krone erodiert",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2182",
+    "name": "Krone erodiert, nach Stufenpräparation",
+    "dauer_min": 55,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2183",
+    "name": "Halbkrone, erodiert",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2184",
+    "name": "Dreiviertelkrone erodiert",
+    "dauer_min": 55,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2185",
+    "name": "Anker erodiert, für Klebebrücke",
+    "dauer_min": 60,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2187",
+    "name": "Wurzelkappe erodiert, mit Aufbau",
+    "dauer_min": 65,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2191",
+    "name": "Krone erodiert, für Keramik- oder Polymer-Glas-Teilverblendung",
+    "dauer_min": 65,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2192",
+    "name": "Krone erodiert, für Keramik- oder Polymer-Glas-Vollverblendung",
+    "dauer_min": 75,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2193",
+    "name": "Stufenkrone erodiert, für Keramik- oder Polymer-Glas-Teilverblendung",
+    "dauer_min": 75,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2194",
+    "name": "Stufenkrone erodiert, für Keramik- oder Polymer-Glas-Vollverblendung",
+    "dauer_min": 85,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2196",
+    "name": "Dreiviertelkrone erodiert, für Keramik- oder Polymer-Glas-Verblendung",
+    "dauer_min": 70,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2211",
+    "name": "Mantelkrone Frontzahn, aus Kunststoff",
+    "dauer_min": 64,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2212",
+    "name": "Mantelkrone Seitenzahn, aus Kunststoff",
+    "dauer_min": 64,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2213",
+    "name": "Stiftkrone aus Kunststoff",
+    "dauer_min": 64,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2219",
+    "name": "Verbindungsstelle aus Kunststoff",
+    "dauer_min": 2,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2222",
+    "name": "Verblendung Frontzahn (Sonderwunsch)",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "2222"
+      ]
+    }
+  },
+  {
+    "nr": "2231",
+    "name": "Mantelkrone Frontzahn, aus Keramik",
+    "dauer_min": 89,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2232",
+    "name": "Mantelkrone Seitenzahn, aus Keramik",
+    "dauer_min": 91,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2241",
+    "name": "Glaskrone gegossen",
+    "dauer_min": 110,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2242",
+    "name": "Glaskrone gegossen, zur Keramikverblendung",
+    "dauer_min": 100,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2251",
+    "name": "Krone aus Presskeramik",
+    "dauer_min": 123,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2252",
+    "name": "Krone aus Presskeramik, zur Keramikverblendung",
+    "dauer_min": 65,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2261",
+    "name": "Krone aus Hartkernkeramik, zur Keramikverblendung",
+    "dauer_min": 65,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2269",
+    "name": "Verbindungsstelle aus Hartkernkeramik",
+    "dauer_min": 20,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2271",
+    "name": "Mantelkrone Frontzahn, aus Polymer-Glas",
+    "dauer_min": 80,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2272",
+    "name": "Mantelkrone Seitenzahn, aus Polymer-Glas",
+    "dauer_min": 80,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2273",
+    "name": "Stiftkrone aus Polymer-Glas",
+    "dauer_min": 80,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2279",
+    "name": "Verbindungsstelle aus Polymer-Glas",
+    "dauer_min": 20,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2281",
+    "name": "Krone aus Keramik gefräst",
+    "dauer_min": 55,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2282",
+    "name": "Krone aus Keramik gefräst, zur Keramikverblendung",
+    "dauer_min": 55,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2289",
+    "name": "Verbindungsstelle aus Keramik gefräst",
+    "dauer_min": 25,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2311",
+    "name": "Brückenglied gegossen, massiv",
+    "dauer_min": 47,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2312",
+    "name": "Brückenglied gegossen, für Kunststoffverblendung",
+    "dauer_min": 54,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2313",
+    "name": "Brückenglied gegossen, für Keramik- oder Polymer-Glas-Teilverblendung",
+    "dauer_min": 49,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2314",
+    "name": "Brückenglied gegossen, für Keramik- oder Polymer-Glas-Vollverblendung",
+    "dauer_min": 32,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2341",
+    "name": "Foliengerüst für Brückenglied",
+    "dauer_min": 45,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2351",
+    "name": "Brückenglied gefräst, massiv",
+    "dauer_min": 45,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2352",
+    "name": "Brückenglied gefräst, für Kunststoffverblendung",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2353",
+    "name": "Brückenglied gefräst, für Keramik- oder Polymer-Glas-Teilverblendung",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2354",
+    "name": "Brückenglied gefräst, für Keramik- oder Polymer-Glas-Vollverblendung",
+    "dauer_min": 55,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2361",
+    "name": "Brückenglied aus Keramik, massiv",
+    "dauer_min": 91,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2362",
+    "name": "Hartkerngerüst für Brückenglied",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2381",
+    "name": "Brückenglied aus Kunststoff, massiv",
+    "dauer_min": 54,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2401",
+    "name": "Gussinlay, indirekt einflächig",
+    "dauer_min": 48,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2402",
+    "name": "Gussinlay, indirekt zweiflächig",
+    "dauer_min": 66,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2403",
+    "name": "Gussinlay, indirekt dreiflächig",
+    "dauer_min": 78,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2404",
+    "name": "Gussinlay, indirekt mehrflächig",
+    "dauer_min": 78,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2405",
+    "name": "Kreuzgussinlay",
+    "dauer_min": 52,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2407",
+    "name": "Guss-Onlay",
+    "dauer_min": 78,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2408",
+    "name": "Goldgussinlay als Unterfüllung",
+    "dauer_min": 31,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2411",
+    "name": "Inlaygerüst zur Verblendung, einflächig",
+    "dauer_min": 48,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2412",
+    "name": "Inlaygerüst zur Verblendung, zweiflächig",
+    "dauer_min": 58,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2413",
+    "name": "Inlaygerüst zur Verblendung, dreiflächig",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2414",
+    "name": "Inlaygerüst zur Verblendung, mehrflächig",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2421",
+    "name": "Inlay galvanisch aufgebaut, einflächig",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2422",
+    "name": "Inlay galvanisch aufgebaut, zweiflächig",
+    "dauer_min": 68,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2423",
+    "name": "Inlay galvanisch aufgebaut, dreiflächig",
+    "dauer_min": 79,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2424",
+    "name": "Inlay galvanisch aufgebaut, mehrflächig",
+    "dauer_min": 55,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2431",
+    "name": "Sintergerüst für Inlay, einflächig",
+    "dauer_min": 30,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2432",
+    "name": "Sintergerüst für Inlay, zweiflächig",
+    "dauer_min": 58,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2433",
+    "name": "Sintergerüst für Inlay, dreiflächig",
+    "dauer_min": 35,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2434",
+    "name": "Sintergerüst für Inlay, mehrflächig",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2511",
+    "name": "Inlay aus Kunststoff, einflächig",
+    "dauer_min": 38,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2512",
+    "name": "Inlay aus Kunststoff, zweiflächig",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2513",
+    "name": "Inlay aus Kunststoff, dreiflächig",
+    "dauer_min": 68,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2514",
+    "name": "Inlay aus Kunststoff, mehrflächig",
+    "dauer_min": 35,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2515",
+    "name": "Onlay aus Kunststoff",
+    "dauer_min": 68,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2521",
+    "name": "Inlay aus Keramik, einflächig",
+    "dauer_min": 89,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2522",
+    "name": "Inlay aus Keramik, zweiflächig",
+    "dauer_min": 92,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2523",
+    "name": "Inlay aus Keramik, dreiflächig",
+    "dauer_min": 95,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2524",
+    "name": "Inlay aus Keramik, mehrflächig",
+    "dauer_min": 105,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2525",
+    "name": "Onlay aus Keramik",
+    "dauer_min": 95,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2531",
+    "name": "Inlay aus gegossenem Glas, einflächig",
+    "dauer_min": 95,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2532",
+    "name": "Inlay aus gegossenem Glas, zweiflächig",
+    "dauer_min": 100,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2533",
+    "name": "Inlay aus gegossenem Glas, dreiflächig",
+    "dauer_min": 106,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2534",
+    "name": "Inlay aus gegossenem Glas, mehrflächig",
+    "dauer_min": 112,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2535",
+    "name": "Onlay aus gegossenem Glas",
+    "dauer_min": 106,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2541",
+    "name": "Inlay aus Presskeramik, einflächig",
+    "dauer_min": 30,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2542",
+    "name": "Inlay aus Presskeramik, zweiflächig",
+    "dauer_min": 35,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2543",
+    "name": "Inlay aus Presskeramik, dreiflächig",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2544",
+    "name": "Inlay aus Presskeramik, mehrflächig",
+    "dauer_min": 45,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2545",
+    "name": "Onlay aus Presskeramik",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2551",
+    "name": "Inlay aus Keramik, gefräst, einflächig",
+    "dauer_min": 30,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2552",
+    "name": "Inlay aus Keramik, gefräst, zweiflächig",
+    "dauer_min": 35,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2553",
+    "name": "Inlay aus Keramik, gefräst, dreiflächig",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2554",
+    "name": "Inlay aus Keramik, gefräst, mehrflächig; Onlay",
+    "dauer_min": 92,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2555",
+    "name": "Onlay aus Keramik, gefräst",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2556",
+    "name": "Pro-Inlay, einflächig",
+    "dauer_min": 30,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2557",
+    "name": "Pro-Inlay, zweiflächig",
+    "dauer_min": 35,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2558",
+    "name": "Pro-Inlay, dreiflächig",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2559",
+    "name": "Pro-Inlay, mehrflächig; Onlay",
+    "dauer_min": 45,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2571",
+    "name": "Hartkernschale für Inlay, einflächig",
+    "dauer_min": 25,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2572",
+    "name": "Hartkernschale für Inlay, zweiflächig",
+    "dauer_min": 30,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2573",
+    "name": "Hartkernschale für Inlay, dreiflächig",
+    "dauer_min": 35,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2574",
+    "name": "Hartkernschale für Inlay, mehrflächig",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2575",
+    "name": "Hartkernschale für Onlay",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2581",
+    "name": "Inlay aus Polymer-Glas, einflächig",
+    "dauer_min": 84,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2582",
+    "name": "Inlay aus Polymer-Glas, zweiflächig",
+    "dauer_min": 87,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2583",
+    "name": "Inlay aus Polymer-Glas, dreiflächig",
+    "dauer_min": 90,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2584",
+    "name": "Inlay aus Polymer-Glas, mehrflächig",
+    "dauer_min": 100,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2585",
+    "name": "Onlay aus Polymer-Glas",
+    "dauer_min": 100,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2589",
+    "name": "Verbindungsstelle aus Polymer-Glas",
+    "dauer_min": 20,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2601",
+    "name": "Teilverblendung aus Kunststoff",
+    "dauer_min": 45,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2602",
+    "name": "Vollverblendung aus Kunststoff",
+    "dauer_min": 55,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2603",
+    "name": "Verblendschale aus Kunststoff",
+    "dauer_min": 55,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2604",
+    "name": "Teilverblendung Komposite",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2605",
+    "name": "Vollverblendung Komposite",
+    "dauer_min": 65,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2611",
+    "name": "Teilverblendung aus Keramik",
+    "dauer_min": 59,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2612",
+    "name": "Mehrflächige Verblendung aus Keramik",
+    "dauer_min": 76,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2613",
+    "name": "Verblendschale aus Keramik",
+    "dauer_min": 112,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2616",
+    "name": "Keramikverblendung in Mehrschichttechnik",
+    "dauer_min": 80,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "2616"
+      ]
+    }
+  },
+  {
+    "nr": "2631",
+    "name": "Verblendschale aus gegossenem Glas",
+    "dauer_min": 118,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2643",
+    "name": "Verblendschale aus Presskeramik",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2653",
+    "name": "Verblendschale aus Keramik, gefräst",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2661",
+    "name": "Teil-Verblendung aus Polymer-Glas",
+    "dauer_min": 54,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2662",
+    "name": "Voll-Verblendung aus Polymer-Glas",
+    "dauer_min": 71,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2663",
+    "name": "Verblendschale aus Polymer-Glas",
+    "dauer_min": 71,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2671",
+    "name": "Papille aus Kunststoff",
+    "dauer_min": 5,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2672",
+    "name": "Zahnfleisch aus Kunststoff",
+    "dauer_min": 10,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2673",
+    "name": "Wurzelpontic aus Kunststoff",
+    "dauer_min": 10,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2675",
+    "name": "Schulter aus Keramik/Glas",
+    "dauer_min": 20,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2676",
+    "name": "Papille aus Keramik/Glas",
+    "dauer_min": 18,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2677",
+    "name": "Zahnfleisch aus Keramik/Glas",
+    "dauer_min": 42,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2678",
+    "name": "Wurzelpontic aus Keramik/Glas",
+    "dauer_min": 30,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2679",
+    "name": "Sattelpontic aus Keramik/Glas",
+    "dauer_min": 30,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2681",
+    "name": "Schulter aus Polymer-Glas",
+    "dauer_min": 25,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2682",
+    "name": "Papille aus Polymer-Glas",
+    "dauer_min": 25,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2683",
+    "name": "Zahnfleisch aus Polymer-Glas",
+    "dauer_min": 35,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2684",
+    "name": "Wurzelpontic aus Polymer-Glas",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2685",
+    "name": "Sattelpontic aus Polymer-Glas",
+    "dauer_min": 35,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2686",
+    "name": "Zahnfleisch aus Polymer-Glas",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2689",
+    "name": "Farbgebung durch Bemalen",
+    "dauer_min": 70,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2691",
+    "name": "Konfektionszahn aus Keramik, einarbeiten",
+    "dauer_min": 28,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2695",
+    "name": "Kosmetische Modellation für Einprobe",
+    "dauer_min": 31,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2790",
+    "name": "Anlage Auftragsdaten CAD/CAM",
+    "dauer_min": 15,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "2790"
+      ],
+      "intern": [
+        "2790"
+      ]
+    }
+  },
+  {
+    "nr": "2800",
+    "name": "Brückenglied aus Keramik – CAD/CAM, vollanatomisch",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2800"
+      ],
+      "dent_content": [
+        "2800"
+      ]
+    }
+  },
+  {
+    "nr": "2801",
+    "name": "Kaufläche nach gnathologischen Kriterien gestaltet, in Metall/gegossenem Glas",
+    "dauer_min": 22,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2802",
+    "name": "Kaufläche nach gnathologischen Kriterien gestaltet, in Keramik",
+    "dauer_min": 27,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2803",
+    "name": "Frontzahn nach gnathologischen Kriterien gestaltet, in Metall/gegossenem Glas",
+    "dauer_min": 14,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2804",
+    "name": "Frontzahn nach gnathologischen Kriterien gestaltet, in Keramik",
+    "dauer_min": 14,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2806",
+    "name": "CAD/CAM Flügel konstruieren",
+    "dauer_min": 30,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2806",
+        "2819"
+      ],
+      "dent_content": [
+        "2806",
+        "2819"
+      ]
+    }
+  },
+  {
+    "nr": "2807",
+    "name": "CAD/CAM Frontzahnkrone, vollständig verblendet",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2807",
+        "2808",
+        "2821",
+        "2822"
+      ],
+      "dent_content": [
+        "2807",
+        "2808",
+        "2821",
+        "2822"
+      ]
+    }
+  },
+  {
+    "nr": "2810",
+    "name": "CAD/CAM-Krone, vollständig verblendet",
+    "dauer_min": 45,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2810",
+        "2825",
+        "2828",
+        "2831"
+      ],
+      "dent_content": [
+        "2810",
+        "2825",
+        "2828",
+        "2831"
+      ]
+    }
+  },
+  {
+    "nr": "2811",
+    "name": "Selektives Einschleifen nach Remontage/Krone, Brückenglied, Inlay",
+    "dauer_min": 15,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2812",
+    "name": "Selektives Einschleifen FGB",
+    "dauer_min": 15,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2813",
+    "name": "CAD/CAM Zirkon anpassen, je Zahneinheit",
+    "dauer_min": 25,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2813"
+      ],
+      "dent_content": [
+        "2813"
+      ]
+    }
+  },
+  {
+    "nr": "2815",
+    "name": "CAD/CAM-Brückenglied, vollständig verblendet",
+    "dauer_min": 60,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2805",
+        "2815",
+        "2818"
+      ],
+      "dent_content": [
+        "2805",
+        "2815",
+        "2818"
+      ]
+    }
+  },
+  {
+    "nr": "2816",
+    "name": "CAD/CAM-Brückenglied zur Verblendung",
+    "dauer_min": 20,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2816",
+        "2849",
+        "2857",
+        "2858"
+      ],
+      "dent_content": [
+        "2816",
+        "2849",
+        "2857",
+        "2858"
+      ]
+    }
+  },
+  {
+    "nr": "2817",
+    "name": "CAD/CAM-Brückenglied, gefräst, aus Keramik, vestibulär verblendet",
+    "dauer_min": 55,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2817"
+      ],
+      "dent_content": [
+        "2817"
+      ]
+    }
+  },
+  {
+    "nr": "2823",
+    "name": "CAD/CAM-Fräsen/-Schleifen einer CAD/CAM-Einheit",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2823",
+        "2824",
+        "2835",
+        "2836",
+        "2837",
+        "2838",
+        "2843"
+      ],
+      "dent_content": [
+        "2823",
+        "2824",
+        "2835",
+        "2836",
+        "2837",
+        "2838",
+        "2843"
+      ]
+    }
+  },
+  {
+    "nr": "2826",
+    "name": "CAD/CAM-Krone aus Keramik (vollanatomisch)",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2826",
+        "2827",
+        "2861",
+        "2862"
+      ],
+      "dent_content": [
+        "2826",
+        "2827",
+        "2861",
+        "2862"
+      ]
+    }
+  },
+  {
+    "nr": "2829",
+    "name": "CAD/CAM-Seitenzahnkrone, für keramische Vollverblendung",
+    "dauer_min": 45,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2829"
+      ],
+      "dent_content": [
+        "2829"
+      ]
+    }
+  },
+  {
+    "nr": "2830",
+    "name": "CAD/CAM-Krone, gefräst, aus Keramik, vestibulär verblendet",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2830"
+      ],
+      "dent_content": [
+        "2830"
+      ]
+    }
+  },
+  {
+    "nr": "2832",
+    "name": "CAD/CAM Krone/Brückenglied nacharbeiten",
+    "dauer_min": 25,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2814",
+        "2820",
+        "2832",
+        "2866"
+      ],
+      "dent_content": [
+        "2814",
+        "2820",
+        "2832",
+        "2866"
+      ]
+    }
+  },
+  {
+    "nr": "2833",
+    "name": "CAD/CAM-Onlay, vollanatomisch",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2833",
+        "2859"
+      ],
+      "dent_content": [
+        "2833",
+        "2859"
+      ]
+    }
+  },
+  {
+    "nr": "2834",
+    "name": "CAM-Einheit – manuelle Feinjustage unter Stereomikroskop – Steg, je Zahneinheit",
+    "dauer_min": 30,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2834"
+      ],
+      "dent_content": [
+        "2834"
+      ]
+    }
+  },
+  {
+    "nr": "2839",
+    "name": "Einzelzahn einscannen, Scan prüfen",
+    "dauer_min": 8,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2839",
+        "2869"
+      ],
+      "dent_content": [
+        "2839",
+        "2869"
+      ]
+    }
+  },
+  {
+    "nr": "2840",
+    "name": "Endkontrolle unter Stereomikroskop",
+    "dauer_min": 15,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2840",
+        "2841"
+      ],
+      "dent_content": [
+        "2840",
+        "2841"
+      ]
+    }
+  },
+  {
+    "nr": "2842",
+    "name": "Frontzahn einscannen (Krone/Brücke)",
+    "dauer_min": 8,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2842"
+      ],
+      "dent_content": [
+        "2842"
+      ]
+    }
+  },
+  {
+    "nr": "2844",
+    "name": "Inlay einflächig aus Keramik, CAD/CAM",
+    "dauer_min": 30,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2844"
+      ],
+      "dent_content": [
+        "2844"
+      ]
+    }
+  },
+  {
+    "nr": "2845",
+    "name": "Inlay mehr als dreiflächig aus Keramik, CAD/CAM",
+    "dauer_min": 40,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2845"
+      ],
+      "dent_content": [
+        "2845"
+      ]
+    }
+  },
+  {
+    "nr": "2846",
+    "name": "Inlay zweiflächig aus Keramik, CAD/CAM",
+    "dauer_min": 35,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2846"
+      ],
+      "dent_content": [
+        "2846"
+      ]
+    }
+  },
+  {
+    "nr": "2847",
+    "name": "Konstruktion CAD-Brückenglied zur Verblendung",
+    "dauer_min": 55,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2847"
+      ],
+      "dent_content": [
+        "2847"
+      ]
+    }
+  },
+  {
+    "nr": "2848",
+    "name": "Konstruktion CAD-Krone zur Verblendung",
+    "dauer_min": 45,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2848",
+        "2855"
+      ],
+      "dent_content": [
+        "2848",
+        "2855"
+      ]
+    }
+  },
+  {
+    "nr": "2850",
+    "name": "Konstruktion CAD-Frontzahnkrone zur Verblendung",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2850",
+        "2851"
+      ],
+      "dent_content": [
+        "2850",
+        "2851"
+      ]
+    }
+  },
+  {
+    "nr": "2852",
+    "name": "Konstruktion einer CAD-Krone, auch zur Verblendung",
+    "dauer_min": 20,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2852"
+      ],
+      "dent_content": [
+        "2852"
+      ]
+    }
+  },
+  {
+    "nr": "2853",
+    "name": "Konstruktion CAD-Seitenzahnkrone zur Verblendung",
+    "dauer_min": 45,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2853",
+        "2856"
+      ],
+      "dent_content": [
+        "2853",
+        "2856"
+      ]
+    }
+  },
+  {
+    "nr": "2854",
+    "name": "Konstruktion einer CAD-Teilkrone/Inlay/Veneer",
+    "dauer_min": 35,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2854"
+      ],
+      "dent_content": [
+        "2854"
+      ]
+    }
+  },
+  {
+    "nr": "2860",
+    "name": "Konstruktion eines CAD-Steges, je Zahneinheit",
+    "dauer_min": 90,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2860"
+      ],
+      "dent_content": [
+        "2860"
+      ]
+    }
+  },
+  {
+    "nr": "2863",
+    "name": "Mehraufwand Sintern, je Auftrag",
+    "dauer_min": 20,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2863",
+        "2864",
+        "2871"
+      ],
+      "dent_content": [
+        "2863",
+        "2864",
+        "2871"
+      ]
+    }
+  },
+  {
+    "nr": "2865",
+    "name": "Modellsegment CAD/CAM vorbereiten (Krone/Brücke)",
+    "dauer_min": 20,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2865"
+      ],
+      "dent_content": [
+        "2865"
+      ]
+    }
+  },
+  {
+    "nr": "2867",
+    "name": "Nutzung des virtuellen Artikulators (Krone/Brücke)",
+    "dauer_min": 20,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2867"
+      ],
+      "dent_content": [
+        "2867"
+      ]
+    }
+  },
+  {
+    "nr": "2868",
+    "name": "Präparationsgrenze mit Software markieren (Krone/Brücke)",
+    "dauer_min": 12,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2868"
+      ],
+      "dent_content": [
+        "2868"
+      ]
+    }
+  },
+  {
+    "nr": "2870",
+    "name": "Seitenzahn einscannen (Krone/Brücke)",
+    "dauer_min": 8,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2870"
+      ],
+      "dent_content": [
+        "2870"
+      ]
+    }
+  },
+  {
+    "nr": "2872",
+    "name": "Teilkrone aus Keramik, CAD/CAM",
+    "dauer_min": 35,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2872"
+      ],
+      "dent_content": [
+        "2872"
+      ]
+    }
+  },
+  {
+    "nr": "2873",
+    "name": "CAD-Verbindungselement konstruieren",
+    "dauer_min": 35,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2873"
+      ],
+      "dent_content": [
+        "2873"
+      ]
+    }
+  },
+  {
+    "nr": "2874",
+    "name": "Zirkonkrone, vollanatomisch",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2874"
+      ],
+      "dent_content": [
+        "2874"
+      ]
+    }
+  },
+  {
+    "nr": "2875",
+    "name": "Zirkonoxidbrückenglied, individuell verblendet",
+    "dauer_min": 65,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2875"
+      ],
+      "dent_content": [
+        "2875"
+      ]
+    }
+  },
+  {
+    "nr": "2876",
+    "name": "Zirkonoxidkrone, individuell verblendet",
+    "dauer_min": 60,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2876",
+        "2809"
+      ],
+      "dent_content": [
+        "2876",
+        "2809"
+      ]
+    }
+  },
+  {
+    "nr": "2877",
+    "name": "CAM-Fräsgerät bestücken",
+    "dauer_min": 8,
+    "hg": "HG2",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "2877"
+      ]
+    }
+  },
+  {
+    "nr": "2901",
+    "name": "Stiftaufbau in vorhandene Krone",
+    "dauer_min": 12,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2902",
+    "name": "Herausnehmbarer Stift in Stiftaufbau",
+    "dauer_min": 15,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2903",
+    "name": "Retention an Wurzelstift",
+    "dauer_min": 6,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2904",
+    "name": "Angelieferte Modellation gießen",
+    "dauer_min": 27,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2905",
+    "name": "Guss nach angelieferter Modellation bearbeiten",
+    "dauer_min": 25,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2906",
+    "name": "Stift in Inlay zum Pinledge",
+    "dauer_min": 15,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2907",
+    "name": "Brückenteilungsgeschiebe, individuell",
+    "dauer_min": 50,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2908",
+    "name": "Brückenteilungsgeschiebe, konfektioniert",
+    "dauer_min": 30,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2911",
+    "name": "Krone, Brückenglied für Klammer vorbereiten",
+    "dauer_min": 20,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2912",
+    "name": "Krone, Brückenglied, Inlay passend für vorhandene Prothese arbeiten",
+    "dauer_min": 18,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2913",
+    "name": "Umgehungsbügel bei Diastema",
+    "dauer_min": 14,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2914",
+    "name": "Sphärischer Kontakt",
+    "dauer_min": 4,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2915",
+    "name": "Okklusaler Stop",
+    "dauer_min": 8,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2916",
+    "name": "Lösungsknopf für abnehmbare Brücke",
+    "dauer_min": 8,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2917",
+    "name": "Lösungsknopf für Krone oder Inlay",
+    "dauer_min": 2,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2918",
+    "name": "Auflage an Brückenglied",
+    "dauer_min": 14,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2921",
+    "name": "Kaufläche nacharbeiten",
+    "dauer_min": 10,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2922",
+    "name": "Krone/Inlay/Brückenglied aufpassen",
+    "dauer_min": 8,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2931",
+    "name": "Zusatzaufwand bei vorhandenem Primärteil",
+    "dauer_min": 25,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2932",
+    "name": "Zusatzaufwand bei vorhandenem Sekundärteil",
+    "dauer_min": 35,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2941",
+    "name": "Individuell charakterisieren, Kunststoff",
+    "dauer_min": 15,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2945",
+    "name": "Individuell charakterisieren, Polymer-Glas",
+    "dauer_min": 15,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2951",
+    "name": "Individuell charakterisieren, Keramik",
+    "dauer_min": 20,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2952",
+    "name": "Zuschlag bei Verarbeitung von Spezialkeramik",
+    "dauer_min": 20,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2954",
+    "name": "Verbindungsstelle Keramik/Glas",
+    "dauer_min": 8,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2955",
+    "name": "Glasieren, je Einheit",
+    "dauer_min": 5,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2959",
+    "name": "Mehraufwand durch Rohbrandeinprobe",
+    "dauer_min": 8,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2961",
+    "name": "Kronenverband, Brücken, 6 Einheiten und mehr",
+    "dauer_min": 30,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2963",
+    "name": "Mehrere Farben in Kronen- oder Brückenverband",
+    "dauer_min": 25,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2965",
+    "name": "Zuschlag für Arbeiten unter Stereomikroskop",
+    "dauer_min": 20,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2971",
+    "name": "Aufwand bei Suprastruktur auf Implantat",
+    "dauer_min": 25,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2972",
+    "name": "Aufwand zu Suprastruktur bei verschraubbarem Implantat",
+    "dauer_min": 42,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2973",
+    "name": "Bearbeiten eines Implantatkopfes",
+    "dauer_min": 20,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2974",
+    "name": "Drehsicherungsstopp bei Implantat",
+    "dauer_min": 20,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2975",
+    "name": "Bearbeiten eines Implantataufbaus aus Keramik",
+    "dauer_min": 25,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2981",
+    "name": "NEM Zuschlag",
+    "dauer_min": 20,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2982",
+    "name": "Sonderlegierung verarbeiten",
+    "dauer_min": 25,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "2983",
+    "name": "Titan verarbeiten bei fest sitzendem Zahnersatz",
+    "dauer_min": 30,
+    "hg": "HG2",
+    "type": "standard"
+  },
+  {
+    "nr": "3001",
+    "name": "Teleskopkrone primär",
+    "dauer_min": 55,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3002",
+    "name": "Doppelkrone primär",
+    "dauer_min": 55,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3003",
+    "name": "Teleskop- oder Doppelkrone primär, als Wurzelstiftkrone",
+    "dauer_min": 60,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3004",
+    "name": "Teleskop-Teilkrone primär",
+    "dauer_min": 73,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3005",
+    "name": "Teleskop-Teilkrone primär, für Kunststoff-Verblendung",
+    "dauer_min": 84,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3006",
+    "name": "Teleskop-Teilkrone primär, für Keramik-Verblendung",
+    "dauer_min": 78,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3010",
+    "name": "Aufstellung Grundeinheit",
+    "dauer_min": 35,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3010"
+      ]
+    }
+  },
+  {
+    "nr": "3011",
+    "name": "Konuskrone primär",
+    "dauer_min": 60,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3012",
+    "name": "Konuskrone primär, als Wurzelstiftkrone",
+    "dauer_min": 65,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3018",
+    "name": "Aufstellung, Grundeinheit bei Implantatversorgung",
+    "dauer_min": 35,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3018"
+      ]
+    }
+  },
+  {
+    "nr": "3020",
+    "name": "Aufstellen Wachs oder Kunststoff je Zahn",
+    "dauer_min": 5,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3020"
+      ]
+    }
+  },
+  {
+    "nr": "3021",
+    "name": "Individuelles Geschiebe primär",
+    "dauer_min": 35,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3022",
+    "name": "Lager für RS-Geschiebe",
+    "dauer_min": 18,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3023",
+    "name": "Lager für Ankerbandklammer",
+    "dauer_min": 30,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3024",
+    "name": "Lager für Raste",
+    "dauer_min": 8,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3025",
+    "name": "Umlaufraste für Schubverteilungsarm",
+    "dauer_min": 17,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3028",
+    "name": "Aufstellen Wachs oder Kunststoff je Zahn bei Implantatversorgung",
+    "dauer_min": 5,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3028"
+      ]
+    }
+  },
+  {
+    "nr": "3030",
+    "name": "Aufstellen Metall je Zahn",
+    "dauer_min": 8,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3030"
+      ]
+    }
+  },
+  {
+    "nr": "3031",
+    "name": "Individueller Steg, Grundeinheit",
+    "dauer_min": 38,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3032",
+    "name": "Individueller Steg, Längeneinheit (= 1 Zahnbreite)",
+    "dauer_min": 8,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3101",
+    "name": "Umlaufende Fräsung, Metall",
+    "dauer_min": 20,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3102",
+    "name": "Rillen-Schulter-Fräsung",
+    "dauer_min": 25,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3103",
+    "name": "Teilfräsung",
+    "dauer_min": 18,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3104",
+    "name": "Stegfräsung",
+    "dauer_min": 18,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3105",
+    "name": "Geschiebefräsung",
+    "dauer_min": 25,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3106",
+    "name": "Bohrung und Fräsung für Friktionsstift",
+    "dauer_min": 8,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3112",
+    "name": "Rillen-Funkenerosion",
+    "dauer_min": 40,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3115",
+    "name": "Geschiebe-Funkenerosion",
+    "dauer_min": 50,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3116",
+    "name": "Funkenerosion für Friktionsstift",
+    "dauer_min": 40,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3121",
+    "name": "Umlaufende Fräsung, Keramik",
+    "dauer_min": 45,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3122",
+    "name": "Rillen-Schulter-Fräsung",
+    "dauer_min": 35,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3123",
+    "name": "Teilfräsung",
+    "dauer_min": 30,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3124",
+    "name": "Stegfräsung",
+    "dauer_min": 50,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3125",
+    "name": "Geschiebefräsung",
+    "dauer_min": 50,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3126",
+    "name": "Bohrung und Fräsung für Friktionsstift, an Keramikprimärteil",
+    "dauer_min": 35,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3201",
+    "name": "Teleskopkrone sekundär",
+    "dauer_min": 73,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3202",
+    "name": "Teleskopkrone sekundär, für Kunststoff-Verblendung",
+    "dauer_min": 83,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3203",
+    "name": "Teleskopkrone sekundär, für Keramik-Verblendung",
+    "dauer_min": 76,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3204",
+    "name": "Konuskrone sekundär",
+    "dauer_min": 78,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3205",
+    "name": "Konuskrone sekundär, für Kunststoff-Verblendung",
+    "dauer_min": 90,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3206",
+    "name": "Konuskrone sekundär, für Keramik Verblendung",
+    "dauer_min": 83,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3207",
+    "name": "Doppelkrone sekundär",
+    "dauer_min": 73,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3208",
+    "name": "Doppelkrone für Kunststoffverblendung, sekundär",
+    "dauer_min": 83,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3209",
+    "name": "Doppelkrone für Keramikverblendung, sekundär",
+    "dauer_min": 65,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3210",
+    "name": "Teleskop-Teilkrone sekundär",
+    "dauer_min": 55,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3211",
+    "name": "Individuelles Geschiebe sekundär",
+    "dauer_min": 46,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3212",
+    "name": "Rillen-Schulter-Geschiebe sekundär",
+    "dauer_min": 55,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3213",
+    "name": "Ankerbandklammer sekundär",
+    "dauer_min": 71,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3214",
+    "name": "Raste in Lager",
+    "dauer_min": 6,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3215",
+    "name": "Schubverteilungsarm",
+    "dauer_min": 38,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3221",
+    "name": "Individuelles Steggeschiebe",
+    "dauer_min": 52,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3222",
+    "name": "Individuelles Steggeschiebe mit Gingivalfassung",
+    "dauer_min": 54,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3224",
+    "name": "Galvano-Sekundärteil über Implantatabutment",
+    "dauer_min": 65,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3224"
+      ]
+    }
+  },
+  {
+    "nr": "3301",
+    "name": "Individuelles Sekundärteil in/an Kunststoffbasis",
+    "dauer_min": 15,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3302",
+    "name": "Individuelles Sekundärteil in/an Metallbasis",
+    "dauer_min": 20,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3303",
+    "name": "Individuelles Sekundärteil an/in Brückenkörper oder Sekundärteil",
+    "dauer_min": 20,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3321",
+    "name": "Steggeschiebe individuell, in Kunststoffbasis",
+    "dauer_min": 34,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3322",
+    "name": "Steggeschiebe individuell, an/in Metallbasis",
+    "dauer_min": 34,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3323",
+    "name": "Steggeschiebe individuell, an Sekundärteil",
+    "dauer_min": 34,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3401",
+    "name": "Drehriegel",
+    "dauer_min": 184,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3402",
+    "name": "Doppel-Drehriegel",
+    "dauer_min": 171,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3403",
+    "name": "Schwenkriegel",
+    "dauer_min": 169,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3404",
+    "name": "Doppel-Schwenkriegel",
+    "dauer_min": 171,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3405",
+    "name": "Schub- oder Steckriegel",
+    "dauer_min": 112,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3406",
+    "name": "Doppelkronenriegel",
+    "dauer_min": 171,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3410",
+    "name": "Übertragung je Zahn",
+    "dauer_min": 5,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3410"
+      ]
+    }
+  },
+  {
+    "nr": "3411",
+    "name": "Drehriegel, funkenerodiert",
+    "dauer_min": 35,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3412",
+    "name": "Doppel-Drehriegel, funkenerodiert",
+    "dauer_min": 50,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3413",
+    "name": "Schwenkriegel, funktenerodiert",
+    "dauer_min": 40,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3414",
+    "name": "Doppel-Schwenkriegel, funkenerodiert",
+    "dauer_min": 55,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3415",
+    "name": "Schub- oder Steckriegel, funkenerodiert",
+    "dauer_min": 40,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3501",
+    "name": "Konfektionsgeschiebe primär",
+    "dauer_min": 20,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3503",
+    "name": "Konfektionsgeschiebe verriegelnd, primär",
+    "dauer_min": 20,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3521",
+    "name": "Konfektionssteg Grundeinheit",
+    "dauer_min": 21,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3522",
+    "name": "Konfektionssteg Grundeinheit, mit Schleimhautkontakt",
+    "dauer_min": 32,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3523",
+    "name": "Konfektionssteg Längeneinheit (= 1 Zahnbreite)",
+    "dauer_min": 3,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3524",
+    "name": "Konfektionssteg mit Schleimhautkontakt Längeneinheit (= 1 Zahnbreite)",
+    "dauer_min": 4,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3525",
+    "name": "Steg-Abknickung",
+    "dauer_min": 10,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3541",
+    "name": "Konfektionsriegel primär",
+    "dauer_min": 20,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3601",
+    "name": "Konfektionsgeschiebe sekundär, in Kunststoffbasis",
+    "dauer_min": 20,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3602",
+    "name": "Konfektionsgeschiebe sekundär, an Metallbasis",
+    "dauer_min": 50,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3603",
+    "name": "Konfektionsgeschiebe verriegelnd, sekundär, an Metallbasis",
+    "dauer_min": 55,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3610",
+    "name": "Fertigstellen Grundeinheit",
+    "dauer_min": 60,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3610"
+      ]
+    }
+  },
+  {
+    "nr": "3618",
+    "name": "Fertigstellung Grundeinheit bei Implantatversorgung",
+    "dauer_min": 65,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3618"
+      ]
+    }
+  },
+  {
+    "nr": "3620",
+    "name": "Fertigstellen je Zahn",
+    "dauer_min": 5,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3620"
+      ]
+    }
+  },
+  {
+    "nr": "3621",
+    "name": "Konfektions-Steglasche, an/in Kunststoffbasis",
+    "dauer_min": 171,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3622",
+    "name": "Konfektions-Steggeschiebe an/in Kunststoffbasis",
+    "dauer_min": 34,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3623",
+    "name": "Konfektions-Steglasche an/in Metallbasis",
+    "dauer_min": 18,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3624",
+    "name": "Konfektions-Steggeschiebe an/in Metallbasis",
+    "dauer_min": 112,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3628",
+    "name": "Fertigstellen je Zahneinheit bei Implantatversorgung",
+    "dauer_min": 5,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3628"
+      ]
+    }
+  },
+  {
+    "nr": "3641",
+    "name": "Konfektionsriegel sekundär",
+    "dauer_min": 45,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3701",
+    "name": "Tertiärkrone",
+    "dauer_min": 60,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3702",
+    "name": "Tertiärkrone, für Kunststoffverblendung",
+    "dauer_min": 70,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3703",
+    "name": "Tertiärkrone, für Keramikverblendung",
+    "dauer_min": 80,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3800",
+    "name": "Einfach gebogene Halte-/Stützvorrichtung",
+    "dauer_min": 12,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3800"
+      ]
+    }
+  },
+  {
+    "nr": "3805",
+    "name": "Auflage",
+    "dauer_min": 12,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3805"
+      ]
+    }
+  },
+  {
+    "nr": "3810",
+    "name": "Sonstige Halte- und/oder Stützvorrichtung",
+    "dauer_min": 18,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3810"
+      ]
+    }
+  },
+  {
+    "nr": "3814",
+    "name": "Doppelbogenklammer",
+    "dauer_min": 25,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3814"
+      ]
+    }
+  },
+  {
+    "nr": "3821",
+    "name": "Weichkunststoff",
+    "dauer_min": 35,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3821"
+      ]
+    }
+  },
+  {
+    "nr": "3822",
+    "name": "Sonderkunststoff",
+    "dauer_min": 35,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3822"
+      ]
+    }
+  },
+  {
+    "nr": "3830",
+    "name": "Zahn zahnfarben hergestellt",
+    "dauer_min": 30,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3830"
+      ]
+    }
+  },
+  {
+    "nr": "3840",
+    "name": "Zahn zahnfarben hinterlegen",
+    "dauer_min": 15,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "3840"
+      ]
+    }
+  },
+  {
+    "nr": "3850",
+    "name": "Anodisieren, je Zahneinheit",
+    "dauer_min": 25,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "3850"
+      ],
+      "dent_content": [
+        "3850"
+      ]
+    }
+  },
+  {
+    "nr": "3851",
+    "name": "CAD-Design Steg primär, Grundeinheit",
+    "dauer_min": 90,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "3851"
+      ],
+      "dent_content": [
+        "3851"
+      ]
+    }
+  },
+  {
+    "nr": "3852",
+    "name": "CAD-Design Steg primär, je Zahneinheit",
+    "dauer_min": 70,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "3852"
+      ],
+      "dent_content": [
+        "3852"
+      ]
+    }
+  },
+  {
+    "nr": "3853",
+    "name": "CAD/CAM Nachbearbeitung Teleskopkrone, primär",
+    "dauer_min": 75,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "3853"
+      ],
+      "dent_content": [
+        "3853"
+      ]
+    }
+  },
+  {
+    "nr": "3854",
+    "name": "CAD/CAM Nachbearbeitung Teleskopkrone, sekundär",
+    "dauer_min": 70,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "3854"
+      ],
+      "dent_content": [
+        "3854"
+      ]
+    }
+  },
+  {
+    "nr": "3855",
+    "name": "CAD/CAM Primärkrone konstruieren",
+    "dauer_min": 60,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "3855"
+      ],
+      "dent_content": [
+        "3855"
+      ]
+    }
+  },
+  {
+    "nr": "3856",
+    "name": "CAD/CAM Sekundärkrone konstruieren, vollständig verblendet",
+    "dauer_min": 65,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "3856"
+      ],
+      "dent_content": [
+        "3856"
+      ]
+    }
+  },
+  {
+    "nr": "3857",
+    "name": "CAD/CAM Steg scannen, je Primärsteg",
+    "dauer_min": 20,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "3857"
+      ],
+      "dent_content": [
+        "3857"
+      ]
+    }
+  },
+  {
+    "nr": "3858",
+    "name": "CAM Steg anpassen, auf Modell, je Zahneinheit (primär + sekundär)",
+    "dauer_min": 45,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "3858"
+      ],
+      "dent_content": [
+        "3858"
+      ]
+    }
+  },
+  {
+    "nr": "3859",
+    "name": "CAM Stegfräsung, je Zahneinheit",
+    "dauer_min": 60,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "3859"
+      ],
+      "dent_content": [
+        "3859"
+      ]
+    }
+  },
+  {
+    "nr": "3860",
+    "name": "CAM-Sintern Metall/Keramik, je Einheit",
+    "dauer_min": 25,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "3860"
+      ],
+      "dent_content": [
+        "3860"
+      ]
+    }
+  },
+  {
+    "nr": "3861",
+    "name": "Galvano-Sekundärteleskop",
+    "dauer_min": 65,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "3861"
+      ],
+      "dent_content": [
+        "3861"
+      ]
+    }
+  },
+  {
+    "nr": "3862",
+    "name": "Konfektionsgeschiebe/-anker primär",
+    "dauer_min": 45,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "3862",
+        "3864"
+      ],
+      "dent_content": [
+        "3862",
+        "3864"
+      ]
+    }
+  },
+  {
+    "nr": "3863",
+    "name": "Konfektionsgeschiebe/-anker sekundär (an Metallbasis)",
+    "dauer_min": 50,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "3863",
+        "3865"
+      ],
+      "dent_content": [
+        "3863",
+        "3865"
+      ]
+    }
+  },
+  {
+    "nr": "3866",
+    "name": "CAD Geschiebe konstruieren",
+    "dauer_min": 60,
+    "hg": "HG3",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "3866"
+      ]
+    }
+  },
+  {
+    "nr": "3901",
+    "name": "Konfektioniertes Friktionselement in Sekundärteil",
+    "dauer_min": 18,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3902",
+    "name": "Individuelles Friktionselement in Sekundärteil",
+    "dauer_min": 24,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3903",
+    "name": "Friktionsstift",
+    "dauer_min": 8,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3904",
+    "name": "Federbolzen",
+    "dauer_min": 36,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3905",
+    "name": "Verschraubung/Verbolzung",
+    "dauer_min": 45,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3906",
+    "name": "Verschraubung individuell",
+    "dauer_min": 30,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3915",
+    "name": "Verbolzung funkenerodiert",
+    "dauer_min": 35,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3921",
+    "name": "Konfektionsteil zur Befestigung von abnehmbarem Zahnfleisch",
+    "dauer_min": 25,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3931",
+    "name": "Lösungsknopf für Verbindungselement",
+    "dauer_min": 15,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "3983",
+    "name": "Titan verarbeiten bei Verbindungselementen",
+    "dauer_min": 30,
+    "hg": "HG3",
+    "type": "standard"
+  },
+  {
+    "nr": "4001",
+    "name": "Metallbasis Oberkiefer, total",
+    "dauer_min": 95,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4002",
+    "name": "Metallbasis Oberkiefer, partiell",
+    "dauer_min": 105,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4003",
+    "name": "Metallbasis Unterkiefer, total",
+    "dauer_min": 89,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4004",
+    "name": "Metallbasis Unterkiefer, partiell",
+    "dauer_min": 99,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4005",
+    "name": "Metallbasis als fortlaufende Klammer, ohne Bügel",
+    "dauer_min": 124,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4006",
+    "name": "Metallbasis Unterkiefer, als Vestibulärbügel",
+    "dauer_min": 114,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4007",
+    "name": "Gitter total oder Bügel",
+    "dauer_min": 72,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4008",
+    "name": "Gitter partiell",
+    "dauer_min": 72,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4009",
+    "name": "Tertiärstruktur für Klebung",
+    "dauer_min": 30,
+    "hg": "HG4",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "4009"
+      ]
+    }
+  },
+  {
+    "nr": "4010",
+    "name": "Silberzinnbasis",
+    "dauer_min": 72,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4020",
+    "name": "Aufbissbehelf ohne adjustierte Oberfläche",
+    "dauer_min": 70,
+    "hg": "HG4",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "4020"
+      ]
+    }
+  },
+  {
+    "nr": "4021",
+    "name": "PEEK-Gerüst, Oberkiefer partiell",
+    "dauer_min": 120,
+    "hg": "HG4",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "4021"
+      ],
+      "intern": [
+        "4857"
+      ],
+      "dent_content": [
+        "4857"
+      ]
+    }
+  },
+  {
+    "nr": "4101",
+    "name": "Einarmige Klammer",
+    "dauer_min": 10,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4102",
+    "name": "Inlayklammer",
+    "dauer_min": 8,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4103",
+    "name": "Kralle",
+    "dauer_min": 12,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4104",
+    "name": "Approximalklammer",
+    "dauer_min": 15,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4105",
+    "name": "Bonyhard-Klammer, J-Klammer",
+    "dauer_min": 15,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4106",
+    "name": "Fortlaufende Klammer",
+    "dauer_min": 10,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4107",
+    "name": "Gegenlager",
+    "dauer_min": 15,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4111",
+    "name": "Zweiarmige Klammer",
+    "dauer_min": 15,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4112",
+    "name": "Zweiarmige Klammer mit Auflage",
+    "dauer_min": 25,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4113",
+    "name": "Rücklaufklammer",
+    "dauer_min": 20,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4114",
+    "name": "Ringklammer",
+    "dauer_min": 15,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4115",
+    "name": "Ringklammer mit Auflage",
+    "dauer_min": 18,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4116",
+    "name": "Überwurfklammer, zweiarmig",
+    "dauer_min": 22,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4117",
+    "name": "Bonyhard-Klammer, J-Klammer, mit Auflage und Gegenlager",
+    "dauer_min": 24,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4118",
+    "name": "Doppelbogenklammer",
+    "dauer_min": 15,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4119",
+    "name": "Bonwill-Klammer",
+    "dauer_min": 35,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4120",
+    "name": "Jackson-Klammer",
+    "dauer_min": 22,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4121",
+    "name": "Stiel",
+    "dauer_min": 10,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4122",
+    "name": "Auflage",
+    "dauer_min": 8,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4131",
+    "name": "Kappe",
+    "dauer_min": 18,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4143",
+    "name": "Zweiarmige Klammer/PEEK",
+    "dauer_min": 35,
+    "hg": "HG4",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "4143"
+      ],
+      "intern": [
+        "4860"
+      ],
+      "dent_content": [
+        "4860"
+      ]
+    }
+  },
+  {
+    "nr": "4201",
+    "name": "Gegossene Retention",
+    "dauer_min": 25,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4202",
+    "name": "Gegossenes Basisteil",
+    "dauer_min": 32,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4203",
+    "name": "Retention an Sekundärteil",
+    "dauer_min": 8,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4401",
+    "name": "Einarmige Klammer",
+    "dauer_min": 12,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4402",
+    "name": "Inlayklammer",
+    "dauer_min": 12,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4403",
+    "name": "Bonyhard-Klammer, J-Klammer",
+    "dauer_min": 10,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4404",
+    "name": "Überwurfklammer, einarmig",
+    "dauer_min": 16,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4405",
+    "name": "Doppelbogenklammer",
+    "dauer_min": 16,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4406",
+    "name": "Interdental-Knopfklammer",
+    "dauer_min": 10,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4407",
+    "name": "Kralle",
+    "dauer_min": 14,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4408",
+    "name": "Gegenlager",
+    "dauer_min": 10,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4411",
+    "name": "Zweiarmige Klammer",
+    "dauer_min": 12,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4412",
+    "name": "Zweiarmige Klammer mit Auflage",
+    "dauer_min": 20,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4413",
+    "name": "Bonyhard-Klammer, J- Klammer, mit Auflage und Gegenlager",
+    "dauer_min": 24,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4414",
+    "name": "Überwurfklammer, zweiarmig",
+    "dauer_min": 20,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4421",
+    "name": "Auflage",
+    "dauer_min": 10,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4431",
+    "name": "Federarm inklusive Federarmlager",
+    "dauer_min": 48,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4501",
+    "name": "Gebogener Bügel, Oberkiefer",
+    "dauer_min": 68,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4502",
+    "name": "Gebogener Bügel, Unterkiefer",
+    "dauer_min": 54,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4503",
+    "name": "Gebogene Retention",
+    "dauer_min": 10,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4850",
+    "name": "CAD/CAM Konstruktion Metallbasis Unterkiefer",
+    "dauer_min": 80,
+    "hg": "HG4",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "4850"
+      ],
+      "dent_content": [
+        "4850"
+      ]
+    }
+  },
+  {
+    "nr": "4851",
+    "name": "CAD/CAM Konstruktion Retention",
+    "dauer_min": 50,
+    "hg": "HG4",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "4851"
+      ],
+      "dent_content": [
+        "4851"
+      ]
+    }
+  },
+  {
+    "nr": "4852",
+    "name": "CAD/CAM Nachbearbeitung Metallbasis Unterkiefer",
+    "dauer_min": 60,
+    "hg": "HG4",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "4852"
+      ],
+      "dent_content": [
+        "4852"
+      ]
+    }
+  },
+  {
+    "nr": "4853",
+    "name": "CAD/CAM Nachbearbeitung Retention",
+    "dauer_min": 40,
+    "hg": "HG4",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "4853"
+      ],
+      "dent_content": [
+        "4853"
+      ]
+    }
+  },
+  {
+    "nr": "4854",
+    "name": "Metallbasis Unterkiefer, für COPA-Schiene",
+    "dauer_min": 90,
+    "hg": "HG4",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "4854"
+      ],
+      "dent_content": [
+        "4854"
+      ]
+    }
+  },
+  {
+    "nr": "4855",
+    "name": "PEEK, zweiarmige Klammer",
+    "dauer_min": 35,
+    "hg": "HG4",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "4855"
+      ],
+      "dent_content": [
+        "4855"
+      ]
+    }
+  },
+  {
+    "nr": "4856",
+    "name": "PEEK, zweiarmige Klammer mit Auflage",
+    "dauer_min": 40,
+    "hg": "HG4",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "4856"
+      ],
+      "dent_content": [
+        "4856"
+      ]
+    }
+  },
+  {
+    "nr": "4858",
+    "name": "PEEK-Gerüst, je Zahneinheit",
+    "dauer_min": 80,
+    "hg": "HG4",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "4858"
+      ],
+      "dent_content": [
+        "4858"
+      ]
+    }
+  },
+  {
+    "nr": "4859",
+    "name": "Tertiärstruktur für Klebung, je Zahneinheit",
+    "dauer_min": 30,
+    "hg": "HG4",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "4859"
+      ],
+      "dent_content": [
+        "4859"
+      ]
+    }
+  },
+  {
+    "nr": "4901",
+    "name": "Kragenfassung",
+    "dauer_min": 8,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4902",
+    "name": "Rückenschutzplatte für Kunststoffverblendung Frontzahn",
+    "dauer_min": 35,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4903",
+    "name": "Rückenschutzplatte für Kunststoffverblendung Backenzahn",
+    "dauer_min": 40,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4904",
+    "name": "Rückenschutzplatte für Keramikverblendung",
+    "dauer_min": 36,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4905",
+    "name": "Metallzahn",
+    "dauer_min": 35,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4906",
+    "name": "Metallkaufläche",
+    "dauer_min": 31,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4907",
+    "name": "Metallfläche als Tuberabdeckung",
+    "dauer_min": 10,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4908",
+    "name": "Umgehungsbügel bei Diastema",
+    "dauer_min": 14,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4920",
+    "name": "Hilfsteilpassung",
+    "dauer_min": 15,
+    "hg": "HG4",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "4920"
+      ]
+    }
+  },
+  {
+    "nr": "4921",
+    "name": "Hilfsteilpassung",
+    "dauer_min": 19,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4922",
+    "name": "Stegpassung",
+    "dauer_min": 12,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4923",
+    "name": "Führungsfläche",
+    "dauer_min": 10,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4931",
+    "name": "Rotationsgelenk an Metallbasis",
+    "dauer_min": 36,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4941",
+    "name": "Lösungsknopf für Friktionsprothese",
+    "dauer_min": 8,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4942",
+    "name": "Unterfütterbarer Abschlussrand",
+    "dauer_min": 12,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4943",
+    "name": "Saugkammer",
+    "dauer_min": 6,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4944",
+    "name": "Retentionsknopf für Sauger",
+    "dauer_min": 15,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4951",
+    "name": "Klammer einzeln gegossen",
+    "dauer_min": 26,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4981",
+    "name": "Mehraufwand für Ausführung in EM",
+    "dauer_min": 20,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "4983",
+    "name": "Titan verarbeiten bei herausnehmbarem Zahnersatz",
+    "dauer_min": 30,
+    "hg": "HG4",
+    "type": "standard"
+  },
+  {
+    "nr": "5001",
+    "name": "Lötung 1",
+    "dauer_min": 8,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5002",
+    "name": "Lötung 2",
+    "dauer_min": 12,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5003",
+    "name": "Lötung 3",
+    "dauer_min": 14,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5004",
+    "name": "Lötung 4",
+    "dauer_min": 12,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5005",
+    "name": "Lötung 5",
+    "dauer_min": 14,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5006",
+    "name": "Zuschlag bei Lötung nach Keramikverblendung",
+    "dauer_min": 15,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5010",
+    "name": "Basen für UKPS",
+    "dauer_min": 200,
+    "hg": "HG5",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "5010"
+      ]
+    }
+  },
+  {
+    "nr": "5020",
+    "name": "Vestibuläre Protrusionsgleitflächen UKPS",
+    "dauer_min": 25,
+    "hg": "HG5",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "5020"
+      ]
+    }
+  },
+  {
+    "nr": "5051",
+    "name": "Lötung auf Modell, Grundeinheit",
+    "dauer_min": 25,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5052",
+    "name": "Lötung je zusätzliche Einheit",
+    "dauer_min": 12,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5053",
+    "name": "Lötung Drahtbruch",
+    "dauer_min": 12,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5100",
+    "name": "Befestigungselement Protrusionselement für UKPS",
+    "dauer_min": 18,
+    "hg": "HG5",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "5100"
+      ]
+    }
+  },
+  {
+    "nr": "5101",
+    "name": "Lötfreie Verbindung, Primärteil",
+    "dauer_min": 6,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5102",
+    "name": "Lötfreie Verbindung, Sekundärteil",
+    "dauer_min": 9,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5103",
+    "name": "Lichtbogenschweißen je Verbindung",
+    "dauer_min": 5,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5104",
+    "name": "Plasmaschweißen je Verbindung",
+    "dauer_min": 9,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5105",
+    "name": "Laserschweißen",
+    "dauer_min": 14,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5109",
+    "name": "Punktschweißen je Verbindung",
+    "dauer_min": 4,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5110",
+    "name": "Montage Protrusionselement für UKPS",
+    "dauer_min": 18,
+    "hg": "HG5",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "5110"
+      ]
+    }
+  },
+  {
+    "nr": "5200",
+    "name": "Befestigungselement Mundöffnungsbegrenzungselement für UKPS",
+    "dauer_min": 12,
+    "hg": "HG5",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "5200"
+      ]
+    }
+  },
+  {
+    "nr": "5201",
+    "name": "Vorvergoldung",
+    "dauer_min": 15,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5202",
+    "name": "Hauptvergoldung",
+    "dauer_min": 10,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5203",
+    "name": "Teilvergoldung",
+    "dauer_min": 30,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5204",
+    "name": "Vollvergoldung",
+    "dauer_min": 25,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5205",
+    "name": "Klammer vergolden",
+    "dauer_min": 30,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5206",
+    "name": "Vergoldung Krone oder Brückenglied",
+    "dauer_min": 21,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5211",
+    "name": "Lötvergoldung",
+    "dauer_min": 10,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5301",
+    "name": "Deckgold aufbrennen",
+    "dauer_min": 8,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5302",
+    "name": "Bonder aufbrennen",
+    "dauer_min": 8,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5305",
+    "name": "Verzinnen",
+    "dauer_min": 8,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5306",
+    "name": "Keramik/gegossenes Glas konditionieren",
+    "dauer_min": 4,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5307",
+    "name": "Metallfläche konditionieren",
+    "dauer_min": 8,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5308",
+    "name": "Modellgussteil konditionieren",
+    "dauer_min": 12,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5309",
+    "name": "Kunststofffläche konditionieren",
+    "dauer_min": 4,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5401",
+    "name": "Keramik/gegossenes Glas ätzen",
+    "dauer_min": 4,
+    "hg": "HG5",
+    "type": "standard"
+  },
+  {
+    "nr": "5850",
+    "name": "Locator® konditionieren, je Locator®",
+    "dauer_min": 20,
+    "hg": "HG5",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "5850"
+      ],
+      "dent_content": [
+        "5850"
+      ]
+    }
+  },
+  {
+    "nr": "5851",
+    "name": "PEEK-Gerüst konditionieren, je Zahneinheit",
+    "dauer_min": 25,
+    "hg": "HG5",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "5851"
+      ],
+      "dent_content": [
+        "5851"
+      ]
+    }
+  },
+  {
+    "nr": "6001",
+    "name": "Aufstellen Grundeinheit",
+    "dauer_min": 27,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6002",
+    "name": "Aufstellen je Zahneinheit auf Wachs oder Kunststoffbasis",
+    "dauer_min": 5,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6003",
+    "name": "Aufstellen je Zahneinheit auf Metallbasis",
+    "dauer_min": 6,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6004",
+    "name": "Aufstellen je Zahneinheit bei Totalprothesen OK u. UK",
+    "dauer_min": 8,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6005",
+    "name": "Individuelle Zahnfleischmodellation",
+    "dauer_min": 60,
+    "hg": "HG6",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "6005",
+        "6856",
+        "6857"
+      ],
+      "dent_content": [
+        "6005",
+        "6856"
+      ]
+    }
+  },
+  {
+    "nr": "6009",
+    "name": "Umstellen je Zahneinheit",
+    "dauer_min": 6,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6021",
+    "name": "Übertragen einer Wachsaufstellung auf Metallbasis",
+    "dauer_min": 4,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6121",
+    "name": "Zuschlag für Aufstellung bei Anwesenheit des Patienten",
+    "dauer_min": 30,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6142",
+    "name": "Systemaufstellung II",
+    "dauer_min": 35,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6143",
+    "name": "Systemaufstellung III",
+    "dauer_min": 40,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6144",
+    "name": "Systemaufstellung IV",
+    "dauer_min": 45,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6301",
+    "name": "Grundeinheit Fertigstellung mit Kunststoffbasis",
+    "dauer_min": 60,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6302",
+    "name": "Fertigstellen mit Kunststoffbasis, je Zahneinheit",
+    "dauer_min": 3,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6311",
+    "name": "Grundeinheit Fertigstellung auf Metallbasis",
+    "dauer_min": 35,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6312",
+    "name": "Fertigstellen auf Metallbasis, je Zahneinheit",
+    "dauer_min": 4,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6401",
+    "name": "Transparente Gaumenplatte",
+    "dauer_min": 31,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6402",
+    "name": "Prothese aus transparentem Kunststoff",
+    "dauer_min": 15,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6403",
+    "name": "Prothese aus Schwerkunststoff",
+    "dauer_min": 20,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6404",
+    "name": "Basisteil aus Weichkunststoff",
+    "dauer_min": 42,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6405",
+    "name": "Basis aus Weichkunststoff",
+    "dauer_min": 55,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6411",
+    "name": "Spezialpressverfahren",
+    "dauer_min": 40,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6412",
+    "name": "Sonderkunststoff verarbeiten",
+    "dauer_min": 30,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6414",
+    "name": "Kunststoff an unterfütterbarem Abschlussrand",
+    "dauer_min": 8,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6421",
+    "name": "Prothese aus Kautschuk",
+    "dauer_min": 60,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6431",
+    "name": "Befestigung eines Zahnes mit zahnfarbenem Kunststoff, Pontic",
+    "dauer_min": 6,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6432",
+    "name": "Herstellen eines Zahnes aus zahnfarbenem Kunststoff",
+    "dauer_min": 25,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6433",
+    "name": "Kaufläche aus zahnfarbenem Kunststoff",
+    "dauer_min": 15,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6441",
+    "name": "Charakterisieren einer Basis",
+    "dauer_min": 40,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6451",
+    "name": "Zahnfleischklammer",
+    "dauer_min": 10,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6452",
+    "name": "Pelottenklammer",
+    "dauer_min": 18,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6461",
+    "name": "Lösungsknopf für Friktionsprothese",
+    "dauer_min": 6,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6471",
+    "name": "Aufwand bei Fertigstellung über Implantat",
+    "dauer_min": 35,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6481",
+    "name": "Reokkludieren einer Prothese",
+    "dauer_min": 4,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6482",
+    "name": "Remontage Prothetik",
+    "dauer_min": 20,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6483",
+    "name": "Selektives Einschleifen Prothetik",
+    "dauer_min": 31,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6501",
+    "name": "Netz einarbeiten",
+    "dauer_min": 25,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6502",
+    "name": "Gussgitter einarbeiten",
+    "dauer_min": 16,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6503",
+    "name": "Konfektioniertes Metallgitter anpassen und einarbeiten",
+    "dauer_min": 36,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6504",
+    "name": "Draht einarbeiten",
+    "dauer_min": 12,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6505",
+    "name": "Bügel einarbeiten",
+    "dauer_min": 16,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6506",
+    "name": "Individuelle Beschwerungseinlage einarbeiten",
+    "dauer_min": 15,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6507",
+    "name": "Konfektionierte Beschwerungseinlage einarbeiten",
+    "dauer_min": 18,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6509",
+    "name": "Retention für Einzelzahn einarbeiten",
+    "dauer_min": 10,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6512",
+    "name": "Saugkammer einarbeiten",
+    "dauer_min": 4,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6521",
+    "name": "Metallfacette einarbeiten",
+    "dauer_min": 15,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6522",
+    "name": "Inlay in Prothesenzahn einarbeiten",
+    "dauer_min": 45,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6531",
+    "name": "Federpaar einarbeiten",
+    "dauer_min": 30,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6532",
+    "name": "Magnetpaar einarbeiten",
+    "dauer_min": 48,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6850",
+    "name": "Aufstellen Grundeinheit, auch digital",
+    "dauer_min": 40,
+    "hg": "HG6",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "6850"
+      ],
+      "dent_content": [
+        "6850"
+      ]
+    }
+  },
+  {
+    "nr": "6851",
+    "name": "Aufstellen, je Zahneinheit, auch digital",
+    "dauer_min": 20,
+    "hg": "HG6",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "6851"
+      ],
+      "dent_content": [
+        "6851"
+      ]
+    }
+  },
+  {
+    "nr": "6852",
+    "name": "Aufstellen, je Zahneinheit, auf PEEK",
+    "dauer_min": 25,
+    "hg": "HG6",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "6852"
+      ],
+      "dent_content": [
+        "6852"
+      ]
+    }
+  },
+  {
+    "nr": "6853",
+    "name": "CAD/CAM Konstruktion Zahn",
+    "dauer_min": 45,
+    "hg": "HG6",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "6853"
+      ],
+      "dent_content": [
+        "6853"
+      ]
+    }
+  },
+  {
+    "nr": "6855",
+    "name": "Individuell charakterisieren, Konfektionszahn Komposit",
+    "dauer_min": 30,
+    "hg": "HG6",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "6855"
+      ],
+      "dent_content": [
+        "6855"
+      ]
+    }
+  },
+  {
+    "nr": "6858",
+    "name": "Locator® einarbeiten, je Locator®",
+    "dauer_min": 35,
+    "hg": "HG6",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "6854",
+        "6858",
+        "6859"
+      ],
+      "dent_content": [
+        "6854",
+        "6858",
+        "6859"
+      ]
+    }
+  },
+  {
+    "nr": "6860",
+    "name": "Locator® konditionieren, je Locator®",
+    "dauer_min": 20,
+    "hg": "HG6",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "6860"
+      ],
+      "dent_content": [
+        "6860"
+      ]
+    }
+  },
+  {
+    "nr": "6861",
+    "name": "Weichkunststoff verarbeiten",
+    "dauer_min": 25,
+    "hg": "HG6",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "6861"
+      ],
+      "dent_content": [
+        "6861"
+      ]
+    }
+  },
+  {
+    "nr": "6862",
+    "name": "Zahnfleisch, individuell, mehrfarbig",
+    "dauer_min": 65,
+    "hg": "HG6",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "6862"
+      ],
+      "dent_content": [
+        "6862"
+      ]
+    }
+  },
+  {
+    "nr": "6936",
+    "name": "Individuell charakterisieren, Konfektionszahn Keramik",
+    "dauer_min": 18,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6937",
+    "name": "Individuell charakterisieren, Konfektionszahn Kunststoff",
+    "dauer_min": 18,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "6938",
+    "name": "Zuschlag für verschiedene Zahnfarben",
+    "dauer_min": 25,
+    "hg": "HG6",
+    "type": "standard"
+  },
+  {
+    "nr": "7001",
+    "name": "Basis für Einzelkiefergerät",
+    "dauer_min": 65,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7002",
+    "name": "Basis für FKO-Gerät",
+    "dauer_min": 115,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7003",
+    "name": "Grundbogen Oberkiefer oder Unterkiefer",
+    "dauer_min": 30,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7005",
+    "name": "Positioner",
+    "dauer_min": 140,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7007",
+    "name": "Vorhofplatte",
+    "dauer_min": 100,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7008",
+    "name": "Frontaler oder lateraler Aufbiss, hart",
+    "dauer_min": 30,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7010",
+    "name": "Basis Einzelkiefergerät",
+    "dauer_min": 60,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7010"
+      ]
+    }
+  },
+  {
+    "nr": "7011",
+    "name": "Kinnkappe mit Retentionshaken",
+    "dauer_min": 75,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7020",
+    "name": "Basis bimaxilläres Gerät",
+    "dauer_min": 120,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7020"
+      ]
+    }
+  },
+  {
+    "nr": "7021",
+    "name": "Basis für Schiefe Ebene aus Kunststoff",
+    "dauer_min": 48,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7031",
+    "name": "Basis für Schiefe Ebene aus Metall",
+    "dauer_min": 78,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7100",
+    "name": "Aufbiss (KFO)",
+    "dauer_min": 12,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7100"
+      ]
+    }
+  },
+  {
+    "nr": "7101",
+    "name": "Tropfenklammer",
+    "dauer_min": 10,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7102",
+    "name": "Ösenklammer",
+    "dauer_min": 10,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7104",
+    "name": "Dreiecksklammer",
+    "dauer_min": 10,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7105",
+    "name": "Pfeilanker",
+    "dauer_min": 10,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7106",
+    "name": "Adams-Klammer",
+    "dauer_min": 16,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7107",
+    "name": "Pfeilklammer",
+    "dauer_min": 20,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7108",
+    "name": "Voß-Klammer",
+    "dauer_min": 16,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7109",
+    "name": "Verankerungsklammer",
+    "dauer_min": 32,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7110",
+    "name": "Haltesporn",
+    "dauer_min": 10,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7121",
+    "name": "Dorn",
+    "dauer_min": 10,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7122",
+    "name": "Auflage",
+    "dauer_min": 10,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7200",
+    "name": "Schraube einarbeiten, einfach",
+    "dauer_min": 18,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7200"
+      ]
+    }
+  },
+  {
+    "nr": "7201",
+    "name": "Frontaler oder lateraler Aufbiss, hart",
+    "dauer_min": 10,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7202",
+    "name": "Frontaler oder lateraler Aufbiss, weich",
+    "dauer_min": 38,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7210",
+    "name": "Spezial-Schraube einarbeiten",
+    "dauer_min": 22,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7210"
+      ]
+    }
+  },
+  {
+    "nr": "7211",
+    "name": "Schiefe Ebene aus Kunststoff, je Zahneinheit",
+    "dauer_min": 18,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7220",
+    "name": "Trennen der Basis",
+    "dauer_min": 9,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7220"
+      ]
+    }
+  },
+  {
+    "nr": "7221",
+    "name": "Schiefe Ebene aus Metall, je Zahneinheit",
+    "dauer_min": 25,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7231",
+    "name": "Vorbiss oder Rückbiss",
+    "dauer_min": 18,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7241",
+    "name": "Pelotte",
+    "dauer_min": 28,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7242",
+    "name": "Kunststoffschild",
+    "dauer_min": 28,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7243",
+    "name": "Zungengitter",
+    "dauer_min": 22,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7300",
+    "name": "Labialbogen",
+    "dauer_min": 25,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7300"
+      ]
+    }
+  },
+  {
+    "nr": "7301",
+    "name": "Labialbogen",
+    "dauer_min": 24,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7302",
+    "name": "Labialbogen, modifiziert",
+    "dauer_min": 31,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7303",
+    "name": "Labialbogen, intermaxillär",
+    "dauer_min": 48,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7304",
+    "name": "Hochlabialbogen",
+    "dauer_min": 31,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7310",
+    "name": "Labialbogen modifiziert",
+    "dauer_min": 32,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7310"
+      ]
+    }
+  },
+  {
+    "nr": "7311",
+    "name": "Feder, offen",
+    "dauer_min": 10,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7312",
+    "name": "Feder, geschlossen",
+    "dauer_min": 14,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7313",
+    "name": "Feder, gekreuzt",
+    "dauer_min": 12,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7314",
+    "name": "Feder, kompliziert",
+    "dauer_min": 15,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7320",
+    "name": "Labialbogen intermaxillär",
+    "dauer_min": 42,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7320"
+      ]
+    }
+  },
+  {
+    "nr": "7321",
+    "name": "Protrusionsbogen",
+    "dauer_min": 20,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7322",
+    "name": "Coffin-Feder",
+    "dauer_min": 30,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7323",
+    "name": "Lingualbogen",
+    "dauer_min": 30,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7324",
+    "name": "Palatinalbogen",
+    "dauer_min": 38,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7325",
+    "name": "Lingualer Frontalbogen",
+    "dauer_min": 20,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7330",
+    "name": "Feder, offen",
+    "dauer_min": 12,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7330"
+      ]
+    }
+  },
+  {
+    "nr": "7331",
+    "name": "Aktiver Sporn",
+    "dauer_min": 12,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7332",
+    "name": "Rücklaufsporn",
+    "dauer_min": 12,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7333",
+    "name": "Führungssporn",
+    "dauer_min": 12,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7334",
+    "name": "Interokklusal-Stop",
+    "dauer_min": 10,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7340",
+    "name": "Feder, geschlossen",
+    "dauer_min": 13,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7340"
+      ]
+    }
+  },
+  {
+    "nr": "7341",
+    "name": "U-Bügel",
+    "dauer_min": 35,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7342",
+    "name": "Federbügel",
+    "dauer_min": 35,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7343",
+    "name": "Doppelplatten-Führungssporn",
+    "dauer_min": 35,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7351",
+    "name": "Schraube einarbeiten",
+    "dauer_min": 22,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7352",
+    "name": "Schraube einarbeiten, kompliziert",
+    "dauer_min": 32,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7353",
+    "name": "Spezialschraube zur Einzelzahnbewegung",
+    "dauer_min": 26,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7354",
+    "name": "Spezialschraube zur Sektorenbewegung",
+    "dauer_min": 24,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7355",
+    "name": "Spezialschraube zur asymmetrischen Bewegung",
+    "dauer_min": 25,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7356",
+    "name": "Spezialschraube zur Metallverbindung",
+    "dauer_min": 32,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7400",
+    "name": "Verbindungselement intramaxillär",
+    "dauer_min": 25,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7400"
+      ]
+    }
+  },
+  {
+    "nr": "7401",
+    "name": "Ankerband",
+    "dauer_min": 32,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7402",
+    "name": "Band auf Modell aufpassen",
+    "dauer_min": 15,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7403",
+    "name": "Ankerkappe",
+    "dauer_min": 30,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7406",
+    "name": "Innenbogen",
+    "dauer_min": 48,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7407",
+    "name": "Teilinnenbogen",
+    "dauer_min": 28,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7410",
+    "name": "Außenbogen",
+    "dauer_min": 55,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7411",
+    "name": "Teilaußenbogen",
+    "dauer_min": 38,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7413",
+    "name": "Lückenhalter",
+    "dauer_min": 18,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7415",
+    "name": "Spike",
+    "dauer_min": 7,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7416",
+    "name": "Häkchen",
+    "dauer_min": 10,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7417",
+    "name": "Stop",
+    "dauer_min": 8,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7420",
+    "name": "Verankerungselement",
+    "dauer_min": 28,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7420"
+      ]
+    }
+  },
+  {
+    "nr": "7421",
+    "name": "Verarbeiten eines Schlosses",
+    "dauer_min": 14,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7422",
+    "name": "Verarbeiten eines Röhrchens",
+    "dauer_min": 14,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7424",
+    "name": "Druckfeder, Zugfeder",
+    "dauer_min": 15,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7425",
+    "name": "Facebow anpassen",
+    "dauer_min": 13,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7430",
+    "name": "Einzelelement einarbeiten",
+    "dauer_min": 15,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7430"
+      ]
+    }
+  },
+  {
+    "nr": "7431",
+    "name": "Bracket oder Attachment positionieren",
+    "dauer_min": 6,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7440",
+    "name": "Metallverbindung/Lötung (KFO)",
+    "dauer_min": 20,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7440"
+      ]
+    }
+  },
+  {
+    "nr": "7500",
+    "name": "Einarmiges H-/A-Element",
+    "dauer_min": 12,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7500"
+      ]
+    }
+  },
+  {
+    "nr": "7501",
+    "name": "Trennen einer Basis und Funktionsfähigmachen der Schraube",
+    "dauer_min": 10,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7502",
+    "name": "Trennen einer Basis und erschwertes Funktionsfähigmachen der Schraube",
+    "dauer_min": 15,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7503",
+    "name": "Trennen einer Basis ohne Schraube",
+    "dauer_min": 8,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7504",
+    "name": "Funktionsfähigmachen einer Schraube ohne Trennen der Basis",
+    "dauer_min": 8,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7510",
+    "name": "Mehrarmiges H-/A-Element",
+    "dauer_min": 15,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7510"
+      ]
+    }
+  },
+  {
+    "nr": "7511",
+    "name": "KFO-Platte, voreinschleifen",
+    "dauer_min": 8,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7512",
+    "name": "FKO-Gerät, voreinschleifen",
+    "dauer_min": 20,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7601",
+    "name": "Schiene tiefgezogen",
+    "dauer_min": 60,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7602",
+    "name": "Schiene tiefgezogen, zweiphasig",
+    "dauer_min": 90,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7603",
+    "name": "Knirscherschiene aus Kunststoff",
+    "dauer_min": 108,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7604",
+    "name": "Knirscherschiene aus Weichkunststoff",
+    "dauer_min": 108,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7605",
+    "name": "Retentionsschiene",
+    "dauer_min": 65,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7606",
+    "name": "Medikamententrägerschiene",
+    "dauer_min": 65,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7611",
+    "name": "Schienungskappe aus Kunststoff",
+    "dauer_min": 17,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7612",
+    "name": "Schienungskappe aus Metall",
+    "dauer_min": 34,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7613",
+    "name": "Aufbisskappe aus Kunststoff",
+    "dauer_min": 25,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7614",
+    "name": "Aufbisskappe aus Metall, je Zahn",
+    "dauer_min": 48,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7621",
+    "name": "Adjustierte Aufbissschiene",
+    "dauer_min": 140,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7622",
+    "name": "Aufbissschiene nach Schöttl",
+    "dauer_min": 200,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7623",
+    "name": "Aufbissschiene nach Shore",
+    "dauer_min": 75,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7624",
+    "name": "Aufbissplatte nach Schulz-Bongert",
+    "dauer_min": 180,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7625",
+    "name": "Bissführungsplatte",
+    "dauer_min": 108,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7630",
+    "name": "Basen für UKPS (alt. Block)",
+    "dauer_min": 200,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7630"
+      ]
+    }
+  },
+  {
+    "nr": "7701",
+    "name": "Obturator aus Kunststoff",
+    "dauer_min": 92,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7702",
+    "name": "Obturator aus Weichkunststoff",
+    "dauer_min": 152,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7703",
+    "name": "Obturator hohl",
+    "dauer_min": 138,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7704",
+    "name": "Resektionskloß aus Kunststoff",
+    "dauer_min": 56,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7705",
+    "name": "Resektionskloß aus Weichkunststoff",
+    "dauer_min": 98,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7706",
+    "name": "Künstliches Zahnfleisch",
+    "dauer_min": 30,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7707",
+    "name": "Lippenschild",
+    "dauer_min": 60,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7708",
+    "name": "Grundeinheit, Flexible Zahnfleischepithese",
+    "dauer_min": 100,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7709",
+    "name": "Flexible Zahnfleischepithese, je Zahn",
+    "dauer_min": 10,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7711",
+    "name": "Wundverbandplatte tiefgezogen",
+    "dauer_min": 45,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7712",
+    "name": "Wundverband Autopolymerisat",
+    "dauer_min": 60,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7801",
+    "name": "Sportschutz aus Weichkunststoff",
+    "dauer_min": 180,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7802",
+    "name": "Kinnschutzkappe",
+    "dauer_min": 60,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7805",
+    "name": "Unterkieferprotrusionsschiene, gefräst",
+    "dauer_min": 90,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7805"
+      ]
+    }
+  },
+  {
+    "nr": "7806",
+    "name": "3D-Unterkieferprotrusionsschiene, bimaxillär",
+    "dauer_min": 100,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7806"
+      ]
+    }
+  },
+  {
+    "nr": "7850",
+    "name": "3D-Aufbiss (Schiene)",
+    "dauer_min": 20,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "7850"
+      ],
+      "dent_content": [
+        "7850"
+      ]
+    }
+  },
+  {
+    "nr": "7851",
+    "name": "3D-Schiene",
+    "dauer_min": 40,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "7851"
+      ],
+      "dent_content": [
+        "7851"
+      ]
+    }
+  },
+  {
+    "nr": "7852",
+    "name": "CAD/CAM-Aufbiss",
+    "dauer_min": 25,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "7852"
+      ],
+      "dent_content": [
+        "7852"
+      ]
+    }
+  },
+  {
+    "nr": "7853",
+    "name": "CAD/CAM-Schiene adjustiert, gefräst",
+    "dauer_min": 35,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "7853"
+      ],
+      "dent_content": [
+        "7853"
+      ]
+    }
+  },
+  {
+    "nr": "7854",
+    "name": "CAD/CAM-Schiene, Aufwand für Fertigstellung",
+    "dauer_min": 25,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "7854"
+      ],
+      "dent_content": [
+        "7854"
+      ]
+    }
+  },
+  {
+    "nr": "7855",
+    "name": "COPA-Schiene",
+    "dauer_min": 50,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "7855"
+      ],
+      "dent_content": [
+        "7855"
+      ]
+    }
+  },
+  {
+    "nr": "7856",
+    "name": "Doppeltiefziehtechnik für Sportmundschutz",
+    "dauer_min": 40,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "7856"
+      ],
+      "dent_content": [
+        "7856"
+      ]
+    }
+  },
+  {
+    "nr": "7857",
+    "name": "Einlageverstärkung, Kunststoff",
+    "dauer_min": 20,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "7857"
+      ],
+      "dent_content": [
+        "7857"
+      ]
+    }
+  },
+  {
+    "nr": "7858",
+    "name": "Konstruktionsdaten prüfen",
+    "dauer_min": 10,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "7858"
+      ],
+      "dent_content": [
+        "7858"
+      ]
+    }
+  },
+  {
+    "nr": "7859",
+    "name": "Nachadjustieren COPA-Schiene, je Sitzung",
+    "dauer_min": 50,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "7859"
+      ],
+      "dent_content": [
+        "7859"
+      ]
+    }
+  },
+  {
+    "nr": "7860",
+    "name": "Okklusaler Aufbiss, je Zahneinheit",
+    "dauer_min": 25,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "7860"
+      ],
+      "dent_content": [
+        "7860"
+      ]
+    }
+  },
+  {
+    "nr": "7861",
+    "name": "Ringfassung Kunststoff, je Zahn",
+    "dauer_min": 15,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "7861"
+      ],
+      "dent_content": [
+        "7861"
+      ]
+    }
+  },
+  {
+    "nr": "7862",
+    "name": "Scan prüfen, für Schiene",
+    "dauer_min": 8,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "7862"
+      ],
+      "dent_content": [
+        "7862"
+      ]
+    }
+  },
+  {
+    "nr": "7863",
+    "name": "Sportschutz aus Weichkunststoff (Hobby)",
+    "dauer_min": 50,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "7863"
+      ],
+      "dent_content": [
+        "7863"
+      ]
+    }
+  },
+  {
+    "nr": "7864",
+    "name": "Sportschutz aus Weichkunststoff (Profi)",
+    "dauer_min": 70,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "7864"
+      ],
+      "dent_content": [
+        "7864"
+      ]
+    }
+  },
+  {
+    "nr": "7901",
+    "name": "Basisgestaltung farbig",
+    "dauer_min": 10,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7902",
+    "name": "Basisgestaltung mit Glitter",
+    "dauer_min": 20,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7903",
+    "name": "Basisgestaltung mit Motiven",
+    "dauer_min": 25,
+    "hg": "HG7",
+    "type": "standard"
+  },
+  {
+    "nr": "7904",
+    "name": "Oberflächenbearbeitung (Mundwasserauftrag)",
+    "dauer_min": 8,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "7904"
+      ],
+      "dent_content": [
+        "7904"
+      ]
+    }
+  },
+  {
+    "nr": "7905",
+    "name": "Vestibuläre Protrusionsgleitflächen (alt. Block)",
+    "dauer_min": 25,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7905"
+      ]
+    }
+  },
+  {
+    "nr": "7906",
+    "name": "Befestigungselement Protrusionselement für UKPS (alt. Block)",
+    "dauer_min": 18,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7906"
+      ]
+    }
+  },
+  {
+    "nr": "7907",
+    "name": "Montage Protrusionselement für UKPS (alt. Block)",
+    "dauer_min": 18,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7907"
+      ]
+    }
+  },
+  {
+    "nr": "7908",
+    "name": "Befestigungselement Mundöffnungsbegrenzungselement für UKPS (alt. Block)",
+    "dauer_min": 12,
+    "hg": "HG7",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "7908"
+      ]
+    }
+  },
+  {
+    "nr": "8001",
+    "name": "Basisteil unterfüttern",
+    "dauer_min": 38,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8002",
+    "name": "Basis unterfüttern",
+    "dauer_min": 66,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8003",
+    "name": "Basis erneuern",
+    "dauer_min": 80,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8004",
+    "name": "Zuschlag bei Reparatur einer Friktionsprothese",
+    "dauer_min": 20,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8005",
+    "name": "Zuschlag für Unterfütterung einer Friktionsprothese",
+    "dauer_min": 67,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8006",
+    "name": "Einarbeiten einer Modellgussbasis in vorhandene Kunststoff-Prothese",
+    "dauer_min": 90,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8010",
+    "name": "Grundeinheit Instandsetzen ZE",
+    "dauer_min": 23,
+    "hg": "HG8",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "8010"
+      ]
+    }
+  },
+  {
+    "nr": "8011",
+    "name": "Grundeinheit, Instandsetzen einer Prothese, Kunststoffbasis",
+    "dauer_min": 90,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8012",
+    "name": "Erweitern einer Prothese, Kunststoffbasis oder KFO/FKO-Gerät, Grundeinheit",
+    "dauer_min": 25,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8013",
+    "name": "Grundeinheit, Instandsetzung Metallbasis",
+    "dauer_min": 30,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8014",
+    "name": "Grundeinheit, Erweitern einer Metallbasis",
+    "dauer_min": 35,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8015",
+    "name": "Grundeinheit, Instandsetzen einer Aufbissschiene",
+    "dauer_min": 30,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8016",
+    "name": "Grundeinheit, Erweitern einer Aufbissschiene",
+    "dauer_min": 30,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8021",
+    "name": "Leistungseinheit, Sprung aus Kunststoff",
+    "dauer_min": 6,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8022",
+    "name": "Leistungseinheit, Bruch aus Kunststoff",
+    "dauer_min": 8,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8023",
+    "name": "Leistungseinheit, Wiederbefestigung Zahn",
+    "dauer_min": 6,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8024",
+    "name": "Leistungseinheit, Erneuerung Zahn",
+    "dauer_min": 10,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8025",
+    "name": "Leistungseinheit, Klammer einarbeiten",
+    "dauer_min": 10,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8026",
+    "name": "Leistungseinheit, Regulierungselemente einarbeiten",
+    "dauer_min": 12,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8027",
+    "name": "Leistungseinheit, Basisteil aus Kunststoff",
+    "dauer_min": 8,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8028",
+    "name": "Leistungseinheit, Sprung aus Metall",
+    "dauer_min": 18,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8029",
+    "name": "Leistungseinheit, Bruch aus Metall",
+    "dauer_min": 22,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8030",
+    "name": "Leistungseinheit, Kunststoffsattel lösen und wiederbefestigen",
+    "dauer_min": 15,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8031",
+    "name": "Leistungseinheit, Herauslösen eines Konfektionszahnes zur Wiederverwendung",
+    "dauer_min": 2,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8032",
+    "name": "Leistungseinheit, Okklusionsausgleich an Konfektionszahn",
+    "dauer_min": 15,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8033",
+    "name": "Leistungseinheit, Retention/Basisteil einarbeiten",
+    "dauer_min": 8,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8034",
+    "name": "Leistungseinheit, Sekundärteil",
+    "dauer_min": 20,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8035",
+    "name": "Leistungseinheit, Rückenschutzplatte einarbeiten",
+    "dauer_min": 18,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8040",
+    "name": "Leistungseinheit Basis vergrößern",
+    "dauer_min": 30,
+    "hg": "HG8",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "8040"
+      ],
+      "intern": [
+        "8040"
+      ],
+      "dent_content": [
+        "8040"
+      ]
+    }
+  },
+  {
+    "nr": "8041",
+    "name": "Leistungseinheit, Herauslösen von Halte- bzw. Regulierungselementen",
+    "dauer_min": 4,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8042",
+    "name": "Remontieren von KFO-Gerät",
+    "dauer_min": 40,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8043",
+    "name": "Neu adjustieren einer vorhandenen Schiene",
+    "dauer_min": 83,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8044",
+    "name": "Prothese umarbeiten als Aufbissbehelf",
+    "dauer_min": 83,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8060",
+    "name": "Gegossenes Basisteil",
+    "dauer_min": 80,
+    "hg": "HG8",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "8060"
+      ]
+    }
+  },
+  {
+    "nr": "8070",
+    "name": "Metallverbindung bei Instandsetzung/Erweiterung",
+    "dauer_min": 22,
+    "hg": "HG8",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "8070"
+      ]
+    }
+  },
+  {
+    "nr": "8090",
+    "name": "Vollständige Unterfütterung",
+    "dauer_min": 70,
+    "hg": "HG8",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "8090"
+      ]
+    }
+  },
+  {
+    "nr": "8098",
+    "name": "Vollständige Unterfütterung/implantatgestützt",
+    "dauer_min": 75,
+    "hg": "HG8",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "8098"
+      ]
+    }
+  },
+  {
+    "nr": "8100",
+    "name": "Prothesenbasis erneuern",
+    "dauer_min": 85,
+    "hg": "HG8",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "8100"
+      ]
+    }
+  },
+  {
+    "nr": "8101",
+    "name": "Kunststoffbasis aufpassen",
+    "dauer_min": 20,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8102",
+    "name": "Metallbasis aufpassen",
+    "dauer_min": 25,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8111",
+    "name": "Auswechseln von Konfektionsteil, einfach",
+    "dauer_min": 12,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8112",
+    "name": "Auswechseln von Konfektionsteil, kompliziert",
+    "dauer_min": 25,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8122",
+    "name": "Ausarbeiten und Polieren nach direkter Unterfütterung",
+    "dauer_min": 44,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8123",
+    "name": "Prothese säubern und polieren",
+    "dauer_min": 18,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8124",
+    "name": "KFO-Gerät säubern und polieren",
+    "dauer_min": 18,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8125",
+    "name": "Schiene säubern und polieren",
+    "dauer_min": 18,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8130",
+    "name": "Auswechseln Konfektionsteil",
+    "dauer_min": 15,
+    "hg": "HG8",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "8130"
+      ]
+    }
+  },
+  {
+    "nr": "8200",
+    "name": "Instandsetzung Krone/Flügel/Brückenglied",
+    "dauer_min": 45,
+    "hg": "HG8",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "8200"
+      ]
+    }
+  },
+  {
+    "nr": "8201",
+    "name": "Grundeinheit, Kronen oder Brückengliedreparatur",
+    "dauer_min": 34,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8202",
+    "name": "Leistungseinheit, Trennspalt",
+    "dauer_min": 18,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8203",
+    "name": "Leistungseinheit, Verlängerung",
+    "dauer_min": 18,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8204",
+    "name": "Leistungseinheit, Bruch/Riss",
+    "dauer_min": 10,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8205",
+    "name": "Leistungseinheit, Kontaktpunkt",
+    "dauer_min": 10,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8206",
+    "name": "Leistungseinheit, Vorbereitung für Verblendung",
+    "dauer_min": 5,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8207",
+    "name": "Leistungseinheit, Brückenteil wieder verwenden",
+    "dauer_min": 34,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8208",
+    "name": "Leistungseinheit, Nachbereiten Keramikverblendung",
+    "dauer_min": 35,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8211",
+    "name": "Leistungseinheit, Instandsetzen individueller Riegel",
+    "dauer_min": 25,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8212",
+    "name": "Leistungseinheit, Aktivieren Teleskopkrone oder Steggeschiebe",
+    "dauer_min": 20,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8221",
+    "name": "Leistungseinheit, Instandsetzen Kunststoffverblendung",
+    "dauer_min": 25,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8222",
+    "name": "Leistungseinheit, Instandsetzen Keramikverblendung",
+    "dauer_min": 35,
+    "hg": "HG8",
+    "type": "standard"
+  },
+  {
+    "nr": "8610",
+    "name": "Grundeinheit Instandsetzung KFO oder Aufbissbehelf",
+    "dauer_min": 22,
+    "hg": "HG8",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "8610"
+      ]
+    }
+  },
+  {
+    "nr": "8620",
+    "name": "LE Einfügen Regulierungs- oder Halteelement",
+    "dauer_min": 8,
+    "hg": "HG8",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "8620"
+      ]
+    }
+  },
+  {
+    "nr": "8850",
+    "name": "Geschiebe aktivieren, je Geschiebe",
+    "dauer_min": 20,
+    "hg": "HG8",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "8850"
+      ],
+      "dent_content": [
+        "8850"
+      ]
+    }
+  },
+  {
+    "nr": "8851",
+    "name": "Leistungseinheit Krone zu Brückenglied umarbeiten",
+    "dauer_min": 40,
+    "hg": "HG8",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "8851"
+      ],
+      "dent_content": [
+        "8851"
+      ]
+    }
+  },
+  {
+    "nr": "9330",
+    "name": "Versand",
+    "dauer_min": 5,
+    "hg": "HG9",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "9330",
+        "9335",
+        "9338",
+        "9930"
+      ],
+      "intern": [
+        "9330"
+      ],
+      "dent_content": [
+        "9330"
+      ]
+    }
+  },
+  {
+    "nr": "9700",
+    "name": "Verarbeitungsaufwand NEM-Legierung",
+    "dauer_min": 15,
+    "hg": "HG9",
+    "type": "individuell",
+    "quellen": {
+      "spitta": [
+        "9700"
+      ]
+    }
+  },
+  {
+    "nr": "9850",
+    "name": "3D-Modell, Material",
+    "dauer_min": 25,
+    "hg": "HG9",
+    "type": "individuell",
+    "quellen": {
+      "intern": [
+        "9850"
+      ],
+      "dent_content": [
+        "9850"
+      ]
+    }
+  }
+]

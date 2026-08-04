@@ -1,0 +1,1106 @@
+[
+  {
+    "Komplex": 0,
+    "Komplex_Titel": "Arbeitsvorbereitung",
+    "Positionen": [
+      {
+        "L_Nr": "0010",
+        "Kurztext": "Modell",
+        "Preis_Gewerbelabor": 8.06,
+        "Preis_Praxislabor": 7.66
+      },
+      {
+        "L_Nr": "0015",
+        "Kurztext": "Modell UKPS",
+        "Preis_Gewerbelabor": 8.06,
+        "Preis_Praxislabor": 7.66
+      },
+      {
+        "L_Nr": "0018",
+        "Kurztext": "Modell bei Implantatversorgung",
+        "Preis_Gewerbelabor": 8.06,
+        "Preis_Praxislabor": 7.66
+      },
+      {
+        "L_Nr": "0021",
+        "Kurztext": "Doublieren eines Modells",
+        "Preis_Gewerbelabor": 16.4,
+        "Preis_Praxislabor": 15.58
+      },
+      {
+        "L_Nr": "0022",
+        "Kurztext": "Platzhalter einfügen",
+        "Preis_Gewerbelabor": 17.07,
+        "Preis_Praxislabor": 16.22
+      },
+      {
+        "L_Nr": "0023",
+        "Kurztext": "Verwendung von Kunststoff",
+        "Preis_Gewerbelabor": 17.07,
+        "Preis_Praxislabor": 16.22
+      },
+      {
+        "L_Nr": "0024",
+        "Kurztext": "Galvanisieren",
+        "Preis_Gewerbelabor": 17.07,
+        "Preis_Praxislabor": 16.22
+      },
+      {
+        "L_Nr": "0025",
+        "Kurztext": "Doublieren eines Modells UKPS",
+        "Preis_Gewerbelabor": 16.4,
+        "Preis_Praxislabor": 15.58
+      },
+      {
+        "L_Nr": "0030",
+        "Kurztext": "Set-up je Segment",
+        "Preis_Gewerbelabor": 12.16,
+        "Preis_Praxislabor": 11.55
+      },
+      {
+        "L_Nr": "0051",
+        "Kurztext": "Sägemodell",
+        "Preis_Gewerbelabor": 18.98,
+        "Preis_Praxislabor": 18.03
+      },
+      {
+        "L_Nr": "0052",
+        "Kurztext": "Einzelstumpfmodell",
+        "Preis_Gewerbelabor": 18.98,
+        "Preis_Praxislabor": 18.03
+      },
+      {
+        "L_Nr": "0053",
+        "Kurztext": "Modell nach Überabdruck",
+        "Preis_Gewerbelabor": 18.98,
+        "Preis_Praxislabor": 18.03
+      },
+      {
+        "L_Nr": "0054",
+        "Kurztext": "Set-up-Modell für KFO",
+        "Preis_Gewerbelabor": 12.74,
+        "Preis_Praxislabor": 12.1
+      },
+      {
+        "L_Nr": "0055",
+        "Kurztext": "Fräsmodell",
+        "Preis_Gewerbelabor": 12.93,
+        "Preis_Praxislabor": 12.28
+      },
+      {
+        "L_Nr": "0060",
+        "Kurztext": "Zahnkranz",
+        "Preis_Gewerbelabor": 6.55,
+        "Preis_Praxislabor": 6.22
+      },
+      {
+        "L_Nr": "0070",
+        "Kurztext": "Zahnkranz sockeln",
+        "Preis_Gewerbelabor": 6.92,
+        "Preis_Praxislabor": 6.57
+      },
+      {
+        "L_Nr": "0111",
+        "Kurztext": "Modellpaar trimmen",
+        "Preis_Gewerbelabor": 12.39,
+        "Preis_Praxislabor": 11.77
+      },
+      {
+        "L_Nr": "0112",
+        "Kurztext": "Fixator",
+        "Preis_Gewerbelabor": 10.5,
+        "Preis_Praxislabor": 9.98
+      },
+      {
+        "L_Nr": "0115",
+        "Kurztext": "Fixator UKPS",
+        "Preis_Gewerbelabor": 10.5,
+        "Preis_Praxislabor": 9.98
+      },
+      {
+        "L_Nr": "0120",
+        "Kurztext": "Mittelwertartikulator",
+        "Preis_Gewerbelabor": 11.85,
+        "Preis_Praxislabor": 11.26
+      },
+      {
+        "L_Nr": "0125",
+        "Kurztext": "Mittelwertartikulator UKPS",
+        "Preis_Gewerbelabor": 11.85,
+        "Preis_Praxislabor": 11.26
+      },
+      {
+        "L_Nr": "0128",
+        "Kurztext": "Mittelwertartikulator bei Implantatversorgung",
+        "Preis_Gewerbelabor": 11.85,
+        "Preis_Praxislabor": 11.26
+      },
+      {
+        "L_Nr": "0130",
+        "Kurztext": "Modellpaar sockeln",
+        "Preis_Gewerbelabor": 27.18,
+        "Preis_Praxislabor": 25.82
+      },
+      {
+        "L_Nr": "0201",
+        "Kurztext": "Basis für Vorbissnahme",
+        "Preis_Gewerbelabor": 10.95,
+        "Preis_Praxislabor": 10.4
+      },
+      {
+        "L_Nr": "0202",
+        "Kurztext": "Basis für Konstruktionsbiss",
+        "Preis_Gewerbelabor": 9.84,
+        "Preis_Praxislabor": 9.35
+      },
+      {
+        "L_Nr": "0205",
+        "Kurztext": "Vorbereiten Bissgabel UKPS",
+        "Preis_Gewerbelabor": 9.84,
+        "Preis_Praxislabor": 9.35
+      },
+      {
+        "L_Nr": "0211",
+        "Kurztext": "Individueller Löffel",
+        "Preis_Gewerbelabor": 27.56,
+        "Preis_Praxislabor": 26.18
+      },
+      {
+        "L_Nr": "0212",
+        "Kurztext": "Funktionslöffel",
+        "Preis_Gewerbelabor": 27.56,
+        "Preis_Praxislabor": 26.18
+      },
+      {
+        "L_Nr": "0213",
+        "Kurztext": "Basis für Bissregistrierung",
+        "Preis_Gewerbelabor": 27.56,
+        "Preis_Praxislabor": 26.18
+      },
+      {
+        "L_Nr": "0214",
+        "Kurztext": "Basis für Stützstiftregistrierung",
+        "Preis_Gewerbelabor": 27.56,
+        "Preis_Praxislabor": 26.18
+      },
+      {
+        "L_Nr": "0215",
+        "Kurztext": "Basis für Aufstellung",
+        "Preis_Gewerbelabor": 27.56,
+        "Preis_Praxislabor": 26.18
+      },
+      {
+        "L_Nr": "0216",
+        "Kurztext": "Basis für Bissregistrierung bei Implantatversorgung",
+        "Preis_Gewerbelabor": 27.56,
+        "Preis_Praxislabor": 26.18
+      },
+      {
+        "L_Nr": "0217",
+        "Kurztext": "Individueller Löffel UKPS",
+        "Preis_Gewerbelabor": 27.56,
+        "Preis_Praxislabor": 26.18
+      },
+      {
+        "L_Nr": "0218",
+        "Kurztext": "Basis für Aufstellung bei Implantatversorgung",
+        "Preis_Gewerbelabor": 27.56,
+        "Preis_Praxislabor": 26.18
+      },
+      {
+        "L_Nr": "0220",
+        "Kurztext": "Bisswall",
+        "Preis_Gewerbelabor": 7.95,
+        "Preis_Praxislabor": 7.55
+      },
+      {
+        "L_Nr": "0228",
+        "Kurztext": "Bisswall bei Implantatversorgung",
+        "Preis_Gewerbelabor": 7.95,
+        "Preis_Praxislabor": 7.55
+      },
+      {
+        "L_Nr": "0230",
+        "Kurztext": "Registrierplatte und -stift auf Basen",
+        "Preis_Gewerbelabor": 35.44,
+        "Preis_Praxislabor": 33.67
+      },
+      {
+        "L_Nr": "0240",
+        "Kurztext": "Übertragungskappe Kunststoff/Metall",
+        "Preis_Gewerbelabor": 30.35,
+        "Preis_Praxislabor": 28.83
+      },
+      {
+        "L_Nr": "0310",
+        "Kurztext": "Provisorische Krone/Brückenglied",
+        "Preis_Gewerbelabor": 40.58,
+        "Preis_Praxislabor": 38.55
+      },
+      {
+        "L_Nr": "0320",
+        "Kurztext": "Formteil",
+        "Preis_Gewerbelabor": 21.99,
+        "Preis_Praxislabor": 20.89
+      }
+    ]
+  },
+  {
+    "Komplex": 1,
+    "Komplex_Titel": "festsitzender Zahnersatz",
+    "Positionen": [
+      {
+        "L_Nr": "1013",
+        "Kurztext": "Wurzelstiftkappe",
+        "Preis_Gewerbelabor": 94.55,
+        "Preis_Praxislabor": 89.82
+      },
+      {
+        "L_Nr": "1021",
+        "Kurztext": "Vollkrone/Metall",
+        "Preis_Gewerbelabor": 101.63,
+        "Preis_Praxislabor": 96.55
+      },
+      {
+        "L_Nr": "1022",
+        "Kurztext": "Teilkrone/Metall",
+        "Preis_Gewerbelabor": 101.63,
+        "Preis_Praxislabor": 96.55
+      },
+      {
+        "L_Nr": "1023",
+        "Kurztext": "Flügel für Adhäsivbrücke, je Flügel",
+        "Preis_Gewerbelabor": 99.51,
+        "Preis_Praxislabor": 94.53
+      },
+      {
+        "L_Nr": "1024",
+        "Kurztext": "Krone für vestibuläre Verblendung",
+        "Preis_Gewerbelabor": 100.8,
+        "Preis_Praxislabor": 95.76
+      },
+      {
+        "L_Nr": "1026",
+        "Kurztext": "Vollkrone/Metall bei Implantatv.",
+        "Preis_Gewerbelabor": 101.63,
+        "Preis_Praxislabor": 96.55
+      },
+      {
+        "L_Nr": "1028",
+        "Kurztext": "Krone f. vestib. Verbl. bei Implantatversorgung",
+        "Preis_Gewerbelabor": 100.8,
+        "Preis_Praxislabor": 95.76
+      },
+      {
+        "L_Nr": "1031",
+        "Kurztext": "Vorbereiten Krone",
+        "Preis_Gewerbelabor": 16.98,
+        "Preis_Praxislabor": 16.13
+      },
+      {
+        "L_Nr": "1032",
+        "Kurztext": "Krone/Brückenglied einarbeiten",
+        "Preis_Gewerbelabor": 16.98,
+        "Preis_Praxislabor": 16.13
+      },
+      {
+        "L_Nr": "1033",
+        "Kurztext": "Stiftaufbau einarbeiten",
+        "Preis_Gewerbelabor": 16.98,
+        "Preis_Praxislabor": 16.13
+      },
+      {
+        "L_Nr": "1040",
+        "Kurztext": "Modellation gießen",
+        "Preis_Gewerbelabor": 22.11,
+        "Preis_Praxislabor": 21.0
+      },
+      {
+        "L_Nr": "1050",
+        "Kurztext": "Stiftaufbau",
+        "Preis_Gewerbelabor": 66.86,
+        "Preis_Praxislabor": 63.52
+      },
+      {
+        "L_Nr": "1100",
+        "Kurztext": "Brückenglied",
+        "Preis_Gewerbelabor": 72.74,
+        "Preis_Praxislabor": 69.1
+      },
+      {
+        "L_Nr": "1200",
+        "Kurztext": "Teleskopierende Krone",
+        "Preis_Gewerbelabor": 316.67,
+        "Preis_Praxislabor": 300.84
+      },
+      {
+        "L_Nr": "1201",
+        "Kurztext": "Teleskopierende Primär- oder Sekundärkrone",
+        "Preis_Gewerbelabor": 211.31,
+        "Preis_Praxislabor": 200.74
+      },
+      {
+        "L_Nr": "1331",
+        "Kurztext": "Individuelles Geschiebe",
+        "Preis_Gewerbelabor": 264.58,
+        "Preis_Praxislabor": 251.35
+      },
+      {
+        "L_Nr": "1341",
+        "Kurztext": "Konfektions-Geschiebe",
+        "Preis_Gewerbelabor": 131.1,
+        "Preis_Praxislabor": 124.55
+      },
+      {
+        "L_Nr": "1343",
+        "Kurztext": "Konfektions-Anker",
+        "Preis_Gewerbelabor": 131.1,
+        "Preis_Praxislabor": 124.55
+      },
+      {
+        "L_Nr": "1347",
+        "Kurztext": "Primär-/Sekundärteil Konf.-Anker",
+        "Preis_Gewerbelabor": 87.23,
+        "Preis_Praxislabor": 82.87
+      },
+      {
+        "L_Nr": "1349",
+        "Kurztext": "Wiederbefestigung Sekundärteil",
+        "Preis_Gewerbelabor": 87.23,
+        "Preis_Praxislabor": 82.87
+      },
+      {
+        "L_Nr": "1360",
+        "Kurztext": "Gefrästes Lager",
+        "Preis_Gewerbelabor": 63.0,
+        "Preis_Praxislabor": 59.85
+      },
+      {
+        "L_Nr": "1370",
+        "Kurztext": "Schubverteilungsarm",
+        "Preis_Gewerbelabor": 47.24,
+        "Preis_Praxislabor": 44.88
+      },
+      {
+        "L_Nr": "1500",
+        "Kurztext": "Metallverbindung nach Brand",
+        "Preis_Gewerbelabor": 35.24,
+        "Preis_Praxislabor": 33.48
+      },
+      {
+        "L_Nr": "1550",
+        "Kurztext": "Konditionierung je Zahn/Flügel",
+        "Preis_Gewerbelabor": 16.79,
+        "Preis_Praxislabor": 15.95
+      },
+      {
+        "L_Nr": "1600",
+        "Kurztext": "Vestibuläre Verblendung Kunststoff",
+        "Preis_Gewerbelabor": 57.54,
+        "Preis_Praxislabor": 54.66
+      },
+      {
+        "L_Nr": "1610",
+        "Kurztext": "Zahnfleisch Kunststoff",
+        "Preis_Gewerbelabor": 18.31,
+        "Preis_Praxislabor": 17.39
+      },
+      {
+        "L_Nr": "1620",
+        "Kurztext": "Vestibuläre Verblendung Keramik",
+        "Preis_Gewerbelabor": 118.2,
+        "Preis_Praxislabor": 112.29
+      },
+      {
+        "L_Nr": "1628",
+        "Kurztext": "Vestib. Verbl. Keramik bei Implantatversorgung",
+        "Preis_Gewerbelabor": 118.2,
+        "Preis_Praxislabor": 112.29
+      },
+      {
+        "L_Nr": "1630",
+        "Kurztext": "Zahnfleisch Keramik",
+        "Preis_Gewerbelabor": 42.24,
+        "Preis_Praxislabor": 40.13
+      },
+      {
+        "L_Nr": "1638",
+        "Kurztext": "Zahnfleisch Keramik bei Implantatversorgung",
+        "Preis_Gewerbelabor": 42.24,
+        "Preis_Praxislabor": 40.13
+      },
+      {
+        "L_Nr": "1640",
+        "Kurztext": "Vestibuläre Verblendung Komposite",
+        "Preis_Gewerbelabor": 89.97,
+        "Preis_Praxislabor": 85.47
+      },
+      {
+        "L_Nr": "1650",
+        "Kurztext": "Zahnfleisch Komposite",
+        "Preis_Gewerbelabor": 24.39,
+        "Preis_Praxislabor": 23.17
+      }
+    ]
+  },
+  {
+    "Komplex": 2,
+    "Komplex_Titel": "herausnehmbarer Zahnersatz (Modellguss)",
+    "Positionen": [
+      {
+        "L_Nr": "2010",
+        "Kurztext": "Metallbasis",
+        "Preis_Gewerbelabor": 171.83,
+        "Preis_Praxislabor": 163.24
+      },
+      {
+        "L_Nr": "2021",
+        "Kurztext": "Einarmige gegossene Haltevorrichtung",
+        "Preis_Gewerbelabor": 14.72,
+        "Preis_Praxislabor": 13.98
+      },
+      {
+        "L_Nr": "2025",
+        "Kurztext": "Kralle",
+        "Preis_Gewerbelabor": 14.72,
+        "Preis_Praxislabor": 13.98
+      },
+      {
+        "L_Nr": "2026",
+        "Kurztext": "Ney-Stiel",
+        "Preis_Gewerbelabor": 14.72,
+        "Preis_Praxislabor": 13.98
+      },
+      {
+        "L_Nr": "2027",
+        "Kurztext": "Auflage",
+        "Preis_Gewerbelabor": 14.72,
+        "Preis_Praxislabor": 13.98
+      },
+      {
+        "L_Nr": "2028",
+        "Kurztext": "Umgehungsbügel bei Diastema",
+        "Preis_Gewerbelabor": 14.72,
+        "Preis_Praxislabor": 13.98
+      },
+      {
+        "L_Nr": "2031",
+        "Kurztext": "Zweiarmige gegossene Haltevorrichtung",
+        "Preis_Gewerbelabor": 26.94,
+        "Preis_Praxislabor": 25.59
+      },
+      {
+        "L_Nr": "2041",
+        "Kurztext": "Zweiarmige gegossene Halte- und Stützvorr. m. Auflage",
+        "Preis_Gewerbelabor": 36.39,
+        "Preis_Praxislabor": 34.57
+      },
+      {
+        "L_Nr": "2050",
+        "Kurztext": "Bonwillklammer",
+        "Preis_Gewerbelabor": 66.4,
+        "Preis_Praxislabor": 63.08
+      },
+      {
+        "L_Nr": "2081",
+        "Kurztext": "Rückenschutzplatte",
+        "Preis_Gewerbelabor": 48.07,
+        "Preis_Praxislabor": 45.67
+      },
+      {
+        "L_Nr": "2082",
+        "Kurztext": "Metallzahn, gegossen",
+        "Preis_Gewerbelabor": 48.07,
+        "Preis_Praxislabor": 45.67
+      },
+      {
+        "L_Nr": "2083",
+        "Kurztext": "Metallkaufläche, gegossen",
+        "Preis_Gewerbelabor": 48.07,
+        "Preis_Praxislabor": 45.67
+      },
+      {
+        "L_Nr": "2100",
+        "Kurztext": "Lösungshilfe",
+        "Preis_Gewerbelabor": 13.9,
+        "Preis_Praxislabor": 13.21
+      },
+      {
+        "L_Nr": "2110",
+        "Kurztext": "Unterfütterbarer Abschlussrand",
+        "Preis_Gewerbelabor": 22.19,
+        "Preis_Praxislabor": 21.08
+      },
+      {
+        "L_Nr": "2120",
+        "Kurztext": "Zuschlag einzelne gegossene Klammer",
+        "Preis_Gewerbelabor": 23.07,
+        "Preis_Praxislabor": 21.92
+      }
+    ]
+  },
+  {
+    "Komplex": 3,
+    "Komplex_Titel": "herausnehmbarer Zahnersatz (Kunststoff)",
+    "Positionen": [
+      {
+        "L_Nr": "3010",
+        "Kurztext": "Aufstellung, Grundeinheit",
+        "Preis_Gewerbelabor": 36.2,
+        "Preis_Praxislabor": 34.39
+      },
+      {
+        "L_Nr": "3018",
+        "Kurztext": "Aufstellung, Grundeinheit bei Implantatversorgung",
+        "Preis_Gewerbelabor": 36.2,
+        "Preis_Praxislabor": 34.39
+      },
+      {
+        "L_Nr": "3020",
+        "Kurztext": "Aufstellen Wachs oder Kunststoff je Zahn",
+        "Preis_Gewerbelabor": 2.16,
+        "Preis_Praxislabor": 2.05
+      },
+      {
+        "L_Nr": "3028",
+        "Kurztext": "Aufst. Wachs oder Kunststoff je Zahn bei Implantatv.",
+        "Preis_Gewerbelabor": 2.16,
+        "Preis_Praxislabor": 2.05
+      },
+      {
+        "L_Nr": "3030",
+        "Kurztext": "Aufstellen Metall je Zahn",
+        "Preis_Gewerbelabor": 2.85,
+        "Preis_Praxislabor": 2.71
+      },
+      {
+        "L_Nr": "3410",
+        "Kurztext": "Übertragung je Zahn",
+        "Preis_Gewerbelabor": 1.79,
+        "Preis_Praxislabor": 1.7
+      },
+      {
+        "L_Nr": "3610",
+        "Kurztext": "Fertigstellung Grundeinheit",
+        "Preis_Gewerbelabor": 60.76,
+        "Preis_Praxislabor": 57.72
+      },
+      {
+        "L_Nr": "3618",
+        "Kurztext": "Fertigstellung Grundeinheit bei Implantatversorgung",
+        "Preis_Gewerbelabor": 60.76,
+        "Preis_Praxislabor": 57.72
+      },
+      {
+        "L_Nr": "3620",
+        "Kurztext": "Fertigstellen je Zahn",
+        "Preis_Gewerbelabor": 3.91,
+        "Preis_Praxislabor": 3.71
+      },
+      {
+        "L_Nr": "3628",
+        "Kurztext": "Fertigstellen je Zahn bei Implantatversorgung",
+        "Preis_Gewerbelabor": 3.91,
+        "Preis_Praxislabor": 3.71
+      },
+      {
+        "L_Nr": "3800",
+        "Kurztext": "Einfache gebogene Halte-/Stützvorrichtung",
+        "Preis_Gewerbelabor": 11.99,
+        "Preis_Praxislabor": 11.39
+      },
+      {
+        "L_Nr": "3805",
+        "Kurztext": "Gebogene Auflage",
+        "Preis_Gewerbelabor": 11.99,
+        "Preis_Praxislabor": 11.39
+      },
+      {
+        "L_Nr": "3810",
+        "Kurztext": "Sonstige gebogene Halte- und/oder Stützvorrichtung",
+        "Preis_Gewerbelabor": 20.25,
+        "Preis_Praxislabor": 19.24
+      },
+      {
+        "L_Nr": "3821",
+        "Kurztext": "Weichkunststoff",
+        "Preis_Gewerbelabor": 65.63,
+        "Preis_Praxislabor": 62.35
+      },
+      {
+        "L_Nr": "3822",
+        "Kurztext": "Sonderkunststoff",
+        "Preis_Gewerbelabor": 65.63,
+        "Preis_Praxislabor": 62.35
+      },
+      {
+        "L_Nr": "3830",
+        "Kurztext": "Zahn zahnfarben hergestellt",
+        "Preis_Gewerbelabor": 27.52,
+        "Preis_Praxislabor": 26.14
+      },
+      {
+        "L_Nr": "3840",
+        "Kurztext": "Zahn zahnfarben hinterlegen",
+        "Preis_Gewerbelabor": 14.44,
+        "Preis_Praxislabor": 13.72
+      }
+    ]
+  },
+  {
+    "Komplex": 4,
+    "Komplex_Titel": "Schienen",
+    "Positionen": [
+      {
+        "L_Nr": "4010",
+        "Kurztext": "Aufbissbehelf mit adjustierter Oberfläche",
+        "Preis_Gewerbelabor": 102.58,
+        "Preis_Praxislabor": 97.45
+      },
+      {
+        "L_Nr": "4020",
+        "Kurztext": "Aufbissbehelf ohne adjustierte Oberfläche",
+        "Preis_Gewerbelabor": 74.35,
+        "Preis_Praxislabor": 70.63
+      },
+      {
+        "L_Nr": "4030",
+        "Kurztext": "Umarbeiten zum Aufbissbehelf",
+        "Preis_Gewerbelabor": 56.88,
+        "Preis_Praxislabor": 54.04
+      },
+      {
+        "L_Nr": "4040",
+        "Kurztext": "Semipermanente Schiene aus Metall, je Zahn",
+        "Preis_Gewerbelabor": 56.76,
+        "Preis_Praxislabor": 53.92
+      }
+    ]
+  },
+  {
+    "Komplex": 5,
+    "Komplex_Titel": "Unterkiefer-Protrusionsschienen",
+    "Positionen": [
+      {
+        "L_Nr": "5010",
+        "Kurztext": "Basen für UKPS",
+        "Preis_Gewerbelabor": 309.92,
+        "Preis_Praxislabor": 294.42
+      },
+      {
+        "L_Nr": "5020",
+        "Kurztext": "Vestibuläre Protrusionsgleitfläche UKPS",
+        "Preis_Gewerbelabor": 23.15,
+        "Preis_Praxislabor": 21.99
+      },
+      {
+        "L_Nr": "5100",
+        "Kurztext": "Befestigungselement Protrusionselement UKPS",
+        "Preis_Gewerbelabor": 17.9,
+        "Preis_Praxislabor": 17.01
+      },
+      {
+        "L_Nr": "5110",
+        "Kurztext": "Protrusionselement UKPS",
+        "Preis_Gewerbelabor": 17.9,
+        "Preis_Praxislabor": 17.01
+      },
+      {
+        "L_Nr": "5200",
+        "Kurztext": "Befestigungselement Mundöffnungsbegrenzung UKPS",
+        "Preis_Gewerbelabor": 12.01,
+        "Preis_Praxislabor": 11.41
+      },
+      {
+        "L_Nr": "5210",
+        "Kurztext": "Einfaches gebogenes Halteelement UKPS",
+        "Preis_Gewerbelabor": 12.01,
+        "Preis_Praxislabor": 11.41
+      }
+    ]
+  },
+  {
+    "Komplex": 7,
+    "Komplex_Titel": "KFO-Leistungen",
+    "Positionen": [
+      {
+        "L_Nr": "7010",
+        "Kurztext": "Basis für Einzelkiefergerät",
+        "Preis_Gewerbelabor": 62.98,
+        "Preis_Praxislabor": 59.83
+      },
+      {
+        "L_Nr": "7020",
+        "Kurztext": "Basis bimaxilläres Gerät",
+        "Preis_Gewerbelabor": 121.18,
+        "Preis_Praxislabor": 115.12
+      },
+      {
+        "L_Nr": "7030",
+        "Kurztext": "Schiefe Ebene",
+        "Preis_Gewerbelabor": 62.21,
+        "Preis_Praxislabor": 59.1
+      },
+      {
+        "L_Nr": "7040",
+        "Kurztext": "Vorhofplatte",
+        "Preis_Gewerbelabor": 81.52,
+        "Preis_Praxislabor": 77.44
+      },
+      {
+        "L_Nr": "7050",
+        "Kurztext": "Kinnkappe",
+        "Preis_Gewerbelabor": 61.1,
+        "Preis_Praxislabor": 58.05
+      },
+      {
+        "L_Nr": "7100",
+        "Kurztext": "Aufbiss",
+        "Preis_Gewerbelabor": 12.63,
+        "Preis_Praxislabor": 12.0
+      },
+      {
+        "L_Nr": "7110",
+        "Kurztext": "Abschirmelement",
+        "Preis_Gewerbelabor": 23.15,
+        "Preis_Praxislabor": 21.99
+      },
+      {
+        "L_Nr": "7121",
+        "Kurztext": "Weichkunststoff (KFO)",
+        "Preis_Gewerbelabor": 26.31,
+        "Preis_Praxislabor": 24.99
+      },
+      {
+        "L_Nr": "7122",
+        "Kurztext": "Sonderkunststoff (KFO)",
+        "Preis_Gewerbelabor": 26.31,
+        "Preis_Praxislabor": 24.99
+      },
+      {
+        "L_Nr": "7200",
+        "Kurztext": "Schraube einarbeiten",
+        "Preis_Gewerbelabor": 17.9,
+        "Preis_Praxislabor": 17.01
+      },
+      {
+        "L_Nr": "7210",
+        "Kurztext": "Spezialschraube einarbeiten",
+        "Preis_Gewerbelabor": 21.55,
+        "Preis_Praxislabor": 20.47
+      },
+      {
+        "L_Nr": "7220",
+        "Kurztext": "Trennen einer Basis",
+        "Preis_Gewerbelabor": 9.22,
+        "Preis_Praxislabor": 8.76
+      },
+      {
+        "L_Nr": "7300",
+        "Kurztext": "Labialbogen",
+        "Preis_Gewerbelabor": 24.23,
+        "Preis_Praxislabor": 23.02
+      },
+      {
+        "L_Nr": "7310",
+        "Kurztext": "Labialbogen modifiziert",
+        "Preis_Gewerbelabor": 32.23,
+        "Preis_Praxislabor": 30.62
+      },
+      {
+        "L_Nr": "7320",
+        "Kurztext": "Labialbogen intermaxillär",
+        "Preis_Gewerbelabor": 41.54,
+        "Preis_Praxislabor": 39.46
+      },
+      {
+        "L_Nr": "7330",
+        "Kurztext": "Feder, offen",
+        "Preis_Gewerbelabor": 10.88,
+        "Preis_Praxislabor": 10.34
+      },
+      {
+        "L_Nr": "7340",
+        "Kurztext": "Feder, geschlossen",
+        "Preis_Gewerbelabor": 12.96,
+        "Preis_Praxislabor": 12.31
+      },
+      {
+        "L_Nr": "7400",
+        "Kurztext": "Verbindungselement/intramaxillär",
+        "Preis_Gewerbelabor": 24.48,
+        "Preis_Praxislabor": 23.26
+      },
+      {
+        "L_Nr": "7410",
+        "Kurztext": "Verbindungselemente/intermaxillär",
+        "Preis_Gewerbelabor": 34.03,
+        "Preis_Praxislabor": 32.33
+      },
+      {
+        "L_Nr": "7420",
+        "Kurztext": "Verankerungselement",
+        "Preis_Gewerbelabor": 27.74,
+        "Preis_Praxislabor": 26.35
+      },
+      {
+        "L_Nr": "7430",
+        "Kurztext": "Einzelelement einarbeiten",
+        "Preis_Gewerbelabor": 15.47,
+        "Preis_Praxislabor": 14.7
+      },
+      {
+        "L_Nr": "7440",
+        "Kurztext": "Metallverbindung (KFO)",
+        "Preis_Gewerbelabor": 20.37,
+        "Preis_Praxislabor": 19.35
+      },
+      {
+        "L_Nr": "7500",
+        "Kurztext": "Einarmiges H-/A-Element",
+        "Preis_Gewerbelabor": 12.38,
+        "Preis_Praxislabor": 11.76
+      },
+      {
+        "L_Nr": "7510",
+        "Kurztext": "Mehrarmiges H-/A-Element",
+        "Preis_Gewerbelabor": 15.22,
+        "Preis_Praxislabor": 14.46
+      }
+    ]
+  },
+  {
+    "Komplex": 8,
+    "Komplex_Titel": "Instandhaltung/Erweiterungen",
+    "Positionen": [
+      {
+        "L_Nr": "8010",
+        "Kurztext": "Grundeinheit ZE",
+        "Preis_Gewerbelabor": 23.4,
+        "Preis_Praxislabor": 22.23
+      },
+      {
+        "L_Nr": "8018",
+        "Kurztext": "Grundeinheit Instandsetzung ZE/implantatgest.",
+        "Preis_Gewerbelabor": 23.4,
+        "Preis_Praxislabor": 22.23
+      },
+      {
+        "L_Nr": "8021",
+        "Kurztext": "LE Sprung",
+        "Preis_Gewerbelabor": 10.09,
+        "Preis_Praxislabor": 9.59
+      },
+      {
+        "L_Nr": "8022",
+        "Kurztext": "LE Bruch",
+        "Preis_Gewerbelabor": 10.09,
+        "Preis_Praxislabor": 9.59
+      },
+      {
+        "L_Nr": "8023",
+        "Kurztext": "LE Einarbeiten Zahn",
+        "Preis_Gewerbelabor": 10.09,
+        "Preis_Praxislabor": 9.59
+      },
+      {
+        "L_Nr": "8024",
+        "Kurztext": "LE Basisteil Kunststoff",
+        "Preis_Gewerbelabor": 10.09,
+        "Preis_Praxislabor": 9.59
+      },
+      {
+        "L_Nr": "8025",
+        "Kurztext": "LE Halte- und/oder Stützvorrichtung einarbeiten",
+        "Preis_Gewerbelabor": 10.09,
+        "Preis_Praxislabor": 9.59
+      },
+      {
+        "L_Nr": "8026",
+        "Kurztext": "LE Rückenschutzplatte einarbeiten",
+        "Preis_Gewerbelabor": 10.09,
+        "Preis_Praxislabor": 9.59
+      },
+      {
+        "L_Nr": "8027",
+        "Kurztext": "LE Kunststoffsattel",
+        "Preis_Gewerbelabor": 10.09,
+        "Preis_Praxislabor": 9.59
+      },
+      {
+        "L_Nr": "8030",
+        "Kurztext": "Retention, gebogen",
+        "Preis_Gewerbelabor": 43.9,
+        "Preis_Praxislabor": 41.71
+      },
+      {
+        "L_Nr": "8040",
+        "Kurztext": "Retention, gegossen",
+        "Preis_Gewerbelabor": 55.45,
+        "Preis_Praxislabor": 52.68
+      },
+      {
+        "L_Nr": "8060",
+        "Kurztext": "Gegossenes Basisteil",
+        "Preis_Gewerbelabor": 84.0,
+        "Preis_Praxislabor": 79.8
+      },
+      {
+        "L_Nr": "8070",
+        "Kurztext": "Metallverbindung bei Instandsetzung/Erweiterung",
+        "Preis_Gewerbelabor": 21.99,
+        "Preis_Praxislabor": 20.89
+      },
+      {
+        "L_Nr": "8080",
+        "Kurztext": "Teilunterfütterung einer Basis",
+        "Preis_Gewerbelabor": 43.06,
+        "Preis_Praxislabor": 40.91
+      },
+      {
+        "L_Nr": "8085",
+        "Kurztext": "Teilunterfütterung einer Basis UKPS",
+        "Preis_Gewerbelabor": 43.06,
+        "Preis_Praxislabor": 40.91
+      },
+      {
+        "L_Nr": "8088",
+        "Kurztext": "Teilunterfütterung/implantatgest.",
+        "Preis_Gewerbelabor": 43.06,
+        "Preis_Praxislabor": 40.91
+      },
+      {
+        "L_Nr": "8090",
+        "Kurztext": "Vollständige Unterfütterung",
+        "Preis_Gewerbelabor": 68.87,
+        "Preis_Praxislabor": 65.43
+      },
+      {
+        "L_Nr": "8098",
+        "Kurztext": "Vollständige Unterfütterung/implantatgestützte Basis",
+        "Preis_Gewerbelabor": 68.87,
+        "Preis_Praxislabor": 65.43
+      },
+      {
+        "L_Nr": "8100",
+        "Kurztext": "Prothesenbasis erneuern",
+        "Preis_Gewerbelabor": 84.27,
+        "Preis_Praxislabor": 80.06
+      },
+      {
+        "L_Nr": "8108",
+        "Kurztext": "Prothesenbasis erneuern/Implantatversorgung",
+        "Preis_Gewerbelabor": 84.27,
+        "Preis_Praxislabor": 80.06
+      },
+      {
+        "L_Nr": "8130",
+        "Kurztext": "Auswechseln Konfektionsteil",
+        "Preis_Gewerbelabor": 14.77,
+        "Preis_Praxislabor": 14.03
+      },
+      {
+        "L_Nr": "8200",
+        "Kurztext": "Instandsetzung Krone/Flügel/Brückenglied",
+        "Preis_Gewerbelabor": 43.32,
+        "Preis_Praxislabor": 41.15
+      },
+      {
+        "L_Nr": "8208",
+        "Kurztext": "Instandsetzung Krone/implantatgest.",
+        "Preis_Gewerbelabor": 43.32,
+        "Preis_Praxislabor": 41.15
+      },
+      {
+        "L_Nr": "8500",
+        "Kurztext": "Grundeinheit Instandsetzung/Erweiterung UKPS",
+        "Preis_Gewerbelabor": 60.88,
+        "Preis_Praxislabor": 57.84
+      },
+      {
+        "L_Nr": "8511",
+        "Kurztext": "LE Erneuerung Basis UKPS",
+        "Preis_Gewerbelabor": 154.97,
+        "Preis_Praxislabor": 147.22
+      },
+      {
+        "L_Nr": "8512",
+        "Kurztext": "LE Sprung/Bruch UKPS",
+        "Preis_Gewerbelabor": 10.1,
+        "Preis_Praxislabor": 9.6
+      },
+      {
+        "L_Nr": "8513",
+        "Kurztext": "LE Basisteil Kunststoff UKPS",
+        "Preis_Gewerbelabor": 10.1,
+        "Preis_Praxislabor": 9.6
+      },
+      {
+        "L_Nr": "8514",
+        "Kurztext": "LE Halte- und/oder Stützvorrichtung einarbeiten UKPS",
+        "Preis_Gewerbelabor": 10.1,
+        "Preis_Praxislabor": 9.6
+      },
+      {
+        "L_Nr": "8610",
+        "Kurztext": "Grundeinheit/Instandsetzung KFO oder Aufbissbehelf",
+        "Preis_Gewerbelabor": 22.54,
+        "Preis_Praxislabor": 21.41
+      },
+      {
+        "L_Nr": "8620",
+        "Kurztext": "LE Einfügen Regulierungs- oder Halteelement",
+        "Preis_Gewerbelabor": 7.96,
+        "Preis_Praxislabor": 7.56
+      },
+      {
+        "L_Nr": "8630",
+        "Kurztext": "LE Erneuerung eines Elementes/intermaxillär",
+        "Preis_Gewerbelabor": 17.01,
+        "Preis_Praxislabor": 16.16
+      },
+      {
+        "L_Nr": "8640",
+        "Kurztext": "KFO-Basis erneuern",
+        "Preis_Gewerbelabor": 79.39,
+        "Preis_Praxislabor": 75.42
+      },
+      {
+        "L_Nr": "8700",
+        "Kurztext": "Remontieren KFO-Gerät",
+        "Preis_Gewerbelabor": 41.03,
+        "Preis_Praxislabor": 38.98
+      }
+    ]
+  },
+  {
+    "Komplex": 9,
+    "Komplex_Titel": "Sonstiges",
+    "Positionen": [
+      {
+        "L_Nr": "9330",
+        "Kurztext": "Versandkosten",
+        "Preis_Gewerbelabor": 6.85,
+        "Preis_Praxislabor": 6.85
+      },
+      {
+        "L_Nr": "9335",
+        "Kurztext": "Versandkosten UKPS",
+        "Preis_Gewerbelabor": 6.85,
+        "Preis_Praxislabor": 6.85
+      },
+      {
+        "L_Nr": "9338",
+        "Kurztext": "Versandkosten bei Implantatversorgung",
+        "Preis_Gewerbelabor": 6.85,
+        "Preis_Praxislabor": 6.85
+      },
+      {
+        "L_Nr": "9700",
+        "Kurztext": "Verarbeitungsaufwand NEM-Legierung",
+        "Preis_Gewerbelabor": 16.43,
+        "Preis_Praxislabor": 16.43
+      }
+    ]
+  }
+]
