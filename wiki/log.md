@@ -192,3 +192,69 @@ Normtext ist (Kalkulationsfreiheit des Labors).
   HG0/40 min vs. HG2/45 min) — für einen Agenten nicht unterscheidbar.
 - BEB-Volltext ist ein VDZI-Lizenzprodukt und nicht frei zugänglich; Aussagen zur BEB-Binnenlogik
   stützen sich auf den Repo-Katalog und Fachliteratur, nicht auf einen amtlichen Text.
+
+## [2026-08-04] lint | Vollprüfung des Wikis (32 Seiten, 2 979 Zeilen)
+
+Geprüft: Widersprüche zwischen Seiten, Aussagen ohne Quellverweis, verwaiste Seiten, Aussagen
+auf überholten Quellen. Zusätzlich alle quantitativen Behauptungen gegen die Repo-Artefakte
+(`kataloge/bel.json`, `kataloge/beb97_zahniAI.json`, `raw/review-2026-08/findings_register.json`,
+`vorlagen/`) nachgerechnet. **25 Findings, nichts gefixt.**
+
+**Sauber verifiziert (keine Abweichung):** die 33 BEL↔BEB-Kollisionen 1:1 gegen beide Kataloge ·
+135 Überschneidungen von 175 L-Nrn. · 1103 BEB-Positionen · 32 doppelte BEB-Kurztexte ·
+642 Befunde / 252 hoch · 228 Vorlagen · 2027/2028 nur im BEL, 0105 nur im BEB ·
+401 0 = mit / 402 0 = ohne adjustierte Oberfläche · Preise 005 1/2/3 18,98/18,03 ·
+keine verwaisten Seiten, keine toten `[[…]]`-Links.
+
+**Hoch**
+1. `beb97-grundlagen:69` + `haeufige-abrechnungsfehler:36` zitieren **§ 3 Abs. 3 BEL II** für
+   „Leistungsbestandteile sind abgegolten". § 3 Ziff. 3 regelt die Rechnungs-Pflichtangaben
+   (`bel-ii-rechnungsstellung:6`, bestätigt in `raw/…/beb_stand.md:47`). Tragende Grundlage ist
+   § 2 Ziff. 4 + die Positionstexte.
+2. `bel-ii-ukps:12` „nur die 5er-Varianten und die 5xx-Positionen" — widerlegt durch die eigenen
+   Tabellen (021 7, 850 0, 851 1–851 4) und `bel-gruppe-reparatur-erweiterung:16`.
+3. **Festzuschusskatalog** ist tragende Quelle in vier Seiten, existiert aber nicht im Repo und
+   fehlt in der Artefaktliste des index. Register verweist auf `reference/festzuschuss_befunde.json`
+   — ebenfalls nicht vorhanden.
+4. `haeufige-abrechnungsfehler:109` Versandgang-/Leerfahrten-Regel ohne Fundstelle; laut
+   `raw/…/bel2_stand.md:82` nur portal-/fachliteraturbelegt (gRS 11.07.2016, Volltext nicht
+   zugänglich) — steht im Widerspruch zur eigenen Regel in `quelle-review-vorlagen-2026-08:50`.
+5. Vollständigkeit der **Änderungsvereinbarungen nach 01.01.2023** seit `log:97` (03.08.2026)
+   ungeprüft; der Ingest vom 04.08. hat das nicht geschlossen. Stärkste Quellengattung.
+
+**Mittel**
+6. BEB-Hauptgruppen **HG8 (64 Pos.) und HG9 (3 Pos.)** fehlen in `quelle-beb97:38` und
+   `beb97-grundlagen:27`, obwohl beide Seiten die Regel „falsche Hauptgruppe = Abrechnungsfehler"
+   tragen. `quelle-beb97:35` sagt selbst „HG0–HG9".
+7. **38 von 171 Kurztexten** in den BEL-Gruppenseiten weichen von `kataloge/bel.json` ab, obwohl
+   `bel-ii-rechnungsstellung:15` die wörtliche Übernahme vorschreibt (u. a. 164 0/165 0
+   „Komposit" vs. „Komposite", 384 0 „hinterlegt" vs. „hinterlegen").
+8. Verteilungstabelle `haeufige-abrechnungsfehler:9` summiert auf 631/250 statt 642/252 —
+   Zeile „sonstiges" (11 Befunde, 2 hoch) fehlt.
+9. Zwei Zählweisen (Befunde aus dem Register vs. Vorlagen aus dem BEFUNDBERICHT) unmarkiert
+   nebeneinander: 81 vs. 189, 27 vs. 137, 54 vs. 114. Dazu drei „häufigster …"-Superlative.
+10. Belegtypen [Q]/[P]/[E] laut `quelle-review-vorlagen-2026-08:17` „durchgängig beibehalten" —
+    tatsächlich in 9 der 11 abgeleiteten Seiten praktisch nicht verwendet.
+11. Gemeinsame Rundschreiben weiterhin ohne Quellenseite, ihre Inhalte fließen aber bereits an
+    drei Stellen ein (Adhäsivbrücke, Versandgang, Gesichtsbogen).
+12. `bel.json` führt Praxislabor-Preise für 933 0/5/8, obwohl das Wiki den Ansatz im Praxislabor
+    ausschließt.
+13. KZBV-FZ-Kompendium Stand 01.01.2025 trägt die 50-%-Regel und die Härtefallwege, während die
+    FZ-RL auf Stand 01.01.2026 ist — Versatz nicht vermerkt.
+14. Regionale €-Werte (KZV Hamburg/Bayern/Berlin) als „offiziell" bezeichnet, ohne Dokument/Datum.
+15. BEB-97-Marktaussage stützt sich auf eine Spitta-Quelle von 2016; Marktanteile selbst UNBELEGT.
+16. `___ 8`-Systematik (`bel-ii-grundlagen:72`) erfasst 021 6 und 102 6 nicht.
+17. `raw/_inbox/BMP_2026_Leistungen_Regelversorgung.pdf` seit drei Ingests offen — hätte die
+    Zuordnung Befund → BEL-Positionen.
+
+**Niedrig**
+18. `quelle-festzuschuss-richtlinie:58` „Klasse 1–7" vs. Seitentitel/index „1–8".
+19. `quelle-review-vorlagen-2026-08:12`: 536 + 110 = 646 > 642 — orthogonale Dimensionen
+    (Schnittmenge 86) als Aufteilung dargestellt.
+20. `bel-gruppe-herausnehmbarer-zahnersatz:12`: „(Implantat: 302 8)" steht hinter 303 0 statt 302 0.
+21. `beb97-grundlagen:45` nennt BEB 2603 „PMMA-spezifisch"; Katalogtext lautet „Verblendschale aus
+    Kunststoff", kein Beleg auf der Seite.
+22. `bel-ii-rechnungsstellung:47` „das ist der übliche Weg" — Praxisaussage ohne Marker.
+23. `festzuschuss-befundklassen-referenz:52` „6.8.1 eingeführt zum 01.01.2019" ohne Fundstelle.
+24. `log.md` ist im index nicht gelistet, obwohl der index „Katalog aller Wiki-Seiten" sein soll.
+25. `log:48` nennt die Inbox-Datei ohne `_inbox/`-Pfad, spätere Einträge mit.
