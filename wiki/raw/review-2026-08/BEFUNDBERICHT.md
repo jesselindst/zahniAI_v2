@@ -38,10 +38,15 @@ Die vier häufigsten Fehlerklassen mit hoher Schwere:
    Kritisch bei identischem Text und abweichender Kalkulation: **0917 vs. 2848** „Konstruktion
    CAD-Krone zur Verblendung" (HG0/40 min vs. HG2/45 min) — für den Agenten nicht unterscheidbar.
    Weitere: 0909/2840, 3805/4122/4421/7122, 1360/3215.
-7. **BEB-Positionen mit BEL-identischen Nummern** [Q]: Der BEB-Katalog führt Hauspositionen unter
-   0010, 0018, 0021, 0023, 0051, 0052, 0216, 1100, 1500, 9700 — mit völlig anderem Leistungsinhalt
-   als die gleichnamigen BEL-Positionen. Maschinell nicht abfangbar (beide existieren legitim);
-   in den betroffenen Drafts ist die Verwechslungsgefahr dokumentiert.
+7. **BEB-Positionen mit BEL-identischen Nummern** [Q, eigene Auswertung]: **135 der 175
+   BEL-Nummern kommen auch im BEB 97 vor**; bei **33 davon bedeutet die Nummer etwas völlig
+   anderes** — 0213 ist im BEL „Basis für Bissregistrierung", im BEB „Ausblocken eines Stumpfes";
+   0023 im BEL „Verwendung von Kunststoff", im BEB „Modell für Einzelstümpfe". **1360 und 1370
+   sind vertauscht**: beide Leistungen (Gefrästes Lager / Schubverteilungsarm) existieren in
+   beiden Katalogen unter der jeweils anderen Nummer. Eine reine Existenzprüfung fängt davon
+   nichts ab — die Nummer ist ja gültig. Prüfen muss man Nummer **und** Katalogzugehörigkeit
+   **und** Leistungstext; `validate_drafts.py` tut das seit 04.08. Vollständige Liste:
+   `wiki/beb-bel-nummernkollisionen.md` im Repo zahniAI_v2.
 
 ## 2. Mechanische Befunde (deterministischer Cross-Check, 9 608 Positionszeilen)
 
@@ -246,8 +251,14 @@ sind; 38 Vorlagen hatten echten Handlungsbedarf. Nachgetragen bzw. begründet ab
 | CoCr-Gerüst/Dubliermasse bei Locator | 2 | die aktive Fassung rechnet eine Metallbasis-Variante, meine Vorlage die Kunststoffvariante — als VERIFIZIEREN benannt |
 
 **Neuer Befund dabei**: `Herausnehmbar/ImplantatProthese/andersartig/Teleskop_4-Implantate` führt in
-der aktiven Fassung eine Position **2027 „Auflage"** — diese Nummer existiert im BEB97-Katalog
-nicht (2026 = Ney-Stiel; 2027 und 2028 fehlen). Nicht übernommen, im Draft ausdrücklich gewarnt.
+der aktiven Fassung eine Position **2027 „Auflage" in der BEB97-Tabelle**. Im BEB97 existiert 2027
+nicht (2026 = Ney-Stiel; 2027/2028 fehlen) — es ist eine **BEL-Nummer im BEB-Block**: BEL 2027
+„Auflage" (Modellguss) gibt es sehr wohl. Die BEB-Entsprechung ist **3805 „Auflage" (HG3)**, nicht
+7122 (KFO-Auflage, HG7). Im Draft entsprechend vermerkt.
+
+Das ist zugleich ein Beispiel für eine größere, erst danach vermessene Fehlerklasse: **135 der 175
+BEL-Nummern kommen auch im BEB 97 vor, bei 33 davon mit völlig anderer Bedeutung**; 1360/1370 sind
+vertauscht. Eine reine Existenzprüfung fängt davon nichts ab — die Nummer ist ja gültig.
 
 **Drei Fehler in meinem eigenen Werkzeug**, bei diesem Durchgang gefunden und behoben:
 
