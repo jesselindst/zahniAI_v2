@@ -14,9 +14,20 @@ Das BEL II bestimmt den Inhalt der abrechnungsfähigen zahntechnischen Leistunge
 4. Behandlung mit **Unterkieferprotrusionsschienen** (seit 01.01.2022).
 
 **Abgrenzung für den KV-Agenten:** BEL II ist der Katalog für **GKV-Regelversorgung**.
-Gleichartige und andersartige Versorgungen werden für den über die Regelversorgung
-hinausgehenden Anteil nach **BEB** abgerechnet; PKV komplett nach BEB. Der Regelversorgungs-
-Anteil bleibt auch bei gleichartiger Versorgung BEL. → siehe Abrechnungsvorlagen.
+
+| Versorgungsform | zahntechnischer Katalog |
+|---|---|
+| Regelversorgung | vollständig **BEL II** |
+| **gleichartig** | BEL II für den Regelversorgungsanteil **+** GOZ § 9 / BEB für die Mehrleistung |
+| **andersartig** | **vollständig** GOZ § 9 / BEB — kein BEL-Anteil |
+| PKV | vollständig GOZ § 9 / BEB |
+
+⚠️ **Korrektur gegenüber der Erstfassung dieser Seite** (Ingest 04.08.2026): Hier stand
+zunächst, gleichartige *und* andersartige Versorgungen würden „für den über die Regelversorgung
+hinausgehenden Anteil" nach BEB abgerechnet. Für **andersartig** trifft das nicht zu — dort
+läuft die **gesamte** Leistung über GOZ/BEB, und die Kasse erstattet den Festzuschuss unmittelbar
+an den Versicherten (§ 55 Abs. 5 SGB V, ZE-RL Nr. 5 Abs. 2). Die Aufteilung gibt es nur bei
+**gleichartig**. → [[festzuschuss-versorgungsformen]]
 
 ## Kompatibilität und Menge (§ 1 Ziff. 2)
 > Die zahntechnischen Einzelleistungen der einzelnen Gruppen des BEL II sind **miteinander

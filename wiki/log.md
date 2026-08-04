@@ -162,6 +162,11 @@ Normtext ist (Kalkulationsfreiheit des Labors).
   Vorlagenbestand geändert, nur als Befund notiert.
 - Die verbreitete Merkregel „Adhäsivbrücke nur 14.–21. Lebensjahr" gilt seit dem
   G-BA-Beschluss vom 18.02.2016 **nur noch** für zwei nebeneinander fehlende Schneidezähne.
+- **Sachfehler in `bel-ii-grundlagen` korrigiert**: Die Seite sagte, gleichartige *und*
+  andersartige Versorgungen würden „für den über die Regelversorgung hinausgehenden Anteil"
+  nach BEB abgerechnet. Bei **andersartig** läuft die gesamte Leistung über GOZ/BEB, und die
+  Kasse erstattet den Festzuschuss an den Versicherten (§ 55 Abs. 5 SGB V). Die alte Aussage
+  ist auf der Seite als Korrekturhinweis stehengeblieben, nicht still ersetzt.
 
 **Nicht ins Wiki übernommen (bewusst):**
 - **Die 642 Einzelbefunde.** Sie sind vorlagenspezifisch, nicht verallgemeinerbares Regelwissen.
