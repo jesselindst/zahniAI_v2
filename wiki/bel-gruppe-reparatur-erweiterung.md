@@ -24,7 +24,7 @@ Jede Grundeinheit ist **einmal je Prothese / Gerät / Aufbissbehelf / UKPS** abr
 | 802 2 | LE Bruch | Bruch im Kunststoff/Metall, **auch Drahtbruch KFO**. LE **je Bruch** |
 | 802 3 | LE Einarbeiten Zahn | Wiederbefestigung, Erweiterung Zahn, auch Erneuerung, Herauslösen eines Konfektionszahnes. LE **je Zahn** |
 | 802 4 | LE Basisteil Kunststoff | siehe Sonderregeln unten |
-| 802 5 | LE Halte-/Stützvorrichtung einarbeiten | gebogen **oder** gegossen, **auch bei Verwendung einer vorhandenen Vorrichtung**. **Je Halte-/Stützvorrichtung** |
+| 802 5 | LE Halte- und/oder Stützvorrichtung einarbeiten | gebogen **oder** gegossen, **auch bei Verwendung einer vorhandenen Vorrichtung**. **Je Halte-/Stützvorrichtung** |
 | 802 6 | LE Rückenschutzplatte einarbeiten | Einarbeitung einer gegossenen Rückenschutzplatte nach **208 1** i. V. m. Erweiterung/Erneuerung eines Zahnes |
 | 802 7 | LE Kunststoffsattel | Kunststoffsattel lösen und wieder befestigen. **1× je Sattel** |
 
@@ -51,12 +51,12 @@ Jede Grundeinheit ist **einmal je Prothese / Gerät / Aufbissbehelf / UKPS** abr
 | L-Nr. | Kurztext | Menge |
 |-------|----------|-------|
 | 808 0 | Teilunterfütterung einer Basis | **1× je Prothese oder KFO-/FKO-Basis** |
-| 808 5 | Teilunterfütterung Basis UKPS | 1× je Basis → [[bel-ii-ukps]] |
+| 808 5 | Teilunterfütterung einer Basis UKPS | 1× je Basis → [[bel-ii-ukps]] |
 | 808 8 | Teilunterfütterung/implantatgest. | 1× je Prothese, Nr. 36 b |
 | 809 0 | Vollständige Unterfütterung | **1× je Prothese und KFO-Basis**, **bei bimaxillärem Gerät je Kiefer**. Umfasst auch Unterfütterung **mit funktioneller Randgestaltung** |
-| 809 8 | Vollst. Unterfütterung/implantatgest. | 1× je Prothese, Nr. 36 b |
+| 809 8 | Vollständige Unterfütterung/implantatgestützte Basis | 1× je Prothese, Nr. 36 b |
 | 810 0 | Prothesenbasis erneuern | **vollständige Entfernung und Erneuerung der Kunststoffbasis bei Erhaltung des Zahnkranzes**. 1× je Prothese |
-| 810 8 | Prothesenbasis erneuern/Implantatv. | 1× je Prothese, Nr. 36 b |
+| 810 8 | Prothesenbasis erneuern/Implantatversorgung | 1× je Prothese, Nr. 36 b |
 | 864 0 | KFO-Basis erneuern | vollständige Entfernung und Erneuerung der Kunststoffbasis **bei Erhaltung der herausgelösten Halte-, Dehn- und Regulierungselemente**. **1× je KFO-Basis** |
 
 Alle enthalten ggf. die **Sicherung von vorhandenen Verbindungselementen**.
@@ -85,7 +85,7 @@ UKPS: **001 5 + 011 5**, nicht 012 5.
 ## KFO-Instandsetzung (861 0 – 870 0)
 | L-Nr. | Kurztext | Menge / Inhalt |
 |-------|----------|----------------|
-| 861 0 | Grundeinheit/Instands. KFO oder Aufbissbehelf | **1× je KFO-/FKO-Gerät oder Aufbissbehelf** |
+| 861 0 | Grundeinheit/Instandsetzung KFO oder Aufbissbehelf | **1× je KFO-/FKO-Gerät oder Aufbissbehelf** |
 | 862 0 | LE Einfügen Regulierungs- oder Halteelement | Einfügen eines **neuen** Elements (Dehn-, Halte-, Regulierungs-, Abstütz-, Abschirmelement oder eines Aufbisses), ggf. inkl. Herauslösen des defekten Elements. **1× je eingefügtem Element** — **dies gilt auch für Halte- und Stützelemente, die nach 380 0 und 381 0 abrechenbar sind** |
 | 863 0 | LE Erneuerung eines Elementes/intermaxillär | Erneuerung eines Elements bei Instandsetzung eines **intermaxillären Verbindungs- oder Führungselements** (Gegenstück zu **741 0**) |
 | 864 0 | KFO-Basis erneuern | siehe oben |

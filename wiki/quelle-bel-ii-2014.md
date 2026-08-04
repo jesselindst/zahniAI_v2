@@ -52,6 +52,30 @@ für die Festzuschussberechnung verwendet wird. → [[bel-preisbildung-festzusch
 **Rangfolge bei Widerspruch:** Änderungsvereinbarung > Rundschreiben > diese Fassung. Bei
 gleicher Gattung gilt die jüngere Quelle.
 
+## ⚠️ Aktualitätsvorbehalt — die wichtigste Einschränkung dieser Seite
+
+Das Wiki kennt **genau eine** Änderungsvereinbarung (14.11.2022, i. K. 01.01.2023). **Ob es
+seitdem weitere gibt, ist nie geprüft worden** — offen seit dem Ingest vom 03.08.2026, durch den
+Ingest vom 04.08.2026 nicht geschlossen.
+
+Das ist deshalb gravierend, weil Änderungsvereinbarungen die **oberste** Stufe der Rangfolge sind:
+Eine übersehene Vereinbarung macht die betroffene Positionsregel im Wiki nicht bloß unvollständig,
+sondern **falsch** — genau wie es 002 3 / 005 1/2/3 bis zum 03.08.2026 waren (dort führte die alte
+Regel zur Überabrechnung). Zwischen 01.01.2023 und heute liegen über drei Jahre.
+
+→ **Vollständigkeitsprüfung auf vdzi.de ist der überfälligste offene Punkt des Wikis.**
+Bis dahin gilt: Positionsregeln aus dieser Fassung sind belastbar, aber nicht garantiert aktuell.
+
+**Ebenfalls offen: die Gemeinsamen Rundschreiben.** Verbindliche Quellengattung (§ 4/§ 5), aber
+ohne eigene Quellenseite. Drei von ihnen werden im Wiki bereits inhaltlich verwendet, ohne dass
+ihr Text vorliegt:
+
+| Rundschreiben | verwendet in |
+|---|---|
+| Adhäsivbrücke, 28.06.2016 (KZBV/GKV-SV) | [[quelle-zahnersatz-richtlinie]] |
+| Versandkostenpauschale, 11.07.2016 | [[bel-gruppe-zuschlaege-versand]] — Volltext nicht zugänglich |
+| Gesichtsbogen, 10.10.2014 (KZBV/GKV-SV/VDZI) | [[bel-gruppe-aufbissbehelfe]] |
+
 ## Wiki-Seiten aus dieser Quelle
 Grundlagen: [[bel-ii-grundlagen]] · [[bel-ii-rechnungsstellung]] ·
 [[bel-ii-zusatzkosten-material]] · [[bel-ii-implantatversorgung]] · [[bel-ii-ukps]]

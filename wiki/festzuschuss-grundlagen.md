@@ -54,8 +54,9 @@ Weitere Zuschläge: **2.6** (disparallele Pfeilerzähne), **3.2** (verkürzte Za
 Kiefer), **4.5** (Metallbasis, je Kiefer), **4.9** (schwierige Kieferlagebeziehung).
 
 ⚠️ Fehlende Verblendzuschüsse waren im Vorlagenreview einer der häufigsten Befunde
-([[quelle-review-vorlagen-2026-08]]): 189 Vorlagen hatten den Festzuschuss falsch oder
-unvollständig. Größenordnung des Fehlers: **rund 80–130 € je verblendeter Krone**.
+([[quelle-review-vorlagen-2026-08]]): **81 Befunde in 189 der 228 Vorlagen** — Festzuschuss falsch
+oder unvollständig (zu den zwei Zählweisen → [[haeufige-abrechnungsfehler]]). Größenordnung des
+Fehlers: **rund 80–130 € je verblendeter Krone**.
 
 ## Was nie einen Festzuschuss auslöst
 

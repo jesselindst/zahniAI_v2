@@ -30,7 +30,7 @@ Zwei Sonderregeln:
 | L-Nr. | Kurztext | Umfasst |
 |-------|----------|---------|
 | 203 1 | Zweiarmige gegossene Haltevorrichtung | zweiarmige Klammer, Approximal-, Ring-, Rücklauf-, Bonyhardklammer **mit Gegenlager**, zwei Zähne umfassende Doppelbogenklammer — **ohne Auflage** |
-| 204 1 | Zweiarmige gegossene Halte- und Stützvorrichtung mit Auflage | dieselben **plus Überwurfklammer**, jeweils **mit Auflage** |
+| 204 1 | Zweiarmige gegossene Halte- und Stützvorr. m. Auflage | dieselben **plus Überwurfklammer**, jeweils **mit Auflage** |
 | 205 0 | Bonwillklammer | **202 6 (Ney-Stiel) ist Bestandteil** und daneben nicht abrechenbar |
 
 **Abgrenzungslogik:** 203 1 = zwei Arme ohne Auflage · 204 1 = zwei Arme mit Auflage ·

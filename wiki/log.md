@@ -258,3 +258,70 @@ keine verwaisten Seiten, keine toten `[[…]]`-Links.
 23. `festzuschuss-befundklassen-referenz:52` „6.8.1 eingeführt zum 01.01.2019" ohne Fundstelle.
 24. `log.md` ist im index nicht gelistet, obwohl der index „Katalog aller Wiki-Seiten" sein soll.
 25. `log:48` nennt die Inbox-Datei ohne `_inbox/`-Pfad, spätere Einträge mit.
+
+## [2026-08-04] fix | Umsetzung aller 25 Lint-Findings
+
+Nachlauf zum Lint-Eintrag oben: alle 25 Findings abgearbeitet, **25 Seiten geändert**
+(+255/−76 Zeilen). Keine Seite neu angelegt, keine gelöscht, keine Links gebrochen.
+
+**Sachliche Korrekturen (Regel war falsch oder unvollständig)**
+- **§ 3 Abs. 3 → § 2 Ziff. 4**: Die Rechtsgrundlage gegen BEL+BEB-Doppelabrechnung war in
+  `beb97-grundlagen` und `haeufige-abrechnungsfehler` falsch zitiert. § 3 Ziff. 3 regelt die
+  Rechnungs-Pflichtangaben; „abgegolten" folgt aus § 2 Ziff. 4 und den Positionstexten. Der
+  Ein-Rechnung-Grundsatz aus § 3 Ziff. 3 ist als *zusätzliches* Argument erhalten.
+- **UKPS-Leistungskreis**: „nur 5er-Varianten und 5xx" war falsch — 021 7, 850 0 und 851 1–851 4
+  gehören dazu. In `bel-ii-ukps` durch eine Tabelle mit allen drei Nummerngruppen ersetzt.
+- **`___ 5`/`___ 8` sind Faustregeln**, keine Systematik: 021 6 und 102 6 sind Implantatpositionen
+  mit Endziffer 6. In `bel-ii-grundlagen` und im index kenntlich gemacht.
+- **BEB-Hauptgruppen HG8 und HG9 ergänzt** (Instandsetzung 8001–8851; Zuschläge 9330/9700/9850) —
+  67 der 1103 Positionen fehlten in beiden BEB-Seiten, bei zugleich geltender Regel „falsche
+  Hauptgruppe = Abrechnungsfehler". Katalogfeld `type` ergänzt.
+- **38 Kurztexte** in den BEL-Gruppenseiten wörtlich an `kataloge/bel.json` angeglichen
+  (u. a. 164 0/165 0 „Komposite", 384 0 „hinterlegen", 134 9 „Wiederbefestigung Sekundärteil").
+  Jetzt 171/171 identisch — maschinell geprüft.
+- `quelle-festzuschuss-richtlinie`: „Klasse 1–7" → „Klassen 1–8".
+- `bel-gruppe-herausnehmbarer-zahnersatz`: 302 8 stand hinter 303 0, gehört zu 302 0; 303 0 hat
+  keine Implantatvariante.
+
+**Belege nachgetragen oder Aussagen zurückgenommen**
+- **Versandgang** (`haeufige-abrechnungsfehler`) stand ohne Fundstelle. Herleitung jetzt auf der
+  zuständigen Seite `bel-gruppe-zuschlaege-versand`: gRS 11.07.2016, Volltext nicht zugänglich;
+  Hin-/Rückweg fachliteraturbelegt [Q], Leerfahrten/Anprobe nur portalbelegt [P] → VERIFIZIEREN.
+- **Belegtypen-Anspruch korrigiert**: `quelle-review-vorlagen-2026-08` behauptete, [Q]/[P]/[E]
+  seien „durchgängig beibehalten". Tatsächlich fehlen sie in 4 von 11 abgeleiteten Seiten ganz.
+  Ersetzt durch eine ehrliche Bestandsaufnahme mit der Warnung, dass ein fehlender Marker **nicht**
+  „quellenbelegt" bedeutet. Marker wurden **nicht** nachträglich erfunden.
+- **Regionale €-Werte** (KZV Hamburg/Bayern/Berlin) waren als „offiziell" ausgewiesen, ohne
+  Dokument oder Datum — jetzt als unbelegt markiert, in `material-abrechnung-privat` und
+  `bel-preisbildung-festzuschuss`.
+- BEB-97-Verbreitungsaussage: Alter der Quelle (Spitta 2016, zehn Jahre) offengelegt.
+- KZBV-Kompendium Stand 01.01.2025 gegen FZ-RL 01.01.2026: Standversatz vermerkt.
+- BEB 2603 „PMMA-spezifisch" war durch den Katalogtext nicht gedeckt → VERIFIZIEREN.
+- 6.8.1 „eingeführt 01.01.2019" und die Konformitätserklärungs-Praxis als unbelegt gekennzeichnet.
+
+**Der wichtigste Befund dieses Durchgangs**
+Bei der Recherche zum fehlenden „Festzuschusskatalog" stellte sich heraus: Er ist **kein
+Repo-Artefakt**, sondern die DB-Tabelle `catalog_festzuschussbefund` — und stand laut
+`BEFUNDBERICHT.md` beim Review auf **Stand 2025**, während seit 01.01.2026 neue Beträge gelten
+(1.1 ohne Bonus 229,25 € → 239,03 €). Das Wiki verwies bis jetzt beiläufig auf „den
+Festzuschusskatalog" als Betragsquelle, ohne beides zu sagen. Jetzt an vier Stellen als
+VERIFIZIEREN markiert: **jeder Eigenanteil, der ungeprüft aus dieser Tabelle gerechnet wird,
+ist ein Jahr zu alt.**
+
+**Offene Punkte sichtbar gemacht statt nur im Log versteckt**
+`quelle-bel-ii-2014` hat einen Aktualitätsvorbehalt erhalten: Die Vollständigkeit der
+**Änderungsvereinbarungen nach 01.01.2023** ist seit dem ersten Ingest ungeprüft — bei der
+obersten Stufe der Quellenrangfolge und inzwischen über drei Jahren Abstand. Dazu die drei
+bereits verwendeten, aber nie ingesteten **Rundschreiben** mit Datum und Fundstelle. Der index
+führt beides plus das offene `BMP_2026`-PDF in einer eigenen Tabelle „Noch nicht ingestete
+Quellen". `log.md` ist jetzt im index verlinkt.
+
+**Nicht geändert (bewusst)**
+- `kataloge/bel.json` (Praxislabor-Preis bei 933 0/5/8) und `findings_register.json` — Artefakte
+  außerhalb des Wikis. Die Falle ist stattdessen im Wiki dokumentiert
+  (`bel-gruppe-zuschlaege-versand`, index).
+- **Log-Eintrag vom 03.08.2026**, der die Inbox-Datei ohne `_inbox/`-Pfad nennt: `log.md` ist
+  append-only, historische Einträge werden nicht umgeschrieben. Korrekt ist
+  `raw/_inbox/BMP_2026_Leistungen_Regelversorgung.pdf` (Finding 25).
+- Der `BMP_2026`-Ingest selbst — das ist ein Ingest, kein Lint-Fix, und gehört in einen eigenen
+  Durchgang mit `ingest_to_wiki`.

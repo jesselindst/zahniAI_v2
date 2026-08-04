@@ -8,7 +8,7 @@ Das Leistungsverzeichnis für **private** zahntechnische Leistungen. Gegenstück
 | Herausgeber | **VDZI** (Verband Deutscher Zahntechniker-Innungen) |
 | Entstehung | 1996 entwickelt, 1997 veröffentlicht |
 | Rechtscharakter | **reine Benennungs-/Nomenklaturliste** — keine Preisliste, keine Gebührenordnung |
-| Im Repo | `kataloge/beb97_zahniAI.json` — 1103 Positionen mit Nr., Kurztext, Planzeit (`dauer_min`), Hauptgruppe (`hg`) |
+| Im Repo | `kataloge/beb97_zahniAI.json` — 1103 Positionen; Felder `nr`, `name`, `dauer_min` (Planzeit), `hg` (Hauptgruppe), `type` (`standard` 779 / `individuell` 324) |
 
 ## Der entscheidende Unterschied zum BEL II
 
@@ -45,6 +45,11 @@ korrespondiert mit der Hauptgruppe:
 | HG5 | Oberflächenbearbeitung, Konditionieren | 5000–5999 |
 | HG6 | Prothesen: Aufstellung, Fertigstellung, Sonderverfahren | 6000–6999 |
 | HG7 | Kieferorthopädie | 7000–7999 |
+| **HG8** | **Instandsetzung, Erweiterung, Unterfütterung** (Grund- und Leistungseinheiten) | 8001–8851 |
+| **HG9** | **Zuschläge und Auslagen** — 9330 Versand, 9700 Verarbeitungsaufwand NEM, 9850 3D-Modell/Material | 9330–9850 |
+
+Verteilung im Repo-Katalog: HG0 211 · HG1 105 · HG2 267 · HG3 127 · HG4 82 · HG5 37 · HG6 60 ·
+HG7 147 · **HG8 64** · **HG9 3** = 1103.
 
 ⚠️ Die Hauptgruppe ist **nicht dekorativ**. Eine Position aus der falschen Hauptgruppe ist ein
 Abrechnungsfehler, auch wenn der Kurztext passend klingt — z. B. 6411 „Spezialpressverfahren"
@@ -55,6 +60,9 @@ Position. → [[haeufige-abrechnungsfehler]]
 
 - **BEB 97** ist nach Fachverlagsangaben weiterhin die am häufigsten genutzte Liste, gilt aber
   inhaltlich als veraltet — vor allem bei **digitalen Verfahren**.
+  ⚠️ Die Verbreitungsaussage stützt sich auf einen **Spitta-Beitrag von 2016** — zum Prüfstand
+  04.08.2026 also **zehn Jahre alt** und drei Jahre älter als die 4. Auflage der BEB Zahntechnik.
+  Als Begründung für die Katalogwahl trägt sie nicht mehr. **VERIFIZIEREN**
 - Nachfolger: **„BEB Zahntechnik"**, 4. Auflage 2023, mit rund **153 Digitalpositionen**.
 - Ein Basiswechsel ist nicht erzwungen: Maßgeblich ist, welches Verzeichnis das Labor seiner
   Kalkulation zugrunde legt. Im Repo ist das die BEB 97 (`kataloge/beb97_zahniAI.json`).

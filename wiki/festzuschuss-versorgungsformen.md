@@ -1,7 +1,12 @@
 # Regelversorgung, gleichartig, andersartig — Abrechnungswege
 
 Quellen: [[quelle-zahnersatz-richtlinie]] Nr. 5, [[quelle-festzuschuss-richtlinie]] Teil A
-Nr. 8/9, § 55 Abs. 4/5 SGB V, KZBV-FZ-Kompendium (Stand 01.01.2025).
+Nr. 8/9, § 55 Abs. 4/5 SGB V, KZBV-FZ-Kompendium (Stand **01.01.2025**).
+
+⚠️ **Standversatz:** Das KZBV-Kompendium trägt hier die 50-%-Regel, die Härtefall-Abrechnungswege
+und „EM macht nicht gleichartig" — es ist aber ein Jahr älter als die geltende FZ-RL (i. K.
+01.01.2026). Die Systematik ist davon nicht betroffen, für Verfahrensdetails gilt die
+Kompendiumsfassung des laufenden Jahres. **VERIFIZIEREN**
 
 Diese Einordnung entscheidet über **Katalog, Rechnungsempfänger und Abrechnungsweg**. Sie ist
 die folgenreichste Weiche im ganzen KV.

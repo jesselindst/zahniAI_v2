@@ -4,8 +4,9 @@ Quellen: § 55 Abs. 1–3 SGB V, [[quelle-festzuschuss-richtlinie]] Teil A Nr. 4
 KZBV-FZ-Kompendium Kap. 7.
 
 Ohne diese Mechanik lässt sich **kein Eigenanteil berechnen**. Im Vorlagenreview fehlte sie in
-137 Vorlagen vollständig — der häufigste strukturelle Mangel überhaupt
-([[quelle-review-vorlagen-2026-08]]).
+**137 der 228 Vorlagen** vollständig (27 Befunde) — gemessen an betroffenen Vorlagen der
+flächendeckendste strukturelle Mangel ([[quelle-review-vorlagen-2026-08]]; zu den zwei
+Zählweisen → [[haeufige-abrechnungsfehler]]).
 
 ## Die vier Sätze
 
@@ -89,9 +90,17 @@ Die letzte Zeile ist der Punkt: Härtefall heißt **nicht** „kostenlos".
 ## Beträge gehören nicht in Vorlagen
 
 Die Beträge werden **jährlich** neu festgesetzt. Eine Vorlage mit €-Beträgen ist nach spätestens
-einem Jahr falsch. In den Abrechnungsvorlagen stehen deshalb **Befund + Prozentmechanik**; die
-aktuellen Beträge kommen aus dem Festzuschusskatalog.
-→ [[quelle-festzuschuss-richtlinie]]
+einem Jahr falsch. In den Abrechnungsvorlagen stehen deshalb **Befund + Prozentmechanik**.
+
+Die Beträge kommen aus dem Festzuschusskatalog — der Datenbanktabelle
+`catalog_festzuschussbefund`, **nicht** aus einer Datei unter `kataloge/`.
+
+⚠️ **Diese Tabelle stand beim Review auf Stand 2025**, während seit 01.01.2026 neue Beträge
+gelten. Wer den Eigenanteil nach dem obigen Rechenweg beziffert, ohne den Katalogstand zu prüfen,
+rechnet mit **Vorjahresbeträgen** — bei Befund 1.1 ohne Bonus rund 10 € zu niedrig, und der Fehler
+läuft über jede Position des KV mit. Katalogstand prüfen, im Zweifel gegen die
+GKV-SV-Betragstabelle des laufenden Jahres gegenrechnen
+→ [[quelle-festzuschuss-richtlinie]], [[festzuschuss-befundklassen-referenz]]. **VERIFIZIEREN.**
 
 ## Verwandt
 

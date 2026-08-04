@@ -27,8 +27,8 @@ Die Kronenpositionen setzen zudem die **Verwendung eines Mittelwertartikulators*
 | 102 2 | Teilkrone/Metall | beinhaltet die **Überkupplung aller Höcker** eines Zahnes. ⚠️ **Verblendungen 160 0, 162 0, 164 0 sind daneben NICHT abrechenbar.** |
 | 102 3 | Flügel für Adhäsivbrücke, je Flügel | gegossener Anker für Klebebrücke, **unverblendet**. **155 0 (Konditionierung)** je Flügel zur Vorbereitung des adhäsiven Befestigens ist daneben abrechenbar. |
 | 102 4 | Krone für vestibuläre Verblendung | für Verblendung mit Kunststoff, Komposit oder Keramik → **160 0, 162 0 oder 164 0** |
-| 102 6 | Vollkrone/Metall bei Implantatversorgung | nur **Nr. 36 a** ZE-RL |
-| 102 8 | Krone für vestib. Verbl. bei Implantatversorgung | nur **Nr. 36 a**; Verblendung → **160 0, 162 8 oder 164 0** |
+| 102 6 | Vollkrone/Metall bei Implantatv. | nur **Nr. 36 a** ZE-RL |
+| 102 8 | Krone f. vestib. Verbl. bei Implantatversorgung | nur **Nr. 36 a**; Verblendung → **160 0, 162 8 oder 164 0** |
 | 105 0 | Stiftaufbau | gegossen (Wurzelstift + Stumpfaufbau), indirektes Verfahren. **Nicht neben 101 3** für denselben Zahn. |
 | 104 0 | Modellation gießen | angelieferte Modellation für Stiftaufbau gießen. → **012 0 nicht** abrechenbar (kein Bewegungsbezug) |
 | 110 0 | Brückenglied | gegossen, auch für Teilverblendung. **Je tatsächlich gefertigter Zahneinheit.** Verblendung → **160 0, 162 0 oder 164 0** |
@@ -65,8 +65,8 @@ Vestibuläre Verblendung der Sekundärkrone → **160 0 oder 164 0** (Kunststoff
 | 133 1 | Individuelles Geschiebe | individuelles **Brückenteilungs**geschiebe herstellen + Primär- und Sekundärteil in Krone/Brückenglied einarbeiten, inkl. Geschiebefräsung |
 | 134 1 | Konfektions-Geschiebe | Primär- + Sekundärteil eines konfektionierten Brückenteilungsgeschiebes einarbeiten, Fügepassung |
 | 134 3 | Konfektions-Anker | Primärteil auf die **Wurzelstiftkappe (101 3)** + Sekundärteil in Kunststoff-/Metallbasis einarbeiten. Dies ist die Position für das Anbringen des **Kugelknopfankers**. |
-| 134 7 | Primär-/Sek.-Teil Konf.-Anker | Einarbeiten des **erneuerungsbedürftigen** Primär- **oder** Sekundärteils. ⚠️ **Nicht** abrechenbar, wenn beim Sekundärteil eines Kugelknopfankers nur ein **Kunststofffertigteil ausgetauscht** wird → dann **813 0**. |
-| 134 9 | Wiederbef. Sek.-Teil | Wiederbefestigen des Sekundärteils einer Teleskop-/Konuskrone, eines Kugelknopfanker-Sekundärteils oder eines Geschiebes **bei geteilter Brücke** |
+| 134 7 | Primär-/Sekundärteil Konf.-Anker | Einarbeiten des **erneuerungsbedürftigen** Primär- **oder** Sekundärteils. ⚠️ **Nicht** abrechenbar, wenn beim Sekundärteil eines Kugelknopfankers nur ein **Kunststofffertigteil ausgetauscht** wird → dann **813 0**. |
+| 134 9 | Wiederbefestigung Sekundärteil | Wiederbefestigen des Sekundärteils einer Teleskop-/Konuskrone, eines Kugelknopfanker-Sekundärteils oder eines Geschiebes **bei geteilter Brücke** |
 | 136 0 | Gefrästes Lager | Fräsung eines Lagers für Schubverteilungsarm im Metall. Ein **nicht gefrästes** Lager für die Auflage eines gegossenen Halte-/Stützelements → **103 1** |
 | 137 0 | Schubverteilungsarm | gegossen, **nur i. V. m. 136 0 oder bei vorhandenem gefrästem Lager**. Neben **202 1 einmal** abrechenbar, wenn der Schubverteilungsarm Teil einer Halte- und Stützvorrichtung ist |
 
@@ -77,12 +77,12 @@ Vestibuläre Verblendung der Sekundärkrone → **160 0 oder 164 0** (Kunststoff
 | 155 0 | Konditionierung je Zahn/Flügel | Metallfläche für Komposit-Verblendung oder adhäsive Befestigung. Je **Flügel (102 3)** und bei Verblendungen je **Krone, Brückenglied oder Rückenschutzplatte nach 164 0**. Bei **404 0** (semipermanente Schiene): **je Zahn**. |
 | 160 0 | Vestibuläre Verblendung Kunststoff | in der Regel **dreifarbige Standardschichtung**. Für 102 4, 102 8, 110 0, 120 0, 120 1, **208 1** |
 | 162 0 | Vestibuläre Verblendung Keramik | dreifarbig; **schließt die Verblendung der Schneidekante bei den Zähnen 1–3 ein**. Für Krone oder Brückenglied |
-| 162 8 | Vestib. Verbl. Keramik bei Implantatv. | für **102 8**, Nr. 36 a ZE-RL; Schneidekante 1–3 eingeschlossen |
-| 164 0 | Vestibuläre Verblendung Komposit | dreifarbig; Schneidekante 1–3 eingeschlossen. Für 102 4, 102 8, 110 0, 120 0, 120 1, **208 1** |
+| 162 8 | Vestib. Verbl. Keramik bei Implantatversorgung | für **102 8**, Nr. 36 a ZE-RL; Schneidekante 1–3 eingeschlossen |
+| 164 0 | Vestibuläre Verblendung Komposite | dreifarbig; Schneidekante 1–3 eingeschlossen. Für 102 4, 102 8, 110 0, 120 0, 120 1, **208 1** |
 | 161 0 | Zahnfleisch Kunststoff | **1× je Zahn** |
 | 163 0 | Zahnfleisch Keramik | nur **i. V. m. einer Verblendung**; je Zahn 1×, **auch für Wurzelpontic** |
-| 163 8 | Zahnfleisch Keramik bei Implantatv. | für Krone nach 102 8, Nr. 36 a; **1× je Zahn** |
-| 165 0 | Zahnfleisch Komposit | **1× je Zahn, auch für Wurzelpontic** |
+| 163 8 | Zahnfleisch Keramik bei Implantatversorgung | für Krone nach 102 8, Nr. 36 a; **1× je Zahn** |
+| 165 0 | Zahnfleisch Komposite | **1× je Zahn, auch für Wurzelpontic** |
 
 **Alle drei Verblendungspositionen (160 0, 162 0, 164 0)** sind im Rahmen der
 **Wiederherstellung** einer Verblendung auch **für die Herstellung einer Facette**

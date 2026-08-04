@@ -24,7 +24,7 @@ Quelle: [[quelle-bel-ii-2014]], S. 86–99 und 134.
 | L-Nr. | Kurztext | Regel |
 |-------|----------|-------|
 | 720 0 | Schraube einarbeiten | **Standard**schraube (z. B. Dehnschraube) in eine Basis |
-| 721 0 | Spezial-Schraube einarbeiten | Als Spezial-Schrauben gelten z. B.: Schrauben, deren Konstruktion **ausschließlich Einzelzahnbewegung** zulässt · Schrauben zur **gezielten Sektorenbewegung** · Schrauben für **asymmetrische Bewegungen** · Schrauben zur **Metallverbindung** · **reziproke** Druck- und Zugschraube · **sagittale** Druck-/Zugschraube · **transversale** Zugschraube |
+| 721 0 | Spezialschraube einarbeiten | Als Spezial-Schrauben gelten z. B.: Schrauben, deren Konstruktion **ausschließlich Einzelzahnbewegung** zulässt · Schrauben zur **gezielten Sektorenbewegung** · Schrauben für **asymmetrische Bewegungen** · Schrauben zur **Metallverbindung** · **reziproke** Druck- und Zugschraube · **sagittale** Druck-/Zugschraube · **transversale** Zugschraube |
 | 722 0 | Trennen einer Basis | umfasst: Trennen einer Basis · Trennen kompliziert · Trennen **ohne Schraube** · Trennen nach Instandsetzung oder Unterfütterung. **1× je Trennung oder je Schraube nach 720 0/721 0** |
 
 Die Schrauben selbst sind **Konfektionsfertigteile** und damit gesondert abrechenbar
@@ -55,8 +55,8 @@ Vorgefertigte Labialbögen sind **konfektionierte Hilfsteile** und nicht gesonde
 ## Gebogene Halte-/Abstützelemente (750 0, 751 0)
 | L-Nr. | Kurztext | Umfasst |
 |-------|----------|---------|
-| 750 0 | Einarmiges H-/A-Element, je Zahn | **Halte**element gebogen: Tropfen-, Ösen-, Dreiecksklammer, Pfeil-, **Knopfanker**, Crozat-Haltesporn — oder **Abstütz**element gebogen: Dorn, Auflage, Steg |
-| 751 0 | Mehrarmiges H-/A-Element, je Zahn | mehrarmiges Halteelement gebogen: **Adams-, Pfeil-, Voß-, Crozatklammer** |
+| 750 0 | Einarmiges H-/A-Element | **Halte**element gebogen: Tropfen-, Ösen-, Dreiecksklammer, Pfeil-, **Knopfanker**, Crozat-Haltesporn — oder **Abstütz**element gebogen: Dorn, Auflage, Steg |
+| 751 0 | Mehrarmiges H-/A-Element | mehrarmiges Halteelement gebogen: **Adams-, Pfeil-, Voß-, Crozatklammer** |
 
 ⚠️ **Auffangregel:** Wird ein Element hergestellt, das in der Erläuterung **nicht benannt**
 ist, ist es nach **380 0** (einarmig) bzw. **381 0** (mehrarmig) abzurechnen — nicht nach

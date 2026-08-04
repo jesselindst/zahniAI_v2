@@ -44,5 +44,6 @@ EU-Medizinprodukteverordnung **(EU) 2017/745**.
 | Dokumentation | Leistungserbringer erstellt Dokumentation nach **Nr. 2 und 3 Anhang XIII** und trifft Maßnahmen, die Übereinstimmung der Produkte mit dieser Dokumentation zu gewährleisten. |
 | Aufbewahrung | **10 Jahre**; bei **implantierbaren Produkten 15 Jahre** (Nr. 4 Anhang XIII). |
 
-→ Praxisrelevanz für ZahniAI: Die Konformitätserklärung kann als Textblock auf die Rechnung
-gesetzt werden — das ist der übliche Weg und vermeidet ein separates Beiblatt.
+→ Praxisrelevanz für ZahniAI: Dass die Konformitätserklärung als Textblock auf die Rechnung
+gesetzt werden **darf**, steht in § 4 Ziff. 1 selbst („alternativ auf die Rechnung setzen") [Q].
+Dass dies auch der **übliche** Weg ist, ist Praxiseinschätzung ohne Beleg [P].

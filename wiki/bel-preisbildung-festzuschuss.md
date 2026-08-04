@@ -58,7 +58,8 @@ Einrechnung eine echte Überabrechnung. → [[bel-ausschlussregeln]]
 - **NEM-Verrechnungseinheiten** sind regional: bei EM statt NEM in der Regelversorgung rechnet
   die KZV den BEL-Anteil über Verrechnungseinheiten an (z. B. KZV Berlin ab 01.01.2026:
   10,53 €/Einheit bei 60 %, 12,29 € bei 70 %, 13,16 € bei 75 %). Für andere KZV-Bereiche nicht
-  erhoben. → [[material-abrechnung-privat]]
+  erhoben, **und auch für Berlin ohne hinterlegte Fundstelle** — vor Verwendung bei der KZV
+  verifizieren. → [[material-abrechnung-privat]] **VERIFIZIEREN**
 
 ## Verwandt
 [[quelle-bel-ii-2014]] · [[quelle-festzuschuss-richtlinie]] · [[bel-ii-rechnungsstellung]] ·

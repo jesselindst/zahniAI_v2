@@ -9,7 +9,7 @@ Kiefer** plus **eine Position je Zahn**.
 
 | Schritt | Grundeinheit je Kiefer | je Zahn |
 |---------|------------------------|---------|
-| Aufstellung | **301 0** (Implantat: 301 8) | **302 0** Wachs-/Kunststoffbasis · **303 0** Metallbasis (Implantat: 302 8) |
+| Aufstellung | **301 0** (Implantat: 301 8) | **302 0** Wachs-/Kunststoffbasis (Implantat: **302 8**) · **303 0** Metallbasis (keine Implantatvariante) |
 | Fertigstellung | **361 0** (Implantat: 361 8) | **362 0** (Implantat: 362 8) |
 
 - **301 0** ist die Grundeinheit für die Aufstellung von Konfektionszähnen auf **Wachs-,
@@ -54,7 +54,7 @@ Die **Materialkosten** laufen separat über § 2 Ziff. 4 →
 | L-Nr. | Kurztext | Regel |
 |-------|----------|-------|
 | 383 0 | Zahn zahnfarben hergestellt | Zahn aus zahnfarbenem Kunststoff oder Komposit. **Nur abrechnungsfähig, wenn aus anatomischen Gründen kein Konfektionszahn verwendbar ist.** ⚠️ Neben 383 0 sind für denselben Zahn **302 0, 302 8, 303 0, 341 0, 362 0 und 362 8 nicht** abrechenbar |
-| 384 0 | Zahn zahnfarben hinterlegt | Hinterlegen eines **Konfektions**zahnes mit zahnfarbenem Kunststoff. Abrechenbar im **OK bis einschließlich Zahn 5**, im **UK bis einschließlich Zahn 4** |
+| 384 0 | Zahn zahnfarben hinterlegen | Hinterlegen eines **Konfektions**zahnes mit zahnfarbenem Kunststoff. Abrechenbar im **OK bis einschließlich Zahn 5**, im **UK bis einschließlich Zahn 4** |
 
 **Abgrenzung:** 383 0 ersetzt den Konfektionszahn komplett (und damit auch dessen
 Aufstellungs-/Fertigstellungspositionen) — 384 0 ergänzt ihn nur.

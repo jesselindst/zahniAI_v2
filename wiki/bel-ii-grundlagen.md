@@ -70,6 +70,13 @@ Ziffer bzw. des Nummernkreises:
 |--------|-----------|
 | `___ 5` | Variante für **UKPS** (z. B. 001 5, 011 5, 012 5, 808 5) |
 | `___ 8` | Variante für **Implantatversorgung** nach Nr. 36 ZE-RL (z. B. 001 8, 102 8, 361 8) |
+
+⚠️ **Beide Muster sind Faustregeln, keine vollständige Systematik.** Nicht danach suchen, sondern
+die Positionsliste der jeweiligen Seite verwenden:
+- Zur Implantatversorgung gehören auch **021 6** und **102 6** — Endziffer 6, nicht 8
+  → vollständige Liste in [[bel-ii-implantatversorgung]].
+- Zum UKPS-Leistungskreis gehören auch **021 7**, **850 0** und **851 1 – 851 4**
+  → vollständige Liste in [[bel-ii-ukps]].
 | 001–032 | Arbeitsvorbereitung |
 | 101–165 | Festsitzender Zahnersatz |
 | 201–212 | Modellguss |

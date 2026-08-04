@@ -63,7 +63,7 @@ Praktisch heißt das für die GKV: **nicht** gesondert berechenbar sind
 - Klebekomposit, Primer, Silikon der Gingivamaske
 
 ⚠️ „Abgegoltenes Material als berechenbar geführt" war im Vorlagenreview einer der häufigsten
-Materialfehler (54 Befunde) → [[haeufige-abrechnungsfehler]].
+Materialfehler: **54 Befunde in 114 der 228 Vorlagen** → [[haeufige-abrechnungsfehler]].
 
 Auf dem **privaten** Weg gilt das nicht — dort besteht Kalkulationsfreiheit, dafür eine schärfere
 Nachweispflicht. Gegenüberstellung: [[material-abrechnung-privat]].

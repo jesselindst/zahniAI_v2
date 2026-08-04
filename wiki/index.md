@@ -14,12 +14,21 @@ Einstieg für eine Abrechnungsfrage: erst hier die passenden Seiten wählen, dan
 | [quelle-beb97](quelle-beb97.md) | **BEB 97 des VDZI** — Nomenklaturliste für private Laborleistungen, keine Gebührenordnung. Hauptgruppen, Status 2026 vs. „BEB Zahntechnik", bekannte Katalogschwächen. Katalog: `kataloge/beb97_zahniAI.json` | 1997, Katalogstand 2026 |
 | [quelle-review-vorlagen-2026-08](quelle-review-vorlagen-2026-08.md) | **Eigene Auswertung**: Prüfung aller 228 Abrechnungsvorlagen + Primärquellenrecherche. 642 Befunde, Belegtypen [Q]/[P]/[E]. Raw: `raw/review-2026-08/` | 04.08.2026 |
 
-*Noch nicht ingested (liegt in `raw/_inbox/`):* `BMP_2026_Leistungen_Regelversorgung.pdf`
+### Noch nicht ingestete Quellen
+
+| Quelle | Warum ihr Fehlen ins Gewicht fällt |
+|---|---|
+| `raw/_inbox/BMP_2026_Leistungen_Regelversorgung.pdf` | Enthielte die Zuordnung **Befund → BEL-Positionen**, die derzeit nur mittelbar über das `regelversorgung`-Array erschlossen ist — und der zugehörige Katalog fehlt im Repo (s. u.). Seit drei Ingests offen. |
+| **Gemeinsame Rundschreiben** des BEL-Ausschusses | Nach § 4/§ 5 verbindliche Quellengattung, **keine eigene Quellenseite im Wiki** — obwohl ihre Inhalte an drei Stellen bereits verwendet werden: Adhäsivbrücke (28.06.2016) in [[quelle-zahnersatz-richtlinie]], Versandgang (11.07.2016) in [[bel-gruppe-zuschlaege-versand]], Gesichtsbogen (10.10.2014) in [[bel-gruppe-aufbissbehelfe]]. |
+| **Festzuschusskatalog** = DB-Tabelle `catalog_festzuschussbefund` (kein Repo-Artefakt) | Liefert Befundtexte, `regelversorgung`-Array und die **Beträge**. Beim Review auf **Stand 2025**, während seit 01.01.2026 neue Beträge gelten — vor jedem KV den Stand prüfen → [[festzuschuss-haertefall-bonus]]. |
+
+⚠️ **Ungeprüft:** ob es nach dem 01.01.2023 **weitere Änderungsvereinbarungen** zum BEL II gibt.
+Sie gehen allen anderen Quellen vor → [[quelle-bel-ii-2014]].
 
 ## Grundlagen & Konzepte
 | Seite | Inhalt |
 |---|---|
-| [bel-ii-grundlagen](bel-ii-grundlagen.md) | Wann gilt BEL II? Regelversorgung/KFO/Aufbissbehelfe/UKPS, Kompatibilitäts-Grundregel, Informationspflicht des Zahnarztes, Systematik der L-Nummern (`___ 5` = UKPS, `___ 8` = Implantat) |
+| [bel-ii-grundlagen](bel-ii-grundlagen.md) | Wann gilt BEL II? Regelversorgung/KFO/Aufbissbehelfe/UKPS, Kompatibilitäts-Grundregel, Informationspflicht des Zahnarztes, Systematik der L-Nummern (`___ 5` = UKPS, `___ 8` = Implantat — **Faustregeln mit Ausnahmen**) |
 | [bel-ii-rechnungsstellung](bel-ii-rechnungsstellung.md) | Pflichtangaben (L-Nr. + Kurztext), Herstellungsort, Fremdleistungen, arbeitsteilige Fertigung, Konformitätserklärung nach VO (EU) 2017/745, Aufbewahrungsfristen |
 | [bel-ii-zusatzkosten-material](bel-ii-zusatzkosten-material.md) | Was **neben** den Leistungen abrechenbar ist: abschließende Liste des § 2 Ziff. 4, Konfektionsfertigteile vs. Hilfsteile, EM-Legierungen, Lote (75 %-Regel) — und der Umkehrschluss, was abgegolten ist |
 | [bel-ii-implantatversorgung](bel-ii-implantatversorgung.md) | Die `___ 8`-Positionen, Nr. 36 a (Einzelzahnlücke) vs. Nr. 36 b (atrophierter zahnloser Kiefer), Bestätigungspflicht des Zahnarztes |
@@ -61,10 +70,21 @@ Einstieg für eine Abrechnungsfrage: erst hier die passenden Seiten wählen, dan
 | [haeufige-abrechnungsfehler](haeufige-abrechnungsfehler.md) | **Destillat aus 642 Befunden**: Doppelabrechnung, falsche Positionen trotz passendem Kurztext, Festzuschussfehler, falsche Leistungsausschlüsse, fehlende Kernleistungen, erfundene Rechtsgrundlagen. Mit Kurz-Checkliste |
 | [cadcam-digitale-verfahren](cadcam-digitale-verfahren.md) | Warum das BEL nicht technikneutral ist; gefräst = gleichartig bei Kronen/Brücken, **nicht** bei Aufbissbehelfen; Modelle, Intraoralscan, Monolithik, digitale Totalprothetik |
 
+## Wiki-Betrieb
+- [log](log.md) — chronologisches Protokoll aller Ingests, Queries und Lint-Läufe (append-only)
+
 ## Zugehörige Repo-Artefakte (nicht im Wiki gespiegelt)
-- `kataloge/bel.json` — 175 L-Nrn. in 9 Komplexen, **Preise** (Gewerbelabor / Praxislabor)
-- `kataloge/beb97_zahniAI.json` — 1103 BEB-97-Positionen mit Planzeit und Hauptgruppe
-- `vorlagen/` — Abrechnungsvorlagen je Konfigurator-Bereich, Schema:
+- `kataloge/bel.json` — 175 L-Nrn. in 9 Komplexen, **Preise** (Gewerbelabor / Praxislabor).
+  Die Kurztexte dieses Katalogs sind für Rechnung und KV **maßgeblich**
+  ([[bel-ii-rechnungsstellung]]); die BEL-Gruppenseiten geben sie wörtlich wieder.
+  ⚠️ Der Katalog führt bei **933 0/5/8 auch einen Praxislabor-Preis**, obwohl Versandkosten im
+  Praxislabor **nicht** abrechenbar sind → [[bel-gruppe-zuschlaege-versand]]. Preisfeld hier
+  nicht ungeprüft übernehmen.
+- `kataloge/beb97_zahniAI.json` — 1103 BEB-97-Positionen; Felder `nr`, `name`, `dauer_min`
+  (Planzeit), `hg` (Hauptgruppe **HG0–HG9**), `type` (`standard` / `individuell`)
+- `vorlagen/` — 228 Abrechnungsvorlagen je Konfigurator-Bereich, Schema:
   `# Festzuschuss` · `# BEL-Positionen` · `# Basisleistungen` · `# Zusatzleistungen` ·
   `# Material` · `# Hinweise`
-- `raw/review-2026-08/findings_register.json` — die 642 Einzelbefunde
+- `raw/review-2026-08/findings_register.json` — die 642 Einzelbefunde. Achtung beim Zählen: das
+  Register zählt **Befunde**, der `BEFUNDBERICHT.md` daneben **betroffene Vorlagen** — dieselbe
+  Sache ergibt in beiden Systemen verschiedene Zahlen → [[haeufige-abrechnungsfehler]].

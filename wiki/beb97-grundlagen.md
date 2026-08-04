@@ -34,6 +34,12 @@ Art von Arbeit** die Position gedacht ist.
 | HG5 | Oberflächen: Konditionieren, Polieren, Nachbearbeiten |
 | HG6 | Prothetik: Aufstellung, Fertigstellung, Sonderverfahren |
 | HG7 | Kieferorthopädie |
+| **HG8** | **Instandsetzung, Erweiterung, Unterfütterung** (Grund-/Leistungseinheiten, 8001–8851) |
+| **HG9** | **Zuschläge/Auslagen**: 9330 Versand, 9700 NEM-Verarbeitungsaufwand, 9850 3D-Modell |
+
+⚠️ **HG8 und HG9 wurden in früheren Fassungen dieser Seite unterschlagen** — zusammen 67 der
+1103 Positionen. Wer Reparaturleistungen in HG2 oder HG6 sucht, findet dort nichts Passendes und
+greift zur falschen Position.
 
 ⚠️ **Eine Position aus der falschen Hauptgruppe ist ein Abrechnungsfehler**, auch wenn der
 Kurztext passt. Belege aus dem Review:
@@ -42,7 +48,7 @@ Kurztext passt. Belege aus dem Review:
 |---|---|
 | 6411 „Spezialpressverfahren" für eine gepresste Lithiumdisilikat-Krone | HG6 = Prothesen, nicht Kronen |
 | 2515 „Kunststoff-Onlay" für ein Komposit-Onlay | falsches Material im Leistungstext |
-| 2603 für eine nicht-PMMA-Arbeit | Position ist PMMA-spezifisch |
+| 2603 für eine nicht-PMMA-Arbeit | Katalogtext ist neutral („Verblendschale aus Kunststoff"); die PMMA-Einschränkung stammt aus dem Review, nicht aus dem Katalog. **VERIFIZIEREN** |
 
 ## Komplettpositionen und ihre Einzelschritte schließen sich aus
 
@@ -55,7 +61,8 @@ Beide zusammen sind Doppelabrechnung.
 | 2552–2554, 2844–2846 (vollverblendete CAD/CAM-Einheiten) | dieselbe Verblendung nochmals |
 | 2613, 2653 | dito |
 
-Im Review war das der häufigste Positionsfehler überhaupt (190 Vorlagen betroffen).
+Im Review die größte Fehlerklasse: **198 Befunde in 190 der 228 Vorlagen**
+(zu den zwei Zählweisen → [[haeufige-abrechnungsfehler]]).
 
 ## BEL und BEB nicht für dieselbe Arbeit mischen
 
@@ -66,8 +73,15 @@ sind:
 |---|---|---|
 | 1024 Krone für vestibuläre Verblendung + 1620 Verblendung Keramik | BEB 2122 / 2314 / 2612 | dieselbe Leistung zweimal |
 
-Rechtsgrundlage der Kritik: § 3 Abs. 3 BEL II — Leistungsbestandteile sind mit der Position
-abgegolten. → [[bel-ausschlussregeln]]
+Rechtsgrundlage der Kritik: **§ 2 Ziff. 4 der Einleitenden Bestimmungen** (abschließende Liste
+des zusätzlich Abrechenbaren, alles Übrige ist mit der Positionsvergütung abgegolten) sowie die
+**Leistungstexte der jeweiligen Positionen**, die die Teilschritte ausdrücklich einschließen
+→ [[bel-ii-zusatzkosten-material]], [[bel-gruppe-festsitzender-zahnersatz]].
+
+⚠️ **Nicht** § 3 Ziff. 3 — der regelt die Pflichtangaben der Rechnung, nicht die Frage, was
+abgegolten ist ([[bel-ii-rechnungsstellung]]). Er ist hier nur mittelbar einschlägig: Weil **alle**
+erbrachten Leistungen in *einer* Rechnung stehen müssen, ist auch das Aufteilen derselben Arbeit
+auf getrennte BEL- und BEB-Rechnungen unzulässig. → [[bel-ausschlussregeln]]
 
 ⚠️ In einer **reinen Regelversorgung** hat der BEB überhaupt nichts zu suchen: Jede angesetzte
 BEB-Position macht die Versorgung **gleichartig** und löst die Mehrkostenvereinbarung aus.

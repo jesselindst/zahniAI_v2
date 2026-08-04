@@ -55,5 +55,5 @@ entnommen.
 
 - [[festzuschuss-grundlagen]] — Befundklassen und Systematik
 - [[festzuschuss-haertefall-bonus]] — die Prozentmechanik und ihre unterschiedliche Wirkung
-- [[festzuschuss-befundklassen-referenz]] — Klasse 1–7 im Einzelnen
+- [[festzuschuss-befundklassen-referenz]] — Klassen 1–8 im Einzelnen
 - [[bel-preisbildung-festzuschuss]] — Kopplung der BEL-Preise an die Betragsfestsetzung

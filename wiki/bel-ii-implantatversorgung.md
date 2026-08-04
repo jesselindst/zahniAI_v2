@@ -42,23 +42,23 @@ Eine Position der falschen Spalte anzusetzen ist ein harter Abrechnungsfehler.
 |-------|----------|-------------|
 | 001 8 | Modell bei Implantatversorgung | Nr. 36 (a oder b) |
 | 012 8 | Mittelwertartikulator bei Implantatversorgung | Nr. 36 (a oder b) |
-| 021 6 | Basis für Bissregistr. bei Implantatversorgung | Nr. 36 b |
+| 021 6 | Basis für Bissregistrierung bei Implantatversorgung | Nr. 36 b |
 | 021 8 | Basis für Aufstellung bei Implantatversorgung | Nr. 36 b |
 | 022 8 | Bisswall bei Implantatversorgung | Nr. 36 b |
-| 102 6 | Vollkrone/Metall bei Implantatversorgung | Nr. 36 a |
-| 102 8 | Krone für vestib. Verbl. bei Implantatversorgung | Nr. 36 a |
-| 162 8 | Vestib. Verbl. Keramik bei Implantatv. | Nr. 36 a |
-| 163 8 | Zahnfleisch Keramik bei Implantatv. | Nr. 36 a |
-| 301 8 | Aufstellung Grundeinheit bei Implantatv. | Nr. 36 b |
-| 302 8 | Aufst. Wachs-/Kunststoff je Zahn bei Implantatv. | Nr. 36 b |
-| 361 8 | Fertigst. Grundeinheit bei Implantatv. | Nr. 36 b |
-| 362 8 | Fertigstellen je Zahn bei Implantatv. | Nr. 36 b |
-| 801 8 | Grundeinh. Instands. ZE/implantatgest. | Nr. 36 b |
+| 102 6 | Vollkrone/Metall bei Implantatv. | Nr. 36 a |
+| 102 8 | Krone f. vestib. Verbl. bei Implantatversorgung | Nr. 36 a |
+| 162 8 | Vestib. Verbl. Keramik bei Implantatversorgung | Nr. 36 a |
+| 163 8 | Zahnfleisch Keramik bei Implantatversorgung | Nr. 36 a |
+| 301 8 | Aufstellung, Grundeinheit bei Implantatversorgung | Nr. 36 b |
+| 302 8 | Aufst. Wachs oder Kunststoff je Zahn bei Implantatv. | Nr. 36 b |
+| 361 8 | Fertigstellung Grundeinheit bei Implantatversorgung | Nr. 36 b |
+| 362 8 | Fertigstellen je Zahn bei Implantatversorgung | Nr. 36 b |
+| 801 8 | Grundeinheit Instandsetzung ZE/implantatgest. | Nr. 36 b |
 | 808 8 | Teilunterfütterung/implantatgest. | Nr. 36 b |
-| 809 8 | Vollst. Unterfütterung/implantatgest. | Nr. 36 b |
-| 810 8 | Prothesenbasis erneuern/Implantatv. | Nr. 36 b |
+| 809 8 | Vollständige Unterfütterung/implantatgestützte Basis | Nr. 36 b |
+| 810 8 | Prothesenbasis erneuern/Implantatversorgung | Nr. 36 b |
 | 820 8 | Instandsetzung Krone/implantatgest. | Nr. 36 a |
-| 933 8 | Versandkosten bei Implantatv. | Nr. 36 (a oder b) |
+| 933 8 | Versandkosten bei Implantatversorgung | Nr. 36 (a oder b) |
 
 ## Positionsspezifische Besonderheiten
 - **102 8** (Krone für vestibuläre Verblendung, Implantat): verblendbar mit **160 0, 162 8

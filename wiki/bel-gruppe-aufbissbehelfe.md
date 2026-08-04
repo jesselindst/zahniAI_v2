@@ -6,8 +6,8 @@ Quelle: [[quelle-bel-ii-2014]], S. 80–82 und 132.
 ## Die vier Positionen
 | L-Nr. | Kurztext | Umfasst |
 |-------|----------|---------|
-| 401 0 | Aufbissbehelf **m**. adj. Oberfläche | Grundleistungen für einen Aufbissbehelf **mit adjustierter Oberfläche**, unter Verwendung eines **Mittelwertartikulators**. Hierzu zählen: **Aufbissschiene, Knirscherschiene, Bissführungsplatte** |
-| 402 0 | Aufbissbehelf **o**. adj. Oberfläche | Grundleistungen ohne adjustierte Oberfläche (**kein** Mittelwertartikulator im Leistungsinhalt). Hierzu zählen: **Miniplastschiene, Retentionsschiene, Verband-/Verschlussplatte** |
+| 401 0 | Aufbissbehelf mit adjustierter Oberfläche | Grundleistungen für einen Aufbissbehelf **mit adjustierter Oberfläche**, unter Verwendung eines **Mittelwertartikulators**. Hierzu zählen: **Aufbissschiene, Knirscherschiene, Bissführungsplatte** |
+| 402 0 | Aufbissbehelf ohne adjustierte Oberfläche | Grundleistungen ohne adjustierte Oberfläche (**kein** Mittelwertartikulator im Leistungsinhalt). Hierzu zählen: **Miniplastschiene, Retentionsschiene, Verband-/Verschlussplatte** |
 | 403 0 | Umarbeiten zum Aufbissbehelf | Prothese umarbeiten zum adjustierten Aufbissbehelf · **Adjustieren** eines vorhandenen nichtadjustierten Aufbissbehelfs · **Neu adjustieren** eines vorhandenen adjustierten Aufbissbehelfs — jeweils unter Verwendung eines Mittelwertartikulators. **Je Aufbissbehelf** |
 | 404 0 | Semipermanente Schiene aus Metall, je Zahn | Grundleistungen für eine **gegossene oder gebogene** semipermanente Retentionsschiene als **Retainer in der KFO** |
 

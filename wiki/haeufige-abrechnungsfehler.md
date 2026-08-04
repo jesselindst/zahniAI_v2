@@ -18,8 +18,28 @@ Die Einzelbefunde stehen in `raw/review-2026-08/findings_register.json`.
 | Härtefall/Bonus nicht hinterlegt | 27 | 19 |
 | Format/Parsebarkeit | 21 | — |
 | Veraltete Regel | 18 | 5 |
+| Sonstiges | 11 | 2 |
+| **Summe** | **642** | **252** |
 
-## 1. Doppelabrechnung — der häufigste Fehler überhaupt
+### ⚠️ Zwei Zählweisen — nicht vermischen
+
+Die Zahlen dieser Seite und die im `BEFUNDBERICHT.md` messen **Verschiedenes**:
+
+| | zählt | Beispiel Festzuschuss |
+|---|---|---|
+| `findings_register.json` (Tabelle oben) | **Befunde** — ein Befund kann viele Vorlagen betreffen | **81** Befunde |
+| `BEFUNDBERICHT.md` | **betroffene Vorlagen** | **189** Vorlagen |
+
+Beide Zahlen sind richtig. Weitere Paare: Positionen 198 Befunde / 190 Vorlagen · Härtefall 27 / 137
+· Material 54 / 114. Wer sie nebeneinanderstellt, muss die Einheit dazusagen — sonst wirkt
+dieselbe Fehlerklasse einmal klein und einmal groß.
+
+**Deshalb gibt es hier auch nicht *den* häufigsten Fehler:** nach Befunden führen die
+**Positionsfehler** (198), nach betroffenen Vorlagen ebenfalls (190) — dicht gefolgt vom
+Festzuschuss (189 Vorlagen, aber nur 81 Befunde). Der Härtefall ist mit 27 Befunden klein und mit
+137 Vorlagen der **flächendeckendste strukturelle** Mangel.
+
+## 1. Doppelabrechnung — die größte Fehlerklasse (198 Befunde / 190 Vorlagen)
 
 ### Komplettposition **und** Einzelschritte
 
@@ -33,7 +53,11 @@ Die Einzelbefunde stehen in `raw/review-2026-08/findings_register.json`.
 
 BEL 1024 (Krone für vestibuläre Verblendung) + 1620 (Verblendung Keramik) **und** zugleich
 BEB 2122 / 2314 / 2612 — dieselbe Leistung aus zwei Katalogen.
-Rechtsgrundlage der Kritik: **§ 3 Abs. 3 BEL II** (Leistungsbestandteile sind abgegolten).
+Rechtsgrundlage der Kritik: **§ 2 Ziff. 4 der Einl. Best.** (abschließende Liste; alles Übrige ist
+mit der Positionsvergütung abgegolten) und die Leistungstexte der Positionen selbst. Zusätzlich
+verlangt **§ 3 Ziff. 3**, alle Leistungen in *einer* Rechnung zu führen — getrennte BEL- und
+BEB-Rechnungen für dieselbe Arbeit sind damit ebenfalls ausgeschlossen.
+→ [[bel-ii-zusatzkosten-material]], [[bel-ii-rechnungsstellung]]
 
 ### Leistungsbestandteile getrennt angesetzt
 
@@ -57,7 +81,7 @@ Kronenpositionen bereits **Leistungsbestandteil**. → [[bel-ausschlussregeln]]
 |---|---|
 | Verblend-Zusatzbefunde **1.3 / 2.7 / 4.7** vergessen | je Verblendung im Bereich OK 15–25 / UK 34–44; ca. **80–130 € je Krone** |
 | Totalprothese mit Befund **5.x** | **4.2** (zahnloser OK) / **4.4** (zahnloser UK) — Klasse 5 ist die Interimsversorgung |
-| Modellguss mit **2.7** | **3.1** je Kiefer (belegt: 3.1 enthält BEL 2010 Metallbasis, 2.7 nicht) |
+| Modellguss mit **2.7** | **3.1** je Kiefer (belegt über das `regelversorgung`-Array: 3.1 enthält BEL 2010 Metallbasis, 2.7 nicht — Katalog liegt nicht im Repo, s. [[festzuschuss-befundklassen-referenz]]) |
 | Adhäsivbrücke mit **1.4** | **2.1/2.2 + 2.7** — 1.4/1.5 sind Stiftaufbauten |
 | Dreigliedrige Implantatbrücke mit **2.1** | **2.3** (je Kiefer, nicht je Lücke) |
 | Viergliedrig mit **2.2** | **2.4 / 3.1** |
@@ -107,7 +131,10 @@ daraus Regeln ab — z. B. ein „Mengen-Limit: max. 3 Teleskope", das es nicht 
 - Bezugsgröße verwechselt: „je Kiefer" wie „je Lücke" behandelt (Befunde 2.3/2.4)
 - Menge 0 oder fehlende Mengenlogik bei „je Zahneinheit"-Positionen
 - **BEL 9330 je Versandgang**: ein Hin- und Rückweg = ein Gang, keine getrennte
-  Hin-/Rückberechnung; Leerfahrten zählen nicht; **nur Gewerbelabor**
+  Hin-/Rückberechnung; Leerfahrten zählen nicht; **nur Gewerbelabor**.
+  ⚠️ Nur mittelbar belegt (gRS 11.07.2016, Volltext nicht zugänglich); der Leerfahrten-Teil ist
+  reine Portalquelle → Herleitung und Vorbehalt in [[bel-gruppe-zuschlaege-versand]].
+  **VERIFIZIEREN**
 - BEL 002 3 seit 01.01.2023: Bezugsgröße *je aufgefülltem Sekundärteil*, **max. 3× je Modell**
 
 → [[bel-mengenregeln]]

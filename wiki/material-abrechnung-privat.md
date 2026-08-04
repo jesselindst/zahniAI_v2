@@ -32,7 +32,8 @@ Daraus folgt für die Laborrechnung als Pflichtangaben je Edelmetallposition:
 | **Tagespreis** € / g | 148,40 €/g |
 
 Ein Pauschalpreis „Edelmetall … €" **genügt § 10 GOZ nicht**. Im Vorlagenreview war das in
-114 Vorlagen ein Befund: Edelmetall ohne Gewichts- und Tagespreisangabe.
+**114 der 228 Vorlagen** ein Befund (54 Befunde insgesamt zur Materialabgrenzung): Edelmetall ohne
+Gewichts- und Tagespreisangabe. Zu den zwei Zählweisen → [[haeufige-abrechnungsfehler]].
 
 **Größenordnung Stand 20.07.2026** (C.Hafner Tagespreisliste, Herstellerrichtpreis zzgl. MwSt.):
 hochgoldhaltige Legierungen ca. **125–150 €/g**, goldreduziert ca. 53–115 €/g, Galvano
@@ -91,13 +92,18 @@ berechenbar geführt. NEM, Zirkonblanks und Gips gehören dort **nicht** in die 
 
 ## Regionale Sonderregeln beachten
 
-Beispiele (offiziell, aber landesspezifisch):
+Beispiele — landesspezifisch, **ohne Fundstelle im Wiki**:
 
 - **KZV Hamburg**: Gold mit 3 % über dem Listenpreis der Scheideanstalt
 - **KZV Bayern**: Konfektionszahn mit 15 % Zuschlag (inkl. Komplettierung) auf den am Liefertag
   gültigen Einzelgarniturpreis
 - **NEM-Verrechnungseinheiten** bei EM statt NEM in der Regelversorgung — z. B. KZV Berlin ab
   01.01.2026: 10,53 €/Einheit bei 60 %, 12,29 € bei 70 %, 13,16 € bei 75 %
+
+⚠️ Zu keinem dieser drei Werte ist im Wiki ein Rundschreiben, eine Beschlussnummer oder ein
+Abrufdatum hinterlegt — nur der KZV-Bereich. Für einen KV **nicht ungeprüft übernehmen**: die
+Sätze werden regional fortgeschrieben, und ein falscher Zuschlagssatz schlägt unmittelbar auf den
+Eigenanteil durch. Vor Verwendung bei der zuständigen KZV verifizieren. **VERIFIZIEREN**
 
 ⚠️ Praxislabore müssen Zahnpreise grundsätzlich 1:1 weitergeben; gewerbliche Labore dürfen zum
 Staffelpreis einkaufen und zum Einzelpreis berechnen. [P]

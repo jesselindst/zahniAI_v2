@@ -9,20 +9,30 @@ begleitet von einer Primärquellen-Recherche.
 | Zeitraum | 20.07. – 04.08.2026 |
 | Gegenstand | 228 Vorlagen in 22 Gruppen + 5 Querschnittsanalysen; 9 608 Positionszeilen |
 | Ergebnis | **642 Befunde**, davon 252 mit hoher Schwere (betreffen 223 der 228 Vorlagen) |
-| Belegquote | 536 von 642 mit Katalog- oder Bestimmungszitat; 110 bewusst als VERIFIZIEREN markiert |
+| Belegquote | **536** von 642 mit Katalog- oder Bestimmungszitat (`beleg_typ = quelle`); 56 `praxis`, 50 `einschaetzung` |
+| Offene Punkte | **110** Befunde mit `verifizieren`-Flag — **eigene Dimension, keine Teilmenge der Belegquote**: 86 davon sind zugleich quellenbelegt (belegt, aber noch zu bestätigen). Deshalb ergeben 536 + 110 mehr als 642. |
 | Raw | `raw/review-2026-08/` — 7 Rechercheberichte, `findings_register.json`, `BEFUNDBERICHT.md` |
 
 ## Belegtypen
 
-Durchgängig getrennt gehalten — diese Unterscheidung ist in den abgeleiteten Wiki-Seiten
-beibehalten:
+Im Register durchgängig getrennt gehalten (Feld `beleg_typ`):
 
 | Marker | Bedeutung |
 |---|---|
 | **[Q]** | offizielle Quelle oder Katalogfeld — Zitat vorhanden |
 | **[P]** | gängige Laborpraxis — plausibel, aber nicht normativ belegt |
 | **[E]** | eigene Einschätzung — Schlussfolgerung, kein Beleg |
-| **VERIFIZIEREN** | offen; bewusst nicht geraten |
+| **VERIFIZIEREN** | offen; bewusst nicht geraten (eigenes Feld `verifizieren`) |
+
+⚠️ **In den abgeleiteten Wiki-Seiten sind diese Marker nur punktuell gesetzt** — konsequent in
+[[material-abrechnung-privat]] und [[cadcam-digitale-verfahren]], vereinzelt in
+[[quelle-beb97]], [[haeufige-abrechnungsfehler]], [[festzuschuss-versorgungsformen]] und
+[[festzuschuss-befundklassen-referenz]], **gar nicht** in [[festzuschuss-grundlagen]],
+[[festzuschuss-haertefall-bonus]], [[beb97-grundlagen]] und [[beb-bel-nummernkollisionen]].
+
+**Fehlender Marker heißt daher nicht „quellenbelegt".** Wer eine Aussage aus diesen Seiten als
+Rechtsgrundlage in einen KV schreibt, muss sie am Register oder an der Primärquelle gegenprüfen.
+Beim Ausbau der Seiten sind die Marker nachzuziehen.
 
 ## Die sieben Rechercheberichte
 

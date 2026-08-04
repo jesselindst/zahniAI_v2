@@ -2,9 +2,23 @@
 
 Referenzliste mit Bezugsgrößen und den Verwechslungen, die im Vorlagenreview aufgetreten sind.
 Quellen: [[quelle-festzuschuss-richtlinie]] Teil B; Befundtexte aus dem Festzuschusskatalog
-der Datenbank (54 Befunde). Fehleinordnungen aus [[quelle-review-vorlagen-2026-08]].
+(54 Befunde). Fehleinordnungen aus [[quelle-review-vorlagen-2026-08]].
 
 **Keine Beträge** — die ändern sich jährlich. → [[festzuschuss-haertefall-bonus]]
+
+> ⚠️ **Wo der Festzuschusskatalog liegt — und warum er nicht genügt.**
+> Er ist **kein Repo-Artefakt**, sondern die Datenbanktabelle **`catalog_festzuschussbefund`**
+> des ZahniAI-Systems (im `findings_register.json` als `reference/festzuschuss_befunde.json`
+> exportiert). Unter `kataloge/` sucht man ihn vergeblich.
+>
+> Der Review vom 04.08.2026 hat ihn als **veraltet** befundet: Die Tabelle stand auf **Stand 2025**,
+> während seit 01.01.2026 neue Beträge gelten (G-BA 05.12.2025 — z. B. Befund 1.1 ohne Bonus
+> 229,25 € → 239,03 €). **Ob das inzwischen behoben ist, ist nicht verifiziert.**
+>
+> Für diese Seite heißt das: Die Befund**systematik** und die Bezugsgrößen sind belegt, die
+> **Beträge nicht**. Vor jedem KV den Katalogstand prüfen und im Zweifel gegen die
+> GKV-SV-Betragstabelle des laufenden Jahres gegenrechnen
+> ([[quelle-festzuschuss-richtlinie]]). **VERIFIZIEREN.**
 
 ## Klasse 1 — Erhaltungswürdiger Zahn
 
@@ -49,7 +63,8 @@ im Verblendbereich — nicht pauschal für alle Anker.
 
 **Adhäsivbrücke**: Regelversorgung mit **Metallgerüst** (BEL 1023 „Flügel für Adhäsivbrücke",
 BEMA 93a/93b). Befunde 2.1 bzw. 2.2 + 2.7. Keramikgerüst = gleichartig.
-Wiederherstellung: Befund **6.8.1** je Flügel (eingeführt zum 01.01.2019).
+Wiederherstellung: Befund **6.8.1** je Flügel *(Einführung zum 01.01.2019 — ohne hinterlegte
+Fundstelle,* **VERIFIZIEREN***)*.
 Altersgrenze 14.–21. Lebensjahr **nur** bei zwei nebeneinander fehlenden Schneidezähnen
 → [[quelle-zahnersatz-richtlinie]] Nr. 22/24.
 
@@ -62,6 +77,7 @@ Altersgrenze 14.–21. Lebensjahr **nur** bei zwei nebeneinander fehlenden Schne
 
 **3.1 ist der tragende Modellguss-Befund.** Belegt über das `regelversorgung`-Array im
 Festzuschusskatalog: 3.1 enthält **BEL 2010 (Metallbasis)**, 2.7 nicht.
+*(Beleg stammt aus dem Review-Stand des Katalogs; die Datei liegt nicht im Repo — s. Hinweis oben.)*
 
 ⚠️ Im Review führten mehrere Modellguss-Vorlagen „2.7 bei Freiend". Falsch: 2.7 ist der
 Verblendzuschuss je ersetztem Zahn und gehört zum **festsitzenden** Zahnersatz.

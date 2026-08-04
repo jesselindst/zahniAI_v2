@@ -7,7 +7,7 @@ Quelle: [[quelle-bel-ii-2014]], S. 124–127 und 135.
 |-------|----------|-----------|
 | 933 0 | Versandkosten | Regelfall |
 | 933 5 | Versandkosten UKPS | Herstellung einer Unterkieferprotrusionsschiene → [[bel-ii-ukps]] |
-| 933 8 | Versandkosten bei Implantatv. | nur bei Versorgung nach **Nr. 36** ZE-Richtlinie → [[bel-ii-implantatversorgung]] |
+| 933 8 | Versandkosten bei Implantatversorgung | nur bei Versorgung nach **Nr. 36** ZE-Richtlinie → [[bel-ii-implantatversorgung]] |
 
 **Leistungsinhalt (alle drei):** Abgeltung von Auslagen für Versand, z. B. Versand durch
 **Laborboten je Versandgang**, durch **Kurier je Versandgang**, durch **Paketdienst**.
@@ -17,6 +17,27 @@ Quelle: [[quelle-bel-ii-2014]], S. 124–127 und 135.
 - Zur Bestimmung der Pauschale ist das **Prinzip der Wirtschaftlichkeit der Versorgung
   (§ 12 SGB V)** zu beachten.
 - ⚠️ **Nicht abrechenbar für Leistungen, die in Praxislaboratorien erbracht werden.**
+
+⚠️ **Katalogfalle:** `kataloge/bel.json` führt für 933 0, 933 5 und 933 8 gleichwohl einen
+**Praxislabor-Preis** (6,85 €). Das ist eine Katalogeigenschaft, kein Abrechnungsanspruch —
+für ein Praxislabor bleibt die Position **gesperrt**.
+
+## Was ein „Versandgang" ist — nur mittelbar belegt
+
+Der BEL-Text definiert den Versandgang **nicht** näher. Nach Fachliteratur (IWW/AAZ) haben
+VDZI und GKV-SV ihn mit **Gemeinsamem Rundschreiben vom 11.07.2016** (im Nachgang zur
+Bundesschiedsamtsentscheidung vom 03.12.2015) präzisiert, um Doppelberechnungen auszuschließen:
+
+- **Hin- und Rückweg derselben Beförderung = ein Gang** — getrennte Berechnung unzulässig. *[Q,
+  fachliteraturbelegt]*
+- Ein Versandgang = jede Beförderung eines Werkstücks zwischen Labor und Praxis, **auch je
+  Anprobe**; **Leerfahrten zählen nicht**. *[P — nur portalbelegt]*
+
+⚠️ **Der Volltext des Rundschreibens vom 11.07.2016 war nicht frei zugänglich.** Die
+Hin-/Rückweg-Regel ist fachliteraturbelegt, die Leerfahrten-/Anprobe-Konkretisierung nur
+portalbelegt und damit nach der eigenen Quellenhierarchie
+([[quelle-review-vorlagen-2026-08]]) **nicht gesichert**. Vor Streitfällen bei der KZV
+gegenprüfen. **VERIFIZIEREN.**
 
 ## 970 0 Verarbeitungsaufwand NEM-Legierung
 Zuschlag für den **Mehraufwand bei Verarbeitung von Nichtedelmetall-Legierungen**. Vergütet

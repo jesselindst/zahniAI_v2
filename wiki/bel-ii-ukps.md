@@ -9,8 +9,17 @@ S. 83–85 und die `___ 5`-Positionen.
 > sind **nur die mit UKPS gekennzeichneten Leistungen** abrechenbar.
 
 Das hebt die sonst geltende Gruppenkompatibilität ([[bel-ii-grundlagen]]) auf. Für eine UKPS
-darf also **kein** 001 0, 011 2, 012 0, 021 1, 801 0, 808 0, 933 0 … angesetzt werden — nur
-die 5er-Varianten und die 5xx-Positionen.
+darf also **kein** 001 0, 011 2, 012 0, 021 1, 801 0, 808 0, 933 0 … angesetzt werden.
+
+⚠️ **Maßgeblich ist die UKPS-Kennzeichnung, nicht die Endziffer.** Der Kreis besteht aus drei
+Nummerngruppen — wer nur nach „5er-Varianten" sucht, verliert den individuellen Löffel und den
+gesamten Instandsetzungsteil:
+
+| Gruppe | Positionen |
+|---|---|
+| 5er-Varianten bestehender Nummern | 001 5, 002 5, 011 5, 012 5, 020 5, 808 5, 933 5 |
+| eigene UKPS-Gruppe 5xx | 501 0, 502 0, 510 0, 511 0, 520 0, 521 0 |
+| **abweichend nummeriert** | **021 7** (individueller Löffel), **850 0**, **851 1 – 851 4** |
 
 ## Vollständiger UKPS-Leistungskreis
 ### Arbeitsvorbereitung (5er-Varianten)
@@ -26,8 +35,8 @@ die 5er-Varianten und die 5xx-Positionen.
 ### Herstellung (Gruppe 5xx)
 | L-Nr. | Kurztext | Menge / Inhalt |
 |-------|----------|----------------|
-| 501 0 | Basen UKPS | **1× je UKPS** — je eine Kunststoffbasis OK **und** UK mit horizontalen Stütz- und Gleitzonen |
-| 502 0 | Vestibuläre Protrusionsgleitflächen UKPS | **2× je UKPS** — zwei Gleitflächen im Seitenzahnbereich, parallel in OK und UK |
+| 501 0 | Basen für UKPS | **1× je UKPS** — je eine Kunststoffbasis OK **und** UK mit horizontalen Stütz- und Gleitzonen |
+| 502 0 | Vestibuläre Protrusionsgleitfläche UKPS | **2× je UKPS** — zwei Gleitflächen im Seitenzahnbereich, parallel in OK und UK |
 | 510 0 | Befestigungselement Protrusionselement UKPS | **bis zu 4× je UKPS**, auch für Erneuerung |
 | 511 0 | Protrusionselement UKPS | **bis zu 2× je UKPS**, auch für Erneuerung. Montage/Justierung an bis zu zwei Befestigungselementen nach 510 0; muss Justierung **mindestens in Millimeterschritten** erlauben |
 | 520 0 | Befestigungselement Mundöffnungsbegrenzung UKPS | **4× je UKPS**, auch für Erneuerung |
@@ -40,8 +49,8 @@ die 5er-Varianten und die 5xx-Positionen.
 | 851 1 | LE Erneuerung Basis UKPS | Erneuerung einer Kunststoffbasis OK oder UK mit Stütz-/Gleitzonen |
 | 851 2 | LE Sprung/Bruch UKPS | **1×** je zusammenhängende Sprunglinie und/oder je Bruch |
 | 851 3 | LE Basisteil Kunststoff UKPS | nur wenn an derselben Stelle **keine andere Leistung** erbracht wird; Teilunterfütterung ggf. zusätzlich nach **808 5** |
-| 851 4 | LE Halte-/Stützvorrichtung einarbeiten UKPS | je Halte-/Stützvorrichtung; auch bei Verwendung einer vorhandenen Vorrichtung |
-| 808 5 | Teilunterfütterung Basis UKPS | **1× je Basis** |
+| 851 4 | LE Halte- und/oder Stützvorrichtung einarbeiten UKPS | je Halte-/Stützvorrichtung; auch bei Verwendung einer vorhandenen Vorrichtung |
+| 808 5 | Teilunterfütterung einer Basis UKPS | **1× je Basis** |
 | 933 5 | Versandkosten UKPS | pauschal; nicht für Praxislabor |
 
 ## Bisslage bei Teilunterfütterung (808 5)
