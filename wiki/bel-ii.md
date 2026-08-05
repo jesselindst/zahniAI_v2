@@ -68,6 +68,8 @@ Zur Lesart der Nummern siehe [[positionssystematik-bel]].
 
 ## Preise
 
-Das BEL enthält keine Preise; es bestimmt allein Leistungsinhalte. Die Vergütungen werden nach § 57 Abs. 2 SGB V und § 88 Abs. 2 SGB V zwischen den Landesverbänden der Krankenkassen und den Ersatzkassen einerseits und den Innungsverbänden der Zahntechniker andererseits vereinbart (BEL II, Vertrag, § 3). Preise sind damit regional und zeitabhängig und werden hier nicht festgeschrieben.
+Das BEL enthält keine Preise; es bestimmt allein Leistungsinhalte. Die Vergütungen werden nach § 57 Abs. 2 SGB V und § 88 Abs. 2 SGB V zwischen den Landesverbänden der Krankenkassen und den Ersatzkassen einerseits und den Innungsverbänden der Zahntechniker andererseits vereinbart (BEL II, Vertrag, § 3).
+
+Daraus folgen zwei Preisebenen. Der bundeseinheitliche durchschnittliche Netto-Preis nach § 57 Abs. 2 Satz 1 SGB V wird jährlich festgesetzt und ist im Wiki abgebildet, siehe [[bundesmittelpreis]]. Die tatsächlich abzurechnenden regionalen Vergütungen nach § 88 Abs. 2 SGB V sind es nicht.
 
 Verwandt: [[mengen-und-bezugsgroessen-bel]] · [[nebeneinander-ausschluesse-bel]] · [[rechnungsstellung-bel]] · [[qualitaetssicherung-sonderanfertigung]] · [[quelle-bel-ii-2022]]

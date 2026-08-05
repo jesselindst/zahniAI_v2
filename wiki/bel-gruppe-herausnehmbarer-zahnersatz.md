@@ -63,4 +63,4 @@ Der individuell hergestellte Zahn ersetzt also die gesamte Aufstell- und Fertigs
 
 Künstliche Zähne sind gesondert abrechenbares Material, siehe [[gesondert-abrechenbare-materialien-bel]].
 
-Verwandt: [[bel-ii]] · [[bel-gruppe-modellguss]] · [[implantatversorgung-bel]] · [[nebeneinander-ausschluesse-bel]] · [[mengen-und-bezugsgroessen-bel]]
+Verwandt: [[bel-ii]] · [[bel-gruppe-modellguss]] · [[implantatversorgung-bel]] · [[nebeneinander-ausschluesse-bel]] · [[mengen-und-bezugsgroessen-bel]] · [[bundesmittelpreis]]

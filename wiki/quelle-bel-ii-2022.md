@@ -71,5 +71,5 @@ Die Quelle verweist an mehreren Stellen auf Regelwerke, die nicht Teil des Dokum
 - **§ 28 Abs. 2 Satz 9 SGB V** — Ausnahmeindikationen für implantologische Leistungen.
 - **§ 56 Abs. 2 SGB V** — Regelversorgung; bestimmt die Grenze des BEL-Geltungsbereichs.
 - **Gemeinsame Rundschreiben** des Gemeinsamen Ausschusses und des Gemeinsamen BEL-Ausschusses. Sie sind verbindlich und können Regelungen dieses Verzeichnisses geändert haben, ohne dass der Verzeichnistext neu gefasst wurde. Der Stand 01.01.2022 ist daher nicht ohne Weiteres der heutige Regelungsstand.
-- **Regionale Preisvereinbarungen** nach § 57 Abs. 2 und § 88 Abs. 2 SGB V — im Dokument nicht enthalten.
+- **Preise** — im Dokument nicht enthalten. Die bundeseinheitlichen durchschnittlichen Preise nach § 57 Abs. 2 Satz 1 SGB V sind inzwischen ingestiert, siehe [[bundesmittelpreis]]. Die regionalen Vergütungen nach § 88 Abs. 2 SGB V fehlen weiterhin.
 - **Verordnung (EU) 2017/745 (MDR), Anhang XIII** — Inhalt der Erklärung für Sonderanfertigungen und der Dokumentation.

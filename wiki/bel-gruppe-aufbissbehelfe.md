@@ -55,4 +55,10 @@ Bei 404 0 ist 155 0 (Konditionierung) je Zahn abrechenbar (BEL II, Nr. 155 0) �
 
 Die Instandsetzung und Erweiterung eines Aufbissbehelfs läuft über die KFO-Grundeinheit 861 0, nicht über 801 0, siehe [[bel-gruppe-reparatur-erweiterung]].
 
+## Preis
+
+Keine der vier Positionen hat einen Bundesmittelpreis; die Preisliste deckt nur Leistungen für die Regelversorgung mit Zahnersatz ab. Dasselbe gilt für die Instandsetzungspositionen 861 0 bis 864 0. Siehe [[bundesmittelpreis]].
+
+Die daneben abrechenbaren Positionen 302 0, 362 0, 382 1 und 382 2 haben dagegen einen Bundesmittelpreis — der Behelf selbst bleibt ohne.
+
 Verwandt: [[bel-ii]] · [[bel-gruppe-kieferorthopaedie]] · [[nebeneinander-ausschluesse-bel]]

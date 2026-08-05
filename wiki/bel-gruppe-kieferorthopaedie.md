@@ -85,4 +85,10 @@ Wird ein Element hergestellt, das in der jeweiligen Erläuterung nicht benannt i
 
 Die Instandsetzung von KFO- und FKO-Geräten läuft über die Grundeinheit 861 0 mit den Leistungseinheiten 862 0, 863 0, 802 1–802 4; die vollständige Basiserneuerung über 864 0, die Remontage über 870 0. Siehe [[bel-gruppe-reparatur-erweiterung]].
 
+## Preis
+
+Keine Position dieser Gruppe hat einen Bundesmittelpreis. Die Preisliste deckt allein Leistungen für die Regelversorgung mit Zahnersatz ab und lässt 701 0 bis 751 0 sowie die KFO-Instandsetzung 861 0 bis 870 0 vollständig aus. Siehe [[bundesmittelpreis]].
+
+Auch die KFO-gebundenen Positionen der Arbeitsvorbereitung — 002 1, 003 0, 005 4, 011 1, 013 0, 020 2 — sind aus der Preisliste ausgenommen. Die Leistungseinheiten 802 1 bis 802 4, die 861 0 mitträgt, haben dagegen einen Bundesmittelpreis.
+
 Verwandt: [[bel-ii]] · [[bel-gruppe-aufbissbehelfe]] · [[nebeneinander-ausschluesse-bel]] · [[mengen-und-bezugsgroessen-bel]]

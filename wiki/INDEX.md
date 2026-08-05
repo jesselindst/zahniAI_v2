@@ -22,6 +22,13 @@ Katalog aller Wissensseiten. Der Einzeiler unter "Inhalt" macht die Seite unters
 | [Unterkieferprotrusionsschiene](unterkieferprotrusionsschiene.md) | Geschlossene UKPS-Positionsmenge, Herstellung mit Mengen je Schiene, Millimeterjustierung als Voraussetzung, Instandsetzung | 2026-08-05 · BEL_II_01_01_2022.pdf |
 | [Verblendung im BEL](verblendung-bel.md) | Welcher Träger welche Verblendung trägt, Keramik-Lücke bei Teleskop und Rückenschutzplatte, Konditionierung, Zahnfleischpartien | 2026-08-05 · BEL_II_01_01_2022.pdf |
 
+## Preise
+
+| Seite | Inhalt | Meta |
+|---|---|---|
+| [Bundesmittelpreis](bundesmittelpreis.md) | Konzept, Rechtsgrundlage § 57 Abs. 2 Satz 1 SGB V, Abgrenzung zum regionalen Preis, welche 58 BEL-Positionen keinen haben; einziger Anlaufpunkt für Preisverweise | 2026-08-05 · BMP_2026_Leistungen_Regelversorgung.pdf |
+| [Bundesmittelpreise 2026](bundesmittelpreise-2026.md) | Zahlenwerk für 2026: 117 Beträge nach BEL-Gruppen sortiert; nur von der Bundesmittelpreis-Seite verlinkt | 2026-08-05 · BMP_2026_Leistungen_Regelversorgung.pdf |
+
 ## Leistungsgruppen
 
 | Seite | Inhalt | Meta |
@@ -40,3 +47,4 @@ Katalog aller Wissensseiten. Der Einzeiler unter "Inhalt" macht die Seite unters
 | Seite | Inhalt | Meta |
 |---|---|---|
 | [BEL II, Stand 01.01.2022](quelle-bel-ii-2022.md) | Bundeseinheitliches Leistungsverzeichnis nach § 88 Abs. 1 SGB V, 135 Seiten; Herkunft der 18 BEL-Wissensseiten, offene Verweise auf Zahnersatz-Richtlinie und Rundschreiben | 2026-08-05 · raw/BEL_II_01_01_2022.pdf |
+| [Bundesmittelpreise 2026](quelle-bmp-2026.md) | Preistabelle für 2026, 117 Positionen; beschreibt auch, wie beim Jahreswechsel eine neue Jahrgangsseite eingehängt wird | 2026-08-05 · raw/BMP_2026_Leistungen_Regelversorgung.pdf |

@@ -86,4 +86,4 @@ Die Bezugsgröße ist die Maßnahme, nicht das Werkstück: mehrere Maßnahmen an
 
 **870 0 Remontieren KFO-Gerät** — Remontage eines kieferorthopädischen Gerätes, z. B. Crozat, Retainer, Quad-Helix. Je remontiertem Gerät einmal.
 
-Verwandt: [[bel-ii]] · [[bel-gruppe-kieferorthopaedie]] · [[bel-gruppe-aufbissbehelfe]] · [[nebeneinander-ausschluesse-bel]] · [[mengen-und-bezugsgroessen-bel]] · [[implantatversorgung-bel]]
+Verwandt: [[bel-ii]] · [[bel-gruppe-kieferorthopaedie]] · [[bel-gruppe-aufbissbehelfe]] · [[nebeneinander-ausschluesse-bel]] · [[mengen-und-bezugsgroessen-bel]] · [[implantatversorgung-bel]] · [[bundesmittelpreis]]

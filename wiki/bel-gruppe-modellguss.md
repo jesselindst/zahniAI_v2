@@ -64,4 +64,4 @@ Für die vestibuläre Verblendung einer Rückenschutzplatte nach 208 1 sind 160 
 
 212 0 ist ein Zuschlag für den Fall, dass nicht mit der Basis mitgegossen wird — also bei Reparatur oder bei Kunststoffprothese mit gegossenen Elementen. Er fällt je Prothese einmal an, nicht je Klammer.
 
-Verwandt: [[bel-ii]] · [[bel-gruppe-herausnehmbarer-zahnersatz]] · [[nebeneinander-ausschluesse-bel]] · [[mengen-und-bezugsgroessen-bel]]
+Verwandt: [[bel-ii]] · [[bel-gruppe-herausnehmbarer-zahnersatz]] · [[nebeneinander-ausschluesse-bel]] · [[mengen-und-bezugsgroessen-bel]] · [[bundesmittelpreis]]

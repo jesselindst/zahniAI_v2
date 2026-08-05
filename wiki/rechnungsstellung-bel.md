@@ -28,7 +28,7 @@ Fremdleistungen dürfen nicht als Eigenleistungen ausgewiesen werden. Werden Fre
 
 Wird eine zahntechnische Einzelanfertigung arbeitsteilig durch mehrere zahntechnische Laboratorien gefertigt, sind für die Abrechnung die Preise des Vertragsgebietes im Geltungsbereich des SGB V maßgebend, in dem das jeweilige, die (Teil-)Leistung herstellende Labor seinen Sitz hat (BEL II, Anlage 1, § 3 Ziffer 2).
 
-Maßgeblich ist also der Sitz des herstellenden Labors, nicht der Sitz des abrechnenden Labors und nicht der der Praxis. Bei arbeitsteiliger Fertigung können in einer Rechnung damit Positionen aus unterschiedlichen Preisgebieten stehen.
+Maßgeblich ist also der Sitz des herstellenden Labors, nicht der Sitz des abrechnenden Labors und nicht der der Praxis. Bei arbeitsteiliger Fertigung können in einer Rechnung damit Positionen aus unterschiedlichen Preisgebieten stehen. Der bundeseinheitliche Durchschnitt ist dafür keine Ersatzgröße, siehe [[bundesmittelpreis]].
 
 Hat ein herstellendes Labor seinen Sitz außerhalb des Geltungsbereiches des SGB V, sind seine Leistungen nur dann abrechnungsfähig, wenn sich die Preise an den dort ortsüblichen Preisen orientieren.
 

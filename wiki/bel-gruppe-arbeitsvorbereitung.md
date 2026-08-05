@@ -117,4 +117,8 @@ Für die Herstellung nach 031 0 ist ein Formteil nach 032 0 nicht abrechenbar (B
 
 031 0 und 032 0 schließen sich damit wechselseitig aus: die eine Position steht für das indirekte, die andere für das direkte Verfahren.
 
+## Positionen ohne Bundesmittelpreis
+
+Sechs Positionen dieser Gruppe fehlen in der Preisliste für die Regelversorgung: 002 1 (Doublieren), 003 0 (Set-up je Segment), 005 4 (Set-up-Modell für KFO), 011 1 (Modellpaar trimmen), 013 0 (Modellpaar sockeln), 020 2 (Basis für Konstruktionsbiss). Alle sechs bindet das BEL ausdrücklich an kieferorthopädische Leistungen. Dazu kommen die UKPS-Varianten 001 5, 002 5, 011 5, 012 5, 020 5 und 021 7. Siehe [[bundesmittelpreis]].
+
 Verwandt: [[bel-ii]] · [[mengen-und-bezugsgroessen-bel]] · [[nebeneinander-ausschluesse-bel]]

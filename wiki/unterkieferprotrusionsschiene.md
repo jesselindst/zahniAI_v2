@@ -71,4 +71,10 @@ Ist bei 851 3 eine Teilunterfütterung notwendig, ist diese zusätzlich nach 808
 
 Für die Herstellung und Instandsetzung/Erweiterung von Unterkieferprotrusionsschienen können Protrusionssystem-Sets oder bei Einzelbezug Konfektionsfertigteile wie Konstruktions- und Protrusionselemente sowie Sonderkunststoffe abgerechnet werden (BEL II, Anlage 1, § 2 Ziffer 4). Siehe [[gesondert-abrechenbare-materialien-bel]].
 
+## Preis
+
+Keine einzige UKPS-Position hat einen Bundesmittelpreis. Die Preisliste für die Regelversorgung lässt alle 19 mit UKPS gekennzeichneten Positionen aus, einschließlich 933 5 (Versandkosten). Siehe [[bundesmittelpreis]].
+
+Ein Preis lässt sich auch nicht von der inhaltlich entsprechenden Normalposition ableiten: 001 5 ist nicht mit dem Preis von 001 0 anzusetzen, da die geschlossene Positionsmenge gerade die Gleichsetzung mit dem Regelfall ausschließt.
+
 Verwandt: [[bel-ii]] · [[mengen-und-bezugsgroessen-bel]] · [[nebeneinander-ausschluesse-bel]] · [[bel-zuschlaege-versand]]

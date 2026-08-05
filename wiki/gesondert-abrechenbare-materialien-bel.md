@@ -45,4 +45,4 @@ Das Material ist das eine, der Aufwand seiner Verarbeitung das andere. Für Sond
 
 Für Nichtedelmetall-Legierungen gibt es keine Materialerstattung, sondern eine Verarbeitungsposition mit abschließender Positionsliste: 970 0, siehe [[bel-zuschlaege-versand]]. Edelmetallhaltige Dentallegierungen werden umgekehrt als Material erstattet.
 
-Verwandt: [[bel-ii]] · [[rechnungsstellung-bel]] · [[implantatversorgung-bel]]
+Verwandt: [[bel-ii]] · [[rechnungsstellung-bel]] · [[implantatversorgung-bel]] · [[bundesmittelpreis]]

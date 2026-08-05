@@ -77,4 +77,8 @@ Für die vestibuläre Verblendung einer Krone nach 102 8 sind 160 0, 162 8 oder 
 
 Implantate, Implantataufbauten und die implantatbedingten Verbindungselemente sind gesondert abrechenbar, siehe [[gesondert-abrechenbare-materialien-bel]]. Für implantierbare Produkte gilt eine verlängerte Aufbewahrungsfrist von 15 Jahren, siehe [[qualitaetssicherung-sonderanfertigung]].
 
+## Preis
+
+Jede Implantatposition trägt denselben Bundesmittelpreis wie ihr Gegenstück im Regelfall — ausnahmslos für alle 19 Paare, siehe [[bundesmittelpreis]]. Die 8er-Position ist also nicht höher bewertet als die Normalposition. Der Mehraufwand einer Implantatversorgung schlägt sich allein im gesondert abrechenbaren Material und in den nach tatsächlichem Aufwand abgerechneten Leistungen nieder.
+
 Verwandt: [[bel-ii]] · [[bel-gruppe-festsitzender-zahnersatz]] · [[bel-gruppe-herausnehmbarer-zahnersatz]]

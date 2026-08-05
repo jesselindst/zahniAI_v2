@@ -18,7 +18,7 @@ Vier Positionen außerhalb der Herstellungsgruppen: drei für Versand, eine für
 
 Abgegolten werden Auslagen für Versand, wie z. B. Versand durch Laborboten je Versandgang, Versand durch Kurier je Versandgang, Versand durch Paketdienst (BEL II, Nr. 933 0, 933 5, 933 8).
 
-**Pauschale statt Einzelnachweis.** Die Versandkosten sind pauschal abzurechnen. Zur Bestimmung der Pauschale ist das Prinzip der Wirtschaftlichkeit der Versorgung (§ 12 SGB V) zu beachten. Eine Höhe nennt das Verzeichnis nicht; sie ergibt sich aus der regionalen Preisvereinbarung, siehe [[bel-ii]].
+**Pauschale statt Einzelnachweis.** Die Versandkosten sind pauschal abzurechnen. Zur Bestimmung der Pauschale ist das Prinzip der Wirtschaftlichkeit der Versorgung (§ 12 SGB V) zu beachten. Eine Höhe nennt das Verzeichnis nicht; sie ergibt sich aus der regionalen Preisvereinbarung, siehe [[bel-ii]]. Für 933 0 und 933 8 existiert ein Bundesmittelpreis als Orientierungsgröße, siehe [[bundesmittelpreis]]. Für 933 5 (UKPS) gibt es keinen.
 
 **Nicht für Praxislabore.** 933 0, 933 5 und 933 8 können nicht für Leistungen abgerechnet werden, die in Praxislaboratorien erbracht werden.
 

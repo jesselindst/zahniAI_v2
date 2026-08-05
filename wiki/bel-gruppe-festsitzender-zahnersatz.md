@@ -94,4 +94,4 @@ Konfektionierte Geschiebe und Kugelknopfanker sind Konfektionsfertigteile und da
 
 Für Übertragungskappe, Wurzelstiftkappe, alle Kronenpositionen dieser Gruppe, 104 0, 105 0, 110 0, die Teile von 120 0 und 120 1 sowie 133 1 ist der Verarbeitungsaufwand für NEM-Legierungen nach 970 0 abrechenbar, siehe [[bel-zuschlaege-versand]].
 
-Verwandt: [[bel-ii]] · [[implantatversorgung-bel]] · [[nebeneinander-ausschluesse-bel]] · [[mengen-und-bezugsgroessen-bel]]
+Verwandt: [[bel-ii]] · [[implantatversorgung-bel]] · [[nebeneinander-ausschluesse-bel]] · [[mengen-und-bezugsgroessen-bel]] · [[bundesmittelpreis]]
