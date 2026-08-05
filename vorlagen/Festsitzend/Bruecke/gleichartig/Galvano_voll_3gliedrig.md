@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json, bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 > ⚠️ **NICHT MEHR VERWENDEN** — Galvano-Verblendbrücken werden aufgrund mangelhafter Stabilität im Labor nicht mehr hergestellt. Ersatz: `./VMK-NEM_voll_3gliedrig` oder `./Zirkon_voll_3gliedrig`. Diese Vorlage wird gelöscht, sobald dies technisch möglich ist.
 
 # Festzuschuss

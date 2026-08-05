@@ -13,8 +13,7 @@ Schichten:
 - `kataloge/*.json` — Positionslisten, werden nicht ins Wiki abgeschrieben. Benennung `<präfix>[_<label>]_<jahr>[_v<n>].json`, also `bel_2026_v1.json` → Präfix `bel`, Fassung 2026 v1. Fassungen liegen nebeneinander, die höchste ist die aktive; `graph.py` prüft gegen sie und weist die Vorgängerdatei als Diff-Grundlage aus
 - `wiki/` — gehört dir
 - `wiki/GRAPH.md` — abgeleitet, erzeugt von `scripts/graph.py`
-
-Für `vorlagen/` gilt dieser Skill noch nicht. Melden und warten.
+- `vorlagen/` — eigene Schicht, wird **nicht** ins Wiki ingestiert. Vorlagen sind Kompositionen (angewandte Regeln je Falltyp), kein Regelwissen; das Kürzel je Zeile trägt der Tabellen-Spaltenkopf (`BEB97`, `BEL`), die Katalog-Herkunft samt Fassung das Frontmatter (`kataloge: [bel_2026_v1.json]`). Verbindung zum Wiki über `vorlagen/_REGISTER.md` (abgeleitet, Position → Vorlagen) und die Graph-Befunde. Regelwissen, das in Vorlagen-Bemerkungen wiederkehrt, gehört einmal ins Wiki, nicht 200-mal in die Vorlagen.
 
 ## 1. Orientieren
 
@@ -182,6 +181,6 @@ Arten: `neu`, `entfallen`, `umbenannt`, `ersetzt_durch`, `regel_geaendert`, `unv
 
 `unveraendert_geprueft` gehört mit hinein. Sonst ist nicht unterscheidbar, was gleich geblieben ist und was niemand angesehen hat.
 
-Die Spalte „Wirkung" füllst du aus `GRAPH.md`: betroffene Seiten laut Positionsregister, betroffene Kanten laut Kantentabelle.
+Die Spalte „Wirkung" füllst du aus `GRAPH.md` und `vorlagen/_REGISTER.md`: betroffene Seiten laut Positionsregister, betroffene Kanten laut Kantentabelle, betroffene Vorlagen laut Register.
 
 **Danach.** Die neue Katalogdatei kommt als weitere Fassung unter `kataloge/` dazu, die abgelöste bleibt liegen — sie ist die Diff-Grundlage des nächsten Wechsels und der Beleg dafür, welche Fassung eine entfallene Position zuletzt kannte. Nie überschreiben, nie löschen. Danach `python3 scripts/graph.py`: die Tabelle „Fassungen" muss die neue Datei als aktiv und die alte als Vorgänger zeigen. Quellseite für die neue Fassung anlegen, die abgelöste bekommt `gueltig_bis`. Matrix in `INDEX.md` und `LOG.md` eintragen. `angewendet: nein` bleibt stehen — die Anwendung ist Sache des Lint-Laufs, und die Matrix wird vorher angesehen.

@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 1.1 je erhaltungswürdigem Zahn mit Kronenbedarf; +1.3 je vestibulärer Verblendung innerhalb VG (OK 15–25 / UK 34–44)
 - Versorgungsform: Regelversorgung (NEM-Gerüst, vestibulär verblendet, innerhalb VG)

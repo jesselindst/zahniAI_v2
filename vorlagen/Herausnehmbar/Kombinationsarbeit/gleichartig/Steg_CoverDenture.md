@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json, bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: 4.1 (OK) bzw. 4.3 (UK) je Kiefer bei Restzahnbestand bis 3 Zähne + 4.6 je Ankerzahn mit dentaler Verankerung + 4.7 je verblendetem Ankerzahn innerhalb VG (OK 15–25 / UK 34–44) + 4.5 nur bei begründet notwendiger Metallbasis (ZE-RL-Ausnahmefälle, z. B. Torus palatinus, Exostosen — sonstige Gründe im Einzelfall zu begründen, Genehmigungsrisiko); bei Restzahnbestand ≥ 4 stattdessen 3.1 je Kiefer + 3.2 je Eckzahn/erstem Prämolar (höchstens 2× je Kiefer)

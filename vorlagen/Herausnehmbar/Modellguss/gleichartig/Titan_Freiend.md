@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json, bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 3.1 je Kiefer — genau einmal, unabhängig von Anzahl Lücken, Sätteln, ersetzten Zähnen und Klammern (Freiendsituation = Lückensituation II); kein Zusatzbefund für die Verblendung (2.7 gehört zu den Brückenbefunden 2.1 bis 2.5); 4.5 hier nicht ansetzbar (nur Befundklasse 4)
 - Versorgungsform: gleichartig (Titan-Gerüst statt CoCr = Materialmehrleistung; Regelversorgung wäre der CoCr-Modellguss)

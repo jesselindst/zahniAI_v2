@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: 3.1 je Kiefer (trägt Modellgussbasis, Aufstellung, Fertigstellung UND die Verblendung) + 3.2 je Eckzahn oder erstem Prämolar mit Teleskopverankerung, höchstens 2× je Kiefer (abzüglich der ersparten 2041); kein Verblendzuschlag in Befundklasse 3 — 1550/1600/1610/1640/1650 sind im Leistungsumfang von 3.1 enthalten, der Zuschlag 4.7 gehört ausschließlich zur Befundklasse 4

@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json, bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: je Lücke genau EIN Befund aus 2.1 (1 fehlender Zahn, je Lücke) / 2.2 (2 nebeneinander, je Lücke) / 2.3 (3 nebeneinander, je Kiefer) / 2.4 (4 Frontzähne, je Kiefer); +2.5 je unmittelbar angrenzender weiterer Einzelzahnlücke; +2.7 je Verblendung — für jeden ersetzten Zahn UND jeden der Lücke angrenzenden Brückenanker innerhalb VG (OK 15–25 / UK 34–44); +2.6 je Lücke nur bei disparallelen Pfeilerzähnen (nicht allein wegen des Brückenteilungsgeschiebes)
 - Versorgungsform: gleichartig (CAD-CAM-gefrästes Zirkon-Gerüst + keramische Vollverblendung = Mehrleistung gegenüber der Regelversorgung NEM vestibulär verblendet)

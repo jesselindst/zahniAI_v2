@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 6.4 je Prothese für den ersten ergänzten Zahn + 6.4.1 je weiterem Zahn (Maßnahmen im Kunststoffbereich); bei Maßnahmen im gegossenen Metallbereich stattdessen 6.5 + 6.5.1
 - Versorgungsform: Regelversorgung (Erweiterung einer vorhandenen Prothese; die Herkunft der vorhandenen Versorgung ist unerheblich — auch bei privat gefertigter Prothese gilt Befund 6.4/6.5, Protokollnotiz FZ-RL Abschn. 6)

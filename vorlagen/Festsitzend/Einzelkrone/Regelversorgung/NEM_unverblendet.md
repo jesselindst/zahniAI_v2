@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 1.1 je erhaltungswürdigem Zahn mit Kronenbedarf (unverblendete Vollgusskrone; kein Verblendzuschuss 1.3, da außerhalb VG unverblendet)
 - Versorgungsform: Regelversorgung (NEM-Vollguss, Molaren-/Seitenzahnbereich außerhalb VG)

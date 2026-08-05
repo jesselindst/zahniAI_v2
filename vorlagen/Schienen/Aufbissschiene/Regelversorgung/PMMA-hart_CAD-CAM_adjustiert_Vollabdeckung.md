@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: keiner — der Aufbissbehelf ist kein Zahnersatz i.S.d. §55 SGB V; der FZ-Befundkatalog enthält ausschließlich Zahnersatz-Befunde, weder „Schiene" noch „Aufbissbehelf"

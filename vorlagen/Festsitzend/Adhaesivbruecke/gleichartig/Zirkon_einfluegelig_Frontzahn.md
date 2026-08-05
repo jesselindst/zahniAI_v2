@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json, bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 2.1 je Lücke (ein fehlender Schneidezahn), bei zwei nebeneinander fehlenden Zähnen 2.2 statt 2.1; zusätzlich 2.7 je vestibulär verblendetem ersetztem Zahn im Verblendbereich (OK 15–25 / UK 34–44) — NICHT ansetzbar für die Flügel
 - Versorgungsform: gleichartig (Zirkon-Keramikgerüst; die Regelversorgung sieht ein metallisches, vestibulär verblendetes Gerüst vor — Einstufung folgt der ZE-/Festzuschuss-Systematik, nicht dem BEL-Katalog)

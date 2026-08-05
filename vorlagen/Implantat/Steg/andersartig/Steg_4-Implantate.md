@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: Erstversorgung → maßgeblich ist die Befundsituation VOR dem Setzen der Implantate (FZ-RL Teil A Nr. 6): 4.2 zahnloser OK bzw. 4.4 zahnloser UK (Regelversorgung = Totalprothese), bei Restzahnbestand 4.1 bzw. 4.3. Erneuerung/Wiederherstellung einer vorhandenen implantatgetragenen Prothesenkonstruktion: 7.5 je Prothesenkonstruktion + 7.6 je implantatgetragenem Konnektor, höchstens viermal je Kiefer. Implantate, Implantataufbauten und implantatbedingte Verbindungselemente (Steg, Reiter) lösen NIE einen Festzuschuss aus — der Zuschuss hängt an der Prothese

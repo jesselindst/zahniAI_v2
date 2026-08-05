@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: maßgeblich ist die Ausgangssituation VOR der Implantation — eine 3-gliedrige Brücke auf 2 Implantaten ersetzt DREI nebeneinander fehlende Zähne (beide Implantatpositionen waren ebenfalls zahnlos): 2.3 je Kiefer; zusätzlich 2.7 je Verblendung für einen ersetzten Zahn bzw. für einen der Lücke angrenzenden Anker, nur im Verblendbereich OK 15–25 / UK 34–44 (hier bis 3×). Die Zahl der fehlenden Zähne immer aus dem Befund ableiten, nicht aus der Gliederzahl (1 fehlender Zahn → 2.1, 2 → 2.2); Klasse 7 nur bei Erneuerung/Wiederherstellung einer vorhandenen Suprakonstruktion

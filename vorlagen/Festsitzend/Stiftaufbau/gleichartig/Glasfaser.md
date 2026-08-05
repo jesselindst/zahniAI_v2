@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json, bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: 1.4 je endodontisch behandeltem Zahn mit Notwendigkeit eines konfektionierten Stiftaufbaus; 1.5 nur bei zahnärztlich festgestellter Notwendigkeit eines gegossenen metallischen Stiftaufbaus — maßgeblich ist die Befundfeststellung, nicht das Stiftmaterial

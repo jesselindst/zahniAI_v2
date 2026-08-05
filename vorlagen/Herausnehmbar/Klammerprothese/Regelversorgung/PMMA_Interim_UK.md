@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: je Kiefer (hier UK) 5.1 bei Verlust von bis zu 4 Zähnen, 5.2 bei 5 bis 8 Zähnen, 5.3 bei über 8 Zähnen, 5.4 bei zahnlosem Kiefer — jeweils nur in Fällen, in denen eine endgültige Versorgung nicht sofort möglich ist (maßgeblich ist die Zahl der VERLORENEN Zähne, nicht der Restzahnbestand)

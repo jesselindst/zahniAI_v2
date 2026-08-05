@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: 5.1 Verlust bis zu 4 Zähnen / 5.2 Verlust von 5 bis 8 Zähnen / 5.3 Verlust von über 8 Zähnen / 5.4 zahnloser Kiefer — je Kiefer, nur in Fällen, in denen eine endgültige Versorgung nicht sofort möglich ist

@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json, bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 1.1 je erhaltungswürdigem Zahn mit Kronenbedarf; +1.3 je vestibulärer Verblendung innerhalb VG (OK 15–25 / UK 34–44) — der FZ folgt dem Befund, nicht der gewählten Ausführung: liegt der Zahn im Verblendbereich, fällt 1.3 auch bei monolithischer Ausführung an; außerhalb VG (typischer Molar) dagegen nur 1.1
 - Versorgungsform: gleichartig (CAD-CAM-gefräste, vollanatomische Zirkon-Krone; die BEL-Kronenpositionen 102x setzen Gusstechnik voraus)

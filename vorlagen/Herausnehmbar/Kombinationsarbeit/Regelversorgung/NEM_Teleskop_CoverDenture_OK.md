@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 4.1 je Kiefer (Restzahnbestand bis 3 Zähne im OK) + 4.6 je Ankerzahn mit dentaler Verankerung (statt 4.6 → 4.8 je Ankerzahn bei Verankerung über Wurzelstiftkappen) + 4.7 je verblendeter Teleskopkrone innerhalb VG OK 15–25 + 4.5 je Kiefer nur bei medizinisch indizierter Metallbasis
 - Versorgungsform: Regelversorgung (gegossene NEM-Teleskope, Cover Denture, Kunststoff-/Kompositverblendung innerhalb VG)

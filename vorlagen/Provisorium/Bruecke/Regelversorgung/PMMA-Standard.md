@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: kein eigener FZ-Befund für das Provisorium — BEL 0310/0320 sind Bestandteil der Regelversorgung des Ausgangsbefundes (Brücke: 2.1 bis 2.5 je Lücke, ggf. 3.2/4.6/4.8); der FZ wird über den Befund der definitiven Versorgung ausgelöst. Zusatzbefunde 1.3/2.7 gehören zur definitiven Verblendung, nicht zum Provisorium

@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json, bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 4.4 zahnloser Unterkiefer, je Kiefer — bei Erstversorgung gilt der Ausgangsbefund VOR Implantation; bei Erneuerung/Wiederherstellung stattdessen 7.5 je Prothesenkonstruktion (+7.6 je implantatgetragenem Konnektor, höchstens viermal je Kiefer; 7.7 Umgestaltung einer vorhandenen Totalprothese)
 - Versorgungsform: Sonderfall nach ZE-RL Nr. 36 b (atrophierter zahnloser Kiefer) — Regelversorgung auf Totalprothesen-Niveau über die BEL-Implantatpositionen; die Stegkonstruktion ist Mehrleistung (gleichartig)

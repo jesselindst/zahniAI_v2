@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: keiner — der Festzuschuss-Befundkatalog enthält ausschließlich Zahnersatz-Befunde; für Aufbissbehelfe existiert kein Befund

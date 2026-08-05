@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json, bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: 4.1 (OK) bzw. 4.3 (UK) je Kiefer + 4.6 je Ankerzahn mit Teleskopverankerung + 4.7 je verblendeter Teleskopkrone innerhalb VG (OK 15–25 / UK 34–44) + 4.5 nur bei begründet notwendiger Metallbasis; bei ≥ 4 Restzähnen stattdessen 3.1 je Kiefer + 3.2 je Eckzahn/erstem Prämolar (höchstens 2× je Kiefer)

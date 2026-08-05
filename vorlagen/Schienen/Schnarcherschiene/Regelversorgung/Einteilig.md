@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: keiner — die Unterkieferprotrusionsschiene ist kein Zahnersatz i. S. d. § 55 SGB V; der Festzuschuss-Befundkatalog (Klassen 1 bis 7) enthält keinen Befund für Schnarchen/Schlafapnoe

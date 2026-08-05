@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: maßgeblich ist die Ausgangssituation VOR der Implantation — eine 4-gliedrige Brücke auf 2 Implantaten ersetzt VIER nebeneinander fehlende Zähne (beide Implantatpositionen waren ebenfalls zahnlos). Frontzahnlücke mit vier nebeneinander fehlenden Zähnen → 2.4 je Kiefer; im Seitenzahngebiet entspricht die Lücke keinem der Befunde 2.1 bis 2.5 → 3.1 je Kiefer (Lückensituation II, Regelversorgung ist herausnehmbarer Zahnersatz). Zusätzlich 2.7 je Verblendung für einen ersetzten Zahn bzw. für einen der Lücke angrenzenden Anker, nur im Verblendbereich OK 15–25 / UK 34–44 und nur neben einem Befund der Klasse 2 (hier bis 4×). Die Zahl der fehlenden Zähne immer aus dem Befund ableiten, nicht aus der Gliederzahl; Klasse 7 nur bei Erneuerung/Wiederherstellung einer vorhandenen Suprakonstruktion

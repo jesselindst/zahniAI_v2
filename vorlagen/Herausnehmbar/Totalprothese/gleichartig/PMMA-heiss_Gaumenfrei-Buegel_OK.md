@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json, bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: 4.2 zahnloser Oberkiefer, je Kiefer; Zuschlag 4.9 (Stützstiftregistrierung) einmal je Gesamtbefund, nicht je Kiefer

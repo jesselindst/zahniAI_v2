@@ -1,6 +1,6 @@
 # Graph
 
-Generiert am 2026-08-05 13:38 aus 31 Seiten. Abgeleitet, nicht Quelle: jede Aenderung von Hand geht beim naechsten Lauf verloren. Neu erzeugen mit `python3 scripts/graph.py`.
+Generiert am 2026-08-05 15:44 aus 22 Seiten. Abgeleitet, nicht Quelle: jede Aenderung von Hand geht beim naechsten Lauf verloren. Neu erzeugen mit `python3 scripts/graph.py`.
 
 ## Befunde
 
@@ -10,37 +10,28 @@ Keine.
 
 | Seite | ein | aus | eingehend von |
 |---|---|---|---|
-| beb97 | 6 | 11 | bel-ii, cad-cam-einstufung, material-privat-goz, positionskollision-bel-beb97, quelle-recherche-abrechnungsrahmen-2026, versorgungsform |
-| bel-gruppe-arbeitsvorbereitung | 9 | 11 | bel-gruppe-kieferorthopaedie, bel-gruppe-modellguss, bel-ii, bundesmittelpreis, cad-cam-einstufung, positionskollision-bel-beb97, qualitaetssicherung-sonderanfertigung, quelle-bel-ii-2022, quelle-recherche-abrechnungsrahmen-2026 |
-| bel-gruppe-aufbissbehelfe | 9 | 12 | bel-gruppe-herausnehmbarer-zahnersatz, bel-gruppe-kieferorthopaedie, bel-gruppe-reparatur-erweiterung, bel-ii, bundesmittelpreis, cad-cam-einstufung, quelle-bel-ii-2022, quelle-recherche-abrechnungsrahmen-2026, versorgungsform |
-| bel-gruppe-festsitzender-zahnersatz | 6 | 10 | bel-ii, bel-zuschlaege-versand, cad-cam-einstufung, implantatversorgung-bel, quelle-bel-ii-2022, verblendung-bel |
+| bel-gruppe-arbeitsvorbereitung | 6 | 8 | bel-gruppe-kieferorthopaedie, bel-gruppe-modellguss, bel-ii, bundesmittelpreis, qualitaetssicherung-sonderanfertigung, quelle-bel-ii-2022 |
+| bel-gruppe-aufbissbehelfe | 6 | 8 | bel-gruppe-herausnehmbarer-zahnersatz, bel-gruppe-kieferorthopaedie, bel-gruppe-reparatur-erweiterung, bel-ii, bundesmittelpreis, quelle-bel-ii-2022 |
+| bel-gruppe-festsitzender-zahnersatz | 5 | 10 | bel-ii, bel-zuschlaege-versand, implantatversorgung-bel, quelle-bel-ii-2022, verblendung-bel |
 | bel-gruppe-herausnehmbarer-zahnersatz | 6 | 11 | bel-gruppe-aufbissbehelfe, bel-gruppe-kieferorthopaedie, bel-gruppe-modellguss, bel-ii, implantatversorgung-bel, quelle-bel-ii-2022 |
 | bel-gruppe-kieferorthopaedie | 6 | 10 | bel-gruppe-aufbissbehelfe, bel-gruppe-herausnehmbarer-zahnersatz, bel-gruppe-reparatur-erweiterung, bel-ii, bundesmittelpreis, quelle-bel-ii-2022 |
-| bel-gruppe-modellguss | 6 | 11 | bel-gruppe-herausnehmbarer-zahnersatz, bel-ii, cad-cam-einstufung, festzuschuss-befundklassen, quelle-bel-ii-2022, quelle-recherche-abrechnungsrahmen-2026 |
-| bel-gruppe-reparatur-erweiterung | 7 | 9 | bel-gruppe-aufbissbehelfe, bel-gruppe-festsitzender-zahnersatz, bel-gruppe-kieferorthopaedie, bel-ii, festzuschuss-befundklassen, nebeneinander-ausschluesse-bel, quelle-bel-ii-2022 |
-| bel-ii | 22 | 24 | beb97, bel-gruppe-arbeitsvorbereitung, bel-gruppe-aufbissbehelfe, bel-gruppe-festsitzender-zahnersatz, bel-gruppe-herausnehmbarer-zahnersatz, bel-gruppe-kieferorthopaedie, bel-gruppe-modellguss, bel-gruppe-reparatur-erweiterung, bel-zuschlaege-versand, bundesmittelpreis, gesondert-abrechenbare-materialien-bel, implantatversorgung-bel, mengen-und-bezugsgroessen-bel, nebeneinander-ausschluesse-bel, positionskollision-bel-beb97, positionssystematik-bel, qualitaetssicherung-sonderanfertigung, quelle-bel-ii-2022, quelle-recherche-abrechnungsrahmen-2026, rechnungsstellung-bel, unterkieferprotrusionsschiene, versorgungsform |
-| bel-zuschlaege-versand | 8 | 7 | bel-gruppe-festsitzender-zahnersatz, bel-ii, gesondert-abrechenbare-materialien-bel, mengen-und-bezugsgroessen-bel, positionssystematik-bel, quelle-bel-ii-2022, unterkieferprotrusionsschiene, versorgungsform |
-| bundesmittelpreis | 18 | 14 | bel-gruppe-arbeitsvorbereitung, bel-gruppe-aufbissbehelfe, bel-gruppe-festsitzender-zahnersatz, bel-gruppe-herausnehmbarer-zahnersatz, bel-gruppe-kieferorthopaedie, bel-gruppe-modellguss, bel-gruppe-reparatur-erweiterung, bel-ii, bel-zuschlaege-versand, bundesmittelpreise-2026, festzuschuss, gesondert-abrechenbare-materialien-bel, implantatversorgung-bel, quelle-bel-ii-2022, quelle-bmp-2026, quelle-recherche-abrechnungsrahmen-2026, rechnungsstellung-bel, unterkieferprotrusionsschiene |
+| bel-gruppe-modellguss | 3 | 7 | bel-gruppe-herausnehmbarer-zahnersatz, bel-ii, quelle-bel-ii-2022 |
+| bel-gruppe-reparatur-erweiterung | 6 | 9 | bel-gruppe-aufbissbehelfe, bel-gruppe-festsitzender-zahnersatz, bel-gruppe-kieferorthopaedie, bel-ii, nebeneinander-ausschluesse-bel, quelle-bel-ii-2022 |
+| bel-ii | 18 | 19 | bel-gruppe-arbeitsvorbereitung, bel-gruppe-aufbissbehelfe, bel-gruppe-festsitzender-zahnersatz, bel-gruppe-herausnehmbarer-zahnersatz, bel-gruppe-kieferorthopaedie, bel-gruppe-modellguss, bel-gruppe-reparatur-erweiterung, bel-zuschlaege-versand, bundesmittelpreis, gesondert-abrechenbare-materialien-bel, implantatversorgung-bel, mengen-und-bezugsgroessen-bel, nebeneinander-ausschluesse-bel, positionssystematik-bel, qualitaetssicherung-sonderanfertigung, quelle-bel-ii-2022, rechnungsstellung-bel, unterkieferprotrusionsschiene |
+| bel-zuschlaege-versand | 7 | 7 | bel-gruppe-festsitzender-zahnersatz, bel-ii, gesondert-abrechenbare-materialien-bel, mengen-und-bezugsgroessen-bel, positionssystematik-bel, quelle-bel-ii-2022, unterkieferprotrusionsschiene |
+| bundesmittelpreis | 16 | 13 | bel-gruppe-arbeitsvorbereitung, bel-gruppe-aufbissbehelfe, bel-gruppe-festsitzender-zahnersatz, bel-gruppe-herausnehmbarer-zahnersatz, bel-gruppe-kieferorthopaedie, bel-gruppe-modellguss, bel-gruppe-reparatur-erweiterung, bel-ii, bel-zuschlaege-versand, bundesmittelpreise-2026, gesondert-abrechenbare-materialien-bel, implantatversorgung-bel, quelle-bel-ii-2022, quelle-bmp-2026, rechnungsstellung-bel, unterkieferprotrusionsschiene |
 | bundesmittelpreise-2026 | 2 | 4 | bundesmittelpreis, quelle-bmp-2026 |
-| cad-cam-einstufung | 7 | 9 | beb97, bel-gruppe-arbeitsvorbereitung, bel-gruppe-aufbissbehelfe, bel-gruppe-modellguss, material-privat-goz, quelle-recherche-abrechnungsrahmen-2026, versorgungsform |
-| festzuschuss | 8 | 11 | bel-ii, bundesmittelpreis, festzuschuss-befundklassen, haertefall-und-bonus, implantatversorgung-bel, quelle-recherche-abrechnungsrahmen-2026, verblendung-bel, versorgungsform |
-| festzuschuss-befundklassen | 7 | 10 | bel-gruppe-modellguss, festzuschuss, haertefall-und-bonus, implantatversorgung-bel, quelle-recherche-abrechnungsrahmen-2026, verblendung-bel, versorgungsform |
-| gesondert-abrechenbare-materialien-bel | 15 | 8 | bel-gruppe-arbeitsvorbereitung, bel-gruppe-festsitzender-zahnersatz, bel-gruppe-herausnehmbarer-zahnersatz, bel-gruppe-kieferorthopaedie, bel-gruppe-reparatur-erweiterung, bel-ii, bel-zuschlaege-versand, bundesmittelpreis, implantatversorgung-bel, material-privat-goz, quelle-bel-ii-2022, quelle-recherche-abrechnungsrahmen-2026, rechnungsstellung-bel, unterkieferprotrusionsschiene, verblendung-bel |
-| haertefall-und-bonus | 4 | 3 | festzuschuss, festzuschuss-befundklassen, quelle-recherche-abrechnungsrahmen-2026, versorgungsform |
-| implantatversorgung-bel | 14 | 13 | bel-gruppe-arbeitsvorbereitung, bel-gruppe-festsitzender-zahnersatz, bel-gruppe-herausnehmbarer-zahnersatz, bel-gruppe-reparatur-erweiterung, bel-ii, bel-zuschlaege-versand, bundesmittelpreis, festzuschuss, festzuschuss-befundklassen, gesondert-abrechenbare-materialien-bel, positionssystematik-bel, quelle-bel-ii-2022, quelle-recherche-abrechnungsrahmen-2026, verblendung-bel |
-| material-privat-goz | 4 | 6 | beb97, gesondert-abrechenbare-materialien-bel, quelle-recherche-abrechnungsrahmen-2026, versorgungsform |
+| gesondert-abrechenbare-materialien-bel | 13 | 6 | bel-gruppe-arbeitsvorbereitung, bel-gruppe-festsitzender-zahnersatz, bel-gruppe-herausnehmbarer-zahnersatz, bel-gruppe-kieferorthopaedie, bel-gruppe-reparatur-erweiterung, bel-ii, bel-zuschlaege-versand, bundesmittelpreis, implantatversorgung-bel, quelle-bel-ii-2022, rechnungsstellung-bel, unterkieferprotrusionsschiene, verblendung-bel |
+| implantatversorgung-bel | 11 | 9 | bel-gruppe-arbeitsvorbereitung, bel-gruppe-festsitzender-zahnersatz, bel-gruppe-herausnehmbarer-zahnersatz, bel-gruppe-reparatur-erweiterung, bel-ii, bel-zuschlaege-versand, bundesmittelpreis, gesondert-abrechenbare-materialien-bel, positionssystematik-bel, quelle-bel-ii-2022, verblendung-bel |
 | mengen-und-bezugsgroessen-bel | 12 | 6 | bel-gruppe-arbeitsvorbereitung, bel-gruppe-festsitzender-zahnersatz, bel-gruppe-herausnehmbarer-zahnersatz, bel-gruppe-kieferorthopaedie, bel-gruppe-modellguss, bel-gruppe-reparatur-erweiterung, bel-ii, bundesmittelpreis, nebeneinander-ausschluesse-bel, positionssystematik-bel, quelle-bel-ii-2022, unterkieferprotrusionsschiene |
-| nebeneinander-ausschluesse-bel | 17 | 6 | beb97, bel-gruppe-arbeitsvorbereitung, bel-gruppe-aufbissbehelfe, bel-gruppe-festsitzender-zahnersatz, bel-gruppe-herausnehmbarer-zahnersatz, bel-gruppe-kieferorthopaedie, bel-gruppe-modellguss, bel-gruppe-reparatur-erweiterung, bel-ii, bundesmittelpreis, implantatversorgung-bel, mengen-und-bezugsgroessen-bel, positionssystematik-bel, qualitaetssicherung-sonderanfertigung, quelle-bel-ii-2022, unterkieferprotrusionsschiene, verblendung-bel |
-| positionskollision-bel-beb97 | 3 | 5 | beb97, bel-gruppe-arbeitsvorbereitung, quelle-recherche-abrechnungsrahmen-2026 |
-| positionssystematik-bel | 7 | 7 | bel-ii, implantatversorgung-bel, mengen-und-bezugsgroessen-bel, positionskollision-bel-beb97, quelle-bel-ii-2022, rechnungsstellung-bel, unterkieferprotrusionsschiene |
-| qualitaetssicherung-sonderanfertigung | 6 | 4 | bel-gruppe-arbeitsvorbereitung, bel-ii, implantatversorgung-bel, material-privat-goz, quelle-bel-ii-2022, rechnungsstellung-bel |
+| nebeneinander-ausschluesse-bel | 16 | 6 | bel-gruppe-arbeitsvorbereitung, bel-gruppe-aufbissbehelfe, bel-gruppe-festsitzender-zahnersatz, bel-gruppe-herausnehmbarer-zahnersatz, bel-gruppe-kieferorthopaedie, bel-gruppe-modellguss, bel-gruppe-reparatur-erweiterung, bel-ii, bundesmittelpreis, implantatversorgung-bel, mengen-und-bezugsgroessen-bel, positionssystematik-bel, qualitaetssicherung-sonderanfertigung, quelle-bel-ii-2022, unterkieferprotrusionsschiene, verblendung-bel |
+| positionssystematik-bel | 6 | 7 | bel-ii, implantatversorgung-bel, mengen-und-bezugsgroessen-bel, quelle-bel-ii-2022, rechnungsstellung-bel, unterkieferprotrusionsschiene |
+| qualitaetssicherung-sonderanfertigung | 5 | 4 | bel-gruppe-arbeitsvorbereitung, bel-ii, implantatversorgung-bel, quelle-bel-ii-2022, rechnungsstellung-bel |
 | quelle-bel-ii-2022 | 2 | 19 | bel-ii, quelle-bmp-2026 |
 | quelle-bmp-2026 | 2 | 7 | bundesmittelpreis, bundesmittelpreise-2026 |
-| quelle-recherche-abrechnungsrahmen-2026 | 1 | 16 | festzuschuss |
 | rechnungsstellung-bel | 6 | 6 | bel-ii, bundesmittelpreis, gesondert-abrechenbare-materialien-bel, positionssystematik-bel, qualitaetssicherung-sonderanfertigung, quelle-bel-ii-2022 |
 | unterkieferprotrusionsschiene | 9 | 7 | bel-gruppe-arbeitsvorbereitung, bel-gruppe-reparatur-erweiterung, bel-ii, bel-zuschlaege-versand, bundesmittelpreis, gesondert-abrechenbare-materialien-bel, mengen-und-bezugsgroessen-bel, positionssystematik-bel, quelle-bel-ii-2022 |
-| verblendung-bel | 9 | 7 | bel-gruppe-aufbissbehelfe, bel-gruppe-festsitzender-zahnersatz, bel-gruppe-modellguss, festzuschuss, festzuschuss-befundklassen, implantatversorgung-bel, nebeneinander-ausschluesse-bel, quelle-bel-ii-2022, quelle-recherche-abrechnungsrahmen-2026 |
-| versorgungsform | 11 | 10 | beb97, bel-gruppe-aufbissbehelfe, bel-gruppe-modellguss, bel-ii, cad-cam-einstufung, festzuschuss, festzuschuss-befundklassen, haertefall-und-bonus, implantatversorgung-bel, material-privat-goz, quelle-recherche-abrechnungsrahmen-2026 |
+| verblendung-bel | 6 | 4 | bel-gruppe-aufbissbehelfe, bel-gruppe-festsitzender-zahnersatz, bel-gruppe-modellguss, implantatversorgung-bel, nebeneinander-ausschluesse-bel, quelle-bel-ii-2022 |
 
 ## Positionsregister
 
@@ -307,32 +298,28 @@ Geprueft wird gegen die aktive Fassung. Vollabdeckung ist kein Ziel. Eine Wiki-S
 
 Eine neue Fassung kommt als weitere Datei dazu, die alte bleibt liegen. Der Diff aktive gegen Vorgaengerfassung ist die deterministische Haelfte der Aenderungsmatrix; die andere Haelfte steht nur in der Quelle.
 
+## Vorlagen
+
+228 Vorlagen unter vorlagen/, verwendete Positionen je Katalog: beb97: 578 Positionen · bel: 124 Positionen.
+
+Welche Vorlage welche Position verwendet, steht in `vorlagen/_REGISTER.md` — die Wirkungs-Seite der Aenderungsmatrix. Geprueft wird gegen die aktive Katalogfassung; Befunde stehen oben.
+
 ## Quellen
 
 | Quelle | abhaengige Seiten |
 |---|---|
-| kataloge/beb97_zahniAI_2026_v1.json | 2: beb97, positionskollision-bel-beb97 |
-| kataloge/bel_2026_v1.json | 1: positionskollision-bel-beb97 |
 | raw/BEL_II_01_01_2022.pdf | 20: bel-gruppe-arbeitsvorbereitung, bel-gruppe-aufbissbehelfe, bel-gruppe-festsitzender-zahnersatz, bel-gruppe-herausnehmbarer-zahnersatz, bel-gruppe-kieferorthopaedie, bel-gruppe-modellguss, bel-gruppe-reparatur-erweiterung, bel-ii, bel-zuschlaege-versand, bundesmittelpreis, gesondert-abrechenbare-materialien-bel, implantatversorgung-bel, mengen-und-bezugsgroessen-bel, nebeneinander-ausschluesse-bel, positionssystematik-bel, qualitaetssicherung-sonderanfertigung, quelle-bel-ii-2022, rechnungsstellung-bel, unterkieferprotrusionsschiene, verblendung-bel |
 | raw/BMP_2026_Leistungen_Regelversorgung.pdf | 3: bundesmittelpreis, bundesmittelpreise-2026, quelle-bmp-2026 |
-| raw/recherche-2026-08/beb_stand.md | 2: beb97, quelle-recherche-abrechnungsrahmen-2026 |
-| raw/recherche-2026-08/bel2_stand.md | 1: quelle-recherche-abrechnungsrahmen-2026 |
-| raw/recherche-2026-08/cadcam_einstufung.md | 2: cad-cam-einstufung, quelle-recherche-abrechnungsrahmen-2026 |
-| raw/recherche-2026-08/festzuschuss.md | 5: festzuschuss, festzuschuss-befundklassen, haertefall-und-bonus, quelle-recherche-abrechnungsrahmen-2026, versorgungsform |
-| raw/recherche-2026-08/materialabrechnung.md | 2: material-privat-goz, quelle-recherche-abrechnungsrahmen-2026 |
-| raw/recherche-2026-08/neue_verfahren.md | 2: cad-cam-einstufung, quelle-recherche-abrechnungsrahmen-2026 |
-| raw/recherche-2026-08/verifikation_kernaussagen.md | 1: quelle-recherche-abrechnungsrahmen-2026 |
 
 ## Labels
 
 | Label | Seiten |
 |---|---|
-| Abrechnung | 28 |
-| BEB97 | 5 |
-| BEL | 25 |
-| Herstellung | 9 |
-| Material | 4 |
-| Preise | 4 |
-| Quelle | 3 |
-| Regulatorik | 11 |
+| Abrechnung | 19 |
+| BEL | 22 |
+| Herstellung | 8 |
+| Material | 3 |
+| Preise | 3 |
+| Quelle | 2 |
+| Regulatorik | 5 |
 

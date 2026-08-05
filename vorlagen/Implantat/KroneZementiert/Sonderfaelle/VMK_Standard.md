@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: 2.1 je zahnbegrenzter Einzelzahnlücke — maßgeblich ist die Ausgangssituation VOR Implantation, NICHT 1.1 (setzt einen erhaltungswürdigen Zahn voraus); + 1× 2.7 je Verblendung des ersetzten Zahns im Verblendbereich OK 15–25 / UK 34–44. Implantat, Implantataufbau und implantatbedingte Verbindungselemente lösen KEINEN Festzuschuss aus (ZE-RL Nr. 38); Klasse 7 nur bei Erneuerung/Wiederherstellung einer vorhandenen Suprakonstruktion

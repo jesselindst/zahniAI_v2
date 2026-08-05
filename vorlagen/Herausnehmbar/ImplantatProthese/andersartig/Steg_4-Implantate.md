@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: Erstversorgung → maßgeblich ist die Befundsituation VOR dem Setzen der Implantate: zahnloser Kiefer 4.2 (OK) bzw. 4.4 (UK), Regelversorgung = Totalprothese; Restzahnbestand bis 3 Zähne 4.1 (OK) bzw. 4.3 (UK), Regelversorgung = Cover Denture; nur bei Lückensituation II / verkürzter Zahnreihe 3.1 bzw. 3.2 (Regelversorgung = Modellguss). Zuschlagsbefunde prüfen: 4.5 Metallbasis je Kiefer, 4.9 Stützstiftregistrierung. Erneuerung/Wiederherstellung einer vorhandenen Suprakonstruktion: 7.5 je Prothesenkonstruktion, 7.6 je implantatgetragenem Konnektor (höchstens viermal je Kiefer, nur als Zuschlag zu 7.5), 7.7 bei Umgestaltung einer vorhandenen Totalprothese — bei Erstversorgung NIE Klasse 7. Implantate, Implantataufbauten und implantatbedingte Verbindungselemente (Steg, Reiter) lösen NIE einen Festzuschuss aus

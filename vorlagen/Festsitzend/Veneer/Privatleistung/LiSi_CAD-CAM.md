@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Basisleistungen
 
 | BEB97 | Leistung | Menge | Bemerkung |

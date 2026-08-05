@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json, bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 4.6 je Ankerzahn (Restzahnbestand bis zu 3 Zähnen je Kiefer) ODER 3.2 je Eckzahn/erstem Prämolar (max. 2× je Kiefer) — schließen einander aus; Basisbefund (3.1 bzw. 4.1–4.4, ggf. 4.5) über die Kombinationsarbeit-Vorlage; 4.7 nur bei Verblendung innerhalb VG (OK 15–25 / UK 34–44); 6.10 je Zahn bei Erneuerung eines einzelnen Teleskops
 - Versorgungsform: gleichartig (gegossenes NEM-Primärteleskop = RV-Anteil; galvanisch abgeschiedenes Feingold-Sekundärteil = Mehrleistung, keine Gussleistung und damit nicht BEL-fähig)

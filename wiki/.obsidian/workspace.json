@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bel-gruppe-arbeitsvorbereitung.md",
+                "file": "bel-gruppe-festsitzender-zahnersatz.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bel-gruppe-arbeitsvorbereitung"
+              "title": "bel-gruppe-festsitzender-zahnersatz"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bel-gruppe-arbeitsvorbereitung.md",
+                "file": "bel-gruppe-festsitzender-zahnersatz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for bel-gruppe-arbeitsvorbereitung"
+              "title": "Backlinks for bel-gruppe-festsitzender-zahnersatz"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bel-gruppe-arbeitsvorbereitung.md",
+                "file": "bel-gruppe-festsitzender-zahnersatz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from bel-gruppe-arbeitsvorbereitung"
+              "title": "Outgoing links from bel-gruppe-festsitzender-zahnersatz"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bel-gruppe-arbeitsvorbereitung.md",
+                "file": "bel-gruppe-festsitzender-zahnersatz.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of bel-gruppe-arbeitsvorbereitung"
+              "title": "Outline of bel-gruppe-festsitzender-zahnersatz"
             }
           }
         ]
@@ -185,34 +185,34 @@
   },
   "active": "e4f7a9f09e0fdc9d",
   "lastOpenFiles": [
-    "bel-gruppe-arbeitsvorbereitung.md",
-    "GRAPH.md",
-    "bel-zuschlaege-versand.md.tmp.43170.7c1a6ba92469",
-    "quelle-bmp-2026.md",
+    "versorgungsform.md",
+    "quelle-recherche-abrechnungsrahmen-2026.md",
+    "positionskollision-bel-beb97.md",
+    "material-privat-goz.md",
+    "haertefall-und-bonus.md",
+    "festzuschuss.md",
+    "festzuschuss-befundklassen.md",
+    "cad-cam-einstufung.md",
+    "beb97.md",
+    "bel-gruppe-kieferorthopaedie.md",
+    "bel-gruppe-modellguss.md",
+    "bel-gruppe-reparatur-erweiterung.md",
+    "bel-ii.md",
     "bundesmittelpreis.md",
     "bundesmittelpreise-2026.md",
+    "GRAPH.md",
+    "gesondert-abrechenbare-materialien-bel.md",
+    "LOG.md",
+    "INDEX.md",
+    "bel-gruppe-arbeitsvorbereitung.md",
+    "bel-zuschlaege-versand.md.tmp.43170.7c1a6ba92469",
+    "quelle-bmp-2026.md",
     "raw/BMP_2026_Leistungen_Regelversorgung.pdf",
-    "bel-ii.md",
     "mengen-und-bezugsgroessen-bel.md",
     "implantatversorgung-bel.md",
     "bel-gruppe-herausnehmbarer-zahnersatz.md",
-    "bel-gruppe-kieferorthopaedie.md",
-    "bel-gruppe-modellguss.md",
-    "INDEX.md",
     "verblendung-bel.md",
     "unterkieferprotrusionsschiene.md",
-    "rechnungsstellung-bel.md",
-    "quelle-bel-ii-2022.md",
-    "qualitaetssicherung-sonderanfertigung.md",
-    "positionssystematik-bel.md",
-    "nebeneinander-ausschluesse-bel.md",
-    "gesondert-abrechenbare-materialien-bel.md",
-    "bel-zuschlaege-versand.md",
-    "beb-bel-nummernkollisionen.md",
-    "beb97-grundlagen.md",
-    "bel-ausschlussregeln.md",
-    "bel-gruppe-aufbissbehelfe.md",
-    "bel-gruppe-festsitzender-zahnersatz.md",
     "raw/VDZI - Verband Deutscher Zahntechniker-Innungen.pdf",
     "raw/review-2026-08/findings_register.json",
     "raw/review-2026-08",

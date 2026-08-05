@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json, bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 2.1 je Lücke (ein fehlender Zahn) — bei zwei nebeneinander fehlenden Zähnen 2.2, zusätzlich 2.5 je unmittelbar angrenzender weiterer Einzelzahnlücke und 2.6 je Lücke bei disparallelen Pfeilern. Kein 2.7 (unverblendeter Vollguss); für die Brückenanker sind die Befunde 1.1–1.3 NICHT ansetzbar
 - Versorgungsform: gleichartig (EM-Vollgussbrücke; die Regelversorgung sieht eine NEM-Vollgussbrücke vor — Mehrleistung ist allein die Edelmetall-Legierung samt Verarbeitungsaufwand)

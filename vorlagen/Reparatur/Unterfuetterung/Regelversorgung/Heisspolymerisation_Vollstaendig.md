@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: 6.7 je Kiefer bei erhaltungswürdigem totalem Zahnersatz oder schleimhautgetragener Deckprothese; 6.6 je Prothese bei erhaltungswürdigem Teil-Zahnersatz — 8080/8090/8100 stehen gemeinsam im RV-Verzeichnis beider Befunde

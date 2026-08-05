@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 4.6 je Ankerzahn (Restzahnbestand bis zu 3 Zähnen je Kiefer) ODER 3.2 je Eckzahn/erstem Prämolar (max. 2× je Kiefer) — schließen einander aus; +4.7 je Ankerzahn bei Verblendung innerhalb VG (OK 15–25 / UK 34–44); Basisbefund der Gesamtversorgung (3.1 bzw. 4.1–4.4, ggf. 4.5) läuft über die Kombinationsarbeit-Vorlage; Erneuerung eines einzelnen Teleskops an vorhandener Arbeit: 6.10 je Zahn (RV = BEL 1201)
 - Versorgungsform: Regelversorgung (gegossene NEM-Primär- + -Sekundärteleskop- oder -konuskrone) — nur wenn Befund 4.6/3.2 vorliegt (dentale Verankerung notwendig, RV sieht Kombinationsversorgung vor); ohne diesen Befund ist die RV die Modellgussprothese mit gegossenen Halte-/Stützvorrichtungen und das NEM-Teleskop trotz gleichen Materials gleichartig

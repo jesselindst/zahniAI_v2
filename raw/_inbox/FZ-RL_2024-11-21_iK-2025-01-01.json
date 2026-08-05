@@ -1,0 +1,1714 @@
+[
+    {
+        "abschnitt": "1",
+        "titel": "Erhaltungswürdiger Zahn ",
+        "befunde": [
+            {
+                "nummer": "1.1",
+                "beschreibung": "Erhaltungswürdiger Zahn mit weitgehender Zerstörung der klinischen Krone oder unzureichende Retentionsmöglichkeit, je Zahn ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0023 Verwendung von Kunststoff ",
+                    "0024 Galvanisieren ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0055 Fräsmodell ",
+                    "0060 Zahnkranz ",
+                    "0070 Zahnkranz sockeln ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0211 Individueller Löffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0220 Bisswall ",
+                    "0240 Übertragungskappe ",
+                    "0310 Provisorische Krone ",
+                    "0320 Formteil ",
+                    "1021 Vollkrone / Metall ",
+                    "1031 Vorbereiten Krone ",
+                    "1032 Krone einarbeiten ",
+                    "1360 Gefrästes Lager ",
+                    "1500 Metallverbindung nach Brand ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "NEM ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 229.25,
+                    "bonus_1": 267.46,
+                    "bonus_2": 286.57,
+                    "härtefall": 382.09
+                }
+            },
+            {
+                "nummer": "1.2",
+                "beschreibung": "Erhaltungswürdiger Zahn mit großen Substanzdefekten, aber erhaltener vestibulärer und/oder oraler Zahnsubstanz, je Zahn ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0023 Verwendung von Kunststoff ",
+                    "0024 Galvanisieren ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0055 Fräsmodell ",
+                    "0060 Zahnkranz ",
+                    "0070 Zahnkranz sockeln. ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0211 Individueller Löffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0220 Bisswall ",
+                    "0240 Übertragungskappe ",
+                    "0310 Provisorische Krone ",
+                    "0320 Formteil ",
+                    "1022 Teilkrone ",
+                    "1031 Vorbereiten Krone ",
+                    "1032 Krone einarbeiten ",
+                    "1360 Gefrästes Lager ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "NEM ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 262.97,
+                    "bonus_1": 306.80,
+                    "bonus_2": 328.72,
+                    "härtefall": 438.29
+                }
+            },
+            {
+                "nummer": "1.3",
+                "beschreibung": "Erhaltungswürdiger Zahn mit weitgehender Zerstörung der klinischen Krone oder unzureichende Retentionsmöglichkeit im Verblendbereich (15 bis 25 und 34 bis 44), je Verblendung für Kronen (auch implantatgestützte) ",
+                "regelversorgung_zahntechnik": [
+                    "1024 Krone für vestibuläre Verblendung ",
+                    "abzüglich: 1021 Vollkrone/ Metall ",
+                    "1500 Metallverbindung nach Brand ",
+                    "1550 Konditionierung ",
+                    "1600 Vestibuläre Verblendung Kunststoff ",
+                    "1610 Zahnfleisch Kunststoff ",
+                    "1620 Vestibuläre Verblendung Keramik ",
+                    "1630 Zahnfleisch Keramik ",
+                    "1640 Vestibuläre Verblendung Komposite ",
+                    "1650 Zahnfleisch Komposite ",
+                    "9330 Versandkosten "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 78.26,
+                    "bonus_1": 91.31,
+                    "bonus_2": 97.83,
+                    "härtefall": 130.44
+                }
+            },
+            {
+                "nummer": "1.4",
+                "beschreibung": "Endodontisch behandelter Zahn mit Notwendigkeit eines konfektionierten metallischen Stiftaufbaus mit herkömmlichen Zementierungsverfahren, je Zahn ",
+                "regelversorgung_zahntechnik": [
+                    "Material: ",
+                    "Stift "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 47.83,
+                    "bonus_1": 55.80,
+                    "bonus_2": 59.78,
+                    "härtefall": 79.71
+                }
+            },
+            {
+                "nummer": "1.5",
+                "beschreibung": "Endodontisch behandelter Zahn mit Notwendigkeit eines gegossenen metallischen Stiftaufbaus mit herkömmlichen Zementierungsverfahren, je Zahn ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell. ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0060 Zahnkranz ",
+                    "0070 Zahnkranz sockeln ",
+                    "0120 Mittelwertartikulator ",
+                    "1033 Stiftaufbau einarbeiten. ",
+                    "1040 Modellation gießen ",
+                    "1050 Stiftaufbau ",
+                    "9330 Versandkosten ",
+                    "Material ",
+                    ": ",
+                    "NEM ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 144.07,
+                    "bonus_1": 168.08,
+                    "bonus_2": 180.08,
+                    "härtefall": 240.11
+                }
+            }
+        ]
+    },
+    {
+        "abschnitt": "2",
+        "titel": "Zahnbegrenzte Lücken von höchstens vier fehlenden Zähnen je Kiefer bei ansonsten geschlossener Zahnreihe unter der Voraussetzung, dass keine Freiendsituation vorliegt (Lückensituation 1) ",
+        "befunde": [
+            {
+                "nummer": "2.1",
+                "beschreibung": "Zahnbegrenzte Lücke mit einem fehlenden Zahn, je Lücke ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0023 Verwendung von Kunststoff ",
+                    "0024 Galvanisieren ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0060 Zahnkranz ",
+                    "0070 Zahnkranz sockeln ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0211 Individueller Löffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0220 Bisswall ",
+                    "0240 Übertragungskappe ",
+                    "0310 Provisorische Krone ",
+                    "0320 Formteil ",
+                    "1021 Vollkrone Metall ",
+                    "1022 Teilkrone ",
+                    "1023 Flügel für Adhäsivbrücke ",
+                    "1031 Vorbereiten Krone ",
+                    "1100 Brückenglied ",
+                    "1500 Metallverbindung nach Brand ",
+                    "1550 Konditionierung ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "NEM ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 529.97,
+                    "bonus_1": 618.3,
+                    "bonus_2": 662.47,
+                    "härtefall": 883.29
+                }
+            },
+            {
+                "nummer": "2.2",
+                "beschreibung": "Zahnbegrenzte Lücke mit zwei nebeneinander fehlenden Zähnen, je Lücke ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0023 Verwendung von Kunststoff ",
+                    "0024 Galvanisieren ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0060 Zahnkranz ",
+                    "0070 Zahnkranz sockeln ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0211 Individueller Löffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0220 Bisswall ",
+                    "0240 Übertragungskappe ",
+                    "0310 Provisorische Krone ",
+                    "0320 Formteil ",
+                    "1021 Vollkrone Metall ",
+                    "1022 Teilkrone ",
+                    "1023 Flügel für Adhäsivbrücke ",
+                    "1031 Vorbereiten Krone ",
+                    "1100 Brückenglied ",
+                    "1500 Metallverbindung nach Brand ",
+                    "1550 Konditionierung ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "NEM ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 604.56,
+                    "bonus_1": 705.32,
+                    "bonus_2": 755.7,
+                    "härtefall": 1007.6
+                }
+            },
+            {
+                "nummer": "2.3",
+                "beschreibung": "Zahnbegrenzte Lücke mit drei nebeneinander fehlenden Zähnen, je Kiefer ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0023 Verwendung von Kunststoff ",
+                    "0024 Galvanisieren ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0060 Zahnkranz ",
+                    "0070 Zahnkranz sockeln ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0211 Individueller Löffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0220 Bisswall ",
+                    "0240 Übertragungskappe ",
+                    "0310 Provisorische Krone ",
+                    "0320 Formteil ",
+                    "1021 Vollkrone Metall ",
+                    "1022 Teilkrone ",
+                    "1031 Vorbereiten Krone ",
+                    "1100 Brückenglied ",
+                    "1500 Metallverbindung nach Brand ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "NEM ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 675.02,
+                    "bonus_1": 787.53,
+                    "bonus_2": 843.78,
+                    "härtefall": 1125.04
+                }
+            },
+            {
+                "nummer": "2.4",
+                "beschreibung": "Frontzahnlücke mit vier nebeneinander fehlenden Zähnen, je Kiefer ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0023 Verwendung von Kunststoff ",
+                    "0024 Galvanisieren ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0060 Zahnkranz ",
+                    "0070 Zahnkranz sockeln ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0211 Individueller Löffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0220 Bisswall ",
+                    "0240 Übertragungskappe ",
+                    "0310 Provisorische Krone ",
+                    "0320 Formteil ",
+                    "1021 Vollkrone Metall ",
+                    "1022 Teilkrone ",
+                    "1031 Vorbereiten Krone ",
+                    "1100 Brückenglied ",
+                    "1500 Metallverbindung nach Brand ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "NEM ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 739.73,
+                    "bonus_1": 863.02,
+                    "bonus_2": 924.67,
+                    "härtefall": 1232.89
+                }
+            },
+            {
+                "nummer": "2.5",
+                "beschreibung": "An eine Lücke unmittelbar angrenzende weitere zahnbegrenzte Lücke mit einem fehlenden Zahn ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0023 Verwendung von Kunststoff ",
+                    "0024 Galvanisieren ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0060 Zahnkranz ",
+                    "0070 Zahnkranz sockeln ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0211 Individueller Löffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0220 Bisswall ",
+                    "0240 Übertragungskappe ",
+                    "0310 Provisorische Krone ",
+                    "0320 Formteil ",
+                    "1021 Vollkrone Metall ",
+                    "1022 Teilkrone ",
+                    "1031 Vorbereiten Krone ",
+                    "1100 Brückenglied ",
+                    "1500 Metallverbindung nach Brand ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "NEM ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 293.93,
+                    "bonus_1": 342.92,
+                    "bonus_2": 367.42,
+                    "härtefall": 489.89
+                }
+            },
+            {
+                "nummer": "2.6",
+                "beschreibung": "Disparallele Pfeilerzähne zur festsitzenden Zahnersatzversorgung, Zuschlag je Lücke ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0055 Fräsmodell ",
+                    "0060 Zahnkranz ",
+                    "0070 Zahnkranz sockeln ",
+                    "0211 Individueller Löffel ",
+                    "1331 Individuelles Geschiebe ",
+                    "1341 Konfektions-Geschiebe ",
+                    "Material: ",
+                    "NEM ",
+                    "Verbrauchsmaterial Praxis ",
+                    "Konfektioniertes Geschiebe "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 216.86,
+                    "bonus_1": 253.01,
+                    "bonus_2": 271.08,
+                    "härtefall": 361.44
+                }
+            },
+            {
+                "nummer": "2.7",
+                "beschreibung": "Fehlender Zahn in einer zahnbegrenzten Lücke im Verblendbereich (15 bis 25 und 34 bis 44), je Verblendung für einen ersetzten Zahn, auch für einen der Lücke angrenzenden Brückenanker im Verblendbereich.  Der Befund ist nicht ansetzbar für Flügel einer Adhäsivbrücke. ",
+                "regelversorgung_zahntechnik": [
+                    "1024 Krone für vestibuläre Verblendung abzüglich: 1021 Vollkrone/ Metall ",
+                    "1500 Metallverbindung nach Brand ",
+                    "1550 Konditionierung ",
+                    "1600 Vestibuläre Verblendung Kunststoff ",
+                    "1610 Zahnfleisch Kunststoff ",
+                    "1620 Vestibuläre Verblendung Keramik ",
+                    "1630 Zahnfleisch Keramik ",
+                    "1640 Vestibuläre Verblendung Komposite ",
+                    "1650 Zahnfleisch Komposite ",
+                    "9330 Versandkosten "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 77.12,
+                    "bonus_1": 89.98,
+                    "bonus_2": 96.41,
+                    "härtefall": 128.54
+                }
+            }
+        ]
+    },
+    {
+        "abschnitt": "3",
+        "titel": "Zahnbegrenzte Lücken, die nicht den Befunden nach den Nummern 2.1 bis 2.5 und 4 entsprechen ",
+        "befunde": [
+            {
+                "nummer": "3.1",
+                "beschreibung": "Alle zahnbegrenzten Lücken, die nicht den Befunden nach den Nummern 2.1 bis 2.5 und 4 entsprechen, oder Freiendsituationen (Lückensituation II), je Kiefer ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0211 Individueller Löffel ",
+                    "0212 Funktionslöffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0220 Bisswall ",
+                    "1370 Schubverteilungsarm ",
+                    "1550 Konditionierung ",
+                    "1600 Vestibuläre Verblendung Kunststoff ",
+                    "1610 Zahnfleisch Kunststoff ",
+                    "1640 Vestibuläre Verblendung Komposite ",
+                    "1650 Zahnfleisch Komposite ",
+                    "2010 Metallbasis ",
+                    "2021 Einarmige gegossene Haltevorrichtung ",
+                    "2025 Kralle ",
+                    "2026 Ney-Stiel ",
+                    "2027 Auflage ",
+                    "2028 Umgehungsbügel ",
+                    "2031 Zweiarmige gegossene Haltevorrichtung ",
+                    "2041 Zweiarmige gegossene Halteund Stützvorrichtung / Auflage ",
+                    "2050 Bonwillklammer ",
+                    "2081 Rückenschutzplatte ",
+                    "2082 Metallzahn ",
+                    "2083 Metallkaufläche ",
+                    "2110 Abschlussrand ",
+                    "3010 Aufstellung Grundeinheit ",
+                    "3020 Aufstellung Wachs je Zahn ",
+                    "3030 Aufstellung Metall je Zahn ",
+                    "3410 Übertragung je Zahn ",
+                    "3610 Fertigstellung Grundeinheit ",
+                    "3620 Fertigstellung je Zahn ",
+                    "3800 Einfache gebogene Halte-/ Stützvorrichtung ",
+                    "3805 Einfache gebogene Halte-/ Stützvorrichtung – gebogene Auflage ",
+                    "3810 Sonstige gebogene Halteund/oder Stützvorrichtung ",
+                    "3821 Weichkunststoff ",
+                    "3822 Sonderkunststoff ",
+                    "3830 Zahn zahnfarben hergestellt ",
+                    "3840 Zahn zahnfarben hinterlegen ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Zähne ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 540.58,
+                    "bonus_1": 630.67,
+                    "bonus_2": 675.72,
+                    "härtefall": 900.96
+                }
+            },
+            {
+                "nummer": "3.2",
+                "beschreibung": "a) Beidseitig bis zu den Eckzähnen oder bis zu den ersten Prämolaren verkürzte Zahnreihe, b) einseitig bis zum Eckzahn oder bis zum ersten Prämolaren verkürzte Zahnreihe und kontralateral im Seitenzahngebiet bis zum Eckzahn oder bis zum ersten Prämolaren unterbrochene Zahnreihe mit mindestens zwei nebeneinander fehlenden Zähnen, c) beidseitig im Seitenzahngebiet bis zum Eckzahn oder bis zum ersten Prämolaren unterbrochene Zahnreihe mit jeweils mindestens zwei nebeneinander fehlenden Zähnen mit der Notwendigkeit einer dentalen Verankerung, wenn die Regelversorgung eine Kombinationsversorgung vorsieht, auch für frontal unterbrochene Zahnreihe, je Eckzahn oder erstem Prämolar.  Der Befund ist zweimal je Kiefer ansetzbar. ",
+                "regelversorgung_zahntechnik": [
+                    "0024 Galvanisieren ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0055 Fräsmodell ",
+                    "0060 Zahnkranz ",
+                    "0070 Zahnkranz sockeln ",
+                    "0120 Mittelwertartikulator ",
+                    "0211 Individueller Löffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0220 Bisswall ",
+                    "0240 Übertragungskappe ",
+                    "0310 Provisorische Krone ",
+                    "1200 Teleskopkrone ",
+                    "2100 Lösungsknopf ",
+                    "9330 Versandkosten ",
+                    "abzüglich: ",
+                    "2041 Zweiarmige Klammer/ Auflage ",
+                    "Material: ",
+                    "NEM ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 385.97,
+                    "bonus_1": 450.3,
+                    "bonus_2": 482.46,
+                    "härtefall": 643.28
+                }
+            }
+        ]
+    },
+    {
+        "abschnitt": "4",
+        "titel": "Restzahnbestand bis zu 3 Zähnen oder zahnloser Kiefer ",
+        "befunde": [
+            {
+                "nummer": "4.1",
+                "beschreibung": "Restzahnbestand bis zu 3 Zähnen im Oberkiefer ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0211 Individueller Löffel ",
+                    "0212 Funktionslöffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0215 Basis für Aufstellung ",
+                    "0220 Bisswall ",
+                    "1370 Schubverteilungsarm ",
+                    "1550 Konditionierung ",
+                    "1600 Vestibuläre Verblendung Kunststoff ",
+                    "1610 Zahnfleisch Kunststoff ",
+                    "1640 Vestibuläre Verblendung Komposite ",
+                    "1650 Zahnfleisch Komposite ",
+                    "2010 Metallbasis ",
+                    "2021 Einarmige gegossene Haltevorrichtung ",
+                    "2025 Kralle ",
+                    "2026 Ney-Stiel ",
+                    "2027 Auflage ",
+                    "2028 Umgehungsbügel ",
+                    "2031 Zweiarmige gegossene Haltevorrichtung ",
+                    "2041 Zweiarmige gegossene Halteund Stützvorrichtung / Auflage ",
+                    "2050 Bonwillklammer ",
+                    "2081 Rückenschutzplatte ",
+                    "2082 Metallzahn ",
+                    "2083 Metallkaufläche ",
+                    "2110 Abschlussrand ",
+                    "2120 Zuschlag einzelne Klammer ",
+                    "3010 Aufstellung Grundeinheit ",
+                    "3020 Aufstellung Wachs je Zahn ",
+                    "3030 Aufstellung auf Metall je Zahn ",
+                    "3410 Übertragung je Zahn ",
+                    "3610 Fertigstellung Grundeinheit ",
+                    "3620 Fertigstellung je Zahn ",
+                    "3800 Einfache gebogene Halte-/ Stützvorrichtung ",
+                    "3805 Einfache gebogene Halte-/ Stützvorrichtung – gebogene Auflage ",
+                    "3810 Sonstige gebogene Halte- und /oder Stützvorrichtung ",
+                    "3821 Weichkunststoff ",
+                    "3822 Sonderkunststoff ",
+                    "3830 Zahn zahnfarben hergestellt ",
+                    "3840 Zahn zahnfarben hinterlegen ",
+                    "8060 Gegossenes Basisteil ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Zähne ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 564.55,
+                    "bonus_1": 658.64,
+                    "bonus_2": 705.68,
+                    "härtefall": 940.91
+                }
+            },
+            {
+                "nummer": "4.2",
+                "beschreibung": "Zahnloser Oberkiefer ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0211 Individueller Löffel ",
+                    "0212 Funktionslöffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0215 Basis für Aufstellung ",
+                    "0220 Bisswall ",
+                    "3010 Aufstellung Grundeinheit ",
+                    "3020 Aufstellung Wachs je Zahn ",
+                    "3610 Fertigstellung Grundeinheit ",
+                    "3620 Fertigstellung je Zahn ",
+                    "3821 Weichkunststoff ",
+                    "3822 Sonderkunststoff ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Zähne ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 544.97,
+                    "bonus_1": 635.8,
+                    "bonus_2": 681.22,
+                    "härtefall": 908.29
+                }
+            },
+            {
+                "nummer": "4.3",
+                "beschreibung": "Restzahnbestand bis zu 3 Zähnen im Unterkiefer ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0211 Individueller Löffel ",
+                    "0212 Funktionslöffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0215 Basis für Aufstellung ",
+                    "0220 Bisswall ",
+                    "1370 Schubverteilungsarm ",
+                    "1550 Konditionierung ",
+                    "1600 Vestibuläre Verblendung Kunststoff ",
+                    "1610 Zahnfleisch Kunststoff ",
+                    "1640 Vestibuläre Verblendung Komposite ",
+                    "1650 Zahnfleisch Komposite ",
+                    "2010 Metallbasis ",
+                    "2021 Einarmige gegossene Haltevorrichtung ",
+                    "2025 Kralle ",
+                    "2026 Ney-Stiel ",
+                    "2027 Auflage ",
+                    "2028 Umgehungsbügel ",
+                    "2031 Zweiarmige gegossene Haltevorrichtung ",
+                    "2041 Zweiarmige gegossene Halteund Stützvorrichtung / Auflage ",
+                    "2050 Bonwillklammer ",
+                    "2081 Rückenschutzplatte ",
+                    "2082 Metallzahn ",
+                    "2083 Metallkaufläche ",
+                    "2110 Abschlussrand ",
+                    "2120 Zuschlag einzelne Klammer ",
+                    "3010 Aufstellung Grundeinheit ",
+                    "3020 Aufstellung Wachs je Zahn ",
+                    "3030 Aufstellung auf Metall je Zahn ",
+                    "3410 Übertragung je Zahn ",
+                    "3610 Fertigstellung Grundeinheit ",
+                    "3620 Fertigstellung je Zahn ",
+                    "3800 Einfache gebogene Halte-/ Stützvorrichtung ",
+                    "3805 Einfache gebogene Halte-/ Stützvorrichtung – gebogene Auflage ",
+                    "3810 Sonstige gebogene Halte- und /oder Stützvorrichtung ",
+                    "3821 Weichkunststoff ",
+                    "3822 Sonderkunststoff ",
+                    "3830 Zahn zahnfarben hergestellt ",
+                    "3840 Zahn zahnfarben hinterlegen ",
+                    "8060 Gegossenes Basisteil ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Zähne ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 583.54,
+                    "bonus_1": 680.8,
+                    "bonus_2": 729.43,
+                    "härtefall": 972.57
+                }
+            },
+            {
+                "nummer": "4.4",
+                "beschreibung": "Zahnloser Unterkiefer ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0211 Individueller Löffel ",
+                    "0212 Funktionslöffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0215 Basis für Aufstellung ",
+                    "0220 Bisswall ",
+                    "3010 Aufstellung Grundeinheit ",
+                    "3020 Aufstellung Wachs je Zahn ",
+                    "3610 Fertigstellung Grundeinheit ",
+                    "3620 Fertigstellung je Zahn ",
+                    "3821 Weichkunststoff ",
+                    "3822 Sonderkunststoff ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Zähne ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 584.38,
+                    "bonus_1": 681.78,
+                    "bonus_2": 730.48,
+                    "härtefall": 973.97
+                }
+            },
+            {
+                "nummer": "4.5",
+                "beschreibung": "Notwendigkeit einer Metallbasis, Zuschlag je Kiefer ",
+                "regelversorgung_zahntechnik": [
+                    "1550 Konditionieren ",
+                    "1600 Vestibuläre Verblendung Kunststoff ",
+                    "1640 Vestibuläre Kompositeverblendung ",
+                    "2010 Metallbasis ",
+                    "2081 Rückenschutzplatte ",
+                    "2082 Metallzahn ",
+                    "2083 Metallkaufläche ",
+                    "2110 Abschlussrand ",
+                    "3030 Aufstellung Metall je Zahn ",
+                    "abzüglich: ",
+                    "3020 Aufstellung Wachs je Zahn ",
+                    "3410 Übertragung je Zahn "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 126.93,
+                    "bonus_1": 148.09,
+                    "bonus_2": 158.66,
+                    "härtefall": 211.55
+                }
+            },
+            {
+                "nummer": "4.6",
+                "beschreibung": "Restzahnbestand bis zu 3 Zähnen je Kiefer mit der Notwendigkeit einer dentalen Verankerung, wenn die Regelversorgung eine Kombinationsversorgung vorsieht, je Ankerzahn ",
+                "regelversorgung_zahntechnik": [
+                    "0024 Galvanisieren ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0055 Fräsmodell ",
+                    "0060 Zahnkranz ",
+                    "0070 Zahnkranz sockeln ",
+                    "0120 Mittelwertartikulator ",
+                    "0211 Individueller Löffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0220 Bisswall ",
+                    "0240 Übertragungskappe ",
+                    "0310 Provisorische Krone ",
+                    "1200 Teleskopkrone ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "NEM ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 395.29,
+                    "bonus_1": 461.17,
+                    "bonus_2": 494.11,
+                    "härtefall": 658.81
+                }
+            },
+            {
+                "nummer": "4.7",
+                "beschreibung": "Verblendung einer Teleskopkrone im Verblendbereich (15 bis 25 und 34 bis 44), Zuschlag je Ankerzahn ",
+                "regelversorgung_zahntechnik": [
+                    "1550 Konditionieren ",
+                    "1600 Vestibuläre Verblendung Kunststoff ",
+                    "1610 Zahnfleisch Kunststoff ",
+                    "1640 Vestibuläre Komposite-verblendung ",
+                    "1650 Zahnfleisch Komposite "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 62.32,
+                    "bonus_1": 72.7,
+                    "bonus_2": 77.9,
+                    "härtefall": 103.86
+                }
+            },
+            {
+                "nummer": "4.8",
+                "beschreibung": "Restzahnbestand bis zu 3 Zähnen je Kiefer bei Notwendigkeit einer dentalen Verankerung durch Wurzelstiftkappen, je Ankerzahn ",
+                "regelversorgung_zahntechnik": [
+                    "0023 Verwendung von Kunststoff ",
+                    "0024 Galvanisieren ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0055 Fräsmodell ",
+                    "0060 Zahnkranz ",
+                    "0070 Zahnkranz sockeln ",
+                    "0120 Mittelwertartikulator ",
+                    "0211 Individueller Löffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0220 Bisswall ",
+                    "0310 Provisorische Krone ",
+                    "1013 Wurzelstiftkappe ",
+                    "1343 Konfektionsanker ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "NEM ",
+                    "Konfektionsanker ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 354.77,
+                    "bonus_1": 413.9,
+                    "bonus_2": 443.47,
+                    "härtefall": 591.29
+                }
+            },
+            {
+                "nummer": "4.9",
+                "beschreibung": "Schwierig zu bestimmende Lagebeziehung der Kiefer bei der Versorgung mit Totalprothesen und schleimhautgetragenen Deckprothesen (Notwendigkeit einer Stützstiftregistrierung), Zuschlag je Gesamtbefund ",
+                "regelversorgung_zahntechnik": [
+                    "0112 Fixator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0214 Basis für Stützstiftregistrierung ",
+                    "0220 Bisswall ",
+                    "0230 Registrierplatte und -stift auf Basen ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Materialkosten Registrierplatte "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 89.88,
+                    "bonus_1": 104.86,
+                    "bonus_2": 112.35,
+                    "härtefall": 149.8
+                }
+            }
+        ]
+    },
+    {
+        "abschnitt": "5",
+        "titel": "Lückengebiss nach Zahnverlust in Fällen, in denen eine endgültige Versorgung nicht sofort möglich ist ",
+        "befunde": [
+            {
+                "nummer": "5.1",
+                "beschreibung": "Lückengebiss nach Verlust von bis zu 4 Zähnen je Kiefer in Fällen, in denen eine endgültige Versorgung nicht sofort möglich ist, je Kiefer ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0211 Individueller Löffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0215 Basis für Aufstellung ",
+                    "0220 Bisswall ",
+                    "2021 Einarmige gegossene Haltevorrichtung ",
+                    "2025 Kralle ",
+                    "2026 Ney-Stiel ",
+                    "2027 Auflage ",
+                    "2028 Umgehungsbügel ",
+                    "2031 Zweiarmige gegossene Haltevorrichtung ",
+                    "2041 Zweiarmige gegossene Halteund Stützvorrichtung/ Auflage ",
+                    "2050 Bonwillklammer ",
+                    "2120 Zuschlag einzelne Klammer ",
+                    "3010 Aufstellung Grundeinheit ",
+                    "3020 Aufstellen der Zähne ",
+                    "3610 Fertigstellung Grundeinheit ",
+                    "3620 Fertigstellung je Zahn ",
+                    "3800 Einfache gebogene Halte- / Stützvorrichtung ",
+                    "3805 Einfache gebogene Halte-/ Stützvorrichtung – gebogene Auflage ",
+                    "3810 Sonstige gebogene Halte- und /oder Stützvorrichtung ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Zähne ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 185.73,
+                    "bonus_1": 216.69,
+                    "bonus_2": 232.16,
+                    "härtefall": 309.55
+                }
+            },
+            {
+                "nummer": "5.2",
+                "beschreibung": "Lückengebiss nach Zahnverlust von 5 bis 8 Zähnen je Kiefer in Fällen, in denen eine endgültige Versorgung nicht sofort möglich ist, je Kiefer ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0211 Individueller Löffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0215 Basis für Aufstellung ",
+                    "0220 Bisswall ",
+                    "2021 Einarmige gegossene Haltevorrichtung ",
+                    "2025 Kralle ",
+                    "2026 Ney-Stiel ",
+                    "2027 Auflage ",
+                    "2028 Umgehungsbügel ",
+                    "2031 Zweiarmige gegossene Haltevorrichtung ",
+                    "2041 Zweiarmige gegossene Halteund Stützvorrichtung / Auflage ",
+                    "2050 Bonwillklammer ",
+                    "2120 Zuschlag einzelne Klammer ",
+                    "3010 Aufstellung Grundeinheit ",
+                    "3020 Aufstellen der Zähne ",
+                    "3610 Fertigstellung Grundeinheit ",
+                    "3620 Fertigstellung je Zahn ",
+                    "3800 Einfache gebogene Halte- / Stützvorrichtung ",
+                    "3805 Einfache gebogene Halte-/ Stützvorrichtung – gebogene Auflage ",
+                    "3810 Sonstige gebogene Halte- und /oder Stützvorrichtung ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Zähne ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 256.48,
+                    "bonus_1": 299.23,
+                    "bonus_2": 320.6,
+                    "härtefall": 427.47
+                }
+            },
+            {
+                "nummer": "5.3",
+                "beschreibung": "Lückengebiss nach Verlust von über 8 Zähnen je Kiefer in Fällen, in denen eine endgültige Versorgung nicht sofort möglich ist, je Kiefer ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0211 Individueller Löffel ",
+                    "0212 Funktionslöffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0215 Basis für Aufstellung ",
+                    "0220 Bisswall ",
+                    "2021 Einarmige gegossene Haltevorrichtung ",
+                    "2025 Kralle ",
+                    "2026 Ney-Stiel ",
+                    "2027 Auflage ",
+                    "2028 Umgehungsbügel ",
+                    "2031 Zweiarmige gegossene Haltevorrichtung ",
+                    "2041 Zweiarmige gegossene Halteund Stützvorrichtung / Auflage ",
+                    "2050 Bonwillklammer ",
+                    "2120 Zuschlag einzelne Klammer ",
+                    "3010 Aufstellung Grundeinheit ",
+                    "3020 Aufstellen der Zähne ",
+                    "3610 Fertigstellung Grundeinheit ",
+                    "3620 Fertigstellung je Zahn ",
+                    "3800 Einfache gebogene Halte- / Stützvorrichtung ",
+                    "3805 Einfache gebogene Halte-/ Stützvorrichtung – gebogene Auflage ",
+                    "3810 Sonstige gebogene Halte- und /oder Stützvorrichtung ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Zähne ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 333.74,
+                    "bonus_1": 389.36,
+                    "bonus_2": 417.17,
+                    "härtefall": 556.23
+                }
+            },
+            {
+                "nummer": "5.4",
+                "beschreibung": "Zahnloser Ober- oder Unterkiefer in Fällen, in denen eine endgültige Versorgung nicht sofort möglich ist, je Kiefer ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0211 Individueller Löffel ",
+                    "0212 Funktionslöffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0215 Basis für Aufstellung ",
+                    "0220 Bisswall ",
+                    "3010 Aufstellung Grundeinheit ",
+                    "3020 Aufstellung Wachs je Zahn ",
+                    "3610 Fertigstellung Grundeinheit ",
+                    "3620 Fertigstellung je Zahn ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Zähne ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 458.57,
+                    "bonus_1": 535.0,
+                    "bonus_2": 573.21,
+                    "härtefall": 764.28
+                }
+            }
+        ]
+    },
+    {
+        "abschnitt": "6",
+        "titel": "Wiederherstellungs- und erweiterungsbedürftiger konventioneller Zahnersatz ",
+        "befunde": [
+            {
+                "nummer": "6.0",
+                "beschreibung": "Prothetisch versorgtes Gebiss ohne Befundveränderung mit wiederherstellungsbedürftiger herausnehmbarer-/Kombinationsversorgung ohne Notwendigkeit der Abformung und ohne Notwendigkeit zahntechnischer Leistungen, auch Auffüllen von Sekundärteleskopen im direkten Verfahren, je Prothese ",
+                "regelversorgung_zahntechnik": [],
+                "Festzuschüsse": {
+                    "ohne_bonus": 22.36,
+                    "bonus_1": 26.09,
+                    "bonus_2": 27.95,
+                    "härtefall": 37.27
+                }
+            },
+            {
+                "nummer": "6.1",
+                "beschreibung": "Prothetisch versorgtes Gebiss ohne Befundveränderung mit wiederherstellungsbedürftiger herausnehmbarer-/Kombinationsversorgung ohne Notwendigkeit der Abformung, je Prothese ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "3830 Zahn zahnfarben hergestellt ",
+                    "3840 Zahn zahnfarben hinterlegen ",
+                    "8010 Grundeinheit ",
+                    "8021 LE Sprung ",
+                    "8022 LE Bruch ",
+                    "8023 LE Einarbeiten Zahn ",
+                    "8024 LE Basisteil Kunststoff ",
+                    "8130 Auswechseln Konfektionsteil ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Zähne ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 53.06,
+                    "bonus_1": 61.91,
+                    "bonus_2": 66.33,
+                    "härtefall": 88.44
+                }
+            },
+            {
+                "nummer": "6.2",
+                "beschreibung": "Prothetisch versorgtes Gebiss ohne Befundveränderung mit wiederherstellungsbedürftiger herausnehmbarer-/ Kombinationsversorgung mit Notwendigkeit der Abformung (Maßnahmen im Kunststoffbereich), auch Wiederbefestigung von Sekundärteleskopen oder anderer Verbindungselemente an dieser Versorgung, je Prothese ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0112 Fixator ",
+                    "0120 Mittelwertartikulator ",
+                    "0220 Bisswall ",
+                    "1347 Primär-/Sek.-Teil Konf.-Anker ",
+                    "1349 Sekundärteil wiederbefestigen ",
+                    "3800 Einfache gebogene Halte-/ Stützvorrichtung ",
+                    "3805 Einfache gebogene Halte-/ Stützvorrichtung – gebogene Auflage ",
+                    "3810 Sonstige gebogene Halte- und /oder Stützvorrichtung ",
+                    "3830 Zahn zahnfarben hergestellt ",
+                    "3840 Zahn zahnfarben hinterlegen ",
+                    "8010 Grundeinheit ",
+                    "8021 LE Sprung ",
+                    "8022 LE Bruch ",
+                    "8023 LE Einarbeiten Zahn ",
+                    "8024 LE Basisteil Kunststoff ",
+                    "8025 LE Klammer einarbeiten ",
+                    "8030 Retention, gebogen ",
+                    "8130 Auswechseln Konfektionsteil ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Zähne ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 88.36,
+                    "bonus_1": 103.08,
+                    "bonus_2": 110.45,
+                    "härtefall": 147.26
+                }
+            },
+            {
+                "nummer": "6.3",
+                "beschreibung": "Prothetisch versorgtes Gebiss ohne Befundveränderung mit wiederherstellungsbedürftiger herausnehmbarer-/ Kombinationsversorgung mit Maßnahmen im gegossenen Metallbereich, auch Wiederbefestigung von Sekundärteleskopen oder anderer Verbindungselemente an dieser Versorgung, je Prothese ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0023 Verwendung von Kunststoff ",
+                    "0053 Modell nach Überabdruck ",
+                    "0112 Fixator ",
+                    "0120 Mittelwertartikulator ",
+                    "1347 Primär-/Sek.-Teil Konf.-Anker ",
+                    "1349 Sekundärteil wiederbefestigen ",
+                    "1370 Schubverteilungsarm ",
+                    "1550 Konditionierung ",
+                    "1600 Vestibuläre Verblendung Kunststoff ",
+                    "1610 Zahnfleisch Kunststoff ",
+                    "1640 Vestibuläre Verblendung Komposite ",
+                    "1650 Zahnfleisch Komposite ",
+                    "2021 Einarmige gegossene Haltevorrichtung ",
+                    "2025 Kralle ",
+                    "2026 Ney-Stiel ",
+                    "2027 Auflage ",
+                    "2028 Umgehungsbügel ",
+                    "2031 Zweiarmige gegossene Haltevorrichtung ",
+                    "2041 Zweiarmige gegossene Halteund Stützvorrichtung / Auflage ",
+                    "2050 Bonwillklammer ",
+                    "2081 Rückenschutzplatte ",
+                    "2082 Metallzahn ",
+                    "2083 Metallkaufläche ",
+                    "2120 Zuschlag einzelne Klammer ",
+                    "3800 Einfache gebogene Halte-/ Stützvorrichtung ",
+                    "3805 Einfache gebogene Halte-/ Stützvorrichtung – gebogene Auflage ",
+                    "3810 Sonstige gebogene Halte- und /oder Stützvorrichtung ",
+                    "3830 Zahn zahnfarben hergestellt ",
+                    "3840 Zahn zahnfarben hinterlegen ",
+                    "8010 Grundeinheit ",
+                    "8021 LE Sprung ",
+                    "8022 LE Bruch ",
+                    "8023 LE Einarbeiten Zahn ",
+                    "8024 LE Basisteil Kunststoff ",
+                    "8025 LE Klammer einarbeiten ",
+                    "8026 LE Rückenschutzplatte ",
+                    "8027 LE Kunststoffsattel ",
+                    "8030 Retention, gebogen ",
+                    "8040 Retention, gegossen ",
+                    "8060 gegossenes Basisteil ",
+                    "8070 Metallverbindung ",
+                    "8130 Auswechseln Konfektionsteil ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Lotmaterial ",
+                    "Zähne ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 125.66,
+                    "bonus_1": 146.61,
+                    "bonus_2": 157.08,
+                    "härtefall": 209.44
+                }
+            },
+            {
+                "nummer": "6.4",
+                "beschreibung": "Prothetisch versorgtes Gebiss mit Befundveränderung mit erweiterungsbedürftiger herausnehmbarer-/Kombinationsversorgung mit Maßnahmen im Kunststoffbereich, je Prothese bei Erweiterung um einen Zahn ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0112 Fixator ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0220 Bisswall ",
+                    "1349 Wiederbefestigung Sekundärteil ",
+                    "3800 Einfache gebogene Halte-/ Stützvorrichtung ",
+                    "3805 Einfache gebogene Halte-/ Stützvorrichtung – gebogene Auflage ",
+                    "3810 Sonstige gebogene Halte- und /oder Stützvorrichtung ",
+                    "3830 Zahn zahnfarben hergestellt ",
+                    "3840 Zahn zahnfarben hinterlegen ",
+                    "8010 Grundeinheit ",
+                    "8021 LE Sprung ",
+                    "8022 LE Bruch ",
+                    "8023 LE Einarbeiten Zahn ",
+                    "8024 LE Basisteil Kunststoff einarbeiten ",
+                    "8025 LE Klammer ",
+                    "8030 Gebogene Retention ",
+                    "8130 Auswechseln Konfektionsteil ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Zähne ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 94.51,
+                    "bonus_1": 110.26,
+                    "bonus_2": 118.14,
+                    "härtefall": 157.52
+                }
+            },
+            {
+                "nummer": "6.4.1",
+                "beschreibung": "Prothetisch versorgtes Gebiss mit Befundveränderung mit erweiterungsbedürftiger herausnehmbarer-/ Kombinationsversorgung mit Maßnahmen im Kunststoffbereich, je Prothese bei Erweiterung um jeden weiteren Zahn ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0112 Fixator ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0220 Bisswall ",
+                    "1349 Wiederbefestigung Sekundärteil ",
+                    "3800 Einfache gebogene Halte-/ Stützvorrichtung ",
+                    "3805 Einfache gebogene Halte-/ Stützvorrichtung – gebogene Auflage ",
+                    "3810 Sonstige gebogene Halte- und /oder Stützvorrichtung ",
+                    "3830 Zahn zahnfarben hergestellt ",
+                    "3840 Zahn zahnfarben hinterlegen ",
+                    "8010 Grundeinheit Instandsetzung ",
+                    "8021 LE Sprung ",
+                    "8022 LE Bruch ",
+                    "8023 LE Einarbeiten Zahn ",
+                    "8024 LE Basisteil Kunststoff ",
+                    "8025 LE Halte-/Stützvorrichtung einarbeiten ",
+                    "8030 Retention, gebogen ",
+                    "8130 Auswechseln Konfektionsteil ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Zähne ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 18.94,
+                    "bonus_1": 22.1,
+                    "bonus_2": 23.68,
+                    "härtefall": 31.57
+                }
+            },
+            {
+                "nummer": "6.5",
+                "beschreibung": "Prothetisch versorgtes Gebiss mit Befundveränderung mit erweiterungsbedürftiger herausnehmbarer-/Kombinationsversorgung mit Maßnahmen im gegossenen Metallbereich, je Prothese bei Erweiterung um einen Zahn ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0112 Fixator ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0220 Bisswall ",
+                    "1349 Wiederbefestigung Sekundärteil ",
+                    "1550 Konditionierung ",
+                    "1600 Vestibuläre Verblendung Kunststoff ",
+                    "1610 Zahnfleisch Kunststoff ",
+                    "1640 Vestibuläre Verblendung Komposite ",
+                    "1650 Zahnfleisch Komposite ",
+                    "2021 Einarmige gegossene Haltevorrichtung ",
+                    "2025 Kralle ",
+                    "2026 Ney-Stiel ",
+                    "2027 Auflage ",
+                    "2028 Umgehungsbügel ",
+                    "2031 Zweiarmige gegossene Haltevorrichtung ",
+                    "2041 Zweiarmige gegossene Halteund Stützvorrichtung/ Auflage ",
+                    "2050 Bonwillklammer ",
+                    "2081 Rückenschutzplatte ",
+                    "2082 Metallzahn ",
+                    "2083 Metallkaufläche ",
+                    "2110 Abschlussrand ",
+                    "2120 Zuschlag einzelne Klammer ",
+                    "3800 Einfache gebogene Halte-/ Stützvorrichtung ",
+                    "3805 Einfache gebogene Halte-/ Stützvorrichtung – gebogene Auflage ",
+                    "3810 Sonstige gebogene Halteund/oder Stützvorrichtung ",
+                    "3830 Zahn zahnfarben hergestellt ",
+                    "3840 Zahn zahnfarben hinterlegen ",
+                    "8010 Grundeinheit ",
+                    "8021 LE Sprung ",
+                    "8022 LE Bruch ",
+                    "8023 LE Einarbeiten Zahn ",
+                    "8024 LE Basisteil Kunststoff ",
+                    "8025 LE Klammer einarbeiten ",
+                    "8026 LE Rückenschutzplatte ",
+                    "8027 LE Kunststoffsattel ",
+                    "8030 Gebogene Retention ",
+                    "8040 Gegossene Retention ",
+                    "8060 Gegossenes Basisteil ",
+                    "8070 Metallverbindung ",
+                    "8130 Auswechseln Konfektionsteil ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Lotmaterial ",
+                    "Zähne ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 138.05,
+                    "bonus_1": 161.06,
+                    "bonus_2": 172.56,
+                    "härtefall": 230.08
+                }
+            },
+            {
+                "nummer": "6.5.1",
+                "beschreibung": "Prothetisch versorgtes Gebiss mit Befundveränderung mit erweiterungsbedürftiger herausnehmbarer/ Kombinationsversorgung mit Maßnahmen im gegossenen Metallbereich, je Prothese bei Erweiterung um jeden weiteren Zahn ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0112 Fixator ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0220 Bisswall ",
+                    "1349 Wiederbefestigung Sekundärteil ",
+                    "1550 Konditionierung ",
+                    "1600 Vestibuläre Verblendung Kunststoff ",
+                    "1610 Zahnfleisch Kunststoff ",
+                    "1640 Vestibuläre Verblendung Komposite ",
+                    "1650 Zahnfleisch Komposite ",
+                    "2021 Einarmige gegossene Haltevorrichtung ",
+                    "2025 Kralle ",
+                    "2026 Ney-Stiel ",
+                    "2027 Auflage ",
+                    "2028 Umgehungsbügel ",
+                    "2031 Zweiarmige gegossene Haltevorrichtung ",
+                    "2041 Zweiarmige gegossene Halteund Stützvorrichtung / Auflage ",
+                    "2050 Bonwillklammer ",
+                    "2081 Rückenschutzplatte ",
+                    "2082 Metallzahn ",
+                    "2083 Metallkaufläche ",
+                    "2110 Abschlussrand ",
+                    "2120 Zuschlag einzelne Klammer ",
+                    "3800 Einfache gebogene Halte-/ Stützvorrichtung ",
+                    "3805 Einfache gebogene Halte-/ Stützvorrichtung – gebogene Auflage ",
+                    "3810 Sonstige gebogene Halteund/oder Stützvorrichtung ",
+                    "3830 Zahn zahnfarben hergestellt ",
+                    "3840 Zahn zahnfarben hinterlegen ",
+                    "8010 Grundeinheit Instandsetzung ",
+                    "8021 LE Sprung ",
+                    "8022 LE Bruch ",
+                    "8023 LE Einarbeiten Zahn ",
+                    "8024 LE Basisteil Kunststoff ",
+                    "8025 LE Halte-/Stützvorrichtung einarbeiten ",
+                    "8026 LE Rückenschutzplatte einarbeiten ",
+                    "8027 LE Kunststoffsattel ",
+                    "8030 Retention, gebogen ",
+                    "8040 Retention, gegossen ",
+                    "8060 Gegossenes Basisteil ",
+                    "8070 Metallverbindung/ Wiederherstellung ",
+                    "8130 Auswechseln Konfektionsteil ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Lotmaterial ",
+                    "Zähne ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 27.68,
+                    "bonus_1": 32.29,
+                    "bonus_2": 34.6,
+                    "härtefall": 46.13
+                }
+            },
+            {
+                "nummer": "6.6",
+                "beschreibung": "Verändertes Prothesenlager bei erhaltungswürdigem Teil-Zahnersatz, je Prothese ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0023 Verwendung von Kunststoff ",
+                    "0112 Fixator ",
+                    "3821 Weichkunststoff ",
+                    "3822 Sonderkunststoff ",
+                    "8080 Teilunterfütterung ",
+                    "8090 Vollst. Unterfütterung ",
+                    "8100 Prothesenbasis erneuern ",
+                    "9330 Versandkosten ",
+                    "Material "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 103.15,
+                    "bonus_1": 120.34,
+                    "bonus_2": 128.93,
+                    "härtefall": 171.91
+                }
+            },
+            {
+                "nummer": "6.7",
+                "beschreibung": "Verändertes Prothesenlager bei erhaltungswürdigem totalem Zahnersatz oder schleimhautgetragener Deckprothese, je Kiefer ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0023 Verwendung von Kunststoff ",
+                    "0112 Fixator ",
+                    "3821 Weichkunststoff ",
+                    "3822 Sonderkunststoff ",
+                    "8080 Teilunterfütterung ",
+                    "8090 Vollst. Unterfütterung ",
+                    "8100 Prothesenbasis erneuern ",
+                    "9330 Versandkosten ",
+                    "Material "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 124.21,
+                    "bonus_1": 144.91,
+                    "bonus_2": 155.26,
+                    "härtefall": 207.01
+                }
+            },
+            {
+                "nummer": "6.8",
+                "beschreibung": "Wiederherstellungsbedürftiger festsitzender rezementierbarer Zahnersatz, je Zahn ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0022 Platzhalter einfügen ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0120 Mittelwertartikulator ",
+                    "1500 Metallverbindung nach Brand ",
+                    "8070 Metallverbindung ",
+                    "8200 Reparatur Krone/ Brückenglied ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Lotmaterial "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 16.19,
+                    "bonus_1": 18.89,
+                    "bonus_2": 20.24,
+                    "härtefall": 26.99
+                }
+            },
+            {
+                "nummer": "6.8.1",
+                "beschreibung": "Wiederherstellungsbedürftiger festsitzender Zahnersatz je Flügel einer Adhäsivbrücke ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0120 Mittelwertartikulator ",
+                    "1550 Konditionierung je Zahn/Flügel ",
+                    "8070 Metallverbindung bei Instandsetzung/Erweiterung ",
+                    "8200 Instandsetzung Krone/Flügel/ Brückenglied ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Lotmaterial ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 45.88,
+                    "bonus_1": 53.52,
+                    "bonus_2": 57.35,
+                    "härtefall": 76.46
+                }
+            },
+            {
+                "nummer": "6.9",
+                "beschreibung": "Wiederherstellungsbedürftige Facette/Verblendung (auch wieder-einsetzbar oder erneuerungsbedürftig) im Verblendbereich an einer Krone, einem Sekundärteleskop, einem Brückenanker oder einem Brückenglied, je Verblendung ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0022 Platzhalter einfügen ",
+                    "0023 Verwendung von Kunststoff ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0120 Mittelwertartikulator ",
+                    "0320 Formteil ",
+                    "1550 Konditionierung ",
+                    "1600 Vestibuläre Verblendung Kunststoff ",
+                    "1610 Zahnfleisch aus Kunststoff ",
+                    "1620 Vestibuläre Verblendung Keramik ",
+                    "1630 Zahnfleisch Keramik ",
+                    "1640 Vestibuläre Verblendung Komposite ",
+                    "1650 Zahnfleisch aus Komposite ",
+                    "8010 Grundeinheit Instandsetzung ",
+                    "8070 Metallverbindung ",
+                    "8200 Reparatur Krone/ Brückenglied ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Lotmaterial "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 89.02,
+                    "bonus_1": 103.86,
+                    "bonus_2": 111.28,
+                    "härtefall": 148.37
+                }
+            },
+            {
+                "nummer": "6.10",
+                "beschreibung": "Erneuerungsbedürftiges Primär- oder Sekundärteleskop, je Zahn ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0023 Verwendung von Kunststoff ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0055 Fräsmodell ",
+                    "0060 Zahnkranz ",
+                    "0070 Zahnkranz sockeln ",
+                    "0120 Mittelwertartikulator ",
+                    "0211 Individueller Löffel ",
+                    "1201 Telesk. Primär- oder Sekundärkrone ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "NEM ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 270.11,
+                    "bonus_1": 315.13,
+                    "bonus_2": 337.64,
+                    "härtefall": 450.19
+                }
+            }
+        ]
+    },
+    {
+        "abschnitt": "7",
+        "titel": "Erneuerung und Wiederherstellung von Suprakonstruktionen ",
+        "befunde": [
+            {
+                "nummer": "7.1",
+                "beschreibung": "Erneuerungsbedürftige Suprakonstruktion (vorhandenes Implantat bei zahnbegrenzter Einzelzahnlücke), je implantatgetragene Krone ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0022 Platzhalter einfügen ",
+                    "0023 Verwendung von Kunststoff ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0055 Fräsmodell ",
+                    "0060 Zahnkranz ",
+                    "0070 Zahnkranz sockeln ",
+                    "0120 Mittelwertartikulator ",
+                    "0211 Individueller Löffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0220 Bisswall ",
+                    "0240 Übertragungskappe ",
+                    "0310 Provisorische Krone ",
+                    "1021 Vollkrone / Metall ",
+                    "1360 Gefrästes Lager ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "NEM ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 228.75,
+                    "bonus_1": 266.88,
+                    "bonus_2": 285.94,
+                    "härtefall": 381.25
+                }
+            },
+            {
+                "nummer": "7.2",
+                "beschreibung": "Erneuerungsbedürftige Suprakonstruktion, die über den Befund nach Nummer 7.1 hinausgeht, je implantatgetragene Krone, Brückenanker oder Brückenglied, höchstens viermal je Kiefer ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0022 Platzhalter einfügen ",
+                    "0023 Verwendung von Kunststoff ",
+                    "0024 Galvanisieren ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0060 Zahnkranz ",
+                    "0070 Zahnkranz sockeln ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0211 Löffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0220 Bisswall ",
+                    "0240 Übertragungskappe ",
+                    "0310 Provisorische Krone ",
+                    "0320 Formteil ",
+                    "1100 Brückenglied ",
+                    "1500 Metallverbindung nach Brand ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "NEM ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 139.72,
+                    "bonus_1": 163.0,
+                    "bonus_2": 174.65,
+                    "härtefall": 232.86
+                }
+            },
+            {
+                "nummer": "7.3",
+                "beschreibung": "Wiederherstellungsbedürftige Suprakonstruktionen (Facette), je Facette ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0022 Platzhalter einfügen ",
+                    "0023 Verwendung von Kunststoff ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0120 Mittelwertartikulator ",
+                    "0320 Formteil ",
+                    "1550 Konditionierung ",
+                    "1600 Vestibuläre Verblendung Kunststoff ",
+                    "1610 Zahnfleisch aus Kunststoff ",
+                    "1620 Vestibuläre Verblendung Keramik ",
+                    "1630 Zahnfleisch aus Keramik ",
+                    "1640 Vestibuläre Verblendung Komposite ",
+                    "1650 Zahnfleisch aus Komposite ",
+                    "8070 Metallverbindung ",
+                    "8200 Reparatur Krone/ Brückenglied ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Lotmaterial "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 83.28,
+                    "bonus_1": 97.16,
+                    "bonus_2": 104.1,
+                    "härtefall": 138.8
+                }
+            },
+            {
+                "nummer": "7.4",
+                "beschreibung": "Wiederherstellungsbedürftiger festsitzender rezementierbarer oder zu verschraubender Zahnersatz, je implantatgetragene Krone oder Brückenanker ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0022 Platzhalter einfügen ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0120 Mittelwertartikulator ",
+                    "1500 Metallverbindung nach Brand ",
+                    "8070 Metallverbindung ",
+                    "8200 Reparatur Krone/ Brückenglied ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Lotmaterial "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 17.47,
+                    "bonus_1": 20.38,
+                    "bonus_2": 21.83,
+                    "härtefall": 29.11
+                }
+            },
+            {
+                "nummer": "7.5",
+                "beschreibung": "Erneuerungsbedürftige implantatgetragene Prothesenkonstruktionen, je Prothesenkonstruktion ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0120 Mittelwertartikulator ",
+                    "0201 Basis für Vorbissnahme ",
+                    "0211 Individueller Löffel ",
+                    "0212 Funktionslöffel ",
+                    "0213 Basis für Bissregistrierung ",
+                    "0215 Basis für Aufstellung ",
+                    "0220 Bisswall ",
+                    "3010 Aufstellung Grundeinheit ",
+                    "3020 Aufstellung Wachs je Zahn ",
+                    "3610 Fertigstellung Grundeinheit ",
+                    "3620 Fertigstellung je Zahn ",
+                    "3821 Weichkunststoff ",
+                    "3822 Sonderkunststoff ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Zähne ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 558.31,
+                    "bonus_1": 651.36,
+                    "bonus_2": 697.88,
+                    "härtefall": 930.51
+                }
+            },
+            {
+                "nummer": "7.6",
+                "beschreibung": "Erneuerungsbedürftige Prothesen-konstruktion bei atrophiertem zahnlosem Kiefer, je implantatgetragenem Konnektor als Zuschlag zum Befund nach Nummer 7.5, höchstens viermal je Kiefer ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0051 Sägemodell ",
+                    "0052 Einzelstumpfmodell ",
+                    "0053 Modell nach Überabdruck ",
+                    "0120 Mittelwertartikulator ",
+                    "1500 Metallverbindung nach Brand ",
+                    "8070 Metallverbindung ",
+                    "8200 Reparatur Krone/ Brückenglied ",
+                    "9330 Versandkosten ",
+                    "Material: ",
+                    "Lotmaterial "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 16.13,
+                    "bonus_1": 18.82,
+                    "bonus_2": 20.17,
+                    "härtefall": 26.89
+                }
+            },
+            {
+                "nummer": "7.7",
+                "beschreibung": "Wiederherstellungsbedürftige implantatgetragene Prothesenkonstruktion, Umgestaltung einer vorhandenen Totalprothese zur Suprakonstruktion bei Vorliegen eines zahnlosen atrophierten Kiefers, je Prothesenkonstruktion ",
+                "regelversorgung_zahntechnik": [
+                    "0010 Modell ",
+                    "0018 Modell bei Implantatversorgung ",
+                    "0112 Fixator ",
+                    "0128 Mittelwertartikulator bei Implantatversorgung ",
+                    "3821 Weichkunststoff ",
+                    "3822 Sonderkunststoff ",
+                    "3830 Zahn zahnfarben hergestellt ",
+                    "3840 Zahn zahnfarben hinterlegen ",
+                    "8018 Grundeinheit Instandsetzung/ implantatgestützt ",
+                    "8021 LE Sprung ",
+                    "8022 LE Bruch ",
+                    "8023 LE Einarbeiten Zahn ",
+                    "8024 LE Basisteil Kunststoff ",
+                    "8088 Teilunterfütterung/ implantatgestützt ",
+                    "8098 Vollständige Unterfütterung/ implantatgestützt ",
+                    "8108 Prothesenbasis erneuern bei Implantatversorgung ",
+                    "9338 Versandkosten bei Implantatversorgung ",
+                    "Material: ",
+                    "Zähne ",
+                    "Verbrauchsmaterial Praxis "
+                ],
+                "Festzuschüsse": {
+                    "ohne_bonus": 79.97,
+                    "bonus_1": 93.3,
+                    "bonus_2": 99.97,
+                    "härtefall": 133.29
+                }
+            }
+        ]
+    },
+    {
+        "abschnitt": "8",
+        "titel": "Nicht vollendete Behandlung (Teilleistungen) ",
+        "befunde": [
+            {
+                "nummer": "8.1",
+                "beschreibung": "Befund nach Präparation eines erhaltungswürdigen Zahnes, einer Teleskopkrone oder einer Wurzelstiftkappe. 50 v.H. des Festzuschusses für den Befund nach den Nummern 1.1, 1.2, 1.5, 3.2, 4.6 oder 4.8 sind ansetzbar. ",
+                "regelversorgung_zahntechnik": [],
+                "Festzuschüsse": {
+                    "ohne_bonus": 0,
+                    "bonus_1": 0,
+                    "bonus_2": 0,
+                    "härtefall": 0
+                }
+            },
+            {
+                "nummer": "8.2",
+                "beschreibung": "Befund nach Präparation eines erhaltungswürdigen Zahnes, einer Teleskopkrone oder einer Wurzelstiftkappe, wenn auch weitergehende Maßnahmen durchgeführt worden sind. 75 v.H. des Festzuschusses für den Befund nach den Nummern 1.1, 1.2, 1.5, 3.2, 4.6 oder 4.8 sind ansetzbar.  Gegebenenfalls sind die Festzuschüsse für den Befund nach Nummer 1.3 oder Nummer 4.7 ansetzbar. ",
+                "regelversorgung_zahntechnik": [],
+                "Festzuschüsse": {
+                    "ohne_bonus": 0,
+                    "bonus_1": 0,
+                    "bonus_2": 0,
+                    "härtefall": 0
+                }
+            },
+            {
+                "nummer": "8.3",
+                "beschreibung": "Befund nach Präparation der Ankerzähne einer Brücke. 50 v.H. der Festzuschüsse für die Befunde nach den Nummern 2.1 bis 2.5 sind ansetzbar. ",
+                "regelversorgung_zahntechnik": [],
+                "Festzuschüsse": {
+                    "ohne_bonus": 0,
+                    "bonus_1": 0,
+                    "bonus_2": 0,
+                    "härtefall": 0
+                }
+            },
+            {
+                "nummer": "8.4",
+                "beschreibung": "Befund nach Präparation der Ankerzähne einer Brücke, wenn auch weitergehende Maßnahmen durchgeführt worden sind. 75 v.H. der Festzuschüsse für die Befunde nach den Nummern 2.1 bis 2.5 sind ansetzbar.  Gegebenenfalls sind die Festzuschüsse für den Befund nach Nummer 2.7 für die Ankerzähne oder für die Brückenzwischenglieder ansetzbar. ",
+                "regelversorgung_zahntechnik": [],
+                "Festzuschüsse": {
+                    "ohne_bonus": 0,
+                    "bonus_1": 0,
+                    "bonus_2": 0,
+                    "härtefall": 0
+                }
+            },
+            {
+                "nummer": "8.5",
+                "beschreibung": "Befund nach Abformung und Ermittlung der Bissverhältnisse zur Eingliederung einer Teilprothese, einer Cover-DentureProthese oder einer Totalprothese. 50 v.H. der Festzuschüsse für die Befunde nach den Nummern 3.1, 4.1 bis 4.4 oder 5.1 bis 5.4 sind ansetzbar. ",
+                "regelversorgung_zahntechnik": [],
+                "Festzuschüsse": {
+                    "ohne_bonus": 0,
+                    "bonus_1": 0,
+                    "bonus_2": 0,
+                    "härtefall": 0
+                }
+            },
+            {
+                "nummer": "8.6",
+                "beschreibung": "Befund nach Abformung und Ermittlung der Bissverhältnisse zur Eingliederung einer Teilprothese, einer Cover-DentureProthese oder einer Totalprothese, wenn auch weitergehende Maßnahmen durchgeführt worden sind. 75 v.H. der Festzuschüsse für die Befunde nach den Nummern 3.1, 4.1 bis 4.4 oder 5.1 bis 5.4 sind ansetzbar.  Gegebenenfalls sind die Festzuschüsse für die Befunde nach Nummer 4.5 oder Nummer 4.9 ansetzbar. ",
+                "regelversorgung_zahntechnik": [],
+                "Festzuschüsse": {
+                    "ohne_bonus": 0,
+                    "bonus_1": 0,
+                    "bonus_2": 0,
+                    "härtefall": 0
+                }
+            }
+        ]
+    }
+]

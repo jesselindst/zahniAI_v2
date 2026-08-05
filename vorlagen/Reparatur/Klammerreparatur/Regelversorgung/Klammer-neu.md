@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: 6.2 je Prothese (Wiederherstellung mit Notwendigkeit der Abformung, Maßnahmen im Kunststoffbereich — gebogene Klammer 3800/3805/3810, 8025, 8030); 6.3 je Prothese, sobald Maßnahmen im gegossenen Metallbereich hinzukommen (2021/2025/2026/2027/2031/2041, 2120, 8026, 8027, 8040, 8060, 8070, 0023 angesetzt)

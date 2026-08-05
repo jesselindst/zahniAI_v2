@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 2.1 je Lücke (ein fehlender Schneidezahn); zusätzlich 2.7 je vestibulär verblendetem Brückenglied im Verblendbereich (NICHT für die Flügel)
 - Versorgungsform: Regelversorgung (NEM-Metallgerüst-Adhäsivbrücke, einflügelig, Ersatz EINES Schneidezahns — ohne Altersgrenze seit 04.05.2016)

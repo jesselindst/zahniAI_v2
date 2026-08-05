@@ -83,9 +83,10 @@ Je Zeile, außer `unveraendert_geprueft`:
 2. Über Backlinks und Volltext alle weiteren Fundstellen sammeln.
 3. **Kanten nicht vergessen.** Jede Kante, die auf die alte Position zeigt, ist betroffen — sie steht im Frontmatter, nicht im Text, und fällt beim Lesen sonst durch.
 4. Ändern nach Art der Zeile: `umbenannt` und `ersetzt_durch` → Referenzen umstellen, alte Seite bekommt `ersetzt_durch:`. `entfallen` → `gueltig_bis` setzen, Aussage bleibt stehen. `regel_geaendert` → neue Regel aus der Quelle einarbeiten, alte mit `gueltig_bis`.
-5. Zeilen der Art `offen` nicht anwenden, sondern vorlegen.
+5. **Vorlagen nachziehen.** `vorlagen/_REGISTER.md` nennt je Position die Vorlagen, die sie verwenden. In jeder betroffenen Vorlage die Zeile nach Art der Matrixzeile anpassen, danach im Frontmatter `kataloge:` auf die neue Fassungsdatei stempeln. Die Graph-Befunde „Vorlagen auf veralteter Katalogfassung" und „Vorlagen mit Positionen, die es in der aktiven Katalogfassung nicht gibt" müssen danach leer sein.
+6. Zeilen der Art `offen` nicht anwenden, sondern vorlegen.
 
-Danach `angewendet: ja` in der Matrix und ein Protokolleintrag mit der Zahl geänderter Seiten und Kanten je Zeile. Eine halb angewendete Matrix ist schlimmer als eine unangewendete — läuft der Lauf nicht durch, bleibt `nein` stehen und du hältst im Protokoll fest, wie weit du gekommen bist.
+Danach `angewendet: ja` in der Matrix und ein Protokolleintrag mit der Zahl geänderter Seiten, Kanten und Vorlagen je Zeile. Eine halb angewendete Matrix ist schlimmer als eine unangewendete — läuft der Lauf nicht durch, bleibt `nein` stehen und du hältst im Protokoll fest, wie weit du gekommen bist.
 
 ## 7. Was Lint nicht tut
 

@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 2.1 je Lücke (ein fehlender Zahn) — bei zwei nebeneinander fehlenden Zähnen 2.2 statt 2.1, zusätzlich 2.5 je unmittelbar angrenzender weiterer Einzelzahnlücke und 2.6 je Lücke bei disparallelen Pfeilern; zusätzlich 2.7 JE Verblendung — für jeden ersetzten Zahn UND jeden der Lücke angrenzenden Brückenanker innerhalb OK 15–25 / UK 34–44 (3-gliedrig vollständig im Verblendbereich: 3× 2.7); Menge 2.7 = Menge 1620/1600/1640
 - Versorgungsform: Regelversorgung (NEM-Gerüst, vestibulär verblendet, innerhalb Verblendbereich)

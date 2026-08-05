@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json, bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 1.2 je Zahn mit großem Substanzdefekt bei erhaltener vestibulärer und/oder oraler Zahnsubstanz (Regelversorgung = gegossene Metall-Teilkrone BEL 1022); KEIN Zusatzbefund 1.3 — dieser gilt nur je Verblendung für Kronen, und BEL 1022 schließt Verblendungen der Teilkrone aus
 - Versorgungsform: gleichartig (CAD-CAM-gefräste LiSi-Teilkrone statt gegossener Metall-Teilkrone; die BEL-Position 1022 setzt Gusstechnik voraus, gRS zum BEL II-2014)

@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 2.3 je Kiefer (drei nebeneinander fehlende Zähne — die beiden Implantatpositionen zählen als fehlende Zähne mit, maßgeblich ist die Ausgangssituation VOR Implantation); + 2.7 je verblendetem ersetzten Zahn bzw. angrenzendem Brückenanker im Verblendbereich OK 15–25 / UK 34–44, hier bis zu 3×; bei Freiendsituation stattdessen 3.1 je Kiefer. Implantate, Implantataufbauten und implantatbedingte Verbindungselemente lösen KEINEN Festzuschuss aus (ZE-RL Nr. 38); Klasse 7 nur bei Erneuerung/Wiederherstellung einer Suprakonstruktion
 - Versorgungsform: andersartig (Standardfall Implantat — Suprakonstruktionen sind grundsätzlich andersartiger Zahnersatz; Regelversorgung wäre die konventionelle Brücke zum Befund)

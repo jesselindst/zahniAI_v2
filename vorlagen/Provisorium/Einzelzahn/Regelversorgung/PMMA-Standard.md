@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: kein eigener FZ-Befund für das Provisorium — BEL 0310 ist Bestandteil der Regelversorgung des Ausgangsbefundes (Einzelzahn: 1.1 je überkronungsbedürftigem Zahn, 1.2 bei erhaltener vestibulärer/oraler Substanz); der FZ wird über den Befund der definitiven Versorgung ausgelöst, nicht zusätzlich für das Provisorium. Der Zusatzbefund 1.3 gehört zur definitiven Verblendung, nicht zum Provisorium

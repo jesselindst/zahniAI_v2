@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 1.5 je endodontisch behandeltem Zahn mit Notwendigkeit eines gegossenen metallischen Stiftaufbaus (1.4 wäre der konfektionierte Stift — andere Versorgung)
 - Versorgungsform: Regelversorgung (gegossener NEM-Stiftaufbau, indirektes Verfahren)

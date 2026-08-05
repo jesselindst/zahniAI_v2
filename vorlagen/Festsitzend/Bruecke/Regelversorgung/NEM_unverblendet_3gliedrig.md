@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: 2.1 je Lücke mit einem fehlenden Zahn (3-gliedrig = 1 Lücke, 2 Anker + 1 Glied); +2.5 je unmittelbar angrenzender weiterer Einzelzahnlücke; kein 2.7 (unverblendet außerhalb VG)

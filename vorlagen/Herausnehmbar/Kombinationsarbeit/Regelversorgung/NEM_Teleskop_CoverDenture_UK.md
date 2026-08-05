@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: 4.3 je Kiefer (Restzahnbestand bis zu 3 Zähnen im Unterkiefer; trägt Deckprothese, Aufstellung, Fertigstellung und Verblendung) + 4.6 je Ankerzahn mit Teleskopverankerung ODER 4.8 je Ankerzahn bei Verankerung über Wurzelstiftkappen (schließen einander je Zahn aus) + 4.7 je verblendeter Teleskopkrone innerhalb VG UK 34–44 + 4.5 nur bei begründeter Notwendigkeit einer Metallbasis

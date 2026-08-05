@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: 3.1 je Kiefer — genau einmal, unabhängig von der Zahl der Lücken, Sättel und Klammern; liegt im Kiefer eine Freiendsituation vor, sind die Befunde 2.1 bis 2.7 für diesen Kiefer ausgeschlossen (auch für die kontralaterale Schaltlücke — 3.1 wird NICHT additiv zu 2.x angesetzt); die Verblendung der Rückenschutzplatte ist im Leistungsumfang von 3.1 enthalten, dafür gibt es keinen Zusatzbefund

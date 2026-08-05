@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: Ausgangsbefund VOR Implantation — i. d. R. 2.1 je zahnbegrenzter Einzelzahnlücke, +2.7 je Verblendung eines ersetzten Zahns nur innerhalb VG OK 15–25/UK 34–44; größere Lücke 2.2–2.5, Freiendsituation 3.1. Klasse 7 (7.1 ff.) NUR bei Erneuerung/Wiederherstellung einer vorhandenen Suprakonstruktion. Implantat, Abutment und implantatbedingte Verbindungselemente lösen nie einen Festzuschuss aus

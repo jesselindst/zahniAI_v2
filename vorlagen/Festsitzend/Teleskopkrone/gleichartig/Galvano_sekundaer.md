@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json, bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 6.10 je Zahn (erneuerungsbedürftiges Primär- oder Sekundärteleskop an vorhandener Arbeit; RV = BEL 1201) — bei Neuanfertigung der gesamten Kombinationsversorgung stattdessen 4.6 je Ankerzahn ODER 3.2 je Eckzahn/erstem Prämolar (max. 2× je Kiefer) + Basisbefund über die Kombinationsarbeit-Vorlage; 4.7 nur bei Verblendung innerhalb VG (OK 15–25 / UK 34–44)
 - Versorgungsform: gleichartig (galvanisch abgeschiedenes Feingold-Sekundärteil statt gegossener Sekundärteleskopkrone — BEL 1200/1201 setzen Gusstechnik voraus)

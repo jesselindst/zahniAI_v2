@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json, bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: 1.1 je erhaltungswürdigem Zahn mit Kronenbedarf; kein 1.3 (unverblendete Vollgusskrone, typische Molarenindikation außerhalb VG)

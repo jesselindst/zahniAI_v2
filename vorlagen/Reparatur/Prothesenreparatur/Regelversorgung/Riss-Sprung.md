@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: 6.1 je Prothese (Wiederherstellung ohne Notwendigkeit der Abformung); 6.2 je Prothese, sobald Abformung bzw. Maßnahmen im Kunststoffbereich hinzukommen (0053, 0112, 0120, 8025, 8030 angesetzt); 6.3 je Prothese bei Maßnahmen im gegossenen Metallbereich (8026, 8027, 8040, 8060, 8070 angesetzt); 6.0 je Prothese ohne Abformung und ohne zahntechnische Leistung

@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 3.1 je Kiefer (Freiendsituation / Lückensituation II — alle Lücken, die den Befunden 2.1 bis 2.5 nicht entsprechen); bei beidseitig oder einseitig verkürzter Zahnreihe stattdessen 3.2 je Kiefer. Regelversorgung zu 3.1 ist herausnehmbarer Zahnersatz (Modellguss), NICHT die Brücke
 - Versorgungsform: andersartig (Freiendbrücke statt herausnehmbarer Regelversorgung = Wechsel der Zahnersatzart)

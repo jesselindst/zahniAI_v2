@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Erzeugt wiki/GRAPH.md aus den Wiki-Seiten.
+"""Erzeugt wiki/GRAPH.md und vorlagen/_REGISTER.md.
 
-Rein ableitend: liest wiki/*.md, schreibt genau eine Datei.
-Aendert niemals eine Wissensseite. Wird von den Skills ingest, lint und
-query zu Beginn ihres Laufs aufgerufen.
+Rein ableitend: liest wiki/*.md und vorlagen/**/*.md, schreibt genau diese
+beiden Dateien. Aendert niemals eine Wissensseite oder Vorlage. Wird von den
+Skills ingest, lint und query zu Beginn ihres Laufs aufgerufen.
 """
 
 import os
@@ -17,7 +17,9 @@ from collections import defaultdict
 WIKI = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "wiki")
 WIKI = os.path.normpath(WIKI)
 KATALOGE_DIR = os.path.normpath(os.path.join(WIKI, "..", "kataloge"))
+VORLAGEN_DIR = os.path.normpath(os.path.join(WIKI, "..", "vorlagen"))
 OUT = os.path.join(WIKI, "GRAPH.md")
+OUT_REGISTER = os.path.join(VORLAGEN_DIR, "_REGISTER.md")
 SKIP = {"INDEX.md", "LOG.md", "GRAPH.md"}
 
 # Kanten innerhalb eines Katalogs. 'entspricht' steht bewusst nicht dabei:
@@ -176,6 +178,63 @@ def zuletzt_in(fassungen, kat, nr):
     return None
 
 
+# ---------------------------------------------------------------- Vorlagen
+
+# Spaltenkopf einer Positionstabelle. Der Kopf traegt das Katalog-Kuerzel,
+# die Zellen bleiben nackte Nummern — deshalb ist er die einzige Stelle, an
+# der eine Vorlagenzeile einem Katalog zuzuordnen ist.
+VORLAGE_KOPF = re.compile(r"^\|\s*(BEB97|BEL|BEBZT|GOZ|BEMA)\s*\|",
+                          re.IGNORECASE)
+VORLAGE_ZELLE = re.compile(r"^\|\s*([0-9][0-9a-zA-Z.]*)\s*\|")
+
+
+def load_vorlagen():
+    """Positionen je Vorlage aus vorlagen/**/*.md.
+
+    Rueckgabe: rel_pfad -> {'positionen': {pos_id -> [abschnitte]},
+                            'kataloge': [dateien aus dem Frontmatter]}.
+    Der Abschnitt (letzte H1 vor der Tabelle, z. B. 'Basisleistungen') bleibt
+    erhalten: nur dort abgerechnete Positionen stehen zwingend nebeneinander,
+    Zusatzleistungen sind ein Menue.
+    """
+    out = {}
+    if not os.path.isdir(VORLAGEN_DIR):
+        return out
+    basis = os.path.dirname(VORLAGEN_DIR)
+    for pfad in sorted(glob.glob(os.path.join(VORLAGEN_DIR, "**", "*.md"),
+                                 recursive=True)):
+        if os.path.basename(pfad).startswith("_"):
+            continue
+        with open(pfad, encoding="utf-8") as fh:
+            text = fh.read()
+        fm, text = parse_frontmatter(text)
+
+        positionen = defaultdict(list)
+        abschnitt, praefix = "", None
+        for zeile in text.split("\n"):
+            h1 = re.match(r"#\s+(.*)", zeile)
+            if h1:
+                abschnitt, praefix = h1.group(1).strip(), None
+                continue
+            kopf = VORLAGE_KOPF.match(zeile)
+            if kopf:
+                praefix = kopf.group(1).lower()
+                continue
+            if not zeile.startswith("|"):
+                praefix = None
+                continue
+            if praefix and not re.match(r"^\|[\s\-|]+$", zeile):
+                z = VORLAGE_ZELLE.match(zeile)
+                if z:
+                    positionen[f"{praefix}:{z.group(1)}"].append(abschnitt)
+
+        out[os.path.relpath(pfad, basis)] = {
+            "positionen": dict(positionen),
+            "kataloge": as_list(fm.get("kataloge")),
+        }
+    return out
+
+
 def as_list(v):
     if v is None:
         return []
@@ -259,7 +318,7 @@ def build(seiten):
 
 
 def befunde(seiten, backlinks, kaputt, pos2seite, kanten, kataloge, fassungen,
-            fehlt):
+            vorlagen, fehlt):
     f = []
 
     # Zwei Dateien mit derselben Fassung — welche die aktive ist, entschiede
@@ -395,13 +454,114 @@ def befunde(seiten, backlinks, kaputt, pos2seite, kanten, kataloge, fassungen,
     if ohne_stand:
         f.append(("Seiten ohne 'stand:'", ohne_stand))
 
+    # --- Vorlagen gegen Kataloge und Kanten ---
+
+    aktiv_dateien = {liste[0]["datei"] for liste in fassungen.values()}
+
+    # Positions-ID in einer Vorlage, die die aktive Katalogfassung nicht
+    # kennt: Tippfehler oder mit dem Fassungswechsel entfallen. Beides muss
+    # vor dem naechsten Kostenvoranschlag auffallen.
+    v_unbekannt = []
+    # Frontmatter zeigt auf eine Katalogdatei, die nicht mehr die aktive
+    # Fassung ist: die Vorlage ist beim Fassungswechsel nachzuziehen
+    # (Aenderungsmatrix), danach wird die Fassung hochgestempelt.
+    v_veraltet = []
+    # Frontmatter fehlt oder nennt einen Katalog nicht, dessen Positionen
+    # die Vorlage verwendet.
+    v_ohne_herkunft = []
+    # Zwei Positionen im selben Pflichtabschnitt (Basisleistungen), zwischen
+    # denen laut Wiki eine schliesst_aus- oder alternativ_zu-Kante steht.
+    # Zusatzleistungen sind ein Menue und werden nicht geprueft — dort sind
+    # Alternativen Absicht (siehe die 162 falschen Treffer im Vorlagen-Test).
+    v_konflikt = []
+
+    paare = defaultdict(list)
+    for typ in ("schliesst_aus", "alternativ_zu"):
+        for a, b, geltung, _, _ in kanten.get(typ, []):
+            paare[frozenset((a, b))].append((typ, geltung))
+
+    for rel, v in sorted(vorlagen.items()):
+        genutzt = set()
+        for p in sorted(v["positionen"]):
+            kat, nr = p.split(":", 1)
+            genutzt.add(kat)
+            if kat in kataloge and nr not in kataloge[kat]:
+                alt = zuletzt_in(fassungen, kat, nr)
+                herkunft = f", zuletzt in {alt}" if alt else ""
+                v_unbekannt.append(f"{rel}: {p}{herkunft}")
+
+        fm_praefixe = set()
+        for datei in v["kataloge"]:
+            fm_praefixe.add(dateiname_teile(datei[:-5])[0]
+                            if datei.endswith(".json")
+                            else datei)
+            if datei not in aktiv_dateien:
+                v_veraltet.append(f"{rel}: {datei}")
+        for kat in sorted(genutzt - fm_praefixe):
+            v_ohne_herkunft.append(f"{rel}: nutzt {kat}, Frontmatter "
+                                   "nennt keine Fassung dazu")
+
+        basis = sorted(p for p, abschnitte in v["positionen"].items()
+                       if any("Basisleistungen" in a for a in abschnitte))
+        for i, a in enumerate(basis):
+            for b in basis[i + 1:]:
+                for typ, geltung in paare.get(frozenset((a, b)), []):
+                    v_konflikt.append(f"{rel}: {a} neben {b} "
+                                      f"[{typ}: {geltung}]")
+
+    if v_unbekannt:
+        f.append(("Vorlagen mit Positionen, die es in der aktiven "
+                  "Katalogfassung nicht gibt", v_unbekannt))
+    if v_veraltet:
+        f.append(("Vorlagen auf veralteter Katalogfassung (nachziehen, "
+                  "dann Fassung im Frontmatter hochstempeln)", v_veraltet))
+    if v_ohne_herkunft:
+        f.append(("Vorlagen ohne Katalog-Herkunft im Frontmatter "
+                  "(erwartet kataloge: [<datei>.json])", v_ohne_herkunft))
+    if v_konflikt:
+        f.append(("Vorlagen mit Kanten-Konflikt in den Basisleistungen",
+                  v_konflikt))
+
     return f
 
 
 # ---------------------------------------------------------------- Ausgabe
 
+def render_register(vorlagen, ts):
+    """vorlagen/_REGISTER.md: Position -> Vorlagen, die sie verwenden.
+
+    Das ist die Wirkungs-Seite der Aenderungsmatrix: eine geaenderte Position
+    trifft genau die hier gelisteten Vorlagen. Bewusst eigene Datei — bei
+    ~230 Vorlagen mit je dutzenden Positionen wuerde die Tabelle GRAPH.md
+    unlesbar machen.
+    """
+    pos2vorlage = defaultdict(set)
+    for rel, v in vorlagen.items():
+        for p in v["positionen"]:
+            pos2vorlage[p].add(rel)
+
+    L = []
+    L.append("# Vorlagenregister")
+    L.append("")
+    L.append(f"Generiert am {ts} aus {len(vorlagen)} Vorlagen. Abgeleitet, "
+             "nicht Quelle: jede Aenderung von Hand geht beim naechsten Lauf "
+             "verloren. Neu erzeugen mit `python3 scripts/graph.py`.")
+    L.append("")
+    L.append("Position -> Vorlagen, die sie verwenden. Zum Ausfuellen der "
+             "Wirkungs-Spalte einer Aenderungsmatrix und zum Nachziehen der "
+             "Vorlagen nach einem Fassungswechsel.")
+    L.append("")
+    for p in sorted(pos2vorlage):
+        rels = sorted(pos2vorlage[p])
+        L.append(f"## {p} ({len(rels)})")
+        for r in rels:
+            L.append(f"- {r}")
+        L.append("")
+    return "\n".join(L) + "\n"
+
+
 def render(seiten, backlinks, kaputt, pos2seite, quelle2seite, kanten,
-           label2seite, kataloge, fassungen, fehlt):
+           label2seite, kataloge, fassungen, vorlagen, fehlt):
     ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
     L = []
     L.append("# Graph")
@@ -412,7 +572,7 @@ def render(seiten, backlinks, kaputt, pos2seite, quelle2seite, kanten,
     L.append("")
 
     fnd = befunde(seiten, backlinks, kaputt, pos2seite, kanten, kataloge,
-                  fassungen, fehlt)
+                  fassungen, vorlagen, fehlt)
     L.append("## Befunde")
     L.append("")
     if not fnd:
@@ -510,6 +670,24 @@ def render(seiten, backlinks, kaputt, pos2seite, quelle2seite, kanten,
         L.append("Keine Katalogdateien unter kataloge/ gefunden.")
     L.append("")
 
+    if vorlagen:
+        L.append("## Vorlagen")
+        L.append("")
+        n_pos = defaultdict(set)
+        for v in vorlagen.values():
+            for p in v["positionen"]:
+                n_pos[p.split(":")[0]].add(p)
+        je_kat = " · ".join(f"{kat}: {len(pos)} Positionen"
+                            for kat, pos in sorted(n_pos.items()))
+        L.append(f"{len(vorlagen)} Vorlagen unter vorlagen/, verwendete "
+                 f"Positionen je Katalog: {je_kat}.")
+        L.append("")
+        L.append("Welche Vorlage welche Position verwendet, steht in "
+                 "`vorlagen/_REGISTER.md` — die Wirkungs-Seite der "
+                 "Aenderungsmatrix. Geprueft wird gegen die aktive "
+                 "Katalogfassung; Befunde stehen oben.")
+        L.append("")
+
     ents = kanten.get("entspricht", [])
     if ents or fehlt:
         L.append("## Katalogzuordnung")
@@ -557,8 +735,14 @@ def main():
         if not seiten:
             raise RuntimeError(f"Keine Wiki-Seiten in {WIKI} gefunden")
         kataloge, fassungen = load_kataloge()
+        vorlagen = load_vorlagen()
         data = build(seiten)
-        text = render(seiten, *data[:-1], kataloge, fassungen, data[-1])
+        text = render(seiten, *data[:-1], kataloge, fassungen, vorlagen,
+                      data[-1])
+        register = render_register(
+            vorlagen, datetime.datetime.now().strftime("%Y-%m-%d %H:%M"))
+        with open(OUT_REGISTER, "w", encoding="utf-8") as fh:
+            fh.write(register)
     except Exception as exc:  # Fehler in die Datei schreiben, nicht nur nach stderr
         ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
         text = (f"# Graph\n\nFEHLER beim Erzeugen am {ts}: {exc}\n\n"

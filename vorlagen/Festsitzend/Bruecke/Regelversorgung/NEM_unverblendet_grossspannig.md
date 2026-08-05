@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: je Lücke genau EIN Befund der Klasse 2 — 2.3 (drei nebeneinander fehlende Zähne, je Kiefer) bzw. 2.4 (vier fehlende Frontzähne, je Kiefer); bei kleinerer Lücke 2.1/2.2 je Lücke, zusätzlich 2.5 je unmittelbar angrenzender weiterer Einzelzahnlücke und 2.6 je Lücke bei disparallelen Pfeilern. Kein 2.7 (unverblendet, außerhalb Verblendbereich); für die Brückenanker sind die Befunde 1.1–1.3 NICHT ansetzbar
 - Versorgungsform: Regelversorgung (NEM-Vollgussbrücke unverblendet, großspannig, Seitenzahngebiet außerhalb OK 15–25 / UK 34–44)

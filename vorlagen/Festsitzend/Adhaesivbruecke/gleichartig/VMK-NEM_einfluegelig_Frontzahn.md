@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json, bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 2.1 je Lücke (ein fehlender Schneidezahn), bei zwei nebeneinander fehlenden Zähnen 2.2 statt 2.1; zusätzlich 2.7 je vestibulär verblendetem ersetztem Zahn im Verblendbereich (OK 15–25 / UK 34–44) — NICHT ansetzbar für die Flügel
 - Versorgungsform: gleichartig (BEL-Kern der Regelversorgung plus privat vereinbarte BEB-Mehrleistungen; ebenso bei Ersatz zweier nebeneinander fehlender Schneidezähne ab vollendetem 21. Lebensjahr)

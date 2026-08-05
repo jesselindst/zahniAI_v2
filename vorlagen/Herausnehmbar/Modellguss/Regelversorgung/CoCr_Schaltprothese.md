@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 - Befund: 3.1 je Kiefer — genau einmal, unabhängig von Anzahl Lücken, Sätteln, ersetzten Zähnen und Klammern; gilt nur für zahnbegrenzte Lücken, die NICHT den Befunden 2.1 bis 2.5 entsprechen. Kein Zusatzbefund für die Verblendung (2.7 gehört zu den Brückenbefunden; die Verblendung der Rückenschutzplatte ist in 3.1 enthalten); 4.5 hier nicht ansetzbar (nur Befundklasse 4)
 - Versorgungsform: Regelversorgung (CoCr-Modellguss, gegossen, Klammerverankerung) — nur bei Befund 3.1; bei 2.1 bis 2.5 ist die Regelversorgung eine Brücke, die herausnehmbare Prothese ist dann andersartig

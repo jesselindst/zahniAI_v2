@@ -1,3 +1,8 @@
+---
+kataloge: [bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: 3.1 je Kiefer — genau einmal, unabhängig von der Zahl der Lücken, Sättel und Klammern; liegt im Kiefer eine Freiendsituation vor, sind die Befunde 2.1 bis 2.7 für diesen Kiefer ausgeschlossen; 3.2 nur bei Kombinationsversorgung mit dentaler Verankerung (Teleskop/Geschiebe); Zuschlag 4.5 (Metallbasis) hier NICHT ansetzbar (nur Befundklasse 4)

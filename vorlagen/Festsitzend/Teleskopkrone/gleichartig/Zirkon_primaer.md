@@ -1,3 +1,8 @@
+---
+kataloge: [beb97_zahniAI_2026_v1.json, bel_2026_v1.json]
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: Basisbefund der Gesamtversorgung aus der Kombinationsarbeit-Vorlage (4.1/4.3 Restzahnbestand bis 3 Zähne OK/UK, 4.2/4.4 zahnloser Kiefer, 3.1 Lückensituation II, ggf. 4.5 Metallbasis); Ankerzahn-Zuschlag 4.6 je Ankerzahn (Restzahnbestand bis 3 Zähne, Kombinationsversorgung) ODER 3.2 je Eckzahn/erstem Prämolar, zweimal je Kiefer — 4.6 und 3.2 schließen einander aus; Ersatz eines einzelnen vorhandenen Primärteleskops stattdessen 6.10 je Zahn (RV-Inhalt BEL 1201)
