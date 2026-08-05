@@ -47,3 +47,10 @@ Generische Abrechnungsvorlagen für die KI-gestützte Kostenvoranschlag-Erstellu
 - OK/UK nur wenn abrechnungsrelevant verschieden
 
 **Kanonische Terme:** `NEM`, `EM`, `Zirkon`, `LiSi`, `VMK-EM`, `VMK-NEM`, `CAD-CAM`, `OK`/`UK`, `3D-gedruckt`, `mit-Geschiebe`. Trenner `_`, innerhalb Tokens ASCII-Hyphen, keine Spaces/Doppel-`_`.
+
+## Katalog-Herkunft & Register
+
+- **Spaltenkopf = Katalog-Kürzel.** Positionstabellen tragen den Katalog im Kopf (`| BEB97 |`, `| BEL |`), die Zellen bleiben nackte Nummern. Neue Tabellen immer mit einem dieser Köpfe — sonst kann `scripts/graph.py` die Zeilen keinem Katalog zuordnen.
+- **Frontmatter = Fassungsstand.** Jede Vorlage mit Positionen trägt `kataloge: [<datei>.json]` (die aktive Katalogfassung unter `kataloge/`, aus der sie gebaut wurde) und `stand:`. Bei einem Fassungswechsel findet die Änderungsmatrix darüber die nachzuziehenden Vorlagen; nach dem Nachziehen die Fassung hochstempeln.
+- **`_REGISTER.md`** (abgeleitet, erzeugt von `scripts/graph.py`, nicht von Hand ändern): Position → Vorlagen, die sie verwenden. Wirkungs-Seite der Änderungsmatrix.
+- `graph.py` prüft jede Position gegen die aktive Katalogfassung und meldet in `wiki/GRAPH.md`: unbekannte/entfallene Positionen, veraltete Fassung im Frontmatter, fehlende Herkunft, Kanten-Konflikte in den Basisleistungen.
