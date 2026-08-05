@@ -72,4 +72,10 @@ Das BEL enthält keine Preise; es bestimmt allein Leistungsinhalte. Die Vergütu
 
 Daraus folgen zwei Preisebenen. Der bundeseinheitliche durchschnittliche Netto-Preis nach § 57 Abs. 2 Satz 1 SGB V wird jährlich festgesetzt und ist im Wiki abgebildet, siehe [[bundesmittelpreis]]. Die tatsächlich abzurechnenden regionalen Vergütungen nach § 88 Abs. 2 SGB V sind es nicht.
 
-Verwandt: [[mengen-und-bezugsgroessen-bel]] · [[nebeneinander-ausschluesse-bel]] · [[rechnungsstellung-bel]] · [[qualitaetssicherung-sonderanfertigung]] · [[quelle-bel-ii-2022]]
+## Grenze des Katalogs
+
+Das BEL II deckt die Regelversorgung ab. Sobald die gewählte Versorgung darüber hinausgeht, trägt es nur noch einen Teil des Falls: Bei gleichartiger Versorgung bleibt der Regelversorgungsanteil im BEL und die Mehrleistung läuft über die GOZ, bei andersartiger Versorgung entfällt der BEL-Anteil vollständig. Welche Form vorliegt, entscheidet die Zahnersatz-Richtlinie, siehe [[versorgungsform]]. Der private Katalog ist die [[beb97]].
+
+Wie hoch die Krankenkasse zuzahlt, regelt nicht das BEL, sondern das befundbezogene Festzuschusssystem, siehe [[festzuschuss]].
+
+Verwandt: [[mengen-und-bezugsgroessen-bel]] · [[nebeneinander-ausschluesse-bel]] · [[rechnungsstellung-bel]] · [[qualitaetssicherung-sonderanfertigung]] · [[versorgungsform]] · [[festzuschuss]] · [[quelle-bel-ii-2022]]

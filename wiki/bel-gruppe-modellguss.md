@@ -78,4 +78,10 @@ Für die vestibuläre Verblendung einer Rückenschutzplatte nach 208 1 sind 160 
 
 212 0 ist ein Zuschlag für den Fall, dass nicht mit der Basis mitgegossen wird — also bei Reparatur oder bei Kunststoffprothese mit gegossenen Elementen. Er fällt je Prothese einmal an, nicht je Klammer.
 
-Verwandt: [[bel-ii]] · [[bel-gruppe-herausnehmbarer-zahnersatz]] · [[nebeneinander-ausschluesse-bel]] · [[mengen-und-bezugsgroessen-bel]] · [[bundesmittelpreis]]
+## Festzuschuss und Fertigungsweg
+
+Die Modellgussprothese ist Regelversorgung beim Befund 3.1, also bei zahnbegrenzten Lücken außerhalb der Befunde 2.1 bis 2.5 und 4 oder bei Freiendsituation, je Kiefer. Das Feld der Regelversorgungsleistungen zu 3.1 führt 201 0; der Zuschlag 2.7 gehört dagegen zum festsitzenden Zahnersatz und trägt hier nicht. Bei den Lückenbefunden 2.1 bis 2.5 ist die Brücke Regelversorgung, eine Modellgussprothese dort andersartig. Siehe [[festzuschuss-befundklassen]] und [[versorgungsform]].
+
+201 0 setzt den Gussweg voraus. Bei einem gefrästen Gerüst entfallen die gussgebundenen Positionen und der Gerüstanteil läuft über den privaten Katalog, siehe [[cad-cam-einstufung]].
+
+Verwandt: [[bel-ii]] · [[bel-gruppe-herausnehmbarer-zahnersatz]] · [[nebeneinander-ausschluesse-bel]] · [[mengen-und-bezugsgroessen-bel]] · [[bundesmittelpreis]] · [[festzuschuss-befundklassen]]

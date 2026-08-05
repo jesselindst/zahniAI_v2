@@ -63,4 +63,6 @@ Die Preisgleichheit sagt nichts über Kombinierbarkeit. Ob zwei gleichpreisige P
 
 Die Quelle nennt die Rechtsgrundlage, aber nicht die Verwendung. Wie der Bundesmittelpreis in die Berechnung der Festzuschüsse nach § 55 SGB V eingeht, ist aus den bisher ingestierten Quellen nicht belegt und hier bewusst nicht behauptet.
 
+Teilklärung aus der Recherche 2026: Die Betragstabelle des GKV-Spitzenverbands nennt als Kalkulationsbasis für 2026 einen bundeseinheitlichen Zahnersatz-Punktwert von 1,1844 Euro sowie die BEL-II-Preise nach Vereinbarung zwischen Verband Deutscher Zahntechniker-Innungen und GKV-Spitzenverband, gegenüber 2025 um 4,78 Prozent erhöht. Der Bundeswert ist damit eigenständig vereinbart und kein Mittelwert der regionalen Vergütungen. Die Festsetzung der Festzuschussbeträge selbst nimmt der Gemeinsame Bundesausschuss vor, siehe [[festzuschuss]].
+
 Verwandt: [[bel-ii]] · [[quelle-bmp-2026]]

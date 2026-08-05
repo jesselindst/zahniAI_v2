@@ -68,4 +68,10 @@ Nur die Keramikvarianten setzen ausdrücklich eine Verblendung voraus (BEL II, N
 
 150 0 ist die Lötung nach keramischem Brand einschließlich Lötmodell. Sie ist sowohl bei der Neuanfertigung als auch bei Wiederherstellung von keramisch verblendeten Kronen oder Brückengliedern abrechenbar, und zwar je Verbindungsstelle (BEL II, Nr. 150 0).
 
-Verwandt: [[bel-gruppe-festsitzender-zahnersatz]] · [[implantatversorgung-bel]] · [[nebeneinander-ausschluesse-bel]] · [[gesondert-abrechenbare-materialien-bel]]
+## Verblendbereich und Festzuschuss
+
+Welche Verblendung die Regelversorgung umfasst, bestimmt nicht das BEL, sondern die Zahnersatz-Richtlinie: vestibuläre Verblendungen im Oberkiefer bis einschließlich Zahn 5, im Unterkiefer bis einschließlich Zahn 4; im Bereich der Zähne 1 bis 3 einschließlich der Schneidekanten (ZE-RL Nr. 20, für Brücken Nr. 25). In Zahnschema-Notation sind das 15 bis 25 und 34 bis 44.
+
+Für Verblendungen in diesem Bereich treten Zuschlagsbefunde hinzu: 1.3 je Verblendung einer Krone, 2.7 je Verblendung eines ersetzten Zahns, 4.7 je Ankerzahn bei Teleskopkronen. Verblendungen außerhalb des Bereichs und Vollverblendungen sind gleichartige Versorgung. Siehe [[festzuschuss]] und [[festzuschuss-befundklassen]].
+
+Verwandt: [[bel-gruppe-festsitzender-zahnersatz]] · [[implantatversorgung-bel]] · [[nebeneinander-ausschluesse-bel]] · [[gesondert-abrechenbare-materialien-bel]] · [[festzuschuss]]

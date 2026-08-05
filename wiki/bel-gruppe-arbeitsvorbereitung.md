@@ -39,7 +39,11 @@ Für das Erstellen von Arbeitsmodellen ist 002 1 bis auf diese Ausnahmefälle ni
 
 **002 3 Verwendung von Kunststoff** — z. B. bei Verbleib eines individuellen Primärteiles im Munde des Patienten. Zur besonderen Darstellung der Zahnfleischpartien abrechenbar je Modell, je Front- und/oder Seitenzahngebiet. Nicht abrechenbar für Kunststoffstümpfe (BEL II, Nr. 002 3).
 
-Zu 005 1, 005 2 und 005 3 ist 002 3 abrechenbar, wenn ein Kunststoffmodell gefertigt wird.
+Zu 005 1, 005 2 und 005 3 ist 002 3 abrechenbar, wenn ein Kunststoffmodell gefertigt wird (BEL II, Stand 01.01.2022, Nr. 005 1 bis 005 3).
+
+Konflikt mit einer jüngeren Fassung. Die Änderungsvereinbarung Modellherstellung zwischen Verband Deutscher Zahntechniker-Innungen und GKV-Spitzenverband, in Kraft zum 01.01.2023, fasst 002 3 sowie 005 1 bis 005 3 neu: Der Gips- oder Kunststoffsockel ist seither Leistungsbestandteil der Modellpositionen, die Erläuterung zur Abrechnung lautet dort „Keine". Der Preisanteil der 002 3 wurde kostenneutral eingerechnet, auf Basis 2022 von 10,93 Euro auf 16,07 Euro. Ein zusätzlicher Ansatz von 002 3 wäre nach dieser Fassung Überabrechnung. Neu ist außerdem die Bezugsgröße der 002 3: je aufgefülltem Sekundärteil, höchstens dreimal je Modell.
+
+Die Änderungsvereinbarung liegt als PDF in `raw/_inbox/` und ist noch nicht ingestiert; bis dahin steht die Aussage der Fassung 01.01.2022 hier unverändert daneben. Beleg für den Konflikt: `raw/recherche-2026-08/bel2_stand.md`, Wortlaut der Vereinbarung dort geprüft.
 
 **002 4 Galvanisieren** — einmal je Abdruck, auch bei mehreren Stümpfen in einem Abdruck. Nicht für das Lackieren (BEL II, Nr. 002 4).
 
@@ -132,4 +136,10 @@ Für die Herstellung nach 031 0 ist ein Formteil nach 032 0 nicht abrechenbar (B
 
 Sechs Positionen dieser Gruppe fehlen in der Preisliste für die Regelversorgung: 002 1 (Doublieren), 003 0 (Set-up je Segment), 005 4 (Set-up-Modell für KFO), 011 1 (Modellpaar trimmen), 013 0 (Modellpaar sockeln), 020 2 (Basis für Konstruktionsbiss). Alle sechs bindet das BEL ausdrücklich an kieferorthopädische Leistungen. Dazu kommen die UKPS-Varianten 001 5, 002 5, 011 5, 012 5, 020 5 und 021 7. Siehe [[bundesmittelpreis]].
 
-Verwandt: [[bel-ii]] · [[mengen-und-bezugsgroessen-bel]] · [[nebeneinander-ausschluesse-bel]]
+## 002 3 im BEB
+
+Die Nummer 0023 trägt im BEB 97 den Kurztext Modell für Einzelstümpfe, also genau den Zweck, für den die BEL-Position ausdrücklich nicht gilt. Siehe [[positionskollision-bel-beb97]].
+
+Gedruckte Modelle laufen weder über die BEL-Modellpositionen noch über 002 3, siehe [[cad-cam-einstufung]].
+
+Verwandt: [[bel-ii]] · [[mengen-und-bezugsgroessen-bel]] · [[nebeneinander-ausschluesse-bel]] · [[positionskollision-bel-beb97]]

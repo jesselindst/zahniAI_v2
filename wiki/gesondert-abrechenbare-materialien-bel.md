@@ -45,4 +45,10 @@ Das Material ist das eine, der Aufwand seiner Verarbeitung das andere. Für Sond
 
 Für Nichtedelmetall-Legierungen gibt es keine Materialerstattung, sondern eine Verarbeitungsposition mit abschließender Positionsliste: 970 0, siehe [[bel-zuschlaege-versand]]. Edelmetallhaltige Dentallegierungen werden umgekehrt als Material erstattet.
 
-Verwandt: [[bel-ii]] · [[rechnungsstellung-bel]] · [[implantatversorgung-bel]] · [[bundesmittelpreis]]
+## Umkehrschluss
+
+Die Aufzählung ist abschließend. Was nicht darin steht, ist mit den Positionspreisen abgegolten; § 2 Ziffer 4 sagt das für die Halbfertigteile ausdrücklich und damit für alles Übrige. Nicht gesondert berechenbar sind daher unter anderem Nichtedelmetall, Zirkon- und Lithiumdisilikatrohlinge, Gips, Einbettmasse, Wachs, Sinterhilfsmittel, Verblendkeramik, Klebekomposit und das Silikon der Zahnfleischmaske.
+
+Auf der privaten Seite gilt diese Beschränkung nicht, dafür eine schärfere Nachweispflicht, siehe [[material-privat-goz]].
+
+Verwandt: [[bel-ii]] · [[rechnungsstellung-bel]] · [[implantatversorgung-bel]] · [[bundesmittelpreis]] · [[material-privat-goz]]

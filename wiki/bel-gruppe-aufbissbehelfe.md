@@ -62,4 +62,14 @@ Keine der vier Positionen hat einen Bundesmittelpreis; die Preisliste deckt nur 
 
 Die daneben abrechenbaren Positionen 302 0, 362 0, 382 1 und 382 2 haben dagegen einen Bundesmittelpreis — der Behelf selbst bleibt ohne.
 
-Verwandt: [[bel-ii]] · [[bel-gruppe-kieferorthopaedie]] · [[nebeneinander-ausschluesse-bel]]
+## Kein Festzuschussbereich
+
+Für Aufbissbehelfe existiert kein Festzuschussbefund. Sie sind Sachleistung nach der Behandlungsrichtlinie, nicht Zahnersatz nach §§ 55 ff. SGB V. Damit gibt es hier auch keine gleichartige Versorgung; diese Kategorie setzt einen Festzuschuss voraus. Wo eine Abrechnungsvorlage die Achse Regelversorgung gegen gleichartig führt, ist sie für Schienen unpassend. Siehe [[versorgungsform]].
+
+Funktionsanalytische und funktionstherapeutische Leistungen sind nach § 28 Abs. 2 Satz 8 SGB V privat.
+
+## Digitale Fertigung
+
+Die Leistungstexte der 401 0 und 402 0 enthalten keine Vorgabe zum Herstellungsverfahren. Ein gefräster oder gedruckter adjustierter Aufbissbehelf wird daher in der Regel nach 401 0 als Sachleistung berechnet. Anders als bei Kronen und Brücken folgt daraus keine gleichartige Versorgung. Die Kassenzahnärztlichen Vereinigungen handhaben das unterschiedlich; die Lage ist vor der Abrechnung zu klären, siehe [[cad-cam-einstufung]].
+
+Verwandt: [[bel-ii]] · [[bel-gruppe-kieferorthopaedie]] · [[nebeneinander-ausschluesse-bel]] · [[versorgungsform]] · [[cad-cam-einstufung]]

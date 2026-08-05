@@ -81,4 +81,12 @@ Implantate, Implantataufbauten und die implantatbedingten Verbindungselemente si
 
 Jede Implantatposition trägt denselben Bundesmittelpreis wie ihr Gegenstück im Regelfall — ausnahmslos für alle 19 Paare, siehe [[bundesmittelpreis]]. Die 8er-Position ist also nicht höher bewertet als die Normalposition. Der Mehraufwand einer Implantatversorgung schlägt sich allein im gesondert abrechenbaren Material und in den nach tatsächlichem Aufwand abgerechneten Leistungen nieder.
 
-Verwandt: [[bel-ii]] · [[bel-gruppe-festsitzender-zahnersatz]] · [[bel-gruppe-herausnehmbarer-zahnersatz]]
+## Festzuschuss
+
+Für Implantate, Implantataufbauten und implantatbedingte Verbindungselemente wird nie ein Festzuschuss gewährt (ZE-RL Nr. 38, FZ-RL Teil A Nr. 7). Bezuschusst wird allenfalls die Suprakonstruktion.
+
+Bei einer Erstversorgung richtet sich der Befund nach der Situation vor dem Setzen der Implantate (FZ-RL Teil A Nr. 6): Einzelzahnlücke 2.1, zahnloser Kiefer 4.2 oder 4.4. Die Befundklasse 7 gilt ausschließlich für Erneuerung und Wiederherstellung einer vorhandenen Suprakonstruktion und ist bei Erstversorgung stets unzutreffend, siehe [[festzuschuss-befundklassen]].
+
+Zwei Regelkreise sind auseinanderzuhalten. ZE-RL Nr. 36 entscheidet, ob die Suprakonstruktion Regelversorgung ist. § 28 Abs. 2 SGB V entscheidet, ob das Implantat selbst Sachleistung ist. Außerhalb der Fälle nach Nr. 36 ist die Suprakonstruktion andersartige Versorgung, siehe [[versorgungsform]].
+
+Verwandt: [[bel-ii]] · [[bel-gruppe-festsitzender-zahnersatz]] · [[bel-gruppe-herausnehmbarer-zahnersatz]] · [[festzuschuss]] · [[versorgungsform]]
