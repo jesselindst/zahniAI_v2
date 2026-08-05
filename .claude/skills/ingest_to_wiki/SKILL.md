@@ -10,7 +10,7 @@ Verarbeite $ARGUMENTS (ohne Argument: alles in `raw/_inbox/`), eine Quelle nach 
 Schichten:
 
 - `raw/` — unveränderlich, nur lesen
-- `kataloge/*.json` — Positionslisten, werden nicht ins Wiki abgeschrieben. Dateiname vor dem ersten Unterstrich = Katalog-Präfix (`beb97_zahniAI.json` → `beb97`)
+- `kataloge/*.json` — Positionslisten, werden nicht ins Wiki abgeschrieben. Benennung `<präfix>[_<label>]_<jahr>[_v<n>].json`, also `bel_2026_v1.json` → Präfix `bel`, Fassung 2026 v1. Fassungen liegen nebeneinander, die höchste ist die aktive; `graph.py` prüft gegen sie und weist die Vorgängerdatei als Diff-Grundlage aus
 - `wiki/` — gehört dir
 - `wiki/GRAPH.md` — abgeleitet, erzeugt von `scripts/graph.py`
 
@@ -57,7 +57,7 @@ Format `katalog:nummer`, also `bel:2010`. Im Fließtext bleibt die Schreibweise 
 
 Das Präfix ist Pflicht: 135 der 175 BEL-Nummern kommen im BEB97 mit anderer Bedeutung vor. Ohne Präfix sähe eine Kante richtig aus und der Kostenvoranschlag wäre falsch.
 
-Neue Kataloge vor dem Ingest in `KATALOGE` in `scripts/graph.py` eintragen. Das Skript prüft jede ID gegen die Katalogdatei.
+Neue Kataloge vor dem Ingest in `KATALOGE` in `scripts/graph.py` eintragen. Das Skript prüft jede ID gegen die aktive Fassung des Katalogs.
 
 Jede Position hat **höchstens eine** zuständige Seite — die mit ihrer Regel. Vollabdeckung ist kein Ziel: BEB97 hat 1103 Positionen, die meisten tragen nur Name und Minutenwert und bekommen keine Seite.
 
@@ -149,7 +149,7 @@ Der Ingest erzeugt hier keine Wissensseiten, sondern **eine Änderungsmatrix**. 
 
 **Zwei Herkünfte, beide nötig.**
 
-- Katalog-Diff (alte gegen neue `kataloge/*.json`): neu, entfallen, umbenannt. Deterministisch.
+- Katalog-Diff (Vorgängerfassung gegen aktive Fassung unter `kataloge/`): neu, entfallen, umbenannt. Deterministisch. Beide Dateien liegen nebeneinander, `GRAPH.md` benennt unter „Fassungen", welche welche ist. Fehlt die Vorgängerdatei, ist der Diff nicht zu haben — dann Abbruch und melden, statt die Matrix nur aus der Quelle zu bauen.
 - Quelle (das PDF): geänderte Erläuterungen zur Abrechnung. Gleiche Nummer, gleicher Kurztext, andere Regel — das sieht kein Diff, und es sind meist die meisten Änderungen.
 
 Eine Matrix nur aus dem Katalog sieht vollständig aus und ist inhaltlich blind. Je Zeile die Herkunft vermerken.
@@ -162,7 +162,7 @@ Eine Matrix nur aus dem Katalog sieht vollständig aus und ist inhaltlich blind.
 ---
 titel: Änderungsmatrix BEB97 2025 → 2026
 labels: [Abrechnung, BEB97, Matrix]
-quellen: [raw/beb97_2026.pdf, kataloge/beb97_zahniAI.json]
+quellen: [raw/beb97_2026.pdf, kataloge/beb97_zahniAI_2026_v1.json]
 stand: 2026-08-05
 von_fassung: 2025
 nach_fassung: 2026
@@ -184,4 +184,4 @@ Arten: `neu`, `entfallen`, `umbenannt`, `ersetzt_durch`, `regel_geaendert`, `unv
 
 Die Spalte „Wirkung" füllst du aus `GRAPH.md`: betroffene Seiten laut Positionsregister, betroffene Kanten laut Kantentabelle.
 
-**Danach.** Quellseite für die neue Fassung anlegen, die abgelöste bekommt `gueltig_bis`. Matrix in `INDEX.md` und `LOG.md` eintragen. `angewendet: nein` bleibt stehen — die Anwendung ist Sache des Lint-Laufs, und die Matrix wird vorher angesehen.
+**Danach.** Die neue Katalogdatei kommt als weitere Fassung unter `kataloge/` dazu, die abgelöste bleibt liegen — sie ist die Diff-Grundlage des nächsten Wechsels und der Beleg dafür, welche Fassung eine entfallene Position zuletzt kannte. Nie überschreiben, nie löschen. Danach `python3 scripts/graph.py`: die Tabelle „Fassungen" muss die neue Datei als aktiv und die alte als Vorgänger zeigen. Quellseite für die neue Fassung anlegen, die abgelöste bekommt `gueltig_bis`. Matrix in `INDEX.md` und `LOG.md` eintragen. `angewendet: nein` bleibt stehen — die Anwendung ist Sache des Lint-Laufs, und die Matrix wird vorher angesehen.

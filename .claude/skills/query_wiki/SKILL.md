@@ -19,7 +19,7 @@ Geht der Katalog aus der Frage nicht hervor, frag nach. Nicht raten, auch nicht 
 
 ## 3. Suchen
 
-- Konkrete Position: Positionsregister in `GRAPH.md`, dort steht sie als `bel:2010` mit zuständiger Seite. Keine Seite heißt nicht, dass es die Position nicht gibt — die meisten BEB-Positionen tragen keine Regel. Dann gibt der Rohkatalog unter `kataloge/` die Auskunft.
+- Konkrete Position: Positionsregister in `GRAPH.md`, dort steht sie als `bel:2010` mit zuständiger Seite. Keine Seite heißt nicht, dass es die Position nicht gibt — die meisten BEB-Positionen tragen keine Regel. Dann gibt der Rohkatalog unter `kataloge/` die Auskunft — die aktive Fassung, benannt in der Tabelle „Fassungen" in `GRAPH.md`. Eine ältere Fassung nur heranziehen, wenn nach dem Stand zu einem vergangenen Leistungsdatum gefragt ist; dann die Fassung in der Antwort nennen.
 - Sonst über `INDEX.md`.
 - Gefundene Seiten vollständig lesen, nicht nur den Treffer-Absatz. Der Nachbarkontext entscheidet oft, ob eine Aussage für den Fall gilt.
 - Querverweisen und der Backlink-Tabelle folgen. Abrechnungsantworten hängen fast immer an mehreren Seiten: Position, Leistungsinhalt, Ausschlüsse, Kombinierbarkeit.

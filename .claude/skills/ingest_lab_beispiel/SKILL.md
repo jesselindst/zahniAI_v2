@@ -33,13 +33,13 @@ description: Neues Abrechnungsbeispiel oder Abrechnungskatalog eines Labors einp
         falls angebracht
         '''
 2. Ablegen unter `customizing/vorlagen/<Labor>/`, Dateiname nach dem Fallbeispiel-Naming-Schema.
-3. Nur die Positionen, die im Dokument tatsächlich vorkommen, gegen die ZahniAI-Kataloge prüfen (`kataloge/beb97_zahniAI.json`). Matched sie 1:1 (Nummer + Bezeichnung passt) → nichts weiter zu tun.
+3. Nur die Positionen, die im Dokument tatsächlich vorkommen, gegen die ZahniAI-Kataloge prüfen (aktive BEB97-Fassung unter `kataloge/`, benannt in „Fassungen" in `GRAPH.md`). Matched sie 1:1 (Nummer + Bezeichnung passt) → nichts weiter zu tun.
 4. Matched sie nicht (fremde Nummer, anderer Name, anderer Preiszuschnitt) → in die Matrix unten. Nur Privatleistungen vergleichen, BEL Positionen sind gesetzlichvorgeschrieben, die schriebn wir nicht in id Matrix.
 
 ## B) Neuer eigener Katalog eines Labors
 
 1. Katalog vollständig einlesen, ablegen unter `customizing/kataloge/<Labor>/`.
-2. Jese Position im Katalog gegen `kataloge/beb97_zahniAI.json` prüfen.
+2. Jede Position im Katalog gegen die aktive BEB97-Fassung unter `kataloge/` prüfen.
 3. Matched sie nicht → in die Matrix unten. Nur Privatleistungen vergleichen, BEL Positionen sind gesetzlich vorgeschrieben, die schreiben wir nicht in die Matrix.
 
 ## Matrix (für beide Fälle gleich)

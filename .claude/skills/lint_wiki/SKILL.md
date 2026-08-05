@@ -11,13 +11,13 @@ Grundregel: Du behebst, was du belegen kannst. Vorgelegt wird nur, wo keine Quel
 
 Was du änderst, machst du nachvollziehbar: `LOG.md` je Lauf, `git diff` je Seite. Das ist die Kontrolle, nicht die Rückfrage.
 
-Vergleichsgrundlagen sind `raw/`, `kataloge/*.json` und die Änderungsmatrizen im Wiki. Prüfst du nur gegen `raw/` und liegt dort eine abgelaufene Fassung, bestätigt der Lauf ein veraltetes Wiki als gesund.
+Vergleichsgrundlagen sind `raw/`, die aktive Katalogfassung unter `kataloge/` (welche das ist, sagt „Fassungen" in `GRAPH.md`) und die Änderungsmatrizen im Wiki. Prüfst du nur gegen `raw/` und liegt dort eine abgelaufene Fassung, bestätigt der Lauf ein veraltetes Wiki als gesund.
 
 ## 1. Graph erzeugen
 
 `python3 scripts/graph.py` ausführen, `wiki/GRAPH.md` lesen. Nichts anderes hält die Datei aktuell. `GRAPH.md` ist abgeleitet: kein Index-Eintrag, keine Handänderung, zählt nicht als verwaiste Seite.
 
-Der Abschnitt „Befunde" nimmt dir die mechanische Prüfung ab — verwaiste Seiten, Links und Kanten ins Leere, Kanten ohne Geltung, doppelt beanspruchte Positionen, IDs ohne Entsprechung im Rohkatalog, Kataloggrenzen-Verstöße, `kein_aequivalent` ohne Begründung, fehlendes `stand:`.
+Der Abschnitt „Befunde" nimmt dir die mechanische Prüfung ab — verwaiste Seiten, Links und Kanten ins Leere, Kanten ohne Geltung, doppelt beanspruchte Positionen, IDs ohne Entsprechung in der aktiven Katalogfassung, Kataloggrenzen-Verstöße, `kein_aequivalent` ohne Begründung, fehlendes `stand:`.
 
 „Katalogabdeckung" zeigt die Quote je Katalog; eine niedrige BEB-Quote ist richtig, nicht behebbar. „Katalogzuordnung" zeigt den Stand der `entspricht`-Kanten.
 
@@ -50,7 +50,7 @@ Erst alle Befunde sammeln, ohne zu ändern.
 | offene Matrix | Eine Änderungsmatrix mit `angewendet: nein` |
 | Stilverstoß | siehe Abschnitt 9 |
 
-Klärungsgrundlage sind `raw/` und `kataloge/*.json`. Ohne Beleg dort lautet der Befund „unbelegt", nicht „stimmt" — Wiki-Seiten belegen einander nicht. Ausnahme sind Änderungsmatrizen: Sie sind belegtes, freigegebenes Wissen und dürfen als Grundlage dienen.
+Klärungsgrundlage sind `raw/` und die aktive Katalogfassung unter `kataloge/`. Ohne Beleg dort lautet der Befund „unbelegt", nicht „stimmt" — Wiki-Seiten belegen einander nicht. Ausnahme sind Änderungsmatrizen: Sie sind belegtes, freigegebenes Wissen und dürfen als Grundlage dienen.
 
 ## 4. Ändern
 

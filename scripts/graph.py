@@ -27,9 +27,9 @@ KANTEN_ALLE = KANTEN + ["entspricht"]
 
 # Positions-ID: katalog:nummer, z. B. bel:0021. Ohne Praefix ist eine Nummer
 # mehrdeutig — 135 der 175 BEL-Nummern kommen im BEB97 mit anderer Bedeutung vor.
-# Praefix = Dateiname des Katalogs unter kataloge/. Nummernformat je Katalog,
-# damit ein Tippfehler auffaellt statt durchzurutschen. Neuen Katalog hier
-# eintragen, bevor er ingestiert wird.
+# Praefix = erstes Segment des Dateinamens unter kataloge/. Nummernformat je
+# Katalog, damit ein Tippfehler auffaellt statt durchzurutschen. Neuen Katalog
+# hier eintragen, bevor er ingestiert wird.
 KATALOGE = {
     "bel": r"\d{4}",
     "beb97": r"\d{4}",
@@ -81,18 +81,56 @@ def parse_frontmatter(text):
     return data, rest
 
 
-def load_kataloge():
-    """Positionsnummern je Katalog aus kataloge/*.json.
+def dateiname_teile(stem):
+    """Praefix und Fassung aus einem Katalogdateinamen.
 
-    Praefix = erster Teil des Dateinamens vor '_', also
-    kataloge/bel.json -> 'bel', kataloge/beb97_zahniAI.json -> 'beb97'.
-    Damit ist jede Wiki-ID gegen die Rohdaten pruefbar.
+    Schema: <praefix>[_<label>]_<jahr>[_v<n>], das Label ist frei.
+    Die Fassung sortiert die Dateien eines Praefix; die hoechste ist die
+    aktive, die naechstniedrigere ist die Diff-Grundlage der Aenderungsmatrix.
+
+        bel_2026                -> ('bel', (2026, 1))
+        beb97_zahniAI_2026      -> ('beb97', (2026, 1))
+        beb97_zahniAI_2026_v2   -> ('beb97', (2026, 2))
+        bel                     -> ('bel', (0, 0))   ohne Fassung
+
+    (0, 0) sortiert unter jede echte Fassung. Eine Datei ohne Fassung ist
+    zulaessig, solange sie die einzige ihres Praefix ist — sonst waere die
+    Reihenfolge geraten. Der Fall wird als Befund gemeldet.
     """
-    out = {}
+    teile = stem.split("_")
+    praefix = teile[0].lower()
+    jahr, v = 0, 0
+
+    rest = teile[1:]
+    if rest and re.fullmatch(r"[vV]\d+", rest[-1]) and len(rest) >= 2 \
+            and re.fullmatch(r"\d{4}", rest[-2]):
+        jahr, v = int(rest[-2]), int(rest[-1][1:])
+    elif rest and re.fullmatch(r"\d{4}", rest[-1]):
+        jahr, v = int(rest[-1]), 1
+
+    return praefix, (jahr, v)
+
+
+def load_kataloge():
+    """Positionsnummern je Katalog und Fassung aus kataloge/*.json.
+
+    Kataloge liegen versioniert nebeneinander. Eine neue Fassung kommt als
+    weitere Datei dazu, die alte bleibt liegen — sie ist die Grundlage des
+    Katalog-Diffs beim naechsten Fassungswechsel und der Beleg dafuer, welche
+    Fassung eine entfallene Position zuletzt kannte.
+
+    Rueckgabe:
+        aktiv     praefix -> Nummernmenge der hoechsten Fassung
+        fassungen praefix -> Liste aller Fassungen, absteigend, je Eintrag
+                            {'datei', 'fassung', 'nummern'}
+    """
+    aktiv, fassungen = {}, defaultdict(list)
     if not os.path.isdir(KATALOGE_DIR):
-        return out
+        return aktiv, fassungen
+
     for pfad in sorted(glob.glob(os.path.join(KATALOGE_DIR, "*.json"))):
-        praefix = os.path.basename(pfad)[:-5].split("_")[0].lower()
+        datei = os.path.basename(pfad)
+        praefix, fassung = dateiname_teile(datei[:-5])
         nummern = set()
 
         def walk(o):
@@ -113,8 +151,29 @@ def load_kataloge():
         except Exception:
             continue
         if nummern:
-            out[praefix] = nummern
-    return out
+            fassungen[praefix].append(
+                {"datei": datei, "fassung": fassung, "nummern": nummern})
+
+    for praefix, liste in fassungen.items():
+        liste.sort(key=lambda e: e["fassung"], reverse=True)
+        aktiv[praefix] = liste[0]["nummern"]
+
+    return aktiv, fassungen
+
+
+def fassung_str(f):
+    jahr, v = f
+    if jahr == 0:
+        return "ohne Fassung"
+    return f"{jahr}" if v <= 1 else f"{jahr} v{v}"
+
+
+def zuletzt_in(fassungen, kat, nr):
+    """Juengste Fassung unterhalb der aktiven, die 'nr' noch kennt."""
+    for e in fassungen.get(kat, [])[1:]:
+        if nr in e["nummern"]:
+            return e["datei"]
+    return None
 
 
 def as_list(v):
@@ -199,8 +258,31 @@ def build(seiten):
     return backlinks, kaputt, pos2seite, quelle2seite, kanten, label2seite, fehlt
 
 
-def befunde(seiten, backlinks, kaputt, pos2seite, kanten, kataloge, fehlt):
+def befunde(seiten, backlinks, kaputt, pos2seite, kanten, kataloge, fassungen,
+            fehlt):
     f = []
+
+    # Zwei Dateien mit derselben Fassung — welche die aktive ist, entschiede
+    # die Sortierung des Dateinamens. Das darf nicht dem Zufall ueberlassen
+    # sein, sonst prueft der Lauf still gegen den falschen Katalog.
+    doppelt, ohne_fassung = [], []
+    for kat, liste in sorted(fassungen.items()):
+        gesehen = defaultdict(list)
+        for e in liste:
+            gesehen[e["fassung"]].append(e["datei"])
+        for fa, dateien in sorted(gesehen.items()):
+            if len(dateien) > 1:
+                doppelt.append(f"{kat} {fassung_str(fa)}: {', '.join(sorted(dateien))}")
+        if len(liste) > 1:
+            ohne_fassung += [f"{kat}: {e['datei']}" for e in liste
+                             if e["fassung"] == (0, 0)]
+    if doppelt:
+        f.append(("Katalogdateien mit gleicher Fassung (Reihenfolge nicht "
+                  "bestimmbar)", doppelt))
+    if ohne_fassung:
+        f.append(("Katalogdatei ohne Fassung im Namen, obwohl der Katalog "
+                  "mehrere Fassungen hat (erwartet <praefix>[_<label>]_<jahr>"
+                  "[_v<n>].json)", ohne_fassung))
 
     verwaist = sorted(n for n in seiten if not backlinks.get(n))
     if verwaist:
@@ -241,17 +323,22 @@ def befunde(seiten, backlinks, kaputt, pos2seite, kanten, kataloge, fehlt):
         f.append(("Positionen ohne Katalog-Praefix (erwartet katalog:nnnn)",
                   ohne_praefix))
 
-    # Jede Positions-ID gegen die Rohkataloge pruefen. Eine ID, die es dort
-    # nicht gibt, ist ein Tippfehler oder eine erfundene Position — beides
-    # faellt sonst erst im Kostenvoranschlag auf.
+    # Jede Positions-ID gegen die aktive Fassung des Rohkatalogs pruefen. Eine
+    # ID, die es dort nicht gibt, ist ein Tippfehler, eine erfundene Position
+    # oder eine mit dem Fassungswechsel entfallene — beides faellt sonst erst
+    # im Kostenvoranschlag auf. Kannte eine aeltere Fassung die Nummer, steht
+    # sie dabei: dann ist es kein Tippfehler, sondern eine Matrixzeile.
     nicht_im_katalog = []
     for p in sorted(pos2seite):
         kat, nr = p.split(":", 1)
         if kat in kataloge and nr not in kataloge[kat]:
+            alt = zuletzt_in(fassungen, kat, nr)
+            herkunft = f", zuletzt in {alt}" if alt else ""
             nicht_im_katalog.append(
-                f"{p} (zustaendig: {', '.join(sorted(pos2seite[p]))})")
+                f"{p} (zustaendig: {', '.join(sorted(pos2seite[p]))}{herkunft})")
     if nicht_im_katalog:
-        f.append(("Positionen, die es im Rohkatalog nicht gibt", nicht_im_katalog))
+        f.append(("Positionen, die es in der aktiven Katalogfassung nicht gibt",
+                  nicht_im_katalog))
 
     unbekannt, fremd, gleich = [], [], []
     for typ, eintraege in kanten.items():
@@ -268,8 +355,11 @@ def befunde(seiten, backlinks, kaputt, pos2seite, kanten, kataloge, fehlt):
                             f"{quelle} [{typ}]: {p} hat keine zustaendige Seite")
                     kat, nr = p.split(":", 1)
                     if kat in kataloge and nr not in kataloge[kat]:
+                        alt = zuletzt_in(fassungen, kat, nr)
+                        herkunft = f" (zuletzt in {alt})" if alt else ""
                         unbekannt.append(
-                            f"{quelle} [{typ}]: {p} steht nicht im Rohkatalog")
+                            f"{quelle} [{typ}]: {p} steht nicht in der aktiven "
+                            f"Katalogfassung{herkunft}")
                 elif p:
                     unbekannt.append(
                         f"{quelle} [{typ}]: '{p}' ist keine gueltige Positions-ID")
@@ -311,7 +401,7 @@ def befunde(seiten, backlinks, kaputt, pos2seite, kanten, kataloge, fehlt):
 # ---------------------------------------------------------------- Ausgabe
 
 def render(seiten, backlinks, kaputt, pos2seite, quelle2seite, kanten,
-           label2seite, kataloge, fehlt):
+           label2seite, kataloge, fassungen, fehlt):
     ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
     L = []
     L.append("# Graph")
@@ -321,7 +411,8 @@ def render(seiten, backlinks, kaputt, pos2seite, quelle2seite, kanten,
              "Neu erzeugen mit `python3 scripts/graph.py`.")
     L.append("")
 
-    fnd = befunde(seiten, backlinks, kaputt, pos2seite, kanten, kataloge, fehlt)
+    fnd = befunde(seiten, backlinks, kaputt, pos2seite, kanten, kataloge,
+                  fassungen, fehlt)
     L.append("## Befunde")
     L.append("")
     if not fnd:
@@ -381,15 +472,40 @@ def render(seiten, backlinks, kaputt, pos2seite, quelle2seite, kanten,
     L.append("## Katalogabdeckung")
     L.append("")
     if kataloge:
-        L.append("| Katalog | Positionen | davon mit zustaendiger Wiki-Seite |")
-        L.append("|---|---|---|")
+        L.append("| Katalog | aktive Fassung | Datei | Positionen | "
+                 "davon mit zustaendiger Wiki-Seite |")
+        L.append("|---|---|---|---|---|")
         for kat in sorted(kataloge):
+            akt = fassungen[kat][0]
             gesamt = len(kataloge[kat])
             gedeckt = len([p for p in pos2seite if p.split(":")[0] == kat])
-            L.append(f"| {kat} | {gesamt} | {gedeckt} |")
+            L.append(f"| {kat} | {fassung_str(akt['fassung'])} | "
+                     f"{akt['datei']} | {gesamt} | {gedeckt} |")
         L.append("")
-        L.append("Vollabdeckung ist kein Ziel. Eine Wiki-Seite entsteht fuer "
-                 "regeltragende Positionen; der Rest steht im Rohkatalog.")
+        L.append("Geprueft wird gegen die aktive Fassung. Vollabdeckung ist "
+                 "kein Ziel. Eine Wiki-Seite entsteht fuer regeltragende "
+                 "Positionen; der Rest steht im Rohkatalog.")
+        L.append("")
+
+        L.append("### Fassungen")
+        L.append("")
+        L.append("| Katalog | Fassung | Datei | Positionen | Rolle |")
+        L.append("|---|---|---|---|---|")
+        for kat in sorted(fassungen):
+            for i, e in enumerate(fassungen[kat]):
+                if i == 0:
+                    rolle = "aktiv"
+                elif i == 1:
+                    rolle = "Vorgaenger — Diff-Grundlage"
+                else:
+                    rolle = "Archiv"
+                L.append(f"| {kat} | {fassung_str(e['fassung'])} | {e['datei']} "
+                         f"| {len(e['nummern'])} | {rolle} |")
+        L.append("")
+        L.append("Eine neue Fassung kommt als weitere Datei dazu, die alte "
+                 "bleibt liegen. Der Diff aktive gegen Vorgaengerfassung ist "
+                 "die deterministische Haelfte der Aenderungsmatrix; die "
+                 "andere Haelfte steht nur in der Quelle.")
     else:
         L.append("Keine Katalogdateien unter kataloge/ gefunden.")
     L.append("")
@@ -440,9 +556,9 @@ def main():
         seiten = load()
         if not seiten:
             raise RuntimeError(f"Keine Wiki-Seiten in {WIKI} gefunden")
-        kataloge = load_kataloge()
+        kataloge, fassungen = load_kataloge()
         data = build(seiten)
-        text = render(seiten, *data[:-1], kataloge, data[-1])
+        text = render(seiten, *data[:-1], kataloge, fassungen, data[-1])
     except Exception as exc:  # Fehler in die Datei schreiben, nicht nur nach stderr
         ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
         text = (f"# Graph\n\nFEHLER beim Erzeugen am {ts}: {exc}\n\n"
