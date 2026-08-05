@@ -1,57 +1,53 @@
-| Bereich | Autor | erstellt am | Version |
-|--------|--------|--------|--------|
-| festsitzender Zahnersatz / Einzelkrone / Privatleistung | CLAUDE | 2026-04-27 | v1 |
-
 # Basisleistungen
 
 | BEB97 | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 0002 | Modell aus Superhartgips | 1 | Arbeitsmodell |
-| 0007 | Kontrollmodell | 1 | Gegenkiefermodell |
-| 0021 | Modell für Sägesegmente | 1 |  |
-| 0404 | Modellmontage in individuellen Artikulator I | 1 |  |
-| 2101 | Krone gegossen | 1 | je Krone, EM-Vollguss (oder 2102 bei Stufenpräparation) |
-| 2982 | Sonderlegierung verarbeiten | 1 | je Krone, Mehraufwand EM-Legierung |
-| 0701 | Versand je Versandgang | 2 | Hin- + Rückversand |
+| 0021 | Modell für Sägesegmente | 1 | Arbeitsmodell (Sägemodell), je Modell |
+| 0002 | Modell aus Superhartgips | 1 | Gegenkiefermodell, je Modell |
+| 0103 | Modellsegment sägen | je Sägeschnitt | Standard 2 je Stumpf |
+| 0104 | Stumpf aus Superhartgips | je Stumpf |  |
+| 0404 | Modellmontage in individuellen Artikulator I | 1 | je Artikulation |
+| 2101 | Krone gegossen | je Krone | Vollgusskrone aus Metall, tangentiale Präparation |
+| 2982 | Sonderlegierung verarbeiten | je Krone | Zuschlag für nicht betriebsübliche Legierung (EM), nach Aufwand |
+| 0701 | Versand je Versandgang | 2 | Einlieferung + Abholung; je weiterem Versandgang (Zwischenanprobe) Menge erhöhen |
 
 # Zusatzleistungen
 
 | BEB97 | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 2102 | Krone gegossen, nach Stufenpräparation | 1 | alternativ zu 2101 bei Stufenpräparation |
-| 2840 | Endkontrolle unter Stereomikroskop | 1 | je Krone, bei höchsten Qualitätsanforderungen |
-| 2811 | Selektives Einschleifen nach Remontage | 1 | je Krone, bei okklusaler Anpassung |
-| 2801 | Kaufläche nach gnathologischen Kriterien gestaltet, in Metall/gegossenem Glas | 1 | bei gnathologischer Kauflächengestaltung |
-| 2803 | Frontzahn nach gnathologischen Kriterien gestaltet (Metall) | 1 | bei gnathologischer Frontzahn-Gestaltung |
-| 2815 | Okklusaler Stop | 1 | bei Okklusionssicherung |
-| 2965 | Zuschlag für Arbeiten unter Stereomikroskop | 1 | je Krone |
-| 2911 | Krone für Klammer vorbereiten | 1 | bei Kombination mit herausnehmbarem ZE |
-| 2912 | Krone passend für vorhandene Prothese | 1 | bei vorhandener Prothese |
-| 2922 | Krone aufpassen | 1 | bei Anpassung auf Kontrollmodell |
-| 0019 | Frässockel | 1 | bei Fräs-Sockel für Modell |
-| 0103 | Modellsegment sägen | 1 | bei Stumpf-Sägeschnitt |
-| 0104 | Stumpf aus Superhartgips | 1 | je Stumpf |
-| 0114 | Zweitstumpf aus Superhartgips | 1 | bei Zweitstumpf |
-| 0111 | Modellpaar trimmen | 1 | bei Trimmen |
+| 2102 | Krone gegossen, nach Stufenpräparation | je Krone | statt 2101 bei Hohlkehl-/Stufenpräparation |
+| 2801 | Kaufläche nach gnathologischen Kriterien gestaltet, in Metall/gegossenem Glas | je Krone | bei gnathologischer Kauflächengestaltung |
+| 2803 | Frontzahn nach gnathologischen Kriterien gestaltet, in Metall/gegossenem Glas | je Krone | bei gnathologischer Frontzahngestaltung |
+| 2811 | Selektives Einschleifen nach Remontage/Krone, Brückenglied, Inlay | je Krone | bei okklusaler Nachjustierung nach Remontage |
+| 2915 | Okklusaler Stop | je Stop | bei Okklusionssicherung |
+| 2840 | Endkontrolle unter Stereomikroskop | je Krone | bei mikroskopischer Endkontrolle |
+| 2965 | Zuschlag für Arbeiten unter Stereomikroskop | je Krone | bei Fertigung unter Stereomikroskop |
+| 2911 | Krone, Brückenglied für Klammer vorbereiten | je Krone | bei Kombination mit herausnehmbarem ZE |
+| 2912 | Krone, Brückenglied, Inlay passend für vorhandene Prothese arbeiten | je Krone | bei vorhandener Prothese |
+| 2922 | Krone/Inlay/Brückenglied aufpassen | je Krone | nur bei Aufpassen auf Kontrollmodell/Zweitstumpf |
+| 0007 | Kontrollmodell | 1 | bei tatsächlich hergestelltem Kontroll-/Teilmodell |
+| 0114 | Zweitstumpf aus Superhartgips | je Stumpf | bei Zweit-/Kontrollstumpf |
+| 0019 | Frässockel | je Fräsobjekt | bei Fräsarbeit (Kombinationsversorgung) |
+| 0111 | Modellpaar trimmen | 1 | nur soweit nicht mit 0002/0021 abgegolten (Trimmen dort enthalten) |
+| 0912 | Foto-/Videodokumentation zur diagnostischen Auswertung | 1 | bei diagnostischer Auswertung |
 | 0732 | Desinfektion | 2 | Eingangs- + Ausgangsdesinfektion |
 | 0710 | Eilterminzuschlag | 1 | bei urgency=urgent/express |
-| 0706 | Foto- oder Video-Dokumentation | 1 | bei Bedarf |
-| 0721 | Zeiteinheit; Zahntechniker-Meister | je | bei Sonderaufwand |
-| 0722 | Zeiteinheit; Zahntechniker | je | bei Sonderaufwand |
-| 0702 | Sonderversand oder Fahrtkosten | 1 | bei express/Sonderaufwand |
-| 0731 | Individuelle Namenskennzeichnung I | 1 | bei Auftragsmarkierung |
-| 0912 | Foto-/Videodokumentation zur Auswertung | 1 | bei diagnostischer Doku |
+| 0706 | Foto- oder Video-Dokumentation | 1 | bei Dokumentationsbedarf, je Patientenfall |
+| 0721 | Zeiteinheit; Zahntechniker-Meister | je | bei Sonderaufwand, je angefangene Zeiteinheit |
+| 0722 | Zeiteinheit; Zahntechniker | je | bei Sonderaufwand, je angefangene Zeiteinheit |
+| 0702 | Sonderversand oder Fahrtkosten | 1 | bei Express-/Sonderlogistik, Mehraufwand gegenüber 0701 |
 
 # Material
 
 | Material | Menge | Bemerkung |
 |--------|--------|--------|
-| hochgoldhaltige/goldreduzierte Legierung | ca. 4-8 g | je Krone, Vollguss-Krone |
-| Modellgips (Hartgips) | — | Arbeitsmodell + Gegenkiefermodell |
-| Stumpfmaterial (Superhartgips) | — | Sägemodell |
-| Einbettmasse | — | für Gussvorgang |
-| Polierpaste / Hochglanzmittel | — | für Hochglanz-Politur |
+| EM-Legierung hochgoldhaltig (Au ≥ 60 %), <Handelsname> | 4–8 g | gesondert: Gewicht × Tagespreis am Verarbeitungstag; Bezeichnung, Gewicht und Preis je g auf der Laborrechnung ausweisen (§10 Abs. 2 Nr. 5 GOZ); bei goldreduzierter Legierung Bezeichnung entsprechend ändern |
 
 # Hinweise
 
-EM-Vollgusskrone (klassische Goldkrone, unverblendet) als reine Privatleistung — Patient ist PKV-versichert oder wünscht komplette Privatabrechnung. Gesamte Abrechnung über BEB97, kein BEL-Anteil und kein Festzuschuss-Antrag. Klassische Indikation: Molar mit hoher Kaubelastung, Bruxismus, Patient wünscht hohe Langlebigkeit. Bei Stufenpräparation kommt 2102 statt 2101 zum Einsatz. Im Gegensatz zur gleichartigen Variante (BEL 1021 als Anteil) wird hier die komplette Krone privat über 2101/2102 abgerechnet ohne BEL-Anteil.
+- Nur PKV bzw. GKV ohne HKP/ausdrücklichem Komplett-Privatwunsch — mit HKP ist dieselbe Krone gleichartige Versorgung mit Festzuschuss 1.1 (kein 1.3, da unverblendet) → Vorlage ../gleichartig/EM_vollguss
+- 2101 und 2102 sind Alternativen nach Präparationsform, nie beide je Krone
+- In der gleichartigen Variante erfüllt die gegossene Metallkrone bereits BEL 1021; dort darf dieselbe Krone NICHT zusätzlich über BEB 2101/2102 laufen — die Mehrleistung besteht nur aus Legierung und 2982
+- 2840 = Endkontrolle je Einheit, 2965 = Zuschlag für die Fertigung unter Mikroskop; nebeneinander nur bei Fertigung UND Endkontrolle unter Stereomikroskop
+- Im Leistungspreis enthalten: Modellgips (Hartgips), Superhartgips (Stumpfmaterial), Einbettmasse, Polierpaste/Hochglanzmittel; Zahnfarbenbestimmung und Keramikpositionen entfallen (unverblendete Vollgusskrone)
+- VERIFIZIEREN: Modellblock gegen Laborkalkulation abgleichen (0021 Arbeits-/Sägemodell + 0002 Gegenkiefer + 0103 je Sägeschnitt + 0104 je Stumpf); 0007 nur bei tatsächlichem Kontrollmodell

@@ -1,83 +1,82 @@
-| Bereich | Autor | erstellt am | Version |
-|--------|--------|--------|--------|
-| festsitzender Zahnersatz / Einzelkrone / gleichartig | CLAUDE | 2026-04-27 | v1 |
+# Festzuschuss
+
+- Befund: 1.1 je erhaltungswürdigem Zahn mit Kronenbedarf; +1.3 je vestibulärer Verblendung innerhalb VG (OK 15-25 / UK 34-44) — der Festzuschuss folgt dem Befund, nicht der gewählten Vollverblendung
+- Versorgungsform: gleichartig (Galvanotechnik mit Feingoldkappe statt NEM-Gussgerüst + keramische Vollverblendung = Mehrleistung)
+- Abrechnungsweg: RV-Anteil BEL über KZV; Mehrleistungen privat als Auslagen nach § 9 GOZ (üblich BEB) in EINER Laborrechnung, getrennt ausgewiesen; kein Arbeitsschritt doppelt (§ 3 Abs. 3 BEL II)
+- FZ-Satz: 60 % | Bonus 5 J: 70 % | 10 J: 75 % | Härtefall: 100 % der festgesetzten RV-Beträge (§ 55 Abs. 2 SGB V). Eigenanteil = Gesamtkosten − FZ; bei gleichartiger Versorgung deckt auch der Härtefall nur den 100-%-Betrag, alles darüber bleibt privat
 
 # BEL-Positionen
 
 | BEL | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 0010 | Modell | 2 | Arbeitsmodell + Gegenkiefermodell |
-| 0023 | Verwendung von Kunststoff | 1 | Zahnfleischmaske |
-| 0051 | Sägemodell | 1 |  |
+| 0010 | Modell | 1 | Gegenkiefermodell; weitere tatsächlich hergestellte Modelle nach Anzahl |
+| 0051 | Sägemodell | 1 | Arbeitsmodell zur Stumpfherstellung, Sockel eingeschlossen |
 | 0120 | Mittelwertartikulator | 1 |  |
-| 1024 | Krone für vestibuläre Verblendung | 1 | je Krone, BEL-Anteil Regelversorgung |
-| 1620 | Vestibuläre Verblendung Keramik | 1 | je Krone, BEL-Anteil innerhalb VG |
-| 9330 | Versandkosten | 2 | Hin- + Rückversand, entfällt bei Praxislabor |
+| 9330 | Versandkosten | je Versandgang | je Versandgang (ein Hin- und Rückweg), auch je Zwischenanprobe; in einem Praxislabor nicht abrechenbar |
 
 # Basisleistungen
 
 | BEB97 | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 2131 | Galvanokrone für Verblendung | 1 | je Krone, galvanische Goldkappe |
-| 2612 | Mehrflächige Verblendung aus Keramik | 1 | je Krone, Vollverblendung Keramik |
-| 2982 | Sonderlegierung verarbeiten | 1 | je Krone, Aufwand Galvanogold (Reingold 99,9%) |
+| 2131 | Galvanokrone für Verblendung | je Krone | galvanische Feingoldkappe, Vorbereiten auf Zweitstumpf eingeschlossen |
+| 2612 | Mehrflächige Verblendung aus Keramik | je Krone | keramische Vollverblendung |
+| 2982 | Sonderlegierung verarbeiten | je Krone | Mehraufwand Galvano-/Edelmetallverarbeitung; nicht neben 2981 (NEM) |
 
 # Zusatzleistungen
 
+| BEL | Leistung | Menge | Bemerkung |
+|--------|--------|--------|--------|
+| 0023 | Verwendung von Kunststoff | 1 | bei Zahnfleischmaske / Darstellung im Mund verbliebener Primärteile, max. 3x je Modell; nicht für Stümpfe oder Sockel; bei Härtefall i. d. R. nicht abrechenbar |
+| 0052 | Einzelstumpfmodell | 1 | alternativ zu 0051 bei Einzelstumpf-Technik |
+| 0053 | Modell nach Überabdruck | 1 | alternativ zu 0051 bei Überabformung |
+| 1031 | Vorbereiten Krone | je Krone | bei Kombination mit herausnehmbarem ZE; alternativ zu 2911 |
+
 | BEB97 | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 2611 | Teilverblendung aus Keramik | 1 | alternativ zu 2612 bei Teilverblendung |
-| 2616 | Keramikverblendung in Mehrschichttechnik | 1 | bei Mehrschicht-Schichtkeramik |
-| 2675 | Schulter aus Keramik/Glas | 1 | je Krone, Keramikschulter Front-/Sichtbereich |
-| 2676 | Papille aus Keramik/Glas | 1 | bei zervikaler Papillenmaskierung |
-| 2677 | Zahnfleisch aus Keramik/Glas | 1 | bei zervikaler Gingiva-Maskierung |
-| 2951 | Individuell charakterisieren, Keramik | 1 | je Krone, bei individueller Charakterisierung |
-| 2952 | Zuschlag bei Verarbeitung von Spezialkeramik | 1 | bei Spezialkeramik (Galvano-spezifisch) |
-| 2954 | Verbindungsstelle Keramik/Glas | 1 | bei Verbindungs-Bearbeitung |
-| 2955 | Glasieren, je Einheit | 1 | je Krone, Hochglanz-Brand |
-| 2959 | Mehraufwand durch Rohbrandeinprobe | 1 | bei Zwischenanprobe |
-| 2963 | Mehrere Farben in Kronen-/Brückenverband | 1 | bei mehrfarbiger Schichtung |
-| 2689 | Farbgebung durch Bemalen | 1 | bei zusätzlicher Bemalung |
-| 2840 | Endkontrolle unter Stereomikroskop | 1 | je Krone, höchste Passgenauigkeit Galvano-Technik |
-| 2965 | Zuschlag für Arbeiten unter Stereomikroskop | 1 | alternativ zu 2840 |
-| 2802 | Kaufläche nach gnathologischen Kriterien (Keramik) | 1 | bei Vollkeramik-Kaufläche gnathologisch |
-| 2804 | Frontzahn nach gnathologischen Kriterien (Keramik) | 1 | bei Front-Keramik gnathologisch |
-| 2811 | Selektives Einschleifen nach Remontage | 1 | bei okklusaler Anpassung |
-| 2815 | Okklusaler Stop | 1 | bei Okklusionssicherung |
-| 2911 | Krone für Klammer vorbereiten | 1 | bei Kombination mit herausnehmbarem ZE |
-| 2922 | Krone aufpassen | 1 | bei Anpassung auf Kontrollmodell |
-| 5301 | Deckgold aufbrennen | 1 | bei Goldaufbrand Galvano-Oberfläche |
-| 5302 | Bonder aufbrennen | 1 | bei Bonder-Vorbehandlung |
-| 5306 | Keramik konditionieren | 1 | bei Konditionierung Keramik-Oberfläche |
-| 0019 | Frässockel | 1 | bei Fräs-Sockel für Modell |
-| 0103 | Modellsegment sägen | 1 | bei Stumpf-Sägeschnitt |
-| 0104 | Stumpf aus Superhartgips | 1 | je Stumpf |
-| 0114 | Zweitstumpf aus Superhartgips | 1 | bei Zweitstumpf |
-| 0111 | Modellpaar trimmen | 1 | bei Trimmen |
-| 0723 | Zahnfarbenbestimmung I | 1 | Standard |
-| 0724 | Zahnfarbenbestimmung II | 1 | bei Schichtung/mehreren Farben |
+| 2611 | Teilverblendung aus Keramik | je Krone | alternativ zu 2612 bei Teilverblendung |
+| 2616 | Keramikverblendung in Mehrschichttechnik | je Krone | alternativ zu 2612 bei Layering-/Schichttechnik |
+| 2675 | Schulter aus Keramik/Glas | je Krone | bei zervikaler Keramikschulter |
+| 2676 | Papille aus Keramik/Glas | je Interdentalraum | bei Papillenersatz |
+| 2677 | Zahnfleisch aus Keramik/Glas | je Zahn | bei Gingivaersatz keramisch |
+| 2951 | Individuell charakterisieren, Keramik | je Krone | bei individueller Charakterisierung |
+| 2952 | Zuschlag bei Verarbeitung von Spezialkeramik | je Krone | bei Galvano-Spezialkeramik mit niedrigem WAK |
+| 2955 | Glasieren, je Einheit | je Krone | bei Glanzbrand |
+| 2959 | Mehraufwand durch Rohbrandeinprobe | je Krone | bei Rohbrandeinprobe |
+| 2963 | Mehrere Farben in Kronen- oder Brückenverband | je Zahnfarbe | bei mehrfarbiger Ausführung (Ausführungsaufwand, nicht Farbbestimmung) |
+| 2689 | Farbgebung durch Bemalen | je Krone | alternativ zu 2963 bei Maltechnik statt Schichtung |
+| 2840 | Endkontrolle unter Stereomikroskop | je Krone | bei mikroskopischer Endkontrolle |
+| 2965 | Zuschlag für Arbeiten unter Stereomikroskop | je Krone | alternativ zu 2840 |
+| 2802 | Kaufläche nach gnathologischen Kriterien gestaltet, in Keramik | je Kaufläche | bei gnathologischer Kauflächengestaltung |
+| 2804 | Frontzahn nach gnathologischen Kriterien gestaltet, in Keramik | je Zahn | bei gnathologischer Frontzahngestaltung |
+| 2811 | Selektives Einschleifen nach Remontage/Krone, Brückenglied, Inlay | je Krone | bei Remontage/okklusaler Korrektur |
+| 2915 | Okklusaler Stop | je Stop | bei Okklusionssicherung |
+| 2911 | Krone, Brückenglied für Klammer vorbereiten | je Krone | alternativ zu BEL 1031 — nur einmal ansetzen |
+| 2922 | Krone/Inlay/Brückenglied aufpassen | je Krone | bei Aufpassen auf Modell |
+| 5301 | Deckgold aufbrennen | je Krone | bei Oxidabdeckung vor Keramikbrand |
+| 5302 | Bonder aufbrennen | je Krone | bei Bonder-Vorbehandlung der Galvanofläche |
+| 5306 | Keramik/gegossenes Glas konditionieren | je Krone | bei adhäsiver Befestigung |
+| 0911 | Foto auf Bildbearbeitungssoftware matchen | 1 | bei digitaler Farb-/Formabstimmung |
+| 0912 | Foto-/Videodokumentation zur diagnostischen Auswertung | 1 | bei diagnostischer Dokumentation |
+| 0723 | Zahnfarbenbestimmung I | 1 | bei Verblendung/zahnfarbener Arbeit, je Fall |
+| 0724 | Zahnfarbenbestimmung II | 1 | bei Sonderfarbe ohne Konfektionsfarbmuster |
 | 0732 | Desinfektion | 2 | Eingangs- + Ausgangsdesinfektion |
 | 0710 | Eilterminzuschlag | 1 | bei urgency=urgent/express |
-| 0706 | Foto- oder Video-Dokumentation | 1 | bei Bedarf |
-| 0721 | Zeiteinheit; Zahntechniker-Meister | je | bei Sonderaufwand |
-| 0722 | Zeiteinheit; Zahntechniker | je | bei Sonderaufwand |
-| 0701 | Versand je Versandgang | je | bei zusätzlichem Versandgang |
-| 0702 | Sonderversand oder Fahrtkosten | 1 | bei express/Sonderaufwand |
-| 0731 | Individuelle Namenskennzeichnung I | 1 | bei Auftragsmarkierung |
-| 0911 | Foto auf Bildbearbeitungssoftware matchen | 1 | bei digitaler Farb-/Form-Abstimmung |
-| 0912 | Foto-/Videodokumentation zur Auswertung | 1 | bei diagnostischer Doku |
+| 0706 | Foto- oder Video-Dokumentation | 1 | bei Dokumentationsbedarf |
+| 0721 | Zeiteinheit; Zahntechniker-Meister | je | bei Sonderaufwand, je angefangene Zeiteinheit |
+| 0722 | Zeiteinheit; Zahntechniker | je | bei Sonderaufwand, je angefangene Zeiteinheit |
+| 0702 | Sonderversand oder Fahrtkosten | 1 | bei Express-/Sonderlogistik |
 
 # Material
 
 | Material | Menge | Bemerkung |
 |--------|--------|--------|
-| Galvano-Goldbad / Reingold (99,9%) | ca. 0,3-0,5 g | je Krone, galvanische Abscheidung 0,2-0,3mm Schichtdicke |
-| Verblendkeramik (Galvano-spezifisch) | — | je Krone, Schichtkeramik mit niedrigem WAK |
-| Modellgips (Hartgips) | — | Arbeitsmodell + Gegenkiefermodell |
-| Stumpfmaterial (Superhartgips) | — | Sägemodell |
-| Silberleitlack | — | Galvano-Vorbereitung Stumpf |
-| Konditionierer / Bonder | — | für Verblendung-Haftung auf Galvano |
+| Galvanogold (Feingold 999) | ca. 0,3-0,5 g | gesondert: abgeschiedene Menge je Kappe (Schichtdicke 0,2-0,3 mm), Gewicht x Tagespreis; Bezeichnung, Gewicht und Preis je g auf der Laborrechnung ausweisen (§ 10 Abs. 2 Nr. 5 GOZ / § 2 Nr. 4 BEL II) |
 
 # Hinweise
 
-Galvanokrone mit galvanisch erzeugter Goldkappe (Reingold 99,9%) und keramischer Vollverblendung ist gleichartige Versorgung. Galvano-Technik bietet höchste Passgenauigkeit (Mikrometer-Bereich), niedrige Wandstärke (0,2-0,3mm) und biokompatibel. Festzuschuss nach Befundklasse 1.1 in Höhe der Regelversorgung (NEM vestibulär verblendet); Mehrkosten Galvano-Material und Vollverblendung trägt der Patient. Indikation: höchste Passgenauigkeit, allergische Patienten, Tiefziehrand-Bereich, ästhetisch im Frontbereich.
+- BEL 1024 und 1620 entfallen: eine vollständig verblendete Krone erfüllt deren Leistungsinhalt nicht (BEL-Erläuterung) — Kappe und Verblendung laufen vollständig über BEB 2131 + 2612 + 2982; BEL 9700 gilt ausschließlich für NEM und ist hier nie ansetzbar
+- BEB 0019, 0103, 0104, 0111 und 0114 (Frässockel, Sägeschnitt, Stumpf, Zweitstumpf, Trimmen) nicht neben BEL 0051/0010 — dieselben Arbeitsschritte sind im Sägemodell enthalten, der Zweitstumpf zusätzlich im Leistungsinhalt der BEB 2131 (§ 3 Abs. 3 BEL II); BEL-Äquivalent für den Frässockel ist 0055 Fräsmodell
+- Galvanogold statt NEM: die Kasse trägt die Edelmetall-Mehrkosten nicht; der BEL-Anteil wird über die NEM-Verrechnungseinheiten der jeweiligen KZV angerechnet (Beträge regional, jährlich angepasst)
+- BEB 0701 entfällt im GKV-Fall — zusätzliche Versandgänge inkl. Zwischenanproben über die Menge von BEL 9330; BEB 0731 nur bei herausnehmbarem ZE / Kfo-Gerät (Katalogtext), hier nicht ansetzbar
+- → Vorlage ../Privatleistung/Galvano_voll bei PKV bzw. Komplett-Privat ohne HKP; → EM_voll oder VMK-NEM_voll bei gegossenem Gerüst statt Galvanokappe
+- Im Leistungspreis enthalten: Verblendkeramik (Galvano-spezifische Schichtmassen), Silberleitlack, Modellgips (Hartgips), Superhartgips (Stumpfmaterial), Konditionierer/Bonder, Isolier-/Trennmittel

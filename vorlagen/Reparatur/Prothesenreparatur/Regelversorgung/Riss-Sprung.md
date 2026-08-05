@@ -1,48 +1,57 @@
-| Bereich | Autor | erstellt am | Version |
-|--------|--------|--------|--------|
-| Reparatur / Prothesenreparatur / Regelversorgung | CLAUDE | 2026-04-27 | v1 |
+# Festzuschuss
+
+- Befund: 6.1 je Prothese (Wiederherstellung ohne Notwendigkeit der Abformung); 6.2 je Prothese, sobald Abformung bzw. Maßnahmen im Kunststoffbereich hinzukommen (0053, 0112, 0120, 8025, 8030 angesetzt); 6.3 je Prothese bei Maßnahmen im gegossenen Metallbereich (8026, 8027, 8040, 8060, 8070 angesetzt); 6.0 je Prothese ohne Abformung und ohne zahntechnische Leistung
+- Versorgungsform: Regelversorgung (Wiederherstellung) — für die Einstufung ist die Art des vorhandenen Zahnersatzes NICHT maßgeblich (FZ-RL Abschnitt 6, Protokollnotiz); auch der Sprung in einer privat gefertigten Prothese ist beim GKV-Versicherten Regelversorgung
+- Abrechnungsweg: vollständig BEL über KZV (BEMA-Honorar zahnärztlich)
+- FZ-Satz: 60 % | Bonus 5 J: 70 % | 10 J: 75 % | Härtefall: 100 % (§ 55 Abs. 2 SGB V) — bei tatsächlicher Regelversorgung trägt die Kasse die RV-Kosten vollständig (Eigenanteil 0), höchstens jedoch in Höhe der tatsächlich entstandenen Kosten; Beträge jährlich neu (FZ-Katalog)
 
 # BEL-Positionen
 
 | BEL | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 0010 | Modell | 1 | Reparaturmodell (Hartgips) |
-| 0112 | Fixator | 1 | bei Sprung mit Bisslagen-Beteiligung / Gegenbiss-Fixierung |
-| 8010 | Grundeinheit ZE | 1 | Pflicht — einmal je Kiefer, nur in Kombination mit LE abrechenbar |
-| 8021 | LE Sprung | je | einmal je zusammenhängender Sprunglinie (nicht-verbundene Sprünge → entsprechend mehrfach) |
-| 8024 | LE Basisteil Kunststoff | je | bei zusätzlich aufgefülltem/erneuertem Basisteil |
-| 8025 | LE Halte- und/oder Stützvorrichtung einarbeiten | je | falls Klammer durch Sprung betroffen / mit-bearbeitet wird |
-| 8027 | LE Kunststoffsattel | je | falls Sattelteil mit-bearbeitet wird |
-| 8030 | Retention, gebogen | je | bei Erweiterungs-Charakter mit Retentionsverstärkung |
-| 8040 | Retention, gegossen | je | bei gegossener Retention statt gebogen |
-| 8060 | Gegossenes Basisteil | je | bei Erweiterung mit gegossener Basisteil-Komponente |
-| 8070 | Metallverbindung bei Instandsetzung | je | nur bei Sprung in Metallbasis (zzgl. 75% Lot); nicht neben 8030/8040/8060 |
-| 8130 | Auswechseln Konfektionsteil | je | wenn beim Sprung Konfektionsteil gelockert wird; nicht für Geschiebeelemente |
-| 9330 | Versandkosten | 2 | nur gewerbliche Labore (KZBV §19) |
+| 0010 | Modell | 1 | Reparaturmodell aus Hart- oder Superhartgips; je tatsächlich hergestelltem Modell (Gegenkiefer-/Kontrollmodell zusätzlich) |
+| 8010 | Grundeinheit ZE | 1 | einmal je Prothese; nur zusammen mit einer Leistungseinheit (hier 8021) |
+| 8021 | LE Sprung | je Sprunglinie | einmal je zusammenhängender Sprunglinie (verästelte Sprünge bleiben eine Linie); nicht verbundene Sprünge entsprechend mehrfach, nachträglich entdeckte nur nach Rücksprache mit der Praxis |
+| 9330 | Versandkosten | je Versandgang | nur Gewerbelabor; je Versandgang = ein Hin- und Rückweg (Zwischenanproben zählen einzeln, Leerfahrten nicht); regionale KZV-Höchstzahl beachten |
 
 # Basisleistungen
 
-_Pflicht-Kern ist vollständig über BEL abgedeckt. Keine zusätzlichen BEB97-Basisleistungen erforderlich._
+_Keine — Pflichtkern vollständig über BEL._
 
 # Zusatzleistungen
 
-| BEB97 | Leistung | Menge | Bemerkung |
+| BEL | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 0732 | Desinfektion | 2 | Eingangs- und Ausgangsdesinfektion |
-| 0710 | Eilterminzuschlag | 1 | bei urgency=urgent/express |
-| 0706 | Foto- oder Video-Dokumentation | 1 | Schadensdokumentation vor Reparatur |
-| 0721 | Zeiteinheit; Zahntechniker-Meister | je | Meisterzuschlag bei privatem Mehraufwand |
-| 0722 | Zeiteinheit; Zahntechniker | je | technischer Mehraufwand auf Privatrechnung |
+| 8022 | LE Bruch | je Bruchstelle | bei zusätzlich vollständig durchgetrenntem Bereich neben der Sprunglinie |
+| 0023 | Verwendung von Kunststoff | je Modell | bei Darstellung der Zahnfleischpartien oder Auffüllen im Mund verbliebener Primärteile; max. 3× je Modell; nicht für Stümpfe/Sockel |
+| 0053 | Modell nach Überabdruck | 1 | bei Überabformung; einmal je Abformung, Sockel eingeschlossen; löst Befund 6.2 aus |
+| 0112 | Fixator | 1 | bei Bisslagen-/Gegenbiss-Fixierung; einmal je Modellpaar; löst Befund 6.2 aus |
+| 0120 | Mittelwertartikulator | 1 | statt 0112 bei artikulatorischer Okklusionsprüfung; einmal je Artikulation; nicht neben 0320 und nicht neben 8080 |
+| 8023 | LE Einarbeiten Zahn | je Zahn | bei gleichzeitig wiederbefestigtem/erneuertem Konfektionszahn; Konfektionszahn als Material |
+| 8024 | LE Basisteil Kunststoff | je Basisteil | bei zusätzlich aufgefülltem/erneuertem Kunststoff-Basisteil; nur wenn an derselben Stelle keine andere Leistung erbracht wird |
+| 8025 | LE Halte- und/oder Stützvorrichtung einarbeiten | je Vorrichtung | bei mitbearbeiteter Klammer/Auflage; Wiederbefestigen von Sekundärteilen nicht hierüber; löst Befund 6.2 aus |
+| 8026 | LE Rückenschutzplatte einarbeiten | je Rückenschutzplatte | bei mitbearbeiteter gegossener Rückenschutzplatte (Fertigung/Verblendung nicht enthalten); löst Befund 6.3 aus |
+| 8027 | LE Kunststoffsattel | je Sattel | bei Lösen und Wiederbefestigen des Sattels zum Hitzeschutz vor der Metallverbindung; löst Befund 6.3 aus |
+| 8030 | Retention, gebogen | je Retention | bei Retentionsverstärkung; Metallverbindung enthalten (8070 und deren Material nicht daneben); löst Befund 6.2 aus |
+| 8040 | Retention, gegossen | je Retention | alternativ zu 8030 bei gegossener Ausführung; Metallverbindung enthalten; löst Befund 6.3 aus |
+| 8060 | Gegossenes Basisteil | je Basisteil | bei gegossener Basisteil-Ergänzung; Metallverbindung enthalten; nicht neben 2010; löst Befund 6.3 aus |
+| 8070 | Metallverbindung bei Instandsetzung/Erweiterung | je Metallverbindung | nur bei Sprung in der Metallbasis; nicht neben 8030/8040/8060; löst Befund 6.3 aus |
+| 8130 | Auswechseln Konfektionsteil | je Konfektionsteil | bei Sekundärteil eines konfektionierten Kugelknopfankers (vorhandene Wurzelstiftkappe); NICHT für konfektionierte Geschiebeelemente; Konfektionsteil als Material |
 
 # Material
 
 | Material | Menge | Bemerkung |
 |--------|--------|--------|
-| PMMA-Reparaturkunststoff (Kaltpolymerisat) | — | zum Auffüllen der Sprunglinie |
-| Heißpolymerisat | — | alternativ bei höherer Belastung |
-| Modellgips (Hartgips) | — | für Reparaturmodell |
-| Lot (NEM) | — | bei Metallverbindung 8070 (75% der Materialkosten abrechenbar) |
+| Konfektionszahn | 1 Stück | nur bei ausgelöster 8023; gesondert berechnungsfähig (§ 2 Nr. 4 BEL II: künstliche Zähne) — Garnitur, Farbe, Menge und Preis ausweisen |
+| Konfektionsteil (Sekundärteil Kugelknopfanker) | 1 Stück | nur bei ausgelöster 8130; gesondert berechnungsfähig (Konfektionsfertigteil) — Art, Menge und Preis ausweisen |
+| Lot, edelmetallhaltig | nach Verbrauch | nur zu 8070: 75 % der Materialkosten (§ 2 Nr. 4 BEL II); Bezeichnung, Menge und Preis ausweisen |
+| Lot (NEM) | nach Verbrauch | nur zu 8070 und nur soweit die zuständige KZV NEM-Lot regional anerkennt — § 2 Nr. 4 BEL II nennt ausdrücklich nur edelmetallhaltige Lote |
 
 # Hinweise
 
-Riss oder Sprung in der Prothesenbasis ohne komplette Trennung — Regelversorgung. Frühzeitige Reparatur verhindert kompletten Bruch (sonst 8022). BEL 8021 wird je zusammenhängender Sprunglinie abgerechnet — getrennt verlaufende Sprünge je nach Anzahl separat. Bei Metallbasis-Sprung 8070 zzgl. Lot (75%) abrechenbar. 9330 nur gewerbliche Labore.
+- BEL 8010 ist Grundeinheit: einmal je Prothese und nur zusammen mit Leistungseinheiten (8021–8027, 1600/1640, 3830/3840); Anrauen, Ausarbeiten und Polieren sind damit abgegolten; bei Neuanfertigung ist keine Position der Hauptgruppe 8 abrechenbar
+- 8070 nicht neben 8030/8040/8060 (dort ist die Metallverbindung samt Verbindungsmaterial enthalten); Lotkosten nur zu 75 %. VERIFIZIEREN: ob die zuständige KZV NEM-Lot bei 8070 regional anerkennt (§ 2 Nr. 4 BEL II nennt nur edelmetallhaltige Lote)
+- 8130 nur je Konfektionsteil (Sekundärteil eines konfektionierten Kugelknopfankers) — NICHT für konfektionierte Geschiebeelemente; 9330 im Praxislabor nicht abrechenbar (dort auch kein Ersatz über BEB 0701/0702)
+- → Vorlage Basisbruch bei vollständiger Trennung der Basis; → Vorlage Zahnbruch bei Konfektionszahn-Erneuerung; → Vorlage ../../Erweiterung/ bei Befundveränderung (Erweiterung um Zähne, FZ 6.4/6.5); → Vorlage ../Privatleistung/Basisbruch nur bei PKV, Selbstzahler ohne HKP oder ausdrücklichem Komplett-Privatwunsch (dort BEB 8021 statt 8022)
+- Private Zusatzleistungen (BEB) sind NICHT Teil der BEL-Regelversorgung — jede ausgelöste BEB-Position macht die Versorgung gleichartig (schriftliche Mehrkostenvereinbarung): 0732 Desinfektion, 0706 Foto- oder Video-Dokumentation, 0710 Eilterminzuschlag, 0721 Zeiteinheit Zahntechniker-Meister, 0722 Zeiteinheit Zahntechniker; NICHT ansetzbar: 0701/0702 Versand (im Gewerbelabor über BEL 9330 abgegolten)
+- Im Leistungspreis enthalten (§ 2 Nr. 4 BEL II): Modellgips (Hartgips), Superhartgips, PMMA-Reparaturkunststoff (Kaltpolymerisat), Heißpolymerisat, Trenn- und Poliermittel, sonstiges Verbrauchsmaterial Praxis

@@ -1,46 +1,44 @@
-| Bereich | Autor | erstellt am | Version |
-|--------|--------|--------|--------|
-| festsitzender Zahnersatz / Stiftaufbau / Regelversorgung | CLAUDE | 2026-04-27 | v1 |
+# Festzuschuss
+- Befund: 1.5 je endodontisch behandeltem Zahn mit Notwendigkeit eines gegossenen metallischen Stiftaufbaus (1.4 wäre der konfektionierte Stift — andere Versorgung)
+- Versorgungsform: Regelversorgung (gegossener NEM-Stiftaufbau, indirektes Verfahren)
+- Abrechnungsweg: vollständig BEL über KZV; die anschließende Krone ist eine eigene Versorgung mit eigenem Befund (z. B. 1.1) und eigener Vorlage
+- FZ-Satz: 60 % | Bonus 5 J: 70 % | 10 J: 75 % | Härtefall: 100 % — im Härtefall trägt die Kasse die tatsächlichen RV-Kosten voll (Eigenanteil 0 €)
 
 # BEL-Positionen
 
 | BEL | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 0010 | Modell | 2 | Arbeitsmodell + Gegenkiefermodell |
-| 0021 | Doublieren eines Modells | je | bei medizinischer Indikation oder Bedarf |
-| 0051 | Sägemodell | 1 |  |
+| 0010 | Modell | 1 | Gegenkiefermodell |
+| 0051 | Sägemodell | 1 | Arbeitsmodell zur Stumpfherstellung, Sockel enthalten |
 | 0120 | Mittelwertartikulator | 1 |  |
-| 1050 | Stiftaufbau | 1 | je Stift, gegossener Stift-Stumpf-Aufbau |
-| 1040 | Modellation gießen | 1 | je Stift, Gussvorgang |
-| 1033 | Stiftaufbau einarbeiten | 1 | je Krone, bei Kombination Stift + Krone |
-| 9700 | Verarbeitungsaufwand NEM-Legierung | 1 | je Stift, NEM-Legierung |
-| 9330 | Versandkosten | 2 | Hin- + Rückversand, entfällt bei Praxislabor |
+| 1050 | Stiftaufbau | je Stift | gegossener Stift-Stumpf-Aufbau, indirektes Verfahren; Pin setzen, Sägeschnitt, Segment vorbereiten enthalten |
+| 9700 | Verarbeitungsaufwand NEM-Legierung | je Stift | nur NEM; nicht als alleinige Leistung abrechenbar |
+| 9330 | Versandkosten | je Versandgang | nur Gewerbelabor; regionale Höchstzahl beachten |
 
 # Basisleistungen
 
-_Pflicht-Kern ist vollständig über BEL abgedeckt. Keine zusätzlichen BEB97-Basisleistungen erforderlich._
+_Keine — Pflichtkern vollständig über BEL._
 
 # Zusatzleistungen
 
-| BEB97 | Leistung | Menge | Bemerkung |
+| BEL | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 0732 | Desinfektion | 2 | Eingangs- + Ausgangsdesinfektion |
-| 0710 | Eilterminzuschlag | 1 | bei urgency=urgent/express |
-| 0706 | Foto- oder Video-Dokumentation | 1 | bei Bedarf |
-| 0721 | Zeiteinheit; Zahntechniker-Meister | je | bei Sonderaufwand (z.B. Mikroskop) |
-| 0722 | Zeiteinheit; Zahntechniker | je | bei Sonderaufwand |
-| 0701 | Versand je Versandgang | je | bei zusätzlichem Versandgang |
+| 1040 | Modellation gießen | je Stift | alternativ zu 1050 (Zahnarzt liefert Modellation); NICHT neben 1050 für denselben Zahn |
+| 1033 | Stiftaufbau einarbeiten | je Krone | nur Einarbeiten in eine VORHANDENE Krone/Primärkrone; nicht bei gleichzeitiger Neuanfertigung von Stift und Krone |
+| 0052 | Einzelstumpfmodell | 1 | alternativ zu 0051 (je Abformung) |
+| 0053 | Modell nach Überabdruck | 1 | alternativ zu 0051 bei Überabformung |
+| 0021 | Doublieren eines Modells | je Modell | nur auf zahnärztliche Anweisung bei medizinischer Indikation; Doubliersilikon nicht berechenbar |
 
 # Material
 
-| Material | Menge | Bemerkung |
-|--------|--------|--------|
-| NEM-Legierung | ca. 2-3 g | je Stift, für Stift-Stumpf-Aufbau |
-| Modellgips (Hartgips) | — | Arbeitsmodell + Gegenkiefermodell |
-| Stumpfmaterial (Superhartgips) | — | Sägemodell |
-| Einbettmasse | — | für Gussvorgang |
-| Modellierwachs | — | für Wachs-Modellation Stiftaufbau |
+_Keine gesondert berechnungsfähigen Materialien — NEM-Legierung ist mit den BEL-Vergütungen abgegolten (Verarbeitungsaufwand über 9700)._
 
 # Hinweise
 
-NEM-gegossener Stiftaufbau ist GKV-Regelversorgung — Vorbereitung eines wurzelbehandelten Zahns vor Überkronung. Die Vorlage deckt nur den Stiftaufbau allein ab; die anschließende Krone wird separat kombiniert (z.B. NEM-vestibulär verblendet als Regelversorgung). Festzuschuss nach Befundklasse 1.5 (gegossener metallischer Stiftaufbau). BEL 1033 wird zusätzlich abgerechnet, wenn Stift und Krone kombiniert werden — sie deckt das Einarbeiten des Stiftaufbaus in die Krone ab. Bei Materialallergien gegen NEM weicht der Patient auf `EM_gegossen.md` aus.
+- Vorlage deckt NUR den Stiftaufbau ab; die anschließende Krone separat kombinieren (eigener Befund, eigene Vorlage)
+- 1050 ist für denselben Zahn NICHT neben 1013 (Wurzelstiftkappe) abrechenbar — der Wurzelstift ist dort Bestandteil
+- Ausbrennbare Konfektionsstifte sind nicht abrechenbar (BEL-Erläuterung); konfektionierter Stift = Befund 1.4, andere Versorgung
+- BEL 9330 entfällt bei Praxislabor; 0051/0052/0053 sind alternative Modellarten (Sockel seit 01.01.2023 enthalten)
+- Private Zusatzleistungen (BEB) sind NICHT Teil der BEL-Regelversorgung — jede ausgelöste BEB-Position macht die Versorgung gleichartig (schriftliche Mehrkostenvereinbarung): Desinfektion 0732, Eiltermin 0710, Foto-Doku 0706, Zeiteinheiten 0721/0722, Versand 0701
+- Im Leistungspreis enthalten: NEM-Legierung, Modellgips (Hartgips), Superhartgips (Stumpfmaterial), Einbettmasse, Modellierwachs
+- → Vorlage EM_gegossen bei Edelmetall-Legierung; → ../gleichartig/Glasfaser bzw. ../Privatleistung/ bei nicht-metallischen Stiftsystemen

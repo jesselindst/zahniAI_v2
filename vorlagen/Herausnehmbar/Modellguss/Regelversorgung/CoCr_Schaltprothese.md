@@ -1,87 +1,74 @@
-| Bereich | Autor | erstellt am | Version |
-|--------|--------|--------|--------|
-| Herausnehmbarer Zahnersatz / Modellguss / Regelversorgung | CLAUDE | 2026-04-27 | v1 |
+# Festzuschuss
+- Befund: 3.1 je Kiefer — genau einmal, unabhängig von Anzahl Lücken, Sätteln, ersetzten Zähnen und Klammern; gilt nur für zahnbegrenzte Lücken, die NICHT den Befunden 2.1 bis 2.5 entsprechen. Kein Zusatzbefund für die Verblendung (2.7 gehört zu den Brückenbefunden; die Verblendung der Rückenschutzplatte ist in 3.1 enthalten); 4.5 hier nicht ansetzbar (nur Befundklasse 4)
+- Versorgungsform: Regelversorgung (CoCr-Modellguss, gegossen, Klammerverankerung) — nur bei Befund 3.1; bei 2.1 bis 2.5 ist die Regelversorgung eine Brücke, die herausnehmbare Prothese ist dann andersartig
+- Abrechnungsweg: vollständig BEL über KZV (zahnärztliches Honorar BEMA)
+- FZ-Satz: 60 % | Bonus 5 J: 70 % | 10 J: 75 % | Härtefall: 100 % (§55 Abs. 2 SGB V) — bei tatsächlicher Regelversorgung trägt die Kasse die RV-Kosten vollständig (Eigenanteil 0); der Festzuschuss wird höchstens in Höhe der tatsächlich entstandenen Kosten gewährt; Beträge jährlich neu (FZ-Katalog)
 
 # BEL-Positionen
 
 | BEL | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 0010 | Modell | 3 | Arbeitsmodell + Gegenkiefer + Situationsmodell |
-| 0053 | Modell nach Überabdruck | 1 | Meistermodell nach Funktionsabdruck |
-| 0120 | Mittelwertartikulator | 1 |  |
-| 0211 | Individueller Löffel | 1 |  |
-| 0213 | Basis für Bissregistrierung | 1 |  |
-| 0220 | Bisswall | 1 |  |
-| 2010 | Metallbasis | 1 | CoCr-Modellguss-Gerüst; einmal je Kiefer |
-| 2041 | Zweiarmige gegossene Halte- und Stützvorr. m. Auflage | 4 | je Pfeilerzahn beidseits Schaltlücke (einmal je Metallverbindung) |
-| 3010 | Aufstellung, Grundeinheit | 1 |  |
-| 3020 | Aufstellen Wachs/Kunststoff je Zahn | je | je ersetzter Zahn auf Kunststoff-Sattel-Anteil |
-| 3030 | Aufstellen Metall je Zahn | je | je ersetzter Zahn auf Metallbasis |
-| 3610 | Fertigstellung Grundeinheit | 1 |  |
-| 3620 | Fertigstellen je Zahn | je | je ersetzter Zahn |
-| 9330 | Versandkosten | je | je Versandgang; nur gewerbliche Labore |
+| 0010 | Modell | 3 | Situations-, Meister- und Gegenkiefermodell; je tatsächlich hergestelltem Modell, kein Bezug zur Zahl der Abformungen |
+| 0120 | Mittelwertartikulator | 1 | einmal je Artikulation |
+| 0211 | Individueller Löffel | 1 | einmal je Kiefer; alternativ zu 0212 (Funktionslöffel nur bei Restzahnbestand bis 3 Zähnen oder zahnlos — dann Befund 4.x, nicht 3.1) |
+| 2010 | Metallbasis | 1 | einmal je Kiefer; Guss, Duplikatmodell und Modellgusslegierung nicht gesondert berechenbar |
+| 2041 | Zweiarmige gegossene Halte- und Stützvorr. m. Auflage | je Pfeilerzahn | einmal je Metallverbindung; Regelfall eine Schaltlücke = 2 (ein Pfeiler je Lückenseite), zwei Schaltlücken = 4 |
+| 3010 | Aufstellung, Grundeinheit | 1 | einmal je Kiefer |
+| 3020 | Aufstellen Wachs oder Kunststoff je Zahn | je ersetzter Zahn | alternativ zu 3030 — je Zahn nur eine der beiden Positionen |
+| 3030 | Aufstellen Metall je Zahn | je ersetzter Zahn | alternativ zu 3020 — je Zahn nur eine der beiden Positionen |
+| 3610 | Fertigstellung Grundeinheit | 1 | einmal je Kiefer |
+| 3620 | Fertigstellen je Zahn | je ersetzter Zahn | keine eigenständige Leistung, nur zusammen mit 3610 |
+| 9330 | Versandkosten | je Versandgang | nur Gewerbelabor; keine getrennte Hin-/Rückberechnung derselben Beförderung |
 
 # Basisleistungen
 
-_Pflicht-Kern ist vollständig über BEL abgedeckt. Keine zusätzlichen BEB97-Basisleistungen erforderlich._
+_Keine — Pflichtkern vollständig über BEL._
 
 # Zusatzleistungen
 
-| BEL/BEB | Leistung | Menge | Bemerkung |
+| BEL | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| BEL 0201 | Basis für Vorbissnahme | 1 | bei Bedarf Vorbissnahme vor endgültiger Bissregistrierung |
-| BEL 2021 | Einarmige gegossene Haltevorrichtung | je | bei UK ohne anfertigbaren Sublingualbügel; sonst einarmige Klammergestaltung |
-| BEL 2025 | Kralle | je | bei zusätzlicher Verankerung über Kralle |
-| BEL 2026 | Ney-Stiel | je | bei sattelferner Gestaltung (zusätzlich zu 2041) |
-| BEL 2027 | Auflage | je | bei zusätzlicher einzelner Auflage, nicht Bestandteil 2041 |
-| BEL 2028 | Umgehungsbügel bei Diastema | je | bei Frontzahn-Diastema |
-| BEL 2031 | Zweiarmige gegossene Haltevorrichtung | je | Alternative zu 2041 ohne Auflage |
-| BEL 2050 | Bonwillklammer | je | bei Schaltlücke mit beidseitiger Auflage |
-| BEL 2081 | Rückenschutzplatte | je | bei vestibulärer Verblendung Klammerpfeiler (schließt 3020/3030/3620 für selbe Einheit aus) |
-| BEL 2082 | Metallzahn, gegossen | je | bei ungünstigen Bissverhältnissen oder verengten Einzelzahnlücken |
-| BEL 2083 | Metallkaufläche, gegossen | je | bei ungünstigen Biss-/Okklusionsverhältnissen |
-| BEL 2100 | Lösungshilfe | je | bei stark retentiven Klammern |
-| BEL 2120 | Zuschlag einzelne gegossene Klammer | 1 | nur wenn Klammer einzeln (nicht mit Metallbasis 2010) gefertigt; max 1 je Prothese |
-| BEL 3410 | Übertragung je Zahn | je | bei Übertragung einer Wachsaufstellung auf Metallbasis; je übertragener Zahneinheit |
-| BEL 3800 | Einfache gebogene Halte-/Stützvorrichtung | je | gebogene Klammer als Alternative zu gegossener |
-| BEL 3805 | Gebogene Auflage | je | zusätzlich zu 3800 abrechenbar |
-| BEL 3810 | Sonstige gebogene Halte- und/oder Stützvorrichtung | je | komplexere gebogene Haltevorr. |
-| BEL 3821 | Weichkunststoff | 1 | max 1 je Prothese |
-| BEL 3822 | Sonderkunststoff | 1 | nur bei zahnärztlicher Indikationsstellung (§12b); max 1 je Prothese |
-| BEL 3830 | Zahn zahnfarben hergestellt | je | nur wenn aus anatomischen Gründen kein Konfektionszahn verwendbar (§12b) |
-| BEL 3840 | Zahn zahnfarben hinterlegt | je | OK bis Zahn 5, UK bis Zahn 4 (§12b) |
-| BEL 1550 | Konditionierung je Zahn/Flügel | je | Metallflächenkonditionierung zur Komposit-Verblendung (nur mit 1640/1650) |
-| BEL 1600 | Vestibuläre Verblendung Kunststoff | je | bei vestibulärer Verblendung Klammerpfeiler im Verblendbereich (OK 15-25, UK 34-44) |
-| BEL 1610 | Zahnfleisch Kunststoff | je | im Verblendbereich, ergänzend zu 1600 |
-| BEL 1640 | Vestibuläre Verblendung Komposite | je | Alternative zu 1600 |
-| BEL 1650 | Zahnfleisch Komposite | je | ergänzend zu 1640 |
-| BEB 0301 | Zahn vermessen | 4 | je Klammerzahn (Parallelometer-Vermessung) |
-| BEB 0302 | Modell vermessen | 1 |  |
-| BEB 0303 | Modell ausblocken | 1 |  |
-| BEB 0723 | Zahnfarbenbestimmung I | 1 |  |
-| BEB 0724 | Zahnfarbenbestimmung II | 1 | bei Sonderfarbe die keinem Konfektionsmuster entspricht |
-| BEB 0732 | Desinfektion | 2 | Eingangs- + Ausgangsdesinfektion |
-| BEB 0710 | Eilterminzuschlag | 1 | bei urgency=urgent/express |
-| BEB 0706 | Foto- oder Video-Dokumentation | 1 | bei Bedarf |
-| BEB 0721 | Zeiteinheit; Zahntechniker-Meister | je | bei Sonderaufwand |
-| BEB 0722 | Zeiteinheit; Zahntechniker | je | bei Sonderaufwand |
-| BEB 0834 | Diagnostisches Aufstellen von Konfektionszähnen | je | bei vorgängiger Wax-Up-Aufstellung |
-| BEB 1251 | Vorwall | je | je Sattel (Zahnaufstellung) |
-| BEB 5308 | Modellgussteil konditionieren | je | je Sattel (Haftung Kunststoff↔Metall) |
-| BEB 0701 | Versand je Versandgang | je | bei Praxislabor (Alternative zu BEL 9330) |
+| 0201 | Basis für Vorbissnahme | 1 | bei Vorbissnahme vor der endgültigen Bissregistrierung; 0220 daneben nicht abrechenbar |
+| 0213 | Basis für Bissregistrierung | 1 | nur wenn die Restzähne keine ausreichende Okklusionsabstützung bieten; einmal je Basis |
+| 0220 | Bisswall | 1 | nur zusammen mit 0201/0213, nie allein |
+| 1550 | Konditionierung je Zahn/Flügel | je Zahneinheit | nur bei Kompositverblendung 1640 an der Rückenschutzplatte; Konditionieren von Sätteln ist über 1550 nicht abrechenbar |
+| 1600 | Vestibuläre Verblendung Kunststoff | je Zahneinheit | alternativ zu 1640; nur innerhalb VG OK 15–25/UK 34–44, nur an Rückenschutzplatte 2081 |
+| 1610 | Zahnfleisch Kunststoff | je Zahneinheit | zusätzlich zu 1600 |
+| 1640 | Vestibuläre Verblendung Komposite | je Zahneinheit | alternativ zu 1600; nur innerhalb VG |
+| 1650 | Zahnfleisch Komposite | je Zahneinheit | zusätzlich zu 1640 |
+| 2021 | Einarmige gegossene Haltevorrichtung | je Klammer | bei UK ohne anfertigbaren Sublingualbügel (fortlaufende Klammer); nicht mehrfach an einem Zahn |
+| 2025 | Kralle | je Kralle | nur an Frontzähnen, nicht am Seitenzahn |
+| 2026 | Ney-Stiel | je Ney-Stiel | bei sattelferner Gestaltung; nicht neben 2050 und nicht neben 2028 |
+| 2027 | Auflage | je Auflage | nur wenn die Auflage nicht in direkter Verbindung mit einer Haltevorrichtung steht (nicht Bestandteil 2041) |
+| 2028 | Umgehungsbügel bei Diastema | je Diastema | nur im Frontzahnbereich; 2026 nicht zusätzlich |
+| 2031 | Zweiarmige gegossene Haltevorrichtung | je Klammer | alternativ zu 2041 (Klammer ohne Auflage) |
+| 2050 | Bonwillklammer | je Bonwillklammer | bei Frontzahnlücke ohne ausreichende Abstützung; 2026 nicht zusätzlich |
+| 2081 | Rückenschutzplatte | je Zahneinheit | bei vestibulär verblendetem Sattelzahn; 3020/3030/3620 für dieselbe Einheit nicht daneben |
+| 2082 | Metallzahn, gegossen | je Zahn | bei verengter Einzelzahnlücke oder ungünstigen Bissverhältnissen; 3020/3030/3620 nicht daneben |
+| 2083 | Metallkaufläche, gegossen | je Zahn | bei ungünstigen Biss- und Okklusionsverhältnissen; 3020/3030/3620 nicht daneben |
+| 2100 | Lösungshilfe | je Lösungshilfe | bei stark retentiven Klammern; gebogen ausgeführt stattdessen 3800 |
+| 3410 | Übertragung je Zahn | je Zahn | nur als Folgeleistung von 3020; nicht neben 3030 für denselben Zahn |
+| 3800 | Einfache gebogene Halte-/Stützvorrichtung | je Klammer | gebogene statt gegossener Klammer; vorgebogene Konfektionsteile nicht berechenbar |
+| 3805 | Gebogene Auflage | je Zahn | zusätzlich zu 3800 |
+| 3810 | Sonstige gebogene Halte- und/oder Stützvorrichtung | je Klammer | komplexere gebogene Halte-/Stützvorrichtung |
+| 3821 | Weichkunststoff | 1 | einmal je Kiefer; Folgeleistung zu 3610 |
+| 3822 | Sonderkunststoff | 1 | nur bei zahnärztlicher Indikationsstellung; einmal je Kiefer |
+| 3830 | Zahn zahnfarben hergestellt | je Zahn | nur wenn aus anatomischen Gründen kein Konfektionszahn verwendbar; 3020/3030/3410/3620 und 3840 nicht daneben |
+| 3840 | Zahn zahnfarben hinterlegen | je Zahn | OK bis Zahn 5, UK bis Zahn 4; 3830 nicht daneben |
 
 # Material
 
 | Material | Menge | Bemerkung |
 |--------|--------|--------|
-| CoCr-Legierung (Modellguss) | ca. 15-25 g | Modellguss-Legierung; gemäß BEL-Ergänzung 201 0 NICHT zusätzlich abrechenbar (im Leistungsinhalt BEL 2010 enthalten) — Information nur für Kalkulation |
-| Konfektionszähne Seitenzähne | je | je ersetzter Seitenzahn |
-| Konfektionszähne Frontzähne | je | bei Frontzahnbeteiligung |
-| Prothesenkunststoff (PMMA) | — | für Sattel-Anteile |
-| Modellgips (Hartgips/Superhartgips) | — |  |
-| Einbettmasse | — | für Gussvorgang |
-| Dublierform / Dubliermasse | — | für Modellguss-Dublierung |
+| Prothesenzähne Seitenzahngarnitur (Konfektionszähne) | je ersetzter Seitenzahn | gesondert nach §2 Nr. 4 BEL II (künstliche Zähne); Art, Menge und Preis ausweisen |
+| Prothesenzähne Frontzahngarnitur (Konfektionszähne) | je ersetzter Frontzahn | bei Frontzahnbeteiligung; gesondert nach §2 Nr. 4 BEL II |
+| Weich-/Sonderkunststoff | nach Verbrauch | nur bei 3821/3822; gesondert nach §2 Nr. 4 BEL II |
 
 # Hinweise
 
-Modellguss-Teilprothese mit CoCr-Gerüst und Schaltlücke (Pfeilerzähne beidseits der Lücke vorhanden, statisch günstiger als Freiend) ist GKV-Regelversorgung; Festzuschuss-Befund je nach Lückenausdehnung gemäß FZ-RL 2024-11-21 (iK 2025-01-01): 2.1 (1 Zahn) / 2.2 (2 Zähne) / 2.3 (3 Zähne) / 2.4 (4 Frontzähne) bei zahnbegrenzter Lücke, ergänzend 2.5 (angrenzende weitere Lücke), ggf. 2.7 (Verblendzuschlag im Verblendbereich); 3.1 wenn keine 2.x-Befunde passen. Pro Schaltlücke werden in der Regel 4 Halteelemente abgerechnet (zwei je Seite/Pfeilerzahn; einmal je Metallverbindung). BEL 2110 (Unterfütterbarer Abschlussrand) ist bei reiner Schaltlücke NICHT abrechenbar (gemäß §12b nur bei Totalprothese/Deckprothese; keine Resilienzlagerung). BEL 9700 (Verarbeitungsaufwand NEM) ist gemäß §18 NICHT für Modellgussgerüste abrechenbar. BEL 9330 nur für gewerbliche Labore. Bei Material-Wechsel auf Titan oder CAD-CAM wechselt die Versorgung zu gleichartig (siehe `gleichartig/Titan_Schaltprothese.md` bzw. `gleichartig/CAD-CAM_CoCr_Freiend.md`). Bei kombinierter Freiend- und Schaltsituation wechselt die Vorlage zu `CoCr_Kombiniert.md`. Bei vestibulär verblendeten Klammerpfeilern im Verblendbereich (OK 15–25 / UK 34–44 gemäß §15) kommen BEL 2081 + BEL 1600/1640 + 1610/1650 hinzu; Vollverblendung oder Verblendung außerhalb des Bereichs → gleichartig.
+- Anwendungsbedingung: nur bei Befund 3.1. Entspricht die Lücke den Befunden 2.1 bis 2.5, ist die Regelversorgung eine Brücke — eine herausnehmbare Modellgussprothese ist dann ANDERSARTIG (komplett GOZ/BEB, keine Abrechnung über die KZV, Kasse zahlt den Festzuschuss an den Versicherten)
+- Nicht ansetzbar: 9700 (die Erläuterung zu 9700 zählt die Leistungen abschließend auf — 0240, 1013, 1021–1024, 1026, 1028, 1040, 1050, 1100, 1200, 1201, 1331; 2010 fehlt darin); 2120 (nur bei Instandsetzung einer Modellgussprothese oder Kunststoffprothese mit gegossenen Halteelementen, neben 2010 und neben 2081 ausgeschlossen); 2110 (nur bei Totalprothese oder schleimhautgetragener Deckprothese, einmal je OK-Metallbasis, nicht für den Abschlussrand einzelner Sättel); 0053 (Modell nach Überabdruck ist eine Stumpfmodell-Alternative — beim Klammer-Modellguss ohne Stümpfe ist das Meistermodell 0010)
+- Private Zusatzleistungen (BEB) sind NICHT Teil der BEL-Regelversorgung — jede ausgelöste BEB-Position macht die Versorgung gleichartig (schriftliche Mehrkostenvereinbarung): 0301 Zahn vermessen, 0302 Modell vermessen (0301/0302 nie nebeneinander für denselben Kiefer), 0303 Modell ausblocken, 0706 Foto- oder Video-Dokumentation, 0710 Eilterminzuschlag, 0721/0722 Zeiteinheiten, 0723/0724 Zahnfarbenbestimmung, 0732 Desinfektion, 0834 Diagnostisches Aufstellen, 1251 Vorwall, 5308 Modellgussteil konditionieren, 0701 Versand (Praxislabor statt BEL 9330)
+- BEL 9330 entfällt im Praxislabor; dort wäre nur BEB 0701 möglich — das macht die Versorgung gleichartig
+- → Vorlage ../gleichartig/Titan_Schaltprothese bei Titan-Gerüst; → ../gleichartig/CAD-CAM_CoCr_Freiend bei CAD-CAM-Fertigung; → CoCr_Kombiniert bei kombinierter Freiend- und Schaltsituation; → ../../Kombinationsarbeit/ bei Befund 3.2 (verkürzte Zahnreihe mit dentaler Verankerung, zweimal je Kiefer ansetzbar)
+- Im Leistungspreis enthalten: CoCr-Modellgusslegierung, Modellgips (Hartgips), Superhartgips, Einbettmasse und feuerfestes Duplikatmodell, Dubliersilikon/Dublierform, Prothesenkunststoff (PMMA), konfektionierte (vorgebogene) Klammern, Konditionierungsmittel

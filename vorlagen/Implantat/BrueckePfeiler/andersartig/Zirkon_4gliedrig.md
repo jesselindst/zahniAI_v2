@@ -1,93 +1,119 @@
-| Bereich | Autor | erstellt am | Version |
-|--------|--------|--------|--------|
-| Implantatversorgung / Brücke (Implantat-Pfeiler) / andersartig | CLAUDE | 2026-04-27 | v1 |
+# Festzuschuss
+
+- Befund: maßgeblich ist die Ausgangssituation VOR der Implantation — eine 4-gliedrige Brücke auf 2 Implantaten ersetzt VIER nebeneinander fehlende Zähne (beide Implantatpositionen waren ebenfalls zahnlos). Frontzahnlücke mit vier nebeneinander fehlenden Zähnen → 2.4 je Kiefer; im Seitenzahngebiet entspricht die Lücke keinem der Befunde 2.1 bis 2.5 → 3.1 je Kiefer (Lückensituation II, Regelversorgung ist herausnehmbarer Zahnersatz). Zusätzlich 2.7 je Verblendung für einen ersetzten Zahn bzw. für einen der Lücke angrenzenden Anker, nur im Verblendbereich OK 15–25 / UK 34–44 und nur neben einem Befund der Klasse 2 (hier bis 4×). Die Zahl der fehlenden Zähne immer aus dem Befund ableiten, nicht aus der Gliederzahl; Klasse 7 nur bei Erneuerung/Wiederherstellung einer vorhandenen Suprakonstruktion
+- Versorgungsform: andersartig (implantatgetragene Brücke statt der zahngetragenen bzw. herausnehmbaren Regelversorgung = Wechsel der Versorgungsart; Zirkon CAD-CAM gefräst, vollverblendet, verschraubt)
+- Abrechnungsweg: Direktabrechnung Zahnarzt↔Patient nach GOZ (Labor als Auslagen § 9 GOZ, üblich BEB); keine KZV-Abrechnung des ZE-Anteils, die Kasse erstattet den bewilligten Festzuschuss an den Versicherten; HKP vor Behandlungsbeginn genehmigen lassen, Laborrechnung der Zahnarztrechnung beifügen (§ 10 Abs. 3 GOZ)
+- FZ-Satz: 60 % | Bonus 5 J: 70 % | 10 J: 75 % | Härtefall: 100 % der festgesetzten RV-Beträge — bei andersartig wirkt der Härtefall NUR auf diesen fixen Betrag, alles darüber bleibt Eigenanteil; der Festzuschuss wird höchstens in Höhe der tatsächlich entstandenen Kosten gewährt (Bonusheft prüfen)
 
 # Basisleistungen
 
 | BEB97 | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 0018 | Modell bei Implantatversorgung | 1 |  |
-| 0002 | Modell aus Superhartgips | 1 | Gegenkiefermodell |
-| 0021 | Modell für Sägesegmente | 1 |  |
-| 0051 | Sägemodell | 1 |  |
-| 0052 | Einzelstumpfmodell | 2 | je Pfeiler |
-| 0228 | Bisswall bei Implantatversorgung | 1 | bei Bissregistrierung |
-| 0240 | Übertragungskappe Kunststoff/Metall | 2 | je Implantatpfeiler |
-| 0128 | Mittelwertartikulator bei Implantatversorgung | 1 |  |
-| 0817 | Implantatabutment-Auswahl | 2 | je Implantatpfeiler |
-| 0876 | Abutment scannen | 2 |  |
-| 0887 | CAD/CAM Konstruktion individuelles Abutment | 2 |  |
-| 2031 | Individuellen Implantataufbau für Kronen oder Brückenpfeiler herstellen | 2 |  |
-| 0850 | 3D-Auftragsanlage / CAD/CAM-Auftragsanlage | 1 |  |
-| 0891 | CAD/CAM Modell einscannen | 1 |  |
-| 0918 | CAD/CAM Konstruktionsgrenze festlegen | 4 | 2 Anker + 2 Brückenglieder |
-| 0917 | Konstruktion CAD-Krone zur Verblendung | 4 |  |
-| 2810 | CAD/CAM-Krone, vollständig verblendet | 2 |  |
-| 2815 | CAD/CAM-Brückenglied, vollständig verblendet | 2 |  |
-| 2823 | CAD/CAM-Fräsen/-Schleifen einer CAD/CAM-Einheit | 4 |  |
-| 2832 | CAD/CAM Krone/Brückenglied nacharbeiten | 4 |  |
-| 2863 | Mehraufwand Sintern, je Auftrag | 1 |  |
-| 2612 | Mehrflächige Verblendung aus Keramik | 4 | je Element vollverblendet |
-| 2972 | Aufwand zu Suprastruktur bei verschraubbarem Implantat | 2 | je Pfeiler |
-| 2973 | Bearbeiten eines Implantataufbaus | 2 |  |
-| 3905 | Verschraubung konfektioniert | 2 |  |
-| 0701 | Versand je Versandgang | 2 |  |
+| 0018 | Modell bei Implantatversorgung | 1 | Arbeitsmodell mit Modellanalogen; alternativ zu 0021/0051 |
+| 0002 | Modell aus Superhartgips | 1 | Gegenkiefermodell; nur bei konventioneller Abformung |
+| 0128 | Mittelwertartikulator bei Implantatversorgung | 1 | je Auftrag |
+| 0817 | Implantatabutment-Auswahl | 2 | je Implantat |
+| 0850 | 3D-Auftragsanlage / CAD/CAM-Auftragsanlage | 1 | je Auftrag |
+| 0891 | CAD/CAM Modell einscannen | 2 | je gescanntem Modell (Arbeits- + Gegenkiefermodell) |
+| 0918 | Konstruktionsgrenze festlegen / mit Software markieren | 2 | je Pfeiler (Abutment/Klebebasis); Brückenglieder haben keine Präparationsgrenze |
+| 0917 | Konstruktion CAD-Krone zur Verblendung | 2 | je Anker; namensgleiche Katalog-Dublette 2848 nicht zusätzlich ansetzen |
+| 2847 | Konstruktion CAD-Brückenglied zur Verblendung | 2 | je Brückenglied |
+| 2823 | CAD/CAM-Fräsen/-Schleifen einer CAD/CAM-Einheit | 4 | je Zahneinheit (2 Anker + 2 Glieder); bei Kalkulation je Fräsjob Menge 1 |
+| 2832 | CAD/CAM Krone/Brückenglied nacharbeiten | 4 | je gefräster Zahneinheit |
+| 2863 | Mehraufwand Sintern, je Auftrag | 1 | Dichtsinterbrand Zirkon |
+| 2612 | Mehrflächige Verblendung aus Keramik | 4 | je vollverblendeter Zahneinheit; nicht neben 2810/2815/2876/2875 |
+| 2972 | Aufwand zu Suprastruktur bei verschraubbarem Implantat | 2 | je Implantatpfeiler; nur verschraubte Variante |
+| 3905 | Verschraubung/Verbolzung | 2 | je Schraube; alternativ zu 3906 |
+| 3628 | Fertigstellen je Zahneinheit bei Implantatversorgung | 4 | je Zahneinheit |
+| 0701 | Versand je Versandgang | 2 | je Einlieferung/Abholung |
 
 # Zusatzleistungen
 
 | BEB97 | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 0221 | Hilfsteil in Abdruck | 2 | je Implantat bei Abdruckabformung |
-| 0223 | Zahnfleischmaske, abnehmbar | 2 | je Implantatpfeiler; bei Gingivaformation |
-| 0959 | Übertragungsschlüssel/Einbringhilfe, je Implantat | 2 | bei Bedarf |
-| 0118 | Implantatfrässtumpf | 2 | bei vorgefertigtem Frässtumpf |
-| 0019 | Frässockel | 2 | bei individuellem Frässtumpf benötigt |
-| 0224 | Modellimplantat repositionieren | 2 | bei Bedarf |
-| 0225 | Implantatpfosten auf Modellierimplantat aufschrauben | 2 |  |
-| 1869 | Provisorische Krone/Brückenglied auf Implantat | 4 | bei provisorischer Versorgung |
-| 1351 | Vorwall und Zähne nach Einprobe über Implantat anpassen | 1 | nach Einprobe-Korrektur |
-| 1550 | Konditionierung je Zahn/Flügel | 4 | bei Bedarf |
-| 2032 | Verlängerungshülse für Implantat | 2 | bei tiefer Implantatposition oder Divergenz-Ausgleich |
-| 2974 | Drehsicherungsstopp bei Implantat | 2 | bei Bedarf |
-| 2971 | Aufwand bei Suprastruktur auf zementierbarem Implantat | 2 | Alternative zu 2972 bei zementierbarer Versorgung |
-| 2975 | Bearbeiten eines Implantataufbaus aus Keramik | 2 | bei Zirkon-Abutment |
-| 2983 | Titan verarbeiten bei fest sitzendem Zahnersatz | 2 | bei Titan-Abutment-Bearbeitung |
-| 2952 | Zuschlag bei Verarbeitung von Spezialkeramik | 4 | bei Sonderkeramik |
-| 2959 | Mehraufwand durch Rohbrandeinprobe | 1 | bei Bedarf |
-| 2951 | Individuell charakterisieren, Keramik | 4 | bei Sonderfarbung |
-| 2963 | Mehrere Farben in Kronen- oder Brückenverband | 1 | bei mehreren Farben |
-| 2675 | Schulter aus Keramik/Glas | 4 | bei Pontic-Schultergestaltung |
-| 2676 | Papille aus Keramik/Glas | 2 | bei ästhetischer Papillenformung je Brückenglied |
-| 2677 | Zahnfleisch aus Keramik/Glas | 4 | bei Zahnfleisch-Keramik am Pontic/Pfeiler |
-| 2678 | Wurzelpontic aus Keramik/Glas | 2 | bei Wurzelpontic-Design (je Brückenglied) |
-| 2679 | Sattelpontic aus Keramik/Glas | 2 | bei Sattelpontic-Design (je Brückenglied) |
-| 2802 | Kaufläche gnathologisch gestaltet, in Keramik | 4 | bei gnathologischer Kauflächengestaltung |
-| 2804 | Frontzahn gnathologisch gestaltet, in Keramik | 4 | bei gnathologischer Frontzahngestaltung |
-| 2811 | Selektives Einschleifen nach Remontage/Krone, Brückenglied, Inlay | 1 | bei Okklusionskontrolle nach Remontage |
-| 2915 | Okklusaler Stop | je | bei Stop-Funktion im Verbund |
-| 3906 | Verschraubung individuell | 2 | Alternative zu 3905 bei individuell gefertigter Schraube |
-| 2840 | Endkontrolle unter Stereomikroskop | 1 | bei Bedarf |
-| 3628 | Fertigstellen je Zahneinheit bei Implantatversorgung | 4 | bei Bedarf |
-| 0723 | Zahnfarbenbestimmung I | 1 |  |
-| 0724 | Zahnfarbenbestimmung II | 1 | bei mehreren Farben |
-| 0732 | Desinfektion | 2 |  |
+| 0021 | Modell für Sägesegmente | 1 | alternativ zu 0018/0051 als Arbeitsmodell |
+| 0051 | Sägemodell | 1 | alternativ zu 0018/0021 als Arbeitsmodell |
+| 0052 | Einzelstumpfmodell | 1 | bei zusätzlichem Einzelstumpfmodell, einmal je Abformung |
+| 0019 | Frässockel | 1 | bei Fräsobjekt, einmal je Fräsobjekt |
+| 0118 | Implantatfrässtumpf | 2 | bei Frässtumpf-Technik, je Implantatfrässtumpf |
+| 0224 | Modellimplantat repositionieren | 2 | nur bei konventioneller Abformung, je Implantatpfeiler |
+| 0225 | Implantatpfosten auf Modellierimplantat aufschrauben | 2 | nur bei Arbeit auf Modellanalog, je Implantatpfosten |
+| 1864 | Kamingestaltung für Implantatabformung, je Abformpfosten | 2 | bei offener Löffelabformung |
+| 0959 | Übertragungsschlüssel/Einbringhilfe, je Implantat | 2 | bei Übertragungsschlüssel |
+| 1226 | Einbringhilfe, je Abutment | 2 | alternativ zu 0959 |
+| 0240 | Übertragungskappe Kunststoff/Metall | je Zahn | nur bei im Labor gefertigter Kappe; konfektionierte Transferkappen sind Konfektionsteile (Material) |
+| 0223 | Zahnfleischmaske, abnehmbar | 1 | bei Zahnfleischmaske, je Kiefersegment |
+| 1872 | Scanbody einscannen (Implantatworkflow) | 2 | bei Intraoralscan statt Abformung, statt 0891 |
+| 0940 | Scanbody einschrauben und scannen | 2 | alternativ zu 1872 bei Scan am Modell |
+| 0856 | 3D-Modell, gedruckt | 1 | bei modellfreier Route mit gedrucktem Arbeitsmodell, statt 0018 |
+| 0961 | Intraoralscan konvertieren | 1 | bei Intraoralscan statt Abformung |
+| 0907 | Digitaler Datenversand | 1 | bei STL-Transfer an externes Fräszentrum |
+| 0876 | Abutment scannen | 2 | nur Zweig B (individuelles CAD-CAM-Abutment), je Abutment |
+| 0887 | CAD/CAM Konstruktion individuelles Abutment | 2 | nur Zweig B, je Abutment |
+| 2031 | Individuellen Implantataufbau für Kronen oder Brückenpfeiler herstellen | 2 | nur Zweig B, je Aufbau; alternativ zu 2973/2975/2165 |
+| 2973 | Bearbeiten eines Implantatkopfes | 2 | nur Zweig A (konfektioniertes Metall-Abutment), je Aufbau; alternativ zu 2031 |
+| 2975 | Bearbeiten eines Implantataufbaus aus Keramik | 2 | nur Zweig A bei konfektioniertem Keramik-/Zirkon-Abutment; nicht neben 2165 |
+| 2165 | Individuelles Keramikabutment inkl. Verklebung auf Basis | 2 | nur Zweig C (Zirkon direkt auf Titan-Klebebasis verklebt), je Implantateinheit |
+| 2032 | Verlängerungshülse für Implantat | 2 | bei tiefer Implantatposition oder Divergenzausgleich, je Hülse |
+| 2974 | Drehsicherungsstopp bei Implantat | 2 | bei rotationssymmetrischem Aufbau, je Implantataufbau |
+| 2983 | Titan verarbeiten bei fest sitzendem Zahnersatz | 2 | bei Titanbearbeitung, prozentualer Zuschlag je Einheit |
+| 2971 | Aufwand bei Suprastruktur auf Implantat | 2 | nur zementierte Variante, je Pfeiler; alternativ zu 2972, nie kumulativ |
+| 3906 | Verschraubung individuell | 2 | alternativ zu 3905, nie kumulativ |
+| 1012 | Basis aus Kunststoff, auf Implantat | 1 | nur bei erforderlicher Bissregistrierung, je Basis |
+| 0228 | Bisswall bei Implantatversorgung | 1 | nur bei erforderlicher Bissregistrierung, nur zusammen mit 1012 |
+| 1869 | Provisorische Krone/Brückenglied auf Implantat | 4 | bei laborgefertigtem Provisorium, je Einheit |
+| 1351 | Vorwall und Zähne nach Einprobe über Implantat anpassen | 1 | nach Einprobe-Korrektur, je Vorwall |
+| 2959 | Mehraufwand durch Rohbrandeinprobe | 4 | bei Rohbrandeinprobe, je Zahneinheit |
+| 2810 | CAD/CAM-Krone, vollständig verblendet | 2 | alternativ zu 0917 + 2612 als Komplettposition (dann kein 2612) |
+| 2815 | CAD/CAM-Brückenglied, vollständig verblendet | 2 | alternativ zu 2847 + 2612 als Komplettposition (dann kein 2612) |
+| 2876 | Zirkonoxidkrone, individuell verblendet | 2 | alternativ zur CAD-Kette, wenn das Labor die Zirkon-Komplettposition führt |
+| 2875 | Zirkonoxidbrückenglied, individuell verblendet | 2 | alternativ zur CAD-Kette; nicht neben 2612 |
+| 2611 | Teilverblendung aus Keramik | 4 | alternativ zu 2612 bei nur partieller Verblendung |
+| 2675 | Schulter aus Keramik/Glas | 4 | bei Keramikschulter, je Zahneinheit |
+| 2676 | Papille aus Keramik/Glas | 3 | bei Papillen-Schichtung, je Interdentalraum (im Verband max. 3) |
+| 2677 | Zahnfleisch aus Keramik/Glas | 4 | bei Gingiva-Anteil/Alveolaratrophie, je Zahn |
+| 2678 | Wurzelpontic aus Keramik/Glas | 2 | bei Wurzelpontic-Design, je Pontic; alternativ zu 2679 |
+| 2679 | Sattelpontic aus Keramik/Glas | 2 | bei Sattelpontic-Design, je Pontic; alternativ zu 2678 |
+| 2802 | Kaufläche nach gnathologischen Kriterien gestaltet, in Keramik | je Kaufläche | 2802 + 2804 zusammen höchstens 4 (Zahl der Zahneinheiten) |
+| 2804 | Frontzahn nach gnathologischen Kriterien gestaltet, in Keramik | je Frontzahn | 2802 + 2804 zusammen höchstens 4 (Zahl der Zahneinheiten) |
+| 2951 | Individuell charakterisieren, Keramik | 4 | bei Abweichung von der Standardfarbe, je Zahneinheit |
+| 2952 | Zuschlag bei Verarbeitung von Spezialkeramik | 4 | bei nicht normgerechter/niederschmelzender Keramik, je Zahneinheit |
+| 2963 | Mehrere Farben in Kronen- oder Brückenverband | 1 | Ausführungsaufwand je zusätzlicher Zahnfarbe (0724 = Farbbestimmung) |
+| 2811 | Selektives Einschleifen nach Remontage/Krone, Brückenglied, Inlay | 4 | je Zahneinheit (Anker + Glieder) |
+| 2915 | Okklusaler Stop | je Stop | bei okklusalem Stop |
+| 2922 | Krone/Inlay/Brückenglied aufpassen | 4 | nur bei gefertigtem Kontrollmodell oder Zweitstumpf, je Zahneinheit |
+| 5306 | Keramik/gegossenes Glas konditionieren | 2 | nur Klebefläche Zirkongerüst/Titan-Klebebasis, je Klebestelle |
+| 1550 | Konditionierung je Zahn/Flügel | 2 | alternativ zu 5306, je Klebestelle; kein genereller Zuschlag je Zahneinheit |
+| 2840 | Endkontrolle unter Stereomikroskop | 1 | bei Mikroskop-Endkontrolle |
+| 0951 | Zahnfarbenbestimmung – Gingivafarbe | 1 | bei Gingiva-Anteil aus Keramik |
+| 0955 | Zahnfarbenbestimmung, digital | 1 | alternativ zu 0723/0724 |
+| 0723 | Zahnfarbenbestimmung I | 1 | bei Verblendung/zahnfarbener Arbeit |
+| 0724 | Zahnfarbenbestimmung II | 1 | bei Mehrfarb-/Schichttechnik |
+| 0732 | Desinfektion | 2 | Eingangs- + Ausgangsdesinfektion, je Vorgang |
 | 0710 | Eilterminzuschlag | 1 | bei urgency=urgent/express |
-| 0706 | Foto- oder Video-Dokumentation | 1 | bei Bedarf |
-| 0721 | Zeiteinheit; Zahntechniker-Meister | je |  |
-| 0722 | Zeiteinheit; Zahntechniker | je |  |
+| 0706 | Foto- oder Video-Dokumentation | 1 | bei Dokumentationsbedarf |
+| 0721 | Zeiteinheit; Zahntechniker-Meister | je | bei Sonderaufwand, je angefangene Zeiteinheit (15 min); nur für nicht im Katalog abgebildete Leistungen |
+| 0722 | Zeiteinheit; Zahntechniker | je | bei Sonderaufwand, je angefangene Zeiteinheit (15 min); nur für nicht im Katalog abgebildete Leistungen |
+| 0702 | Sonderversand oder Fahrtkosten | 1 | bei Express-/Sonderlogistik |
+| 0221 | Hilfsteil in Abdruck | je Implantat | bei konventioneller Abformung: Laboranalog/Hilfsteil in den Abdruck einsetzen; entfällt bei rein digitaler Abformung |
 
 # Material
 
 | Material | Menge | Bemerkung |
 |--------|--------|--------|
-| Titan-Rohling (für individuelle Abutments) | 2 Stück |  |
-| CAD/CAM Block Zirkon | 1 Stück | für 4-gliedriges Gerüst |
-| Verblendkeramik | — | Schichtkeramik (4 Glieder) |
-| Verschraubung (konfektioniert) | 2 Stück |  |
-| Modellgips (Superhartgips) | — |  |
-| Modellanalog | 2 Stück |  |
-| Gingivamaske (Silikon) | — |  |
+| TiBase/Klebebasis (rotationsgesichert) | 2 Stück | je Implantat; gesondert: Einkaufspreis zzgl. Beleg |
+| Zirkon-Blank | 1 Stück | für das 4-gliedrige Gerüst; gesondert: Einkaufspreis zzgl. Beleg |
+| Modellanalog | 2 Stück | je Implantat; gesondert: Einkaufspreis zzgl. Beleg |
+| Abformpfosten/Scanbody | 2 Stück | je Implantat; ersetzt die konfektionierte Transferkappe (nicht BEB 0240) |
+| Okklusalschraube konfektioniert | 2 Stück | je Implantat; gesondert: Einkaufspreis zzgl. Beleg |
+| Titan-Rohling für individuelles Abutment | 2 Stück | nur Zweig B (individuelles CAD-CAM-Abutment); gesondert: Einkaufspreis zzgl. Beleg |
+| MDP-Verbundkleber/Primer | nach Verbrauch | nur bei Verklebung Zirkon/Klebebasis |
 
 # Hinweise
 
-4-gliedrige Implantatbrücke aus Zirkon (2 Anker + 2 Brückenglieder), CAD-CAM gefräst, vollverblendet — andersartige Versorgung (Standardfall Implantat). Patient erhält Festzuschuss in Höhe der hypothetischen Brücken-Regelversorgung (Befund 2.2 zahnbegrenzte Lücke mit zwei nebeneinander fehlenden Zähnen). Implantatchirurgie und Suprakonstruktion komplett privat (BEB97 + GOZ). HKP-Antrag erforderlich für Festzuschuss. Bei 3 Implantaten als Pfeiler oder anderer Spannweite Mengen entsprechend anpassen.
+- Verblendung entweder-oder: Gerüstkette 0917/2847 + 2612 (hier gewählt) ODER Komplettposition 2810/2815 ohne 2612 ODER Zirkon-Komplettposition 2876/2875 ohne 2612 — nie kumulativ; 2823/2832/2863 gehören zur Gerüstkette
+- Variantenweiche: verschraubt → 2972 + 3905 (bzw. 3906, nie beide); zementiert → 2971 statt 2972, kein 3905/3906. Abutment-Weiche: Zweig A konfektioniert (2973 Metall bzw. 2975 Keramik) — Zweig B individuell CAD-CAM (0876 + 0887 + 2031) — Zweig C direkt auf Klebebasis (2165); je Aufbau nur ein Zweig
+- Spannweite: Mengen gelten für 2 Anker + 2 Brückenglieder auf 2 Implantaten; bei 3 Implantatpfeilern oder anderer Gliederzahl alle je-Einheit-Mengen entsprechend anpassen. Implantat, Aufbau und implantatbedingte Verbindungselemente sind nie festzuschussfähig; Begleitleistungen (Röntgen, Anästhesie, KCH/PAR) bleiben vertragszahnärztlich über die KZV
+- Nicht ansetzbar: 0731 Individuelle Namenskennzeichnung (nur herausnehmbarer ZE/KFO-Gerät); BEL-Positionen insgesamt — in dieser Versorgungsform gibt es keinen über die KZV abrechenbaren BEL-Anteil. 0228 nie allein (immer mit Basis 1012); 0240 nur für die im Labor gefertigte Kappe
+- VERIFIZIEREN: (a) Befundzuordnung bei vier nebeneinander fehlenden Zähnen im Seitenzahngebiet — 3.1 (hier angesetzt, da 2.4 laut Katalogwortlaut nur die Frontzahnlücke erfasst) oder eine Befundkombination der Klasse 2; (b) hausinterne Definition von 0018/0021/0051/0052 und 0240 (position_type „individuell", kein BEB97-Originaltext); (c) welches Element der namensgleichen Paare 0876/1850, 0891/1865/0924 und 0917/2848 verbindlich gilt; (d) ob statt 2165 die Tertiärstruktur-Positionen 4009/4859 zu führen sind; (e) ob 2823 je Zahneinheit oder je Fräsjob kalkuliert wird
+- → ./Zirkon_3gliedrig bei drei Einheiten; → ./VMK_3gliedrig bei Metallgerüst; → ../Sonderfaelle/VMK_3gliedrig bei Ausnahmeindikation nach ZE-RL Nr. 36; → ../Privatleistung/Zirkon_4gliedrig bei PKV oder ohne HKP. Im Leistungspreis enthalten: Verblendkeramik, Sintermasse/Sinterhilfsmittel, Modellgips (Superhartgips), Silikon der Gingivamaske (Leistung 0223), Einbettmasse, Laborschrauben

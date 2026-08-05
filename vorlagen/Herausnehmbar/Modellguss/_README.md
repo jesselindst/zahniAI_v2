@@ -1,28 +1,40 @@
 # Modellguss — Versorgungsform-Entscheidung
 
-Teilprothese mit Klammern, ≥4 Pfeilerzähne (Befund 2.x bei Freiend, 3.x bei Schaltgebiss).
+Klammerverankerte Teilprothese mit gegossenem Metallgerüst.
+
+## Festzuschuss-Befunde
+
+| Befund | Situation |
+|---|---|
+| **3.1** | Alle zahnbegrenzten Lücken, die nicht 2.1–2.5 oder 4 entsprechen, **oder Freiendsituationen** (Lückensituation II) — **je Kiefer**. Das ist der tragende Modellguss-Befund; die Metallbasis (BEL 2010) ist im Leistungsumfang enthalten. |
+| **+3.2** | Zuschlag bei verkürzter Zahnreihe (beidseitig bis Eckzahn/1. Prämolar bzw. einseitig), max. 2× je Kiefer |
+
+**Nicht 2.7** — das ist der Verblendzuschuss je ersetztem Zahn im Verblendbereich und betrifft festsitzenden Zahnersatz, nicht das Modellgussgerüst.
+
+**Achtung Abgrenzung:** Bei den Lückenbefunden **2.1–2.5** ist die Regelversorgung eine **Brücke**. Ein Modellguss ist dort fachlich **andersartig** — für diesen Fall existiert im Bestand noch keine Zielvorlage (`andersartig/` fehlt).
 
 ## Versorgungsform-Tabelle
 
 | Versorgungsform | Material/Verfahren |
 |---|---|
-| `Regelversorgung/` | CoCr-Gerüst (Standard-BEL) |
+| `Regelversorgung/` | CoCr-Gerüst, gegossen (Standard-BEL) |
 | `gleichartig/` | Titan-Gerüst, CAD-CAM gefrästes Gerüst |
-| `Privatleistung/` | PKV oder Privatwunsch |
+| `Privatleistung/` | PKV, ohne HKP oder Komplett-Privatwunsch |
 
-**Andersartig nur wenn ZE-Typ-Wechsel**: z.B. Brücke statt Modellguss = `Festsitzend/Bruecke/andersartig/Freiend...`.
+CAD-CAM-Fertigung ist gleichartig, weil BEL 2010 (Metallbasis) den Gussweg voraussetzt — bei gefrästem Gerüst entfallen die gussgebundenen BEL-Positionen, der Gerüstanteil läuft über BEB.
 
-## Saddle-Type ist abrechnungsrelevant
+## Sattelform ist abrechnungsrelevant
 
-- `Freiend` (free_end) — Befundklasse 2.7
-- `Schaltprothese` (switch) — Schaltlücke
-- `Kombiniert` (combi) — Kombination Freiend + Schalt
+- `Freiend` (free_end) — Lückensituation II, Befund 3.1
+- `Schaltprothese` (switch) — nur Schaltlücken; bei 2.1–2.5 andersartig (s. o.)
+- `Kombiniert` (combi) — Freiend + Schaltlücke
 
-Pro Saddle-Type eigene Vorlage.
+Pro Sattelform eine eigene Vorlage.
 
 ## Entscheidungsbaum
 
-1. **PKV oder Privatwunsch?** → `Privatleistung/`
-2. **GKV**:
-   - **Titan oder CAD-CAM-CoCr?** → `gleichartig/`
-   - **CoCr Standard?** → `Regelversorgung/{SaddleType}.md`
+1. **PKV, kein HKP oder Komplett-Privatwunsch?** → `Privatleistung/`
+2. **GKV mit HKP**:
+   - **Lücke entspricht Befund 2.1–2.5 (Brücke wäre Regelversorgung)?** → andersartige Versorgung, Direktabrechnung GOZ, Kasse erstattet den Festzuschuss an den Versicherten
+   - **Titan oder CAD-CAM-CoCr?** → `gleichartig/` (Festzuschuss 3.1 bleibt, Mehrkosten privat)
+   - **CoCr gegossen?** → `Regelversorgung/{Sattelform}.md`

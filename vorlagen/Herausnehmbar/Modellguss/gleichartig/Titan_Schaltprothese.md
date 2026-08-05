@@ -1,95 +1,102 @@
-| Bereich | Autor | erstellt am | Version |
-|--------|--------|--------|--------|
-| Herausnehmbarer Zahnersatz / Modellguss / gleichartig | CLAUDE | 2026-04-27 | v1 |
+# Festzuschuss
+- Befund: 3.1 je Kiefer — genau einmal, unabhängig von Anzahl Lücken, Sätteln, ersetzten Zähnen und Klammern; gilt nur für zahnbegrenzte Lücken, die NICHT den Befunden 2.1 bis 2.5 entsprechen. Kein Zusatzbefund für die Verblendung (2.7 gehört zu den Brückenbefunden; die Verblendung der Rückenschutzplatte ist in 3.1 enthalten); 4.5 hier nicht ansetzbar (nur Befundklasse 4)
+- Versorgungsform: gleichartig (Titan-Gerüst statt CoCr = Materialmehrleistung) — nur bei Befund 3.1; bei 2.1 bis 2.5 ist die Regelversorgung eine Brücke, die herausnehmbare Prothese ist dann andersartig
+- Abrechnungsweg: RV-Anteil BEL über KZV; Titan-Mehrkosten privat als Auslagen nach §9 GOZ (üblich BEB), in EINER Laborrechnung getrennt ausgewiesen, kein Arbeitsschritt doppelt (§3 Abs. 3 BEL II)
+- FZ-Satz: 60 % | Bonus 5 J: 70 % | 10 J: 75 % | Härtefall: 100 % der festgesetzten RV-Beträge (§55 Abs. 2 SGB V) — bei gleichartiger Versorgung deckt der Härtefall NUR diesen Betrag, die Titan-Mehrkosten bleiben Eigenanteil; der Festzuschuss wird höchstens in Höhe der tatsächlich entstandenen Kosten gewährt
 
 # BEL-Positionen
 
 | BEL | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 0010 | Modell | 3 | Arbeitsmodell + Gegenkiefer + Situationsmodell |
-| 0053 | Modell nach Überabdruck | 1 | Meistermodell |
-| 0120 | Mittelwertartikulator | 1 |  |
-| 0211 | Individueller Löffel | 1 |  |
-| 0213 | Basis für Bissregistrierung | 1 |  |
-| 0220 | Bisswall | 1 |  |
-| 2010 | Metallbasis | 1 | Regelversorgungs-Anteil; Material-Mehraufwand Titan über BEB 4983; einmal je Kiefer |
-| 2041 | Zweiarmige gegossene Halte- und Stützvorr. m. Auflage | 4 | je Pfeilerzahn beidseits Schaltlücke (einmal je Metallverbindung) |
-| 3010 | Aufstellung, Grundeinheit | 1 |  |
-| 3020 | Aufstellen Wachs/Kunststoff je Zahn | je | je ersetzter Zahn auf Kunststoff-Sattel-Anteil |
-| 3030 | Aufstellen Metall je Zahn | je | je ersetzter Zahn auf Metallbasis |
-| 3610 | Fertigstellung Grundeinheit | 1 |  |
-| 3620 | Fertigstellen je Zahn | je | je ersetzter Zahn |
-| 9330 | Versandkosten | je | je Versandgang; nur gewerbliche Labore |
+| 0010 | Modell | 3 | Situations-, Meister- und Gegenkiefermodell; je tatsächlich hergestelltem Modell, kein Bezug zur Zahl der Abformungen |
+| 0120 | Mittelwertartikulator | 1 | einmal je Artikulation |
+| 0211 | Individueller Löffel | 1 | einmal je Kiefer; alternativ zu 0212 (Funktionslöffel nur bei Restzahnbestand bis 3 Zähnen oder zahnlos — dann Befund 4.x, nicht 3.1) |
+| 2010 | Metallbasis | 1 | einmal je Kiefer; Titan wird gegossen, der Gussvorbehalt der 2010 ist erfüllt — Materialmehraufwand über BEB 4983 |
+| 2041 | Zweiarmige gegossene Halte- und Stützvorr. m. Auflage | je Pfeilerzahn | einmal je Metallverbindung; Regelfall eine Schaltlücke = 2 (ein Pfeiler je Lückenseite), zwei Schaltlücken = 4 |
+| 3010 | Aufstellung, Grundeinheit | 1 | einmal je Kiefer |
+| 3020 | Aufstellen Wachs oder Kunststoff je Zahn | je ersetzter Zahn | alternativ zu 3030 — je Zahn nur eine der beiden Positionen |
+| 3030 | Aufstellen Metall je Zahn | je ersetzter Zahn | alternativ zu 3020 — je Zahn nur eine der beiden Positionen |
+| 3610 | Fertigstellung Grundeinheit | 1 | einmal je Kiefer |
+| 3620 | Fertigstellen je Zahn | je ersetzter Zahn | keine eigenständige Leistung, nur zusammen mit 3610 |
+| 9330 | Versandkosten | je Versandgang | nur Gewerbelabor; im Praxislabor stattdessen BEB 0701 |
 
 # Basisleistungen
 
-_Regelversorgungs-Anteil über BEL abgedeckt; Mehrleistungen Titan über BEB97 (Zusatzleistungen)._
+| BEB97 | Leistung | Menge | Bemerkung |
+|--------|--------|--------|--------|
+| 4983 | Titan verarbeiten bei herausnehmbarem Zahnersatz | 1 | einmal je Metallbasis; prozentualer Aufschlag, Bezugsgröße BEB 4002 (OK) bzw. 4004 (UK); bei einzeln gefertigten Titan-Klammern bzw. gegossenem Basisteil erneut ansetzbar |
 
 # Zusatzleistungen
 
-| BEL/BEB | Leistung | Menge | Bemerkung |
+| BEL | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| BEL 0201 | Basis für Vorbissnahme | 1 | bei Bedarf Vorbissnahme vor endgültiger Bissregistrierung |
-| BEL 2021 | Einarmige gegossene Haltevorrichtung | je | bei UK ohne Sublingualbügel |
-| BEL 2025 | Kralle | je | bei zusätzlicher Verankerung |
-| BEL 2026 | Ney-Stiel | je | bei sattelferner Gestaltung |
-| BEL 2027 | Auflage | je | einzeln, nicht Bestandteil 2041 |
-| BEL 2028 | Umgehungsbügel bei Diastema | je | bei Frontzahn-Diastema |
-| BEL 2031 | Zweiarmige gegossene Haltevorrichtung | je | Alternative zu 2041 ohne Auflage |
-| BEL 2050 | Bonwillklammer | je | bei Schaltlücke mit beidseitiger Auflage |
-| BEL 2081 | Rückenschutzplatte | je | bei vestibulärer Verblendung (schließt 3020/3030/3620 für selbe Einheit aus) |
-| BEL 2082 | Metallzahn, gegossen | je | bei ungünstigen Bissverhältnissen / verengten Einzelzahnlücken |
-| BEL 2083 | Metallkaufläche, gegossen | je | bei ungünstigen Biss-/Okklusionsverhältnissen |
-| BEL 2100 | Lösungshilfe | je | bei retentiven Klammern |
-| BEL 2120 | Zuschlag einzelne gegossene Klammer | 1 | wenn Klammer einzeln gefertigt; max 1 je Prothese |
-| BEL 3410 | Übertragung je Zahn | je | bei Übertragung einer Wachsaufstellung auf Metallbasis; je übertragener Zahneinheit |
-| BEL 3800 | Einfache gebogene Halte-/Stützvorrichtung | je | gebogene Klammer als Alternative zu gegossener |
-| BEL 3805 | Gebogene Auflage | je | zusätzlich zu 3800 abrechenbar |
-| BEL 3810 | Sonstige gebogene Halte- und/oder Stützvorrichtung | je | komplexere gebogene Haltevorr. |
-| BEL 3821 | Weichkunststoff | 1 | Verarbeitung von Weichkunststoff; max 1 je Prothese |
-| BEL 3822 | Sonderkunststoff | 1 | nur bei zahnärztlicher Indikationsstellung (§12b) |
-| BEL 3830 | Zahn zahnfarben hergestellt | je | nur wenn aus anatomischen Gründen kein Konfektionszahn verwendbar (§12b) |
-| BEL 3840 | Zahn zahnfarben hinterlegt | je | OK bis Zahn 5, UK bis Zahn 4 (§12b) |
-| BEL 1550 | Konditionierung je Zahn/Flügel | je | Metallflächenkonditionierung zur Komposit-Verblendung (nur mit 1640/1650) |
-| BEL 1600 | Vestibuläre Verblendung Kunststoff | je | im Verblendbereich (OK 15-25, UK 34-44) |
-| BEL 1610 | Zahnfleisch Kunststoff | je | ergänzend zu 1600 |
-| BEL 1640 | Vestibuläre Verblendung Komposite | je | Alternative zu 1600 |
-| BEL 1650 | Zahnfleisch Komposite | je | ergänzend zu 1640 |
-| BEB 4983 | Titan verarbeiten bei herausnehmbarem Zahnersatz | 1 | Mehraufwand Titan-Verarbeitung (Kern-Mehrleistung gleichartig) |
-| BEB 4101 | Einarmige Klammer | je | BEB-Alternative für einzeln gegossene einarmige Titan-Klammer |
-| BEB 4106 | Fortlaufende Klammer | je | fortlaufende gegossene Titan-Klammer als Ergänzung |
-| BEB 4107 | Gegenlager | je | BEB-Gegenlager zur Abstützung; zusätzlich zu Klammer |
-| BEB 4131 | Kappe | je | gegossene Titan-Kappe über Pfeilerzahn |
-| BEB 4201 | Gegossene Retention | je | je gegossener Titan-Retention für Kunststoffsattel-Verbund |
-| BEB 4202 | Gegossenes Basisteil | je | je gegossenem Titan-Basisteil |
-| BEB 4951 | Klammer einzeln gegossen | je | wenn Titan-Klammer separat (nicht direkt mit Metallbasis) gegossen |
-| BEB 0301 | Zahn vermessen | 4 | je Klammerzahn |
-| BEB 0302 | Modell vermessen | 1 |  |
-| BEB 0303 | Modell ausblocken | 1 |  |
-| BEB 0723 | Zahnfarbenbestimmung I | 1 |  |
-| BEB 0724 | Zahnfarbenbestimmung II | 1 | bei Sonderfarbe die keinem Konfektionsmuster entspricht |
-| BEB 0732 | Desinfektion | 2 | Eingangs- + Ausgangsdesinfektion |
-| BEB 0710 | Eilterminzuschlag | 1 | bei urgency=urgent/express |
-| BEB 0706 | Foto- oder Video-Dokumentation | 1 | bei Bedarf |
-| BEB 0721 | Zeiteinheit; Zahntechniker-Meister | je | bei Sonderaufwand |
-| BEB 0722 | Zeiteinheit; Zahntechniker | je | bei Sonderaufwand |
-| BEB 0834 | Diagnostisches Aufstellen von Konfektionszähnen | je | bei vorgängiger Wax-Up-Aufstellung |
-| BEB 1251 | Vorwall | je | je Sattel |
-| BEB 5308 | Modellgussteil konditionieren | je | je Sattel (Haftung Kunststoff↔Titan) |
-| BEB 0701 | Versand je Versandgang | je | bei Praxislabor (Alternative zu BEL 9330) |
+| 0201 | Basis für Vorbissnahme | 1 | bei Vorbissnahme vor der endgültigen Bissregistrierung; 0220 daneben nicht abrechenbar |
+| 0213 | Basis für Bissregistrierung | 1 | nur wenn die Restzähne keine ausreichende Okklusionsabstützung bieten; einmal je Basis |
+| 0220 | Bisswall | 1 | nur zusammen mit 0201/0213, nie allein |
+| 1550 | Konditionierung je Zahn/Flügel | je Zahneinheit | nur bei Kompositverblendung 1640 an der Rückenschutzplatte; Konditionieren von Sätteln ist über 1550 nicht abrechenbar |
+| 1600 | Vestibuläre Verblendung Kunststoff | je Zahneinheit | alternativ zu 1640; nur innerhalb VG OK 15–25/UK 34–44, nur an Rückenschutzplatte 2081 |
+| 1610 | Zahnfleisch Kunststoff | je Zahneinheit | zusätzlich zu 1600 |
+| 1640 | Vestibuläre Verblendung Komposite | je Zahneinheit | alternativ zu 1600; nur innerhalb VG |
+| 1650 | Zahnfleisch Komposite | je Zahneinheit | zusätzlich zu 1640 |
+| 2021 | Einarmige gegossene Haltevorrichtung | je Klammer | bei UK ohne anfertigbaren Sublingualbügel (fortlaufende Klammer); nicht mehrfach an einem Zahn |
+| 2025 | Kralle | je Kralle | nur an Frontzähnen, nicht am Seitenzahn |
+| 2026 | Ney-Stiel | je Ney-Stiel | bei sattelferner Gestaltung; nicht neben 2050 und nicht neben 2028 |
+| 2027 | Auflage | je Auflage | nur wenn die Auflage nicht in direkter Verbindung mit einer Haltevorrichtung steht (nicht Bestandteil 2041) |
+| 2028 | Umgehungsbügel bei Diastema | je Diastema | nur im Frontzahnbereich; 2026 nicht zusätzlich |
+| 2031 | Zweiarmige gegossene Haltevorrichtung | je Klammer | alternativ zu 2041 (Klammer ohne Auflage) |
+| 2050 | Bonwillklammer | je Bonwillklammer | bei Frontzahnlücke ohne ausreichende Abstützung; 2026 nicht zusätzlich |
+| 2081 | Rückenschutzplatte | je Zahneinheit | bei vestibulär verblendetem Sattelzahn; 3020/3030/3620 für dieselbe Einheit nicht daneben |
+| 2082 | Metallzahn, gegossen | je Zahn | bei verengter Einzelzahnlücke oder ungünstigen Bissverhältnissen; 3020/3030/3620 nicht daneben |
+| 2083 | Metallkaufläche, gegossen | je Zahn | bei ungünstigen Biss- und Okklusionsverhältnissen; 3020/3030/3620 nicht daneben |
+| 2100 | Lösungshilfe | je Lösungshilfe | bei stark retentiven Klammern; gebogen ausgeführt stattdessen 3800 |
+| 3410 | Übertragung je Zahn | je Zahn | nur als Folgeleistung von 3020; nicht neben 3030 für denselben Zahn |
+| 3800 | Einfache gebogene Halte-/Stützvorrichtung | je Klammer | gebogene statt gegossener Klammer; vorgebogene Konfektionsteile nicht berechenbar |
+| 3805 | Gebogene Auflage | je Zahn | zusätzlich zu 3800 |
+| 3810 | Sonstige gebogene Halte- und/oder Stützvorrichtung | je Klammer | komplexere gebogene Halte-/Stützvorrichtung |
+| 3821 | Weichkunststoff | 1 | einmal je Kiefer; Folgeleistung zu 3610 |
+| 3822 | Sonderkunststoff | 1 | nur bei zahnärztlicher Indikationsstellung; einmal je Kiefer |
+| 3830 | Zahn zahnfarben hergestellt | je Zahn | nur wenn aus anatomischen Gründen kein Konfektionszahn verwendbar; 3020/3030/3410/3620 und 3840 nicht daneben |
+| 3840 | Zahn zahnfarben hinterlegen | je Zahn | OK bis Zahn 5, UK bis Zahn 4; 3830 nicht daneben |
+
+| BEB97 | Leistung | Menge | Bemerkung |
+|--------|--------|--------|--------|
+| 0302 | Modell vermessen | 1 | einmal je Meistermodell; alternativ zu 0301 — nicht nebeneinander für denselben Kiefer |
+| 0301 | Zahn vermessen | je Klammerzahn | alternativ zu 0302 — nicht nebeneinander für denselben Kiefer |
+| 0303 | Modell ausblocken | je Zahn oder Kieferteil | Beseitigen unter sich gehender Stellen |
+| 4101 | Einarmige Klammer | je Klammerzahn | bei einzeln gefertigter Titan-Klammer |
+| 4106 | Fortlaufende Klammer | je Klammerzahn | bei fortlaufender Klammer ohne direkte Verbindung zur Metallbasis |
+| 4107 | Gegenlager | je Gegenlager | bei zusätzlich notwendiger Abstützung |
+| 4131 | Kappe | je Kappe | bei Schienung oder Bisskorrektur eines Pfeilerzahns |
+| 4951 | Klammer einzeln gegossen | 1 | je Kiefer, nicht je Klammer; nur wenn die Klammer nicht direkt mit der Metallbasis gegossen wird |
+| 0011 | Modell aus feuerfester Masse | 1 | bei einzeln gegossener Klammer (4951) |
+| 5308 | Modellgussteil konditionieren | je Sattel | Verbund Metallbasis/Prothesenkunststoff; nicht im Leistungsinhalt der BEL 2010 enthalten |
+| 0834 | Diagnostisches Aufstellen von Konfektionszähnen | je Zahn | bei vorgängiger Wax-up-Aufstellung |
+| 1251 | Vorwall | je Sattel | Fixierung der Zahnaufstellung |
+| 0723 | Zahnfarbenbestimmung I | 1 | bei Farbauswahl der Konfektionszähne/Verblendung |
+| 0724 | Zahnfarbenbestimmung II | 1 | bei Mehrfarb-/Schichttechnik |
+| 0732 | Desinfektion | 2 | Eingangs- + Ausgangsdesinfektion |
+| 0710 | Eilterminzuschlag | 1 | bei urgency=urgent/express |
+| 0706 | Foto- oder Video-Dokumentation | 1 | bei Dokumentationsbedarf |
+| 0721 | Zeiteinheit; Zahntechniker-Meister | je | bei Sonderaufwand, je angefangene Zeiteinheit |
+| 0722 | Zeiteinheit; Zahntechniker | je | bei Sonderaufwand, je angefangene Zeiteinheit |
+| 0701 | Versand je Versandgang | je | bei zusätzlichem Versandgang bzw. im Praxislabor statt BEL 9330 |
+| 0702 | Sonderversand oder Fahrtkosten | 1 | bei Express-/Sonderlogistik |
+| 0731 | Individuelle Namenskennzeichnung I | 1 | bei gewünschter Kennzeichnung |
 
 # Material
 
 | Material | Menge | Bemerkung |
 |--------|--------|--------|
-| Reintitan Grad 4 (Modellguss-Titan) | ca. 12-20 g | Material-Mehrleistung ggü. CoCr |
-| Konfektionszähne Seitenzähne | je | je ersetzter Seitenzahn |
-| Konfektionszähne Frontzähne | je | bei Frontzahnbeteiligung |
-| Prothesenkunststoff (PMMA) | — | für Sattel-Anteile |
-| Spezial-Einbettmasse Titan | — | titan-kompatible Einbettmasse |
-| Modellgips (Hartgips/Superhartgips) | — |  |
-| Dublierform / Dubliermasse | — | titanverträglich |
+| Prothesenzähne Seitenzahngarnitur (Konfektionszähne) | je ersetzter Seitenzahn | gesondert nach §2 Nr. 4 BEL II (künstliche Zähne); Art, Menge und Preis ausweisen |
+| Prothesenzähne Frontzahngarnitur (Konfektionszähne) | je ersetzter Frontzahn | bei Frontzahnbeteiligung; gesondert nach §2 Nr. 4 BEL II |
+| Reintitan Grad 4 (Modellgusslegierung Titan) | 12–20 g | nur im privaten BEB-Anteil kalkulierbar (Werkstoffbezeichnung, verbrauchtes Gewicht in g, Preis je g); im BEL-Anteil abgegolten |
+| Weich-/Sonderkunststoff | nach Verbrauch | nur bei 3821/3822; gesondert nach §2 Nr. 4 BEL II |
 
 # Hinweise
 
-Modellguss-Teilprothese mit Titan-Gerüst und Schaltlücke ist gleichartige Versorgung — Festzuschuss in Höhe der CoCr-Regelversorgung gemäß FZ-RL 2024-11-21 (iK 2025-01-01) Befunde 2.1–2.5 für zahnbegrenzte Schaltlücken bzw. 3.1 sofern keine 2.x-Befunde passen; ggf. 2.7 (Verblendzuschlag). Material- und Verfahrens-Mehrkosten Titan privat über BEB. Pro Schaltlücke werden in der Regel 4 Halteelemente abgerechnet (einmal je Metallverbindung). Indikation Titan: Allergie auf CoCr/Nickel, Leichtgewichts-Wunsch, hohe Bioverträglichkeit. BEB 4983 ist die zentrale Position für die Material-Mehrleistung; da Titan tatsächlich gegossen wird, bleibt BEL 2010 grundsätzlich anwendbar (kein §14-CAD/CAM-Ausschluss). BEL 9700 gemäß §18 nicht für Modellgussgerüste abrechenbar. BEL 9330 nur für gewerbliche Labore. Bei reinem Freiendsattel siehe `Titan_Freiend.md`. Bei CAD-CAM-CoCr statt Titan wechselt die Vorlage zu `CAD-CAM_CoCr_Freiend.md`.
+- Anwendungsbedingung: nur bei Befund 3.1. Entspricht die Lücke den Befunden 2.1 bis 2.5, ist die Regelversorgung eine Brücke — eine herausnehmbare Modellgussprothese ist dann ANDERSARTIG (komplett GOZ/BEB, keine Abrechnung über die KZV, Kasse zahlt den Festzuschuss an den Versicherten)
+- Titan wird gegossen (Argon-Schutzgas-/Vakuumguss), der Gussvorbehalt der BEL 2010 ist erfüllt — anders als bei CAD-CAM-Fertigung bleibt der BEL-Anteil vollständig ansetzbar. Mehrkosten = BEB-Metallbasis (4002 OK / 4004 UK) zuzüglich Aufschlag 4983 abzüglich des über die KZV abgerechneten BEL-2010-Betrags
+- VERIFIZIEREN: hausüblicher Prozentsatz für BEB 4983 — die Katalogergänzung nennt nur „prozentualer Aufschlag" ohne Satz; aus dem Labor-Preisspiegel übernehmen
+- Nicht ansetzbar: 9700 (die Erläuterung zu 9700 zählt die Leistungen abschließend auf — 0240, 1013, 1021–1024, 1026, 1028, 1040, 1050, 1100, 1200, 1201, 1331; 2010 fehlt darin, und es gibt im BEL keinen Titan-Verarbeitungszuschlag); 2120 (nur bei Instandsetzung einer Modellgussprothese oder Kunststoffprothese mit gegossenen Halteelementen, neben 2010 und neben 2081 ausgeschlossen); 2110 (nur bei Totalprothese oder schleimhautgetragener Deckprothese, einmal je OK-Metallbasis — bei reiner Schaltprothese nicht einschlägig); BEB 4201 Gegossene Retention und 4202 Gegossenes Basisteil (nur bei Erweiterung einer vorhandenen Metallbasis); BEL 0053 (Stumpfmodell-Alternative — ohne Stümpfe ist das Meistermodell 0010)
+- → Vorlage Titan_Freiend bei reinem Freiendsattel; → CAD-CAM_CoCr_Freiend bei CAD-CAM-gefertigtem Gerüst; → ../Regelversorgung/CoCr_Schaltprothese bei konventionellem CoCr-Guss; → ../../Kombinationsarbeit/ bei Befund 3.2 (verkürzte Zahnreihe mit dentaler Verankerung, zweimal je Kiefer ansetzbar)
+- Im Leistungspreis enthalten: Modellgips (Hartgips), Superhartgips, Spezial-Einbettmasse Titan und feuerfestes Duplikatmodell, Dubliersilikon/Dublierform (titanverträglich), Prothesenkunststoff (PMMA), konfektionierte (vorgebogene) Klammern, Konditionierungsmittel

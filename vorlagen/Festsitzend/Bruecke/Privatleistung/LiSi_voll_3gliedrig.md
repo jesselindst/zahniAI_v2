@@ -1,81 +1,96 @@
-| Bereich | Autor | erstellt am | Version |
-|--------|--------|--------|--------|
-| festsitzender Zahnersatz / Brücke / Privatleistung | CLAUDE | 2026-04-27 | v1 |
-
 # Basisleistungen
 
 | BEB97 | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 0002 | Modell aus Superhartgips | 2 | Arbeitsmodell + Gegenkiefermodell |
-| 0021 | Modell für Sägesegmente | 1 |  |
-| 0023 | Modell für Einzelstümpfe | 1 |  |
-| 0051 | Sägemodell | 1 |  |
-| 0103 | Modellsegment sägen | je | je Pfeiler |
-| 0104 | Stumpf aus Superhartgips | je | je Pfeilerstumpf |
-| 0111 | Modellpaar trimmen | 1 |  |
+| 0002 | Modell aus Superhartgips | 1 | Gegenkiefermodell |
+| 0051 | Sägemodell | 1 | Arbeitsmodell mit Sägestümpfen |
 | 0120 | Mittelwertartikulator | 1 |  |
-| 0019 | Frässockel | 1 | bei Frässockel-Anlage |
-| 0030 | Modell digitales Antagonistenmodell | 1 | bei digitalem Antagonisten |
-| 0850 | 3D-Auftragsanlage / CAD/CAM-Auftragsanlage | 1 |  |
-| 0891 | CAD/CAM Modell einscannen | 1 |  |
-| 0825 | Segment digitalisieren, je Segment | 3 | je Element |
-| 0827 | Präparationsgrenze digitalisieren, je Segment | 3 | je Anker |
-| 0918 | CAD/CAM Konstruktionsgrenze festlegen | 3 | je Glied |
+| 0850 | 3D-Auftragsanlage / CAD/CAM-Auftragsanlage | 1 | je Auftrag |
+| 0891 | CAD/CAM Modell einscannen | 2 | je gescanntem Modell (Arbeits- + Gegenkiefermodell) |
+| 0918 | Konstruktionsgrenze festlegen / mit Software markieren | 2 | je präpariertem Pfeiler; Brückenglieder haben keine Präparationsgrenze |
 | 0917 | Konstruktion CAD-Krone zur Verblendung | 2 | je Anker |
 | 2847 | Konstruktion CAD-Brückenglied zur Verblendung | 1 | je Brückenglied |
-| 0840 | Scannen, CAD-Konstruktion Krone/Brückenglied | 1 | übergeordnete CAD-Konstruktion |
-| 0842 | CAM-Element nacharbeiten | je | bei CAM-Nacharbeit |
-| 0945 | Stumpf/Abutment vorbereiten, digital, auch chairside | je | bei digitaler Stumpfvorbereitung |
-| 2810 | CAD/CAM-Krone, vollständig verblendet | 2 | je Anker |
-| 2815 | CAD/CAM-Brückenglied, vollständig verblendet | 1 | je Brückenglied |
-| 2823 | CAD/CAM-Fräsen/-Schleifen einer CAD/CAM-Einheit | 3 |  |
-| 2832 | CAD/CAM Krone/Brückenglied nacharbeiten | 3 |  |
-| 2863 | Mehraufwand Sintern, je Auftrag | 1 | LiSi-Kristallisationsbrand |
-| 2612 | Mehrflächige Verblendung aus Keramik | 3 | je Glied (Vollverblendung) |
-| 2677 | Zahnfleisch aus Keramik/Glas | 1 | je Brückenglied bei Gingiva-Anteil |
-| 0701 | Versand je Versandgang | 2 |  |
+| 2823 | CAD/CAM-Fräsen/-Schleifen einer CAD/CAM-Einheit | 3 | je Einheit (2 Anker + 1 Glied) |
+| 2832 | CAD/CAM Krone/Brückenglied nacharbeiten | 3 | je gefräster Einheit |
+| 2863 | Mehraufwand Sintern, je Auftrag | 1 | Kristallisationsbrand LiSi |
+| 2612 | Mehrflächige Verblendung aus Keramik | 3 | je Zahneinheit; alternativ zu 2810/2815 (Komplettpositionen) |
+| 0701 | Versand je Versandgang | je Versandgang | je Einlieferung/Abholung (BEB-Zählweise, abweichend von BEL 9330) |
 
 # Zusatzleistungen
 
 | BEB97 | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 0723 | Zahnfarbenbestimmung I | 1 |  |
-| 0724 | Zahnfarbenbestimmung II | 1 | bei Schichtung |
-| 0732 | Desinfektion | 2 |  |
-| 0710 | Eilterminzuschlag | 1 |  |
-| 0706 | Foto- oder Video-Dokumentation | 1 |  |
-| 0721 | Zeiteinheit; Zahntechniker-Meister | je | bei Sonderaufwand |
-| 0722 | Zeiteinheit; Zahntechniker | je |  |
-| 0702 | Sonderversand oder Fahrtkosten | je | bei Sonderversand |
-| 0731 | Individuelle Namenskennzeichnung I | 1 | bei Kennzeichnungspflicht |
-| 0907 | Digitaler Datenversand | je | bei digitaler Datenübermittlung |
-| 2839 | Einzelzahn einscannen, Scan prüfen | je | bei Einzelzahn-Scan |
-| 2865 | Modellsegment CAD/CAM vorbereiten (Krone/Brücke) | je | bei Modellsegment-CAD |
-| 2951 | Individuell charakterisieren, Keramik | 3 | je Glied |
-| 2952 | Zuschlag bei Verarbeitung von Spezialkeramik | je | bei Spezialkeramik |
-| 2954 | Verbindungsstelle Keramik/Glas | je | bei Verbindungsbereich Keramik |
-| 2959 | Mehraufwand durch Rohbrandeinprobe | 1 | bei Bisskontrolle Rohbrand |
-| 2963 | Mehrere Farben in Kronen- oder Brückenverband | 1 | bei Mehrfarbigkeit |
-| 2675 | Schulter aus Keramik/Glas | je | bei Frontzahn-Anker |
-| 2676 | Papille aus Keramik/Glas | je | bei Gingiva-Papille |
-| 2802 | Kaufläche nach gnathologischen Kriterien, in Keramik | je | bei gnathologischer Kauflächengestaltung |
-| 2804 | Frontzahn nach gnathologischen Kriterien, in Keramik | je | bei Frontzahn gnathologisch |
-| 2811 | Selektives Einschleifen nach Remontage | je | bei okklusaler Anpassung |
-| 2915 | Okklusaler Stop | je | bei okklusalem Stopfen |
-| 2922 | Krone/Inlay/Brückenglied aufpassen | je | auf Kontrollmodell |
-| 5306 | Keramik/gegossenes Glas konditionieren | je | für adhäsive Konditionierung |
-| 2840 | Endkontrolle unter Stereomikroskop | 1 |  |
+| 0007 | Kontrollmodell | 1 | bei Einprobe-/Aufpassbedarf |
+| 0009 | Modell aus Kunststoff | je Modell | bei 3D-gedrucktem Modell |
+| 0019 | Frässockel | 1 | je Fräsobjekt, bei Fräsung/Verbindungsvorrichtung |
+| 0021 | Modell für Sägesegmente | 1 | alternativ zu 0051; dann 0103 je Segment |
+| 0023 | Modell für Einzelstümpfe | 1 | alternativ zu 0051 bei Einzelstumpf-Technik |
+| 0030 | Modell digitales Antagonistenmodell | 1 | alternativ zu 0002 bei digitalem Antagonisten |
+| 0103 | Modellsegment sägen | je Segment | nur zusammen mit 0021; im Sägemodell 0051 enthalten |
+| 0104 | Stumpf aus Superhartgips | je Stumpf | nur bei Einzelstumpfabformung/Zweitstumpf, separat vom Modell gefertigt |
+| 0825 | Segment digitalisieren, je Segment | je Segment | bei segmentweiser Digitalisierung |
+| 0827 | Präparationsgrenze digitalisieren, je Segment | 2 | je präpariertem Pfeiler; alternativ zu 0918 |
+| 0840 | Scannen, CAD-Konstruktion Krone/Brückenglied | je Einheit | alternativ zu 0891 + 0917/2847 als Sammelposition |
+| 0842 | CAM-Element nacharbeiten | je Einheit | alternativ zu 2832 bei reiner CAM-Nacharbeit |
+| 0907 | Digitaler Datenversand | 1 | bei STL-Transfer an externes Fräszentrum |
+| 0925 | Modell und ggf. WaxUp scannen – STL-Daten exportieren | 1 | bei STL-Export |
+| 0945 | Stumpf/Abutment vorbereiten, digital, auch chairside | je Stumpf | bei digitaler Stumpfvorbereitung |
+| 0961 | Intraoralscan konvertieren | 1 | bei Intraoralscan statt Abformung |
+| 2810 | CAD/CAM-Krone, vollständig verblendet | je Anker | alternativ zu 0917 + 2612 (Komplettposition, dann 2612 entfällt) |
+| 2815 | CAD/CAM-Brückenglied, vollständig verblendet | je Glied | alternativ zu 2847 + 2612 (Komplettposition, dann 2612 entfällt) |
+| 2826 | CAD/CAM-Krone aus Keramik (vollanatomisch) | je Anker | bei monolithischer Ausführung; dann entfallen 0917 und 2612 |
+| 2800 | Brückenglied aus Keramik – CAD/CAM, vollanatomisch | je Glied | bei monolithischer Ausführung; dann entfallen 2847 und 2612 |
+| 2839 | Einzelzahn einscannen, Scan prüfen | je Zahn | bei Einzelzahn-Scan |
+| 2842 | Frontzahn einscannen (Krone/Brücke) | je Zahn | bei Frontzahn-Einzelscan |
+| 2865 | Modellsegment CAD/CAM vorbereiten (Krone/Brücke) | je Segment | bei Segmentvorbereitung |
+| 2867 | Nutzung des virtuellen Artikulators (Krone/Brücke) | 1 | bei rein digitalem Workflow |
+| 2873 | CAD-Verbindungselement konstruieren | je Verbinder | bei zusätzlichem Verbindungselement |
+| 2877 | CAM-Fräsgerät bestücken | 1 | nur bei eigener Fräsung |
+| 2611 | Teilverblendung aus Keramik | je Einheit | alternativ zu 2612 bei nur partieller Verblendung |
+| 2643 | Verblendschale aus Presskeramik | je Einheit | bei Presstechnik statt Schichtung |
+| 2653 | Verblendschale aus Keramik, gefräst | je Einheit | bei gefräster Verblendschale |
+| 2675 | Schulter aus Keramik/Glas | je Anker | bei Keramikschulter am Frontzahn-Anker |
+| 2676 | Papille aus Keramik/Glas | je Papille | bei zervikaler Papillen-Schichtung |
+| 2677 | Zahnfleisch aus Keramik/Glas | je Glied | bei Gingiva-Anteil am Brückenglied |
+| 2679 | Sattelpontic aus Keramik/Glas | je Glied | bei sattelförmiger Pontic-Anlage |
+| 2689 | Farbgebung durch Bemalen | je Einheit | bei Maltechnik statt Schichtung |
+| 2802 | Kaufläche nach gnathologischen Kriterien gestaltet, in Keramik | je Einheit | bei gnathologischer Kauflächengestaltung |
+| 2804 | Frontzahn nach gnathologischen Kriterien gestaltet, in Keramik | je Einheit | bei gnathologischer Frontzahngestaltung |
+| 2811 | Selektives Einschleifen nach Remontage/Krone, Brückenglied, Inlay | je Einheit | bei Einschleif-Justage nach Remontage |
+| 2915 | Okklusaler Stop | je Stop | bei okklusalem Stop |
+| 2922 | Krone/Inlay/Brückenglied aufpassen | je Einheit | nur bei Kontrollmodell (0007) oder Zweitstumpf |
+| 2951 | Individuell charakterisieren, Keramik | je Einheit | bei individueller Charakterisierung |
+| 2952 | Zuschlag bei Verarbeitung von Spezialkeramik | je Einheit | bei nicht normgerechter/niederschmelzender Spezialkeramik |
+| 2954 | Verbindungsstelle Keramik/Glas | je Verbindungsstelle | nur Anker↔Glied bzw. Krone↔Krone; nicht zwischen zwei Brückengliedern |
+| 2955 | Glasieren, je Einheit | je Einheit | nur für Einheiten ohne 2612 (Glasieren ist in 2612 enthalten) |
+| 2959 | Mehraufwand durch Rohbrandeinprobe | 1 | bei Rohbrandeinprobe |
+| 2963 | Mehrere Farben in Kronen- oder Brückenverband | je Zahnfarbe | Ausführungsaufwand mehrfarbig, nach tatsächlichem Zeitaufwand |
+| 2840 | Endkontrolle unter Stereomikroskop | 1 | bei Mikroskop-Endkontrolle |
+| 2965 | Zuschlag für Arbeiten unter Stereomikroskop | je Einheit | bei Mikroskop-Arbeitsweise |
+| 5306 | Keramik/gegossenes Glas konditionieren | je Einheit | LiSi (Silikatkeramik): HF-Ätzung + Silan, laborseitige Klebeflächenvorbereitung |
+| 0951 | Zahnfarbenbestimmung – Gingivafarbe | 1 | bei Gingiva-Anteil |
+| 0953 | Zahnfarbenbestimmung – Stumpffarbe (III/IV) | 1 | bei dunklem Stumpf (Maskierung) |
+| 0955 | Zahnfarbenbestimmung, digital | 1 | alternativ zu 0723/0724 |
+| 0723 | Zahnfarbenbestimmung I | 1 | bei Verblendung/zahnfarbener Arbeit |
+| 0724 | Zahnfarbenbestimmung II | 1 | bei Sonderfarbe ohne Konfektionsfarbmuster, je Fall |
+| 0732 | Desinfektion | 2 | Eingangs- + Ausgangsdesinfektion |
+| 0710 | Eilterminzuschlag | 1 | bei urgency=urgent/express |
+| 0706 | Foto- oder Video-Dokumentation | 1 | bei Dokumentationsbedarf |
+| 0721 | Zeiteinheit Zahntechniker-Meister | je | bei Sonderaufwand, je angefangene Zeiteinheit |
+| 0722 | Zeiteinheit Zahntechniker | je | bei Sonderaufwand, je angefangene Zeiteinheit |
+| 0702 | Sonderversand oder Fahrtkosten | 1 | bei Express-/Sonderlogistik |
 
 # Material
 
 | Material | Menge | Bemerkung |
 |--------|--------|--------|
-| CAD/CAM Block E.max (Lithium-Disilikat) | 1 Stück | für 3-gliedrige Brücke |
-| Verblendkeramik | — | Schichtkeramik vollverblendet (3 Glieder) |
-| Modellgips (Superhartgips) | — | Arbeits- + Gegenkiefermodell |
-| Stumpf-Kunststoff | — | für Sägemodell |
-| Konditionierer / Bonder | — | für Verblendungs-Haftung |
+| LiSi-Block | 1 Stück | Lithiumdisilikat, CAD-CAM (z. B. IPS e.max); gesondert: Einkaufspreis zzgl. Beleg (Privat/BEB: Kalkulationsfreiheit) |
 
 # Hinweise
 
-3-gliedrige Brücke aus Lithium-Disilikat (E.max), CAD-CAM gefräst und vollverblendet — reine Privatleistung. Höchste Frontzahn-Ästhetik mit guter Festigkeit; LiSi ist im Frontzahnbereich oft Zirkon vorgezogen. LiSi-Brücken sind aufgrund der Festigkeit (~400 MPa) nur bei kurzer Spannweite (3-gliedrig im Frontzahnbereich) zugelassen. Bei GKV-Patient mit Festzuschuss-Wunsch → `gleichartig/LiSi_voll_3gliedrig.md` (CAD-CAM = gleichartig nach BEL II 2014). Bei größerer Spannweite Mengen anpassen.
+- Entweder Komplettposition ODER Gerüstkette: 2810/2815 (vollständig verblendet) nicht neben 2612 ansetzen — hier kalkuliert als 0917/2847 + 2823 + 2612 je Einheit; monolithisch statt dessen 2826 je Anker + 2800 je Glied (2612 entfällt)
+- 0918 je präpariertem Pfeiler (3-gliedrig = 2), 2823/2832 je gefräster Einheit (= 3); Scan-/CAD-Kette 0891 + 0918 + 0917/2847 — 0840, 0825/0827 und 0842 sind Alternativen, nie additiv daneben
+- Nicht angesetzt: 0111 Modellpaar trimmen (Bearbeiten/Trimmen ist Leistungsinhalt von 0002/0051), 0731 Individuelle Namenskennzeichnung I (Katalogtext nur herausnehmbarer ZE/KFO-Geräte), 2955 Glasieren neben 2612 derselben Einheit
+- Komplett privat (BEB/GOZ), kein Festzuschuss; → Vorlage ../gleichartig/LiSi_voll_3gliedrig bei GKV-Patient mit HKP/FZ-Wunsch. Indikationsgrenze LiSi: einspannige Brücke, Endpfeiler bis zweiter Prämolar — bei größerer Spanne oder Molarenbeteiligung → ./Zirkon_voll_3gliedrig bzw. ./Zirkon_voll_4gliedrig
+- VERIFIZIEREN: die dort als LiSi-Basis vorgesehenen 2162/2354 ("gefräst, für Vollverblendung") beschreiben laut BEB-Erläuterung ein aus METALL gefrästes Gerüst — für LiSi ist die CAD-CAM-Keramikkette dieser Vorlage zu prüfen und beide Versorgungsformen anzugleichen
+- Im Leistungspreis enthalten: Verblendkeramik (Schichtmassen), Malfarben/Glasurmasse, Kristallisationshilfsmittel, Modellgips (Hartgips), Superhartgips (Stumpfmaterial), Stumpf-Kunststoff, Konditionierer/Bonder (HF-Gel, Silan)

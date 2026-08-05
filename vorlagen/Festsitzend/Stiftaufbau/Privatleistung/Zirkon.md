@@ -1,63 +1,61 @@
-| Bereich | Autor | erstellt am | Version |
-|--------|--------|--------|--------|
-| festsitzender Zahnersatz / Stiftaufbau / Privatleistung | CLAUDE | 2026-04-27 | v1 |
-
 # Basisleistungen
 
 | BEB97 | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 0002 | Modell aus Superhartgips | 1 | Arbeitsmodell |
+| 0021 | Modell für Sägesegmente | 1 | Arbeitsmodell (Sägemodell) |
 | 0001 | Modell aus Hartgips | 1 | Gegenkiefermodell |
-| 0021 | Modell für Sägesegmente | 1 |  |
 | 0402 | Modellmontage in Mittelwertartikulator I | 1 |  |
-| 2051 | Hartkernstiftaufbau | 1 | je Stift, Zirkon-Stift mit keramischem Aufbau |
-| 2003 | Stiftaufbau indirekt | 1 | je Stift, indirekte Laboraufbau-Technik |
-| 2952 | Zuschlag bei Verarbeitung von Spezialkeramik | 1 | je Stift, Zirkon-Mehraufwand |
-| 0701 | Versand je Versandgang | 2 | Hin- + Rückversand |
+| 2051 | Hartkernstiftaufbau | je Stift | Kernleistung, einmal je Aufbau; konfektionierter Zirkonstift mit keramisch gepresstem Aufbau |
+| 2952 | Zuschlag bei Verarbeitung von Spezialkeramik | je Stift | nur bei Keramik außerhalb der Standardverarbeitung, nach Aufwand |
+| 0701 | Versand je Versandgang | 2 | Hin- + Rückversand; jeder weitere Versandgang zusätzlich ansetzen |
 
 # Zusatzleistungen
 
 | BEB97 | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 0007 | Kontrollmodell | je | bei Bedarf für Eingliederungs-/Passungskontrolle |
-| 0009 | Modell aus Kunststoff | je | alternativ bei Kunststoffmodell-Indikation |
-| 0023 | Modell für Einzelstümpfe | je | bei mehreren Einzelstumpf-Aufbauten |
-| 0105 | Stumpf aus Kunststoff | je | bei Kunststoff-Stumpfvariante |
-| 0112 | Stumpf aus feuerfester Masse | je | bei Brenn-Anwendung Keramikaufbau |
-| 0114 | Zweitstumpf aus Superhartgips | je | bei Mehrfach-Stumpfvariante |
-| 0115 | Zweitstumpf aus Kunststoff | je | bei Mehrfach-Stumpfvariante in Kunststoff |
-| 0116 | Zweitstumpf aus Metall | je | bei metallischem Zweitstumpf |
-| 0211 | Abdruckmanschette | je | bei Stumpfvorbereitung mit Manschette |
-| 0212 | Dowel-Pin setzen | je | bei Sägemodell-Einzelstumpf-Setup |
-| 0213 | Ausblocken eines Stumpfes | je | bei Stumpfvorbereitung |
-| 0214 | Reponieren eines Stumpfes | je | bei Stumpf-Repositionierung |
-| 0215 | Zweitstumpfübertragung in Arbeitsmodell | je | bei Übertragung Zweitstumpf |
-| 0216 | Stumpf vorbereiten | je | bei Stumpfvorbereitung für Zirkonstift |
-| 0221 | Hilfsteil in Abdruck | je | bei konfektioniertem Zirkonstift im Abdruck |
-| 0241 | Dublieren eines Modells oder Modellteils | je | bei medizinischer Indikation |
-| 0243 | Dublieren eines Einzelstumpfes | je | bei Einzelstumpf-Duplikat |
-| 0253 | Split-Cast-Sockel an Modell | je | bei Split-Cast-Artikulation |
-| 2901 | Stiftaufbau in vorhandene Krone | je | bei nachträglichem Aufbau in bestehender Krone |
-| 2902 | Herausnehmbarer Stift in Stiftaufbau | je | bei abnehmbarem Stiftaufbau |
-| 2840 | Endkontrolle unter Stereomikroskop | 1 | bei höchsten Qualitätsanforderungen |
-| 2965 | Zuschlag für Arbeiten unter Stereomikroskop | je | bei mikroskop-unterstützter Präzisionsarbeit |
+| 2003 | Stiftaufbau indirekt | je Stift | alternativ zu 2051 bei konfektioniertem Stift ohne Hartkern-/Presstechnik |
+| 0002 | Modell aus Superhartgips | je Modell | bei zusätzlichem Situations-/Kontrollmodell |
+| 0007 | Kontrollmodell | je Modell | bei Eingliederungs-/Passungskontrolle |
+| 0009 | Modell aus Kunststoff | je Modell | alternativ zu 0001 bei Kunststoffmodell-Indikation |
+| 0023 | Modell für Einzelstümpfe | 1 | alternativ zu 0021 bei Einzelstumpf-Technik |
+| 0105 | Stumpf aus Kunststoff | je Stumpf | bei Kunststoffstumpf |
+| 0112 | Stumpf aus feuerfester Masse | je Stumpf | bei Keramik-Direktbrand/Presstechnik |
+| 0114 | Zweitstumpf aus Superhartgips | je Stumpf | bei Zweitstumpf-Technik |
+| 0115 | Zweitstumpf aus Kunststoff | je Stumpf | bei Zweitstumpf-Technik in Kunststoff |
+| 0211 | Abdruckmanschette | je Stumpf | bei Stumpfvorbereitung mit Manschette |
+| 0212 | Dowel-Pin setzen | je Pin | bei herausnehmbaren Sägestümpfen |
+| 0213 | Ausblocken eines Stumpfes | je Stumpf | bei unter sich gehenden Stellen |
+| 0214 | Reponieren eines Stumpfes | je Stumpf | bei Übertragung in ein neu erstelltes Modell |
+| 0215 | Zweitstumpfübertragung in Arbeitsmodell | je Stumpf | bei Übertragung eines Zweitstumpfes |
+| 0216 | Stumpf vorbereiten | je Stumpf | bei Freilegen der Präparationsgrenze |
+| 0221 | Hilfsteil in Abdruck | je Hilfsteil | bei im Abdruck übertragenem Zirkonstift |
+| 0241 | Dublieren eines Modells oder Modellteils | je Doubliervorgang | resultierendes Modell zusätzlich berechnen |
+| 0243 | Dublieren eines Einzelstumpfes | je Stumpf | resultierender Zweitstumpf zusätzlich (0112/0114/0115) |
+| 0253 | Split-Cast-Sockel an Modell | je Modell | nur bei Split-Cast-Montage |
+| 2901 | Stiftaufbau in vorhandene Krone | je Einheit | nur bei Einpassen in eine vorhandene Krone |
+| 2902 | Herausnehmbarer Stift in Stiftaufbau | je Stift | bei divergierenden/konvergierenden Wurzelkanälen |
+| 2965 | Zuschlag für Arbeiten unter Stereomikroskop | je Zahneinheit | bei mikroskopgestützter Präzisionsarbeit |
+| 2840 | Endkontrolle unter Stereomikroskop | 1 | alternativ zu 2965; die 2051-Ergänzung nennt nur 2965 als zusätzlich berechenbar |
 | 0732 | Desinfektion | 2 | Eingangs- + Ausgangsdesinfektion |
 | 0710 | Eilterminzuschlag | 1 | bei urgency=urgent/express |
-| 0706 | Foto- oder Video-Dokumentation | 1 | bei Bedarf |
-| 0721 | Zeiteinheit; Zahntechniker-Meister | je | bei Sonderaufwand |
-| 0722 | Zeiteinheit; Zahntechniker | je | bei Sonderaufwand |
-| 0701 | Versand je Versandgang | je | bei zusätzlichem Versandgang |
+| 0706 | Foto- oder Video-Dokumentation | 1 | bei Dokumentationsbedarf |
+| 0721 | Zeiteinheit; Zahntechniker-Meister | je | bei Sonderaufwand, je angefangene Zeiteinheit |
+| 0722 | Zeiteinheit; Zahntechniker | je | bei Sonderaufwand, je angefangene Zeiteinheit |
+| 0702 | Sonderversand oder Fahrtkosten | 1 | bei Express-/Sonderlogistik |
+| 0731 | Individuelle Namenskennzeichnung I | 1 | bei gewünschter Kennzeichnung |
 
 # Material
 
 | Material | Menge | Bemerkung |
 |--------|--------|--------|
-| Zirkonstift (konfektioniert) | 1 Stück | je Stift, Zirkonoxid-Stift |
-| Aufbaukomposit / Keramikaufbau | — | je Stift, für Stumpfaufbau |
-| Modellgips (Hartgips) | — | Gegenkiefermodell |
-| Stumpfmaterial (Superhartgips) | — | Arbeitsmodell + Sägemodell |
-| Bonder / Adhäsiv | — | für Haftung Stift ↔ Wurzelkanal und Stift ↔ Aufbau |
+| Zirkonstift (konfektioniert) | 1 Stück | je Stift; Konfektionsfertigteil, gesondert: Einkaufspreis zzgl. Beleg; nur berechnen, wenn vom Labor gestellt |
+| Presskeramik-Rohling (Hartkernkeramik) | 1 Stück | bei Presstechnik zu 2051; gesondert: Einkaufspreis zzgl. Beleg |
 
 # Hinweise
 
-Zirkonstift ist Privatleistung — Patient ohne HKP oder mit explizitem Privatwunsch (metallfrei). Komplett-Privat über GOZ + BEB97. Vorteile Zirkon: vollkommen metallfrei, hochästhetisch (ideal unter Vollkeramikkronen ohne Schimmer), höchste Biokompatibilität. Nachteile: sehr hohes Elastizitätsmodul (deutlich härter als Dentin → Wurzelfrakturrisiko bei starker Belastung), schwierige Entfernung bei Revision (sehr sprödes Material). Indikation: ästhetisch sensibler Frontzahnbereich unter Vollkeramik, Metallfrei-Wunsch des Patienten. Eingliederung adhäsiv mit speziellem Keramik-Bonding.
+- Komplett privat (BEB/GOZ, freie Preise), kein Festzuschuss — gilt NUR bei PKV, ohne HKP oder ausdrücklichem Komplett-Privatwunsch; bei GKV-Patient mit HKP ist der konfektionierte Stiftaufbau gleichartige Versorgung mit Festzuschuss (Befund 1.4) → Vorlage ../gleichartig/Glasfaser sinngemäß
+- 2051/2003/2052/1050 sind Alternativen — die Kernleistung ist nur einmal je Stift/Aufbau berechenbar (BEB 2051: „einmal je Aufbau"); BEB 1050 (HG1, Gusstechnik) passt nicht zum metallfreien Hartkernaufbau
+- 0021 ist das Arbeitsmodell (Sägemodell); 0002 nur für ein zusätzliches Situations-/Kontrollmodell, sonst wird dasselbe Modell doppelt berechnet
+- 0721/0722 nicht neben ausgewiesenen Einzelleistungen desselben Arbeitsschritts; 0116 Zweitstumpf aus Metall beim metallfreien Aufbau nicht ansetzen
+- Im Leistungspreis enthalten: Aufbaukomposit/Keramikaufbau-Verarbeitung, Modellgips (Hartgips), Stumpfmaterial (Superhartgips), Einbettmasse, Bonder/Adhäsiv
+- VERIFIZIEREN: GOZ-Nummer und Wortlaut für den laborgefertigten Stiftaufbau (2180/2190/2195/2197) — zahnärztliches Honorar, nicht Laboranteil

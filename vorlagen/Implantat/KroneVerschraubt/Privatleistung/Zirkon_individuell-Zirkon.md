@@ -1,105 +1,100 @@
-| Bereich | Autor | erstellt am | Version |
-|--------|--------|--------|--------|
-| Implantatversorgung / Krone verschraubt / Privatleistung | CLAUDE | 2026-04-27 | v1 |
-
 # Basisleistungen
 
 | BEB97 | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 0018 | Modell bei Implantatversorgung | 1 |  |
-| 0002 | Modell aus Superhartgips | 1 |  |
-| 0240 | Übertragungskappe Kunststoff/Metall | 1 |  |
-| 0128 | Mittelwertartikulator bei Implantatversorgung | 1 |  |
-| 0817 | Implantatabutment-Auswahl | 1 |  |
-| 0876 | Abutment scannen | 1 |  |
-| 0887 | CAD/CAM Konstruktion individuelles Abutment | 1 | individuelles Zirkon-Abutment (höchste Ästhetik) |
-| 2165 | Individuelles Keramikabutment inkl. Verklebung auf Basis | 1 |  |
-| 0850 | 3D-Auftragsanlage / CAD/CAM-Auftragsanlage | 1 |  |
-| 0891 | CAD/CAM Modell einscannen | 1 |  |
-| 0918 | CAD/CAM Konstruktionsgrenze festlegen | 1 |  |
-| 0917 | Konstruktion CAD-Krone zur Verblendung | 1 |  |
-| 2810 | CAD/CAM-Krone, vollständig verblendet | 1 |  |
-| 2823 | CAD/CAM-Fräsen/-Schleifen einer CAD/CAM-Einheit | 2 | Abutment + Krone |
-| 2832 | CAD/CAM Krone/Brückenglied nacharbeiten | 2 |  |
-| 2863 | Mehraufwand Sintern, je Auftrag | 1 |  |
-| 2612 | Mehrflächige Verblendung aus Keramik | 1 |  |
-| 2972 | Aufwand zu Suprastruktur bei verschraubbarem Implantat | 1 |  |
-| 2973 | Bearbeiten eines Implantataufbaus | 1 |  |
-| 3905 | Verschraubung konfektioniert | 1 |  |
-| 0701 | Versand je Versandgang | 2 |  |
+| 0018 | Modell bei Implantatversorgung | 1 | Arbeitsmodell mit Modellanalog |
+| 0002 | Modell aus Superhartgips | 1 | Gegenkiefermodell; einmal je Modell |
+| 0128 | Mittelwertartikulator bei Implantatversorgung | 1 | je Artikulation |
+| 0817 | Implantatabutment-Auswahl | 1 | je Implantat; Auswahl der Klebebasis für das Zirkon-Abutment |
+| 0850 | 3D-Auftragsanlage / CAD/CAM-Auftragsanlage | 1 | je Auftrag |
+| 0891 | CAD/CAM Modell einscannen | 2 | je gescanntem Modell (Arbeits- + Gegenkiefermodell); funktionsgleich zu 1865 — nie beide |
+| 0876 | Abutment scannen | 1 | je Implantat; funktionsgleich zu 1850 — nie beide |
+| 0887 | CAD/CAM Konstruktion individuelles Abutment | 1 | je individuellem Zirkon-Abutment |
+| 0918 | Konstruktionsgrenze festlegen / mit Software markieren | 1 | je Kroneneinheit |
+| 0917 | Konstruktion CAD-Krone zur Verblendung | 1 | je Krone; nummerngleiche Dublette 2848 nicht zusätzlich |
+| 2823 | CAD/CAM-Fräsen/-Schleifen einer CAD/CAM-Einheit | 2 | je gefräster Einheit: Zirkon-Abutment + Krone |
+| 2832 | CAD/CAM Krone/Brückenglied nacharbeiten | 1 | je Kroneneinheit; Nacharbeit des Abutments ist mit 2165 abgegolten |
+| 2863 | Mehraufwand Sintern, je Auftrag | 1 | Dichtsinterbrand Zirkon, je Auftrag |
+| 2165 | Individuelles Keramikabutment inkl. Verklebung auf Basis | 1 | je Implantateinheit; nicht neben 2975 |
+| 2612 | Mehrflächige Verblendung aus Keramik | 1 | je Zahneinheit; Glasieren eingeschlossen; alternativ zur Komplettposition 2810 |
+| 2972 | Aufwand zu Suprastruktur bei verschraubbarem Implantat | 1 | je Einheit; Fertigungsmehraufwand der verschraubten Versorgung |
+| 3905 | Verschraubung/Verbolzung | 1 | je Schraube; nur bei laborseitig eingearbeiteter Gewindehülse/Überfallring |
+| 0701 | Versand je Versandgang | 2 | je Versandgang mit Werkstück (Einlieferung + Auslieferung); keine getrennte Hin-/Rückberechnung derselben Beförderung |
 
 # Zusatzleistungen
 
 | BEB97 | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 0221 | Hilfsteil in Abdruck | 1 | bei Abdruckabformung mit Abformpfosten |
-| 2951 | Individuell charakterisieren, Keramik | 1 | bei individueller Charakterisierung |
-| 2840 | Endkontrolle unter Stereomikroskop | 1 | bei höchsten Qualitätsanforderungen |
-| 2955 | Glasieren, je Einheit | 1 | Glanzbrand für Keramikoberfläche |
-| 2959 | Mehraufwand durch Rohbrandeinprobe | 1 | bei klinischer Einprobe vor Glasur |
-| 2963 | Mehrere Farben in Kronen- oder Brückenverband | 1 | bei mehreren Farben / Schichtung |
-| 2952 | Zuschlag bei Verarbeitung von Spezialkeramik | 1 | bei Premium-/Spezialkeramik (Premium-Zirkon) |
-| 2675 | Schulter aus Keramik/Glas | 1 | bei sichtbarer Präparationsgrenze (Frontzahn-Ästhetik) |
-| 2974 | Drehsicherungsstopp bei Implantat | 1 | je Implantat, bei Drehsicherungs-Indikation |
-| 2813 | CAD/CAM Zirkon anpassen, je Zahneinheit | 1 | bei Mehraufwand Anpassung |
-| 0723 | Zahnfarbenbestimmung I | 1 | Standard |
-| 0724 | Zahnfarbenbestimmung II | 1 | bei Schichtung/Charakterisierung |
-| 0732 | Desinfektion | 2 | Eingangs- + Ausgangsdesinfektion |
-| 0710 | Eilterminzuschlag | 1 | bei urgency=urgent/express |
-| 0706 | Foto- oder Video-Dokumentation | 1 | bei Bedarf |
-| 0721 | Zeiteinheit; Zahntechniker-Meister | je | bei Sonderaufwand |
-| 0722 | Zeiteinheit; Zahntechniker | je | bei Sonderaufwand |
-| 1226 | Einbringhilfe, je Abutment | 1 | bei tiefliegendem Implantat |
-| 0959 | Übertragungsschlüssel/Einbringhilfe, je Implantat | 1 | bei komplexer Einbringsituation |
-| 0019 | Frässockel | 1 | bei digitalem Workflow |
-| 0030 | Modell digitales Antagonistenmodell | 1 | bei rein digitalem Workflow |
-| 1872 | Scanbody einscannen (Implantatworkflow) | 1 | bei digitalem Workflow / Intraoralscan |
-| 1864 | Kamingestaltung für Implantatabformung, je Abformpfosten | 1 | bei tiefliegendem Implantat |
-| 1869 | Provisorische Krone/Brückenglied auf Implantat | 1 | bei Bedarf Provisorium während Heilphase |
-| 1405 | Provisorischen Implantataufbau bearbeiten | 1 | bei Provisorium |
-| 1406 | Aufwand für provisorische Krone über Implantat | 1 | bei Provisorium |
-| 0945 | Stumpf/Abutment vorbereiten, digital, auch chairside | 1 | bei digitalem Workflow |
-| 0920 | Kontrollschablone, verschraubt | 1 | bei Bedarf Kontrollschablone |
-| 3906 | Verschraubung individuell | 1 | Alternative zu 3905 |
-| 2616 | Keramikverblendung in Mehrschichttechnik | 1 | bei Layering-Technik auf Zirkon |
-| 2975 | Bearbeiten eines Implantataufbaus aus Keramik | 1 | bei Bearbeitung des Keramikabutments nach 2165 |
-| 2965 | Zuschlag für Arbeiten unter Stereomikroskop | 1 | bei höchsten Qualitätsanforderungen |
-| 0031 | Modell digitales Arbeitsmodell CAD | 1 | bei rein digitalem Workflow (Alternative zu Gipsmodell) |
-| 0032 | Modell digitales Präparationsmodell CAD | 1 | bei digitalem Präparationsmodell |
-| 0856 | 3D-Modell, gedruckt | 1 | gedrucktes Modell als Alternative zu Gipsmodell |
-| 0862 | 3D-Modell, Laboranalog fixieren | 1 | bei gedrucktem Modell mit Analogposition |
-| 0863 | 3D-Modell, Zahnfleischmaske | 1 | bei gedrucktem Modell mit Gingivamaske |
+| 0031 | Modell digitales Arbeitsmodell CAD | 1 | statt 0018 bei rein digitalem Workflow |
+| 0032 | Modell digitales Präparationsmodell CAD | 1 | statt 0018 bei digitalem Präparationsmodell |
+| 0030 | Modell digitales Antagonistenmodell | 1 | statt 0002 bei rein digitalem Workflow |
+| 0856 | 3D-Modell, gedruckt | 1 | statt 0018 bei gedrucktem Modell |
+| 0862 | 3D-Modell, Laboranalog fixieren | 1 | nur zusammen mit 0856 |
+| 0863 | 3D-Modell, Zahnfleischmaske | 1 | bei Zahnfleischmaske am gedruckten Modell |
+| 0223 | Zahnfleischmaske, abnehmbar | 1 | bei Zahnfleischmaske am Gipsmodell |
+| 0224 | Modellimplantat repositionieren | 1 | bei Reposition des Abformpfostens |
+| 0225 | Implantatpfosten auf Modellierimplantat aufschrauben | 1 | bei Arbeit auf Modellanalog |
+| 0118 | Implantatfrässtumpf | 1 | bei Frässtumpf auf Analog |
+| 0019 | Frässockel | 1 | nur bei Fräsung im Haus, je Fräsobjekt |
+| 0240 | Übertragungskappe Kunststoff/Metall | 1 | nur bei im Labor gefertigter Kappe; konfektionierte Transferkappe = Material |
+| 0959 | Übertragungsschlüssel/Einbringhilfe, je Implantat | 1 | bei Übertragungsschlüssel; funktionsgleich zu 1226 — nie beide |
+| 1226 | Einbringhilfe, je Abutment | 1 | alternativ zu 0959 |
+| 1864 | Kamingestaltung für Implantatabformung, je Abformpfosten | 1 | bei tiefliegendem Implantat und Abformung im selben Auftrag |
+| 0920 | Kontrollschablone, verschraubt | 1 | bei Kontrollschablone zur Passungsprüfung |
 | 0874 | Abdruckscan/Scan prüfen | 1 | bei Scan-Prüfung vor Weiterverarbeitung |
-| 0907 | Digitaler Datenversand | 1 | bei digital übermittelten Auftragsdaten |
-| 0908 | Empfang und/oder Aufbereitung der Mundscandaten | 1 | bei Eingang von Intraoralscan-Daten |
-| 0940 | Scanbody einschrauben und scannen | 1 | bei Scanbody-Workflow (Alternative zu 1872) |
+| 0907 | Digitaler Datenversand | 1 | bei STL-Transfer an externes Fräszentrum |
+| 0908 | Empfang und/oder Aufbereitung der Mundscandaten | 1 | bei Intraoralscan statt Abformung |
+| 0940 | Scanbody einschrauben und scannen | 1 | statt 0876 bei Scanbody-Workflow |
+| 1872 | Scanbody einscannen (Implantatworkflow) | 1 | alternativ zu 0940 — nie beide |
 | 0914 | Frontzahn einscannen | 1 | bei Frontzahn-Einzelscan |
 | 0941 | Seitenzahn einscannen | 1 | bei Seitenzahn-Einzelscan |
-| 0803 | Prächirurgische Planung | 1 | bei komplexer präoperativer Implantatplanung |
-| 0814 | Modellanalyse für Implantologie | 1 | bei prothetischer Implantatplanung |
-| 0815 | Implantatachse und Ort festlegen | 1 | bei präoperativer Planung |
-| 0816 | Implantatachse und -ort mit Planungsprogramm festlegen | 1 | bei computergestützter Planung (CT/DVT) |
-| 0118 | Implantatfrässtumpf | 1 | bei Frässtumpf auf Analog |
-| 0223 | Zahnfleischmaske, abnehmbar | 1 | bei Gingivaformation um Implantat |
-| 0224 | Modellimplantat repositionieren | 1 | bei Repositionierung des Analogs |
-| 0225 | Implantatpfosten auf Modellierimplantat aufschrauben | 1 | bei Analogmontage |
-| 0702 | Sonderversand oder Fahrtkosten | 1 | bei besonderem Versandaufwand (Eilversand etc.) |
+| 0945 | Stumpf/Abutment vorbereiten, digital, auch chairside | 1 | bei digitaler Abutment-Vorbereitung |
+| 2160 | Scannen und konstruieren Zirkon/E-Max-Krone | 1 | alternativ zu 0917 — Scan und CAD-Konstruktion in einer Position, nie beide |
+| 2810 | CAD/CAM-Krone, vollständig verblendet | 1 | alternativ zu 0917 + 2612; dann entfallen 2612 und 2832 |
+| 2616 | Keramikverblendung in Mehrschichttechnik | 1 | alternativ zu 2612 bei Layering-/Mehrschichttechnik |
+| 2955 | Glasieren, je Einheit | 1 | nur bei monolithischer Krone ohne 2612/2616 |
+| 2975 | Bearbeiten eines Implantataufbaus aus Keramik | 1 | alternativ zu 2165 bei konfektioniertem Keramikaufbau ohne Verklebung |
+| 2973 | Bearbeiten eines Implantatkopfes | 1 | nur bei konfektioniertem Metall-Abutment; alternativ zu 0887 + 2165 |
+| 2813 | CAD/CAM Zirkon anpassen, je Zahneinheit | 1 | bei Mehraufwand für das Anpassen der Zirkoneinheit |
+| 3906 | Verschraubung individuell | 1 | alternativ zu 3905 — nie beide |
+| 2974 | Drehsicherungsstopp bei Implantat | 1 | je Implantataufbau, bei rotationssymmetrischem Aufbau |
+| 1550 | Konditionierung je Zahn/Flügel | 1 | je Klebestelle Zirkon-Abutment ↔ TiBase; alternativ zu 5306 |
+| 5306 | Keramik/gegossenes Glas konditionieren | 1 | alternativ zu 1550 — je Klebestelle: Korundstrahlen/Rocatec + MDP-Primer, keine HF-Ätzung bei Zirkon |
+| 2951 | Individuell charakterisieren, Keramik | 1 | bei Abweichung von der Standardfarbe |
+| 2952 | Zuschlag bei Verarbeitung von Spezialkeramik | 1 | bei nicht normgerechter/niederschmelzender Spezialkeramik |
+| 2959 | Mehraufwand durch Rohbrandeinprobe | 1 | bei klinischer Rohbrandeinprobe |
+| 2963 | Mehrere Farben in Kronen- oder Brückenverband | je Zahnfarbe | bei mehrfarbiger Ausführung; 0724 = Farbbestimmung, 2963 = Ausführungsaufwand |
+| 2675 | Schulter aus Keramik/Glas | 1 | bei sichtbarer Präparationsgrenze im Frontzahnbereich |
+| 2840 | Endkontrolle unter Stereomikroskop | 1 | bei Mikroskop-Endkontrolle der Klebefuge/Passung |
+| 2965 | Zuschlag für Arbeiten unter Stereomikroskop | 1 | alternativ zu 2840 bei durchgehender Mikroskop-Arbeitsweise |
+| 0951 | Zahnfarbenbestimmung – Gingivafarbe | 1 | bei Gingiva-Anteil |
+| 0953 | Zahnfarbenbestimmung – Stumpffarbe (III/IV) | 1 | bei abweichender Abutmentfarbe |
+| 0955 | Zahnfarbenbestimmung, digital | 1 | alternativ zu 0723/0724 |
+| 0723 | Zahnfarbenbestimmung I | 1 | bei Verblendung/zahnfarbener Arbeit |
+| 0724 | Zahnfarbenbestimmung II | 1 | bei Mehrfarb-/Schichttechnik |
+| 0732 | Desinfektion | 2 | Eingangs- + Ausgangsdesinfektion |
+| 0710 | Eilterminzuschlag | 1 | bei urgency=urgent/express |
+| 0706 | Foto- oder Video-Dokumentation | 1 | bei Dokumentationsbedarf |
+| 0721 | Zeiteinheit; Zahntechniker-Meister | je Zeiteinheit | bei Sonderaufwand, je angefangene Zeiteinheit |
+| 0722 | Zeiteinheit; Zahntechniker | je Zeiteinheit | bei Sonderaufwand, je angefangene Zeiteinheit |
+| 0702 | Sonderversand oder Fahrtkosten | 1 | bei Express-/Sonderlogistik |
+| 0731 | Individuelle Namenskennzeichnung I | 1 | bei gewünschter Kennzeichnung |
+| 0221 | Hilfsteil in Abdruck | je Implantat | bei konventioneller Abformung: Laboranalog/Hilfsteil in den Abdruck einsetzen; entfällt bei rein digitaler Abformung |
 
 # Material
 
 | Material | Menge | Bemerkung |
 |--------|--------|--------|
-| Tibase (Titan-Klebebasis) | 1 Stück | je Implantat, Basis für Zirkon-Abutment-Verklebung (vgl. 2165 "Verklebung auf Basis") |
-| CAD/CAM Block Zirkon (Abutment) | 1 Stück | weißer Premium-Zirkon für ästhetisches Abutment |
-| CAD/CAM Block Zirkon (Krone) | 1 Stück |  |
-| Verblendkeramik | — |  |
-| Klebstoff (Composite-Cement) | — | für Verklebung Zirkon-Abutment ↔ Tibase |
-| Verschraubung (konfektioniert) | 1 Stück |  |
-| Modellgips (Superhartgips) | — |  |
-| Modellanalog | 1 Stück |  |
-| Gingivamaske (Silikon) | — |  |
-| Sintermasse / Sinterhilfsmittel | — |  |
+| TiBase/Klebebasis | 1 Stück | gesondert: Einkaufspreis zzgl. Beleg; Klebefläche für das Zirkon-Abutment (2165) |
+| Zirkon-Blank | 2 Stück | je gefräster Einheit (Abutment + Krone); Abutment ggf. hochtransluzenter Premium-Blank; gesondert: Einkaufspreis zzgl. Beleg |
+| Modellanalog (Laboranalog) | 1 Stück | gesondert: Einkaufspreis zzgl. Beleg |
+| Abutmentschraube (konfektioniert) | 1 Stück | gesondert: Einkaufspreis zzgl. Beleg; Laborschraube getrennt ausweisen |
 
 # Hinweise
 
-Verschraubte Zirkon-Krone auf individuellem Zirkon-Abutment — höchste Premium-Variante, reine Privatleistung. Komplett metallfreie Suprakonstruktion, optimale Frontzahn-Ästhetik durch weißes Abutment (kein Durchschimmern von Titan). Komplettabrechnung BEB97 + GOZ.
+- Entweder Komplettposition ODER Gerüstkette: kalkuliert ist 0917 + 2823 + 2832 + 2863 + 2612; Alternativen sind 2810 (vollständig verblendet) und 2160 (Scan + Konstruktion in einem); 2616 alternativ zu 2612; 2955 Glasieren ist in 2612/2616 enthalten und nur monolithisch ansetzbar; 2975 nicht neben 2165
+- Abgrenzungen: 2823 je gefräster Einheit (Abutment + Krone), 2832 nur je Kroneneinheit; 2972 deckt den Fertigungsmehraufwand der verschraubten Suprakonstruktion, 3905 nur die laborseitig eingearbeitete Gewindehülse; 0240 nur bei laborgefertigter Kappe (konfektionierte Transferkappe = Material); 2973 nur bei konfektioniertem Metall-Abutment; 2840 alternativ zu 2965; 0031/0032/0856 stehen statt 0018/0002 bei rein digitalem Workflow
+- Nicht Teil dieses Auftrags (Suprakonstruktion): 0803 Prächirurgische Planung, 0814 Modellanalyse für Implantologie, 0815/0816 Implantatachse und -ort festlegen (präoperative Planung/Bohrschablone) sowie 1869 Provisorische Krone/Brückenglied auf Implantat, 1405 Provisorischen Implantataufbau bearbeiten, 1406 Aufwand für provisorische Krone über Implantat (Heilungsprovisorium) — bei Bedarf als eigener Auftrag
+- Komplett privat (BEB/GOZ), kein Festzuschuss; Privatleistung nur bei PKV, ohne HKP oder bei ausdrücklichem Komplett-Privatwunsch. → Vorlage ../andersartig/Zirkon_Tibase bzw. ../andersartig/Zirkon_individuell-Titan bei GKV-Versichertem mit HKP (Festzuschuss der Ausgangssituation vor Implantation, 2.1 + 2.7, bleibt erhalten); eine andersartig-Variante Zirkon_individuell-Zirkon existiert derzeit nicht
+- Metallfreie Suprakonstruktion nur oberhalb der Klebebasis: die TiBase selbst bleibt Titan; vollkeramische Einteiligkeit (Zirkon direkt auf Implantatschulter) ist herstellerabhängig freizugeben
+- VERIFIZIEREN: ob 3905 im Haus für den CAD-konstruierten Schraubenkanal angesetzt wird (Katalogtext beschreibt einmodellierte Gewindehülse/Überfallring); Auslegung von 2823 „je CAD/CAM-Einheit". Im Leistungspreis enthalten: Verblendkeramik (Schichtmassen), Malfarben/Glasurmasse, Sintermasse/Sinterhilfsmittel (Sinterperlen/-schale), Klebekomposit (Composite-Cement), MDP-Primer, Abstrahlmittel (Aluminiumoxid/Rocatec), Modellgips (Superhartgips), Silikon der Gingivamaske, Einbettmasse

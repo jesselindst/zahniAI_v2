@@ -1,89 +1,100 @@
-| Bereich | Autor | erstellt am | Version |
-|--------|--------|--------|--------|
-| festsitzender Zahnersatz / Einzelkrone / gleichartig | CLAUDE | 2026-04-27 | v1 |
+# Festzuschuss
+- Befund: 1.1 je erhaltungswürdigem Zahn mit Kronenbedarf; +1.3 je vestibulärer Verblendung innerhalb VG (OK 15–25 / UK 34–44) — der FZ folgt dem Befund, nicht der gewählten Ausführung: 1.3 fällt auch bei Vollverblendung an, außerhalb VG dagegen nicht
+- Versorgungsform: gleichartig (VMK-NEM: gegossenes NEM-Gerüst + keramische Vollverblendung = Mehrleistung gegenüber der Regelversorgung NEM vestibulär verblendet)
+- Abrechnungsweg: RV-Anteil BEL über KZV (Modelle, Artikulator, Versand) + BEMA zahnärztlich; Mehrleistungen privat als Auslagen nach §9 GOZ (üblich BEB) in EINER Laborrechnung getrennt ausgewiesen; keine Doppelabrechnung desselben Arbeitsschritts (§3 Abs. 3 BEL II)
+- FZ-Satz: 60 % | Bonus 5 J: 70 % | 10 J: 75 % | Härtefall: 100 % der festgesetzten RV-Beträge (§55 Abs. 2 SGB V) — bei gleichartiger Versorgung deckt auch der Härtefall NUR diesen festen Betrag, alle Mehrkosten bleiben Eigenanteil; FZ höchstens in Höhe der tatsächlich entstandenen Kosten; Eigenanteil = Gesamtkosten − FZ
 
 # BEL-Positionen
 
 | BEL | Leistung | Menge | Bemerkung |
-|--------|--------|--------|--------|
-| 0010 | Modell | 2 | Arbeitsmodell + Gegenkiefermodell |
-| 0051 | Sägemodell | 1 |  |
-| 0120 | Mittelwertartikulator | 1 |  |
-| 1024 | Krone für vestibuläre Verblendung | 1 | je Krone, NEM-Gerüst (BEL-Anteil Regelversorgung) |
-| 1620 | Vestibuläre Verblendung Keramik | 1 | je Krone, BEL-Anteil innerhalb VG |
-| 9700 | Verarbeitungsaufwand NEM-Legierung | 1 | je Krone |
-| 9330 | Versandkosten | 2 | Hin- + Rückversand, entfällt bei Praxislabor |
+|---|---|---|---|
+| 0010 | Modell | 1 | Gegenkiefermodell; jedes weitere tatsächlich hergestellte Modell (Situation/Kontrolle) zusätzlich je Modell; nur bei konventioneller Abformung/Gipsmodell |
+| 0051 | Sägemodell | 1 | Arbeitsmodell zur Stumpfherstellung, Gips-/Kunststoffsockel eingeschlossen; einmal je Abformung |
+| 0120 | Mittelwertartikulator | 1 | einmal je Artikulation; nicht neben 0320 (Formteil) |
+| 9330 | Versandkosten | je Versandgang | je Versandgang = ein Hin- und Rückweg (keine getrennte Hin-/Rückberechnung); Menge je tatsächlichem Versandgang inkl. Zwischenanprobe erhöhen; nur Gewerbelabor, regionale Höchstzahl; im Praxislabor nicht abrechenbar |
 
 # Basisleistungen
 
 | BEB97 | Leistung | Menge | Bemerkung |
-|--------|--------|--------|--------|
-| 2122 | Krone gegossen, für Keramik- oder Polymer-Glas-Vollverblendung | 1 | je Krone, NEM-Gerüst gegossen |
-| 2612 | Mehrflächige Verblendung aus Keramik | 1 | je Krone, Vollverblendung (Mehrleistung über vestibulär) |
-| 2981 | NEM Zuschlag | 1 | je Krone, Verarbeitung NEM-Legierung |
+|---|---|---|---|
+| 2122 | Krone gegossen, für Keramik- oder Polymer-Glas-Vollverblendung | je Krone | NEM-Gerüst gegossen |
+| 2612 | Mehrflächige Verblendung aus Keramik | je Krone | einmal je Zahneinheit; Verblendung zur Gerüstposition 2122 |
+| 2981 | NEM Zuschlag | je Krone | Verarbeitung NEM-Legierung im privaten BEB-Anteil, je Zahneinheit bzw. nach Aufwand |
 
 # Zusatzleistungen
 
+| BEL | Leistung | Menge | Bemerkung |
+|---|---|---|---|
+| 0023 | Verwendung von Kunststoff | je Gebiet | bei Zahnfleischmaske/Darstellung im Mund verbliebener Primärteile, max. 3× je Modell; nicht für Kunststoffstümpfe oder Sockel; befundklassenabhängig, bei Härtefall i. d. R. nicht abrechenbar |
+| 0052 | Einzelstumpfmodell | 1 | alternativ zu 0051 bei Stumpfmodelltechnik; einmal je Abformung |
+| 0053 | Modell nach Überabdruck | 1 | alternativ zu 0051 bei Überabformung; einmal je Abformung |
+| 0240 | Übertragungskappe Kunststoff/Metall | je Zahn | bei Übertragungskappen-Technik zum Reponieren des Stumpfes |
+| 0310 | Provisorische Krone/Brückenglied | je Zahn | bei laborgefertigtem Provisorium; Metallarmierung ist BEB, nicht BEL |
+| 9700 | Verarbeitungsaufwand NEM-Legierung | je Kappe | nur zu einer Übertragungskappe 0240 aus Metall; ohne BEL-Gerüstposition sonst nicht ansetzbar |
+
 | BEB97 | Leistung | Menge | Bemerkung |
-|--------|--------|--------|--------|
-| 2124 | Stufenkrone gegossen, für Keramik-Vollverblendung | 1 | alternativ zu 2122 bei Stufenpräparation |
-| 2162 | Krone gefräst, für Keramik-Vollverblendung | 1 | alternativ zu 2122 bei CAD-CAM-Gerüst |
-| 2611 | Teilverblendung aus Keramik | 1 | alternativ zu 2612 bei Teilverblendung |
-| 2616 | Keramikverblendung in Mehrschichttechnik | 1 | bei Mehrschicht-Schichtkeramik |
-| 2675 | Schulter aus Keramik/Glas | 1 | je Krone, Keramikschulter Front-/Sichtbereich |
-| 2676 | Papille aus Keramik/Glas | 1 | bei zervikaler Papillenmaskierung |
-| 2677 | Zahnfleisch aus Keramik/Glas | 1 | bei zervikaler Gingiva-Maskierung |
-| 2951 | Individuell charakterisieren, Keramik | 1 | je Krone, bei individueller Charakterisierung |
-| 2952 | Zuschlag bei Verarbeitung von Spezialkeramik | 1 | bei Spezialkeramik |
-| 2954 | Verbindungsstelle Keramik/Glas | 1 | bei Verbindungs-Bearbeitung |
-| 2955 | Glasieren, je Einheit | 1 | je Krone, Hochglanz-Brand |
-| 2959 | Mehraufwand durch Rohbrandeinprobe | 1 | bei Zwischenanprobe |
-| 2963 | Mehrere Farben in Kronen-/Brückenverband | 1 | bei mehrfarbiger Schichtung |
-| 2689 | Farbgebung durch Bemalen | 1 | bei Bemalung statt Schichtung |
-| 2840 | Endkontrolle unter Stereomikroskop | 1 | je Krone, bei höchsten Qualitätsanforderungen |
-| 2965 | Zuschlag für Arbeiten unter Stereomikroskop | 1 | alternativ zu 2840 |
-| 2801 | Kaufläche nach gnathologischen Kriterien (Metall) | 1 | bei NEM-Kaufläche gnathologisch |
-| 2802 | Kaufläche nach gnathologischen Kriterien (Keramik) | 1 | bei Keramik-Kaufläche gnathologisch |
-| 2803 | Frontzahn nach gnathologischen Kriterien (Metall) | 1 | bei Front-gnathologisch (Metall) |
-| 2804 | Frontzahn nach gnathologischen Kriterien (Keramik) | 1 | bei Front-Keramik gnathologisch |
-| 2811 | Selektives Einschleifen nach Remontage | 1 | bei okklusaler Anpassung |
-| 2815 | Okklusaler Stop | 1 | bei Okklusionssicherung |
-| 2911 | Krone für Klammer vorbereiten | 1 | bei Kombination mit herausnehmbarem ZE |
-| 2912 | Krone passend für vorhandene Prothese | 1 | bei vorhandener Prothese |
-| 2922 | Krone aufpassen | 1 | bei Anpassung auf Kontrollmodell |
-| 5301 | Deckgold aufbrennen | 1 | bei Goldaufbrand vor Verblendung |
-| 5302 | Bonder aufbrennen | 1 | bei Bonder-Vorbehandlung Metall-Keramik |
-| 5306 | Keramik konditionieren | 1 | bei Konditionierung der Keramikoberfläche |
-| 5307 | Metallfläche konditionieren | 1 | bei Vorbereitung Metall vor Verblendung |
-| 0019 | Frässockel | 1 | bei Fräs-Sockel für Modell |
-| 0103 | Modellsegment sägen | 1 | bei Stumpf-Sägeschnitt |
-| 0104 | Stumpf aus Superhartgips | 1 | je Stumpf |
-| 0114 | Zweitstumpf aus Superhartgips | 1 | bei Zweitstumpf |
-| 0111 | Modellpaar trimmen | 1 | bei Trimmen |
-| 0723 | Zahnfarbenbestimmung I | 1 | Standard |
-| 0724 | Zahnfarbenbestimmung II | 1 | bei mehreren Farben/Schichtung |
+|---|---|---|---|
+| 0001 | Modell aus Hartgips | je Modell | alternativ zu BEL 0010 bei rein privater Modellherstellung; nie neben der BEL-Modellposition (§3 Abs. 3 BEL II) |
+| 0021 | Modell für Sägesegmente | 1 | alternativ zu BEL 0051 |
+| 0023 | Modell für Einzelstümpfe | 1 | alternativ zu BEL 0052 |
+| 0019 | Frässockel | 1 | bei Frässockel-Technik (Kombinationsversorgung) |
+| 0103 | Modellsegment sägen | je Segment | nur zusammen mit 0021 |
+| 0104 | Stumpf aus Superhartgips | je Stumpf | nur zusammen mit 0021/0023 |
+| 0114 | Zweitstumpf aus Superhartgips | je Stumpf | bei Zweitstumpf zum Aufpassen |
+| 0111 | Modellpaar trimmen | 1 | bei privater Modellherstellung |
+| 2124 | Stufenkrone gegossen, für Keramik- oder Polymer-Glas-Vollverblendung | je Krone | alternativ zu 2122 bei Stufenpräparation |
+| 2162 | Krone gefräst, für Keramik- oder Polymer-Glas-Vollverblendung | je Krone | alternativ zu 2122 bei CAD-CAM-gefrästem statt gegossenem Gerüst |
+| 2611 | Teilverblendung aus Keramik | je Krone | alternativ zu 2612 bei Teilverblendung; dann Gerüstposition für Teilverblendung statt 2122 |
+| 2616 | Keramikverblendung in Mehrschichttechnik | je Krone | statt 2612 bei Mehrschicht-/Individualschichtung über der Standardschichtung |
+| 2675 | Schulter aus Keramik/Glas | je Krone | bei separat geschichteter Keramikschulter |
+| 2676 | Papille aus Keramik/Glas | je Interdentalraum | bei Papillengestaltung |
+| 2677 | Zahnfleisch aus Keramik/Glas | je Krone | bei zervikalem Gingiva-Anteil |
+| 2951 | Individuell charakterisieren, Keramik | je Krone | bei Effektmassen/individueller Charakterisierung |
+| 2952 | Zuschlag bei Verarbeitung von Spezialkeramik | je Krone | bei Spezialkeramik, nach Aufwand |
+| 2954 | Verbindungsstelle Keramik/Glas | je Verbindungsstelle | bei keramischer Verbindungsstelle |
+| 2955 | Glasieren, je Einheit | je Krone | bei separatem Glanzbrand |
+| 2959 | Mehraufwand durch Rohbrandeinprobe | 1 | bei Rohbrandeinprobe/Zwischenanprobe |
+| 2963 | Mehrere Farben in Kronen- oder Brückenverband | 1 | bei mehrfarbiger Ausführung — Ausführungsaufwand, nicht identisch mit 0724 (Farbbestimmung) |
+| 2689 | Farbgebung durch Bemalen | je Krone | alternativ zur Schichtung bei Maltechnik |
+| 2801 | Kaufläche nach gnathologischen Kriterien gestaltet, in Metall/gegossenem Glas | je Krone | bei metallischer Kaufläche (Cut-back okklusal) |
+| 2802 | Kaufläche nach gnathologischen Kriterien gestaltet, in Keramik | je Krone | bei keramischer Kaufläche |
+| 2803 | Frontzahn nach gnathologischen Kriterien gestaltet, in Metall/gegossenem Glas | je Krone | bei metallischer Frontzahngestaltung |
+| 2804 | Frontzahn nach gnathologischen Kriterien gestaltet, in Keramik | je Krone | bei keramischer Frontzahngestaltung |
+| 2811 | Selektives Einschleifen nach Remontage/Krone, Brückenglied, Inlay | je Krone | bei Remontage im Artikulator |
+| 2915 | Okklusaler Stop | je Stop | bei okklusalem Stop |
+| 2911 | Krone, Brückenglied für Klammer vorbereiten | je Krone | bei Kombination mit herausnehmbarem ZE; BEL-Äquivalent 1031 |
+| 2912 | Krone, Brückenglied, Inlay passend für vorhandene Prothese arbeiten | je Krone | bei vorhandener Prothese; BEL-Äquivalent 1032 |
+| 2922 | Krone/Inlay/Brückenglied aufpassen | je Krone | bei Aufpassen auf Kontrollmodell/Zweitstumpf |
+| 2840 | Endkontrolle unter Stereomikroskop | 1 | bei höchsten Qualitätsanforderungen |
+| 2965 | Zuschlag für Arbeiten unter Stereomikroskop | je Krone | bei Fertigung unter Mikroskop; neben 2840 nur bei Fertigung UND Endkontrolle |
+| 5301 | Deckgold aufbrennen | je Krone | bei Goldaufbrand vor der Verblendung |
+| 5302 | Bonder aufbrennen | je Krone | bei Metall-Keramik-Haftvermittler |
+| 5306 | Keramik/gegossenes Glas konditionieren | je Krone | bei Konditionierung der Klebe-/Verbundfläche |
+| 5307 | Metallfläche konditionieren | je Krone | bei Vorbereitung der Metallfläche vor der Verblendung |
+| 0907 | Digitaler Datenversand | je Datenversand | bei Datenübermittlung statt Modellversand |
+| 0911 | Foto auf Bildbearbeitungssoftware matchen | 1 | bei digitaler Farb-/Formabstimmung |
+| 0912 | Foto-/Videodokumentation zur diagnostischen Auswertung | 1 | bei diagnostischer Auswertung |
+| 0951 | Zahnfarbenbestimmung – Gingivafarbe | 1 | bei Gingiva-Anteil |
+| 0953 | Zahnfarbenbestimmung – Stumpffarbe (III/IV) | 1 | bei durchscheinender Verblendkeramik |
+| 0955 | Zahnfarbenbestimmung, digital | 1 | alternativ zu 0723/0724 bei digitaler Farbnahme |
+| 0723 | Zahnfarbenbestimmung I | 1 | bei Verblendung/zahnfarbener Arbeit |
+| 0724 | Zahnfarbenbestimmung II | 1 | bei Mehrfarb-/Schichttechnik |
 | 0732 | Desinfektion | 2 | Eingangs- + Ausgangsdesinfektion |
 | 0710 | Eilterminzuschlag | 1 | bei urgency=urgent/express |
-| 0706 | Foto- oder Video-Dokumentation | 1 | bei Bedarf |
-| 0721 | Zeiteinheit; Zahntechniker-Meister | je | bei Sonderaufwand |
-| 0722 | Zeiteinheit; Zahntechniker | je | bei Sonderaufwand |
-| 0701 | Versand je Versandgang | je | bei zusätzlichem Versandgang |
-| 0702 | Sonderversand oder Fahrtkosten | 1 | bei express/Sonderaufwand |
-| 0731 | Individuelle Namenskennzeichnung I | 1 | bei Auftragsmarkierung |
-| 0911 | Foto auf Bildbearbeitungssoftware matchen | 1 | bei digitaler Farb-/Form-Abstimmung |
-| 0912 | Foto-/Videodokumentation zur Auswertung | 1 | bei diagnostischer Doku |
+| 0706 | Foto- oder Video-Dokumentation | 1 | bei Dokumentationsbedarf |
+| 0721 | Zeiteinheit; Zahntechniker-Meister | je Zeiteinheit | bei Sonderaufwand, je angefangene Zeiteinheit |
+| 0722 | Zeiteinheit; Zahntechniker | je Zeiteinheit | bei Sonderaufwand, je angefangene Zeiteinheit |
+| 0701 | Versand je Versandgang | je Versandgang | nur im privaten BEB-Anteil bzw. Praxislabor (BEB-Zählweise je Einlieferung/Abholung, abweichend von BEL 9330); im BEL-Anteil stattdessen Menge bei 9330 erhöhen |
+| 0702 | Sonderversand oder Fahrtkosten | 1 | bei Express-/Sonderlogistik |
 
 # Material
 
-| Material | Menge | Bemerkung |
-|--------|--------|--------|
-| NEM-Legierung | ca. 4-6 g | je Krone, für gegossenes Gerüst |
-| Verblendkeramik | — | je Krone, Schichtkeramik für Vollverblendung |
-| Modellgips (Hartgips) | — | Arbeitsmodell + Gegenkiefermodell |
-| Stumpfmaterial (Superhartgips) | — | Sägemodell |
-| Einbettmasse | — | für Gussvorgang |
-| Konditionierer / Bonder | — | für Verblendung-Haftung |
+_Keine gesondert berechnungsfähigen Materialien — NEM-Legierung ist nach §2 Nr. 4 BEL II abgegolten; Gewichtsangabe (ca. 4–6 g je Krone) nur als Kalkulationsanhalt, der Verarbeitungsmehraufwand läuft über BEB 2981._
 
 # Hinweise
 
-VMK-Krone mit gegossenem NEM-Gerüst und keramischer Vollverblendung ist gleichartige Versorgung — die Vollverblendung geht über die GKV-Regelleistung "vestibuläre Verblendung" hinaus. Festzuschuss nach Befundklasse 1.1 (Erhaltungswürdiger Zahn) in Höhe der Regelversorgung (NEM vestibulär verblendet); die Mehrkosten der Vollverblendung trägt der Patient privat. Wird das Gerüst CAD-CAM gefräst statt gegossen, ändert sich die BEB97-Position (gefräst statt gegossen), bleibt aber gleichartig. Bei reiner vestibulärer Verblendung innerhalb VG wechselt die Vorlage zu `Regelversorgung/NEM_vestibulaer.md`. Bei EM-Gerüst statt NEM wechselt die Vorlage zu `VMK-EM_voll.md`.
+- BEL 9330 je Versandgang (ein Hin- und Rückweg, keine getrennte Hin-/Rückberechnung); im Praxislabor nicht abrechenbar — dort BEB 0701
+- Arbeitsmodell = genau eine der Positionen 0051/0052/0053 (Sockel seit 01.01.2023 eingeschlossen), BEL 0010 nur für weitere Modelle; 3D-gedruckte/gefräste Modelle sind nicht über BEL 0010/005x abrechenbar (Gips vorgeschrieben) → dann modellfrei bzw. Modelle als BEB-Leistung, 0120 bleibt bei Montage ansetzbar
+- Aus dem BEL-Teil entfallen: 1024 (Krone für vestibuläre Verblendung), 1620 (Vestibuläre Verblendung Keramik) und 9700 als Gerüstzuschlag — eine vollständig verblendete Krone erfüllt den Leistungsinhalt der 1024 nicht, 1620 ist für Vollverblendungen ausdrücklich nicht abrechenbar, und 9700 setzt eine der gelisteten BEL-Gerüstpositionen voraus; sonst stünde dieselbe Krone doppelt (BEL 1024/1620/9700 UND BEB 2122/2612/2981). Gerüst, Verblendung und NEM-Aufwand laufen vollständig über BEB
+- Entfallen: BEB 0731 (Namenskennzeichnung nur bei herausnehmbarem ZE/KFO-Gerät, nicht bei festsitzendem ZE); „Okklusaler Stop" ist 2915, nicht 2815 (= CAD/CAM-Brückenglied, vollständig verblendet). Im Leistungspreis enthalten: NEM-Legierung, Verblendkeramik, Einbettmasse, Modellgips (Hartgips), Stumpfmaterial (Superhartgips), Dubliermasse, Wachs, Konditionierer/Bonder
+- → Vorlage ../Regelversorgung/NEM_vestibulaer bei rein vestibulärer Verblendung innerhalb VG; → Vorlage VMK-EM_voll bei EM- statt NEM-Gerüst; → Vorlage ../Privatleistung/VMK-NEM_voll bei PKV/Selbstzahler ohne HKP

@@ -1,58 +1,42 @@
-| Bereich | Autor | erstellt am | Version |
-|--------|--------|--------|--------|
-| Reparatur / Unterfütterung / Regelversorgung | CLAUDE | 2026-04-27 | v1 |
+# Festzuschuss
+
+- Befund: 6.6 je Prothese bei erhaltungswürdigem Teil-Zahnersatz; 6.7 je Kiefer bei erhaltungswürdigem totalem Zahnersatz oder schleimhautgetragener Deckprothese — 8080/8090/8100 stehen gemeinsam im RV-Verzeichnis beider Befunde, die Teilunterfütterung löst also denselben Befund aus wie die vollständige
+- Versorgungsform: Regelversorgung (verändertes Prothesenlager) — für die Einstufung ist die Art des vorhandenen Zahnersatzes NICHT maßgeblich (FZ-RL Abschnitt 6, Protokollnotiz); auch die Unterfütterung einer privat gefertigten Prothese ist beim GKV-Versicherten Regelversorgung
+- Abrechnungsweg: vollständig BEL über KZV (BEMA-Honorar zahnärztlich)
+- FZ-Satz: 60 % | Bonus 5 J: 70 % | 10 J: 75 % | Härtefall: 100 % (§ 55 Abs. 2 SGB V) — bei tatsächlicher Regelversorgung trägt die Kasse die RV-Kosten vollständig (Eigenanteil 0), höchstens jedoch in Höhe der tatsächlich entstandenen Kosten; Beträge jährlich neu (FZ-Katalog des Abrechnungsjahres, FZ-RL i. d. F. 05.12.2025)
 
 # BEL-Positionen
 
 | BEL | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 0010 | Modell | 1 | Gegenbiss-/Konter-Modell (Hilfsmodell für Unterfütterung); je Kontrollmodell zusätzlich abrechenbar |
-| 0018 | Modell bei Implantatversorgung | 1 | alternativ zu 0010 bei implantatgestützter Prothese (Nr. 36b ZE-RL) |
-| 0015 | Modell UKPS | 1 | alternativ zu 0010 bei Unterkieferprotrusionsschiene (max. 6) |
-| 0023 | Verwendung von Kunststoff | 1 | bei Sonderdarstellung individueller Primärteile / Zahnfleischpartien (max. 3×); aus FZ-RL 6.6/6.7 |
-| 0112 | Fixator | 1 | je Unterfütterung; Bisslagen-Fixierung (Artikulator 012 0 NICHT abrechenbar bei Unterfütterung) |
-| 0115 | Fixator UKPS | 1 | alternativ zu 0112 bei UKPS |
-| 8010 | Grundeinheit ZE | 1 | NUR wenn gleichzeitig zur Unterfütterung weitere Instandsetzung erbracht wird (Sprung/Bruch/Zahn) — Unterfütterung selbst löst KEINE 8010 aus |
-| 8080 | Teilunterfütterung einer Basis | 1 | je Prothese (auch wenn mehrere Bereiche unterfüttert werden, nur 1×); nur ein Bereich (z.B. Sattel, lokale Druckstelle) |
-| 8088 | Teilunterfütterung/implantatgest. | 1 | alternativ zu 8080 bei implantatgestützter Basis |
-| 8085 | Teilunterfütterung einer Basis UKPS | 1 | alternativ zu 8080 bei Unterkieferprotrusionsschiene |
-| 3822 | Sonderkunststoff | 1 | je Prothese; bei zahnärztlicher Indikationsstellung für Sonderkunststoff zusätzlich zu 8080/8088 |
-| 9330 | Versandkosten | 2 | je Versandgang (nur gewerbliche Labore); Hin-/Rückversand |
+| 0010 | Modell | 1 | Unterfütterungsmodell bzw. Gegenbiss-/Konter (Gipskonter, Gipsschlüssel) aus Hart- oder Superhartgips; je tatsächlich hergestelltem Modell |
+| 8080 | Teilunterfütterung einer Basis | 1 | einmal je Prothese/Kiefer — auch wenn mehrere Bereiche der Basis unterfüttert werden; Heiß- oder Kaltpolymerisat, das Verfahren löst keine eigene Position aus |
+| 9330 | Versandkosten | je Versandgang | nur Gewerbelabor; je Versandgang = ein Hin- und Rückweg (Zwischenanproben zählen einzeln, Leerfahrten nicht); regionale KZV-Höchstzahl beachten |
 
 # Basisleistungen
 
-_Pflicht-Kern ist vollständig über BEL abgedeckt. Keine zusätzlichen BEB97-Basisleistungen erforderlich._
+_Keine — Pflichtkern vollständig über BEL._
 
 # Zusatzleistungen
 
-| BEB97 | Leistung | Menge | Bemerkung |
+| BEL | Leistung | Menge | Bemerkung |
 |--------|--------|--------|--------|
-| 0732 | Desinfektion | 2 | je Vorgang (Eingang/Ausgang) |
-| 0706 | Foto- oder Video-Dokumentation | 1 | bei Bedarf (Druckstellen-Dokumentation) |
-| 0710 | Eilterminzuschlag | 1 | bei urgency=urgent/express |
-| 0721 | Zeiteinheit; Zahntechniker-Meister | je | je 15 Min für nicht in BEB erfasste Leistungen |
-| 0722 | Zeiteinheit; Zahntechniker | je | je 15 Min für nicht in BEB erfasste Leistungen |
+| 0023 | Verwendung von Kunststoff | je Modell | bei Ausblocken der im Mund verbliebenen Primärteile (Sekundärteleskope) oder besonderer Darstellung der Zahnfleischpartien; max. 3× je Modell; nicht für Stümpfe/Sockel; befundklassenabhängig, im Härtefall i. d. R. nicht abrechenbar |
+| 0112 | Fixator | 1 | bei Bisslagenfixierung mit zweitem Modell; einmal je Modellpaar — 0120 Mittelwertartikulator ist neben 8080 ausdrücklich ausgeschlossen |
+| 3822 | Sonderkunststoff | 1 | nur bei zahnärztlicher Indikationsstellung; einmal je Prothese; beschreibt NICHT die Verwendung von Weichkunststoff (dafür 3821) |
+| 8010 | Grundeinheit ZE | 1 | nur wenn gleichzeitig eine Instandsetzung erbracht wird (Sprung/Bruch/Zahn) — die Unterfütterung selbst ist keine Instandsetzung i. S. d. 8010; dann zusätzlich die jeweilige Leistungseinheit 8021–8027 |
 
 # Material
 
 | Material | Menge | Bemerkung |
 |--------|--------|--------|
-| PMMA-Heißpolymerisat | — | dauerhaft, langlebig |
-| Modellgips (Hartgips) | — | für Modell und Konter |
-| Desinfektionsmittel | — | nach Herstelleranweisung |
+| Sonderkunststoff (z. B. Wipodur, Microbase) | nach Verbrauch | nur zu 3822 und nur bei zahnärztlicher Indikationsstellung; gesondert berechnungsfähig (§ 2 Nr. 4 BEL II) — Art, Menge und Preis ausweisen |
 
 # Hinweise
 
-Partielle Unterfütterung mit Heißpolymerisat — Regelversorgung. Nur ein Bereich der Basis (z.B. lokale Druckstelle, einzelner Sattel). Geringerer Aufwand als Vollunterfütterung.
-
-**Festzuschuss:** Befund **6.6** "Verändertes Prothesenlager bei erhaltungswürdigem Teil-Zahnersatz, je Prothese" (FZ-RL 2024-11-21) bzw. **6.7** bei Total-/Deckprothese. Beide Befunde listen 8080/8090/8100 + 3821/3822 + 0010/0112/9330 explizit unter `regelversorgung_zahntechnik`. Bei Teilunterfütterung Teilzahnersatz → 6.6, bei Teilunterfütterung Total/Deckprothese → 6.7.
-
-**BEL-Regeln (kritisch):**
-- BEL 808 0 ist je Prothese / je Kiefer **nur 1×** abrechenbar — selbst wenn mehrere Bereiche der Basis unterfüttert werden.
-- **Fixator (0112) ist** bei Unterfütterung **abrechenbar**, **Artikulator (012 0/5/8) NICHT** (BEL II §5 + Erläuterungen zu 808 0).
-- BEL **8010 (Grundeinheit ZE) ist KEINE eigenständige Leistung** zur Unterfütterung — nur abrechenbar, wenn zusätzlich eine Instandsetzung (Sprung/Bruch/Zahn ersetzen) erbracht wird.
-- BEL 3822 (Sonderkunststoff) nur bei zahnärztlicher Indikationsstellung; je Prothese 1× zusätzlich zu 8080/8088.
-- BEL 0023 (Verwendung von Kunststoff) max. 3× pro Fall; bei Härtefällen i.d.R. nicht abrechenbar.
-- BEL 9330 (Versand) nur für gewerbliche Labore (Praxislabor: nicht abrechenbar).
-- Bei implantatgestützter Prothese: BEL 0018 statt 0010 und BEL 8088 statt 8080.
-- Bei UKPS (Unterkieferprotrusionsschiene): BEL 0015 statt 0010, 0115 statt 0112, 8085 statt 8080.
+- 8080 ist je Prothese/Kiefer nur EINMAL abrechenbar, auch bei mehreren unterfütterten Bereichen, und ist keine Instandsetzung i. S. d. 8010/8021–8027; 0010 (Gegenbiss/Konter) und 0112 sind daneben ausdrücklich abrechenbar, 0120 nicht. Heiß- vs. Kaltpolymerisation ist reine Verfahrenswahl ohne eigene BEL-Position — abrechnungsrelevant sind nur Umfang (8080/8090/8100) und Materialklasse (3821/3822)
+- Implantatgestützte Basis NICHT über diese Vorlage: dort gilt Befund 7.7 mit vollständigem Positionswechsel — 0018 statt 0010, 0128 statt 0120, 8018 statt 8010, 8088 statt 8080 (8098/8108 bei Vollunterfütterung/Basiserneuerung) und 9338 statt 9330; die Kombination 8088 + 9330 + FZ 6.6/6.7 mischt zwei Befundklassen
+- Unterkieferprotrusionsschiene NICHT über diese Vorlage: 8080 ist für die UKPS ausdrücklich ausgeschlossen, abrechenbar sind nur UKPS-gekennzeichnete Positionen (0015 Modell UKPS, 0115 Fixator UKPS, 8085 Teilunterfütterung UKPS, 8500 Grundeinheit Instandsetzung/Erweiterung UKPS, 9335 Versand UKPS; 0023 und 3822 entfallen); kein Festzuschuss der Klasse 6 — Abrechnung über BEMA UP1–UP6
+- → Vorlage Heisspolymerisation_Vollstaendig bei vollständiger Unterfütterung (8090) oder Basiserneuerung (8100); → Vorlage Weichbleibend_Partiell bei weichbleibendem Kunststoff (dann 3821 + Weichkunststoff als Material); → Vorlage ../../Prothesenreparatur/ bei gleichzeitigem Sprung/Bruch/Zahnersatz (8010 + Leistungseinheit, Befund 6.1–6.3); → Vorlage ../Privatleistung/ nur bei PKV, Selbstzahler ohne HKP oder ausdrücklichem Komplett-Privatwunsch
+- Private Zusatzleistungen (BEB) sind NICHT Teil der BEL-Regelversorgung — jede ausgelöste BEB-Position macht die Versorgung gleichartig (schriftliche Mehrkostenvereinbarung): 0732 Desinfektion, 0706 Foto- oder Video-Dokumentation, 0710 Eilterminzuschlag, 0721 Zeiteinheit Zahntechniker-Meister, 0722 Zeiteinheit Zahntechniker; NICHT ansetzbar: 0701/0702 Versand (im Gewerbelabor über BEL 9330 abgegolten)
+- Im Leistungspreis enthalten (§ 2 Nr. 4 BEL II): PMMA-Heißpolymerisat, Kaltpolymerisat, Modellgips (Hartgips), Superhartgips, Desinfektionsmittel, Trenn- und Poliermittel, sonstiges Verbrauchsmaterial Praxis
