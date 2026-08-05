@@ -64,7 +64,17 @@ In einer reinen Regelversorgung hat der BEB keinen Platz. Jede angesetzte BEB-Po
 
 ## Katalogschwächen
 
-Der Katalog enthält 1103 Positionen. Davon sind 779 als `standard` und 324 als `individuell` geführt; die 324 tragen zusätzlich ein Feld `quellen` mit Werten wie `spitta`, `intern` oder `dent_content`. Was die beiden Typen bedeuten und welche Positionen damit originäre BEB 97 sind, ist im Wiki nicht dokumentiert und im Katalog nicht erklärt. Alle Aussagen dieser Seite und der Kollisionsseite hängen an dieser Unterscheidung.
+Der Katalog enthält 1103 Positionen: 779 als `standard`, 324 als `individuell`. Der Katalog erklärt die Typen nicht, drei Befunde grenzen ihre Bedeutung aber ein.
+
+Erstens tragen ausschließlich die 324 `individuell`-Positionen ein Feld `quellen`, keine einzige `standard`-Position. Die Herkunftsschlüssel sind `intern` bei 210, `dent_content` bei 202 und `spitta` bei 136 Positionen, Mehrfachnennung möglich.
+
+Zweitens sind von den 135 Nummern, die BEB und BEL gemeinsam haben, 101 `individuell` und die meisten davon praktisch textgleich mit dem BEL-Kurztext. Im `standard`-Bestand liegen nur 34 gemeinsame Nummern.
+
+Drittens lassen sich drei Fälle einzeln nachweisen, in denen eine `individuell`-Position eine gespiegelte BEL-Position ist und die echte BEB-Position als `standard` in einer anderen Hauptgruppe steht: 1360 und 1370 gegen 3215, die Auflagen 3800 bis 3814 gegen 4118 bis 4421, und alle neun Positionen, die den 3D-Druck nennen.
+
+Die Lesart ist damit belegt: `individuell` markiert nachträglich eingespiegelte Fremdpositionen, `standard` den originären Bestand. Endgültig entscheiden ließe sich das nur an einer Dokumentation des Katalog-Imports, die nicht im Repository liegt. Alle Aussagen dieser Seite und von [[positionskollision-bel-beb97]] hängen an dieser Unterscheidung.
+
+Die erste Ziffer entspricht ausnahmslos der Hauptgruppe, bei allen 1103 Positionen ohne Abweichung. Die Nummernkreise: HG0 0001–0961, HG1 1001–1874, HG2 2001–2983, HG3 3001–3983, HG4 4001–4983, HG5 5001–5851, HG6 6001–6938, HG7 7001–7908, HG8 8001–8851, HG9 9330–9850.
 
 Bekannte Schwächen, ermittelt aus `kataloge/beb97_zahniAI_2026_v1.json`:
 

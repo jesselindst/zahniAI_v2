@@ -32,7 +32,7 @@ Katalog aller Wissensseiten. Der Einzeiler unter "Inhalt" macht die Seite unters
 | Seite | Inhalt | Meta |
 |---|---|---|
 | [BEB 97](beb97.md) | Nomenklaturliste ohne Preise, Kalkulation über Planzeit mal Kostensatz, Hauptgruppen, Doppelabrechnungsfallen, Stand gegenüber BEB Zahntechnik | 2026-08-05 · recherche-2026-08 |
-| [Positionskollision BEL und BEB 97](positionskollision-bel-beb97.md) | 135 gemeinsame Nummern, 33 mit anderer Bedeutung, 1360 und 1370 vertauscht; Prüfregel für den Kostenvoranschlag | 2026-08-05 · bel_2026_v1.json, beb97_zahniAI_2026_v1.json |
+| [Positionskollision BEL und BEB 97](positionskollision-bel-beb97.md) | 135 gemeinsame Nummern, 37 mit anderer Bedeutung, 1360 und 1370 vertauscht; Prüfregel für den Kostenvoranschlag | 2026-08-05 · bel_2026_v1.json, beb97_zahniAI_2026_v1.json |
 | [Material in der privaten Abrechnung](material-privat-goz.md) | § 9 und § 10 GOZ, Bezeichnung/Gewicht/Tagespreis der Legierung, Kostenvoranschlag ab 1000 Euro, Gegenprobe zur GKV-Liste | 2026-08-05 · recherche-2026-08 |
 
 ## Versorgungsformen
@@ -71,4 +71,5 @@ Katalog aller Wissensseiten. Der Einzeiler unter "Inhalt" macht die Seite unters
 | [Festzuschuss-Richtlinie, Fassung 2026](quelle-fz-rl-2026.md) | Vollständige Richtlinie mit Teil A: neun Anwendungsregeln, Härtefallmechanik, Abrechnungsgrundlage, Suprakonstruktionen; dazu Teil B mit BEMA-Positionen und den vier Differenzbefunden | 2026-08-05 · raw/FZ-RL_2025-12-05_iK-2026-01-01.pdf |
 | [Festzuschuss-Richtlinie, Fassung 2025](quelle-fz-rl-2025.md) | Nur Teil B als Katalog. Durch die Fassung 2026 abgelöst, bleibt für Altfälle | 2026-08-05 · kataloge/fz_2025_v1.json |
 | [Recherche Abrechnungsrahmen 2026](quelle-recherche-abrechnungsrahmen-2026.md) | Eigene Auswertung: sieben Rechercheberichte zu Festzuschuss, BEB, Material und digitalen Verfahren, dazu die Prüfung von 228 Abrechnungsvorlagen mit 642 Befunden | 2026-08-05 · raw/recherche-2026-08/ |
+| [Zahnersatz-Richtlinie (Volltext liegt nicht vor)](quelle-zahnersatz-richtlinie.md) | Fremdquelle: welche ZE-RL-Nummern das Wiki beansprucht und welche davon aus FZ-RL und BEL II zweitbelegt sind | 2026-08-05 · recherche-2026-08 |
 | [Bundesmittelpreise 2026](quelle-bmp-2026.md) | Preistabelle für 2026, 117 Positionen; beschreibt auch, wie beim Jahreswechsel eine neue Jahrgangsseite eingehängt wird | 2026-08-05 · raw/BMP_2026_Leistungen_Regelversorgung.pdf |

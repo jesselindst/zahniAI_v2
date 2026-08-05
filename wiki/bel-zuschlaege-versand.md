@@ -3,7 +3,7 @@ titel: Versandkosten und NEM-Verarbeitungsaufwand
 aliase: [Versandkosten, 933 0, NEM-Zuschlag, 970 0]
 labels: [Abrechnung, BEL, Material]
 positionen: [bel:9330, bel:9335, bel:9338, bel:9700]
-quellen: [raw/BEL_II_01_01_2022.pdf]
+quellen: [raw/BEL_II_01_01_2022.pdf, raw/recherche-2026-08/bel2_stand.md, kataloge/bel_2026_v1.json]
 stand: 2026-08-05
 ---
 
@@ -21,7 +21,11 @@ Abgegolten werden Auslagen für Versand, wie z. B. Versand durch Laborboten je V
 
 **Pauschale statt Einzelnachweis.** Die Versandkosten sind pauschal abzurechnen. Zur Bestimmung der Pauschale ist das Prinzip der Wirtschaftlichkeit der Versorgung (§ 12 SGB V) zu beachten. Eine Höhe nennt das Verzeichnis nicht; sie ergibt sich aus der regionalen Preisvereinbarung, siehe [[bel-ii]]. Für 933 0 und 933 8 existiert ein Bundesmittelpreis als Orientierungsgröße, siehe [[bundesmittelpreis]]. Für 933 5 (UKPS) gibt es keinen.
 
+**Was ein Versandgang ist.** Hin- und Rückweg derselben Beförderung sind ein Versandgang, nicht zwei. Jede Beförderung des Werkstücks zwischen Labor und Praxis zählt, auch je Zwischenanprobe; Fahrten ohne Werkstück zählen nicht. Die Regel steht nicht im Leistungsverzeichnis — dort ist der Begriff nur in der Aufzählung der Versandarten verwendet. Sie stammt aus dem Gemeinsamen Rundschreiben von GKV-Spitzenverband, Verband Deutscher Zahntechniker-Innungen und Kassenzahnärztlicher Bundesvereinigung vom 11.07.2016, ergangen nach der Bundesschiedsamtsentscheidung vom 03.12.2015. Der Volltext liegt nicht im Repository; der Wortlaut ist über `raw/recherche-2026-08/` belegt. Die Prüfung der Vorlagen fand mehrfach den doppelten Ansatz, etwa vier Stationen als achtmal 933 0.
+
 **Nicht für Praxislabore.** 933 0, 933 5 und 933 8 können nicht für Leistungen abgerechnet werden, die in Praxislaboratorien erbracht werden.
+
+Die aktive Katalogfassung führt für diese drei Positionen gleichwohl einen Praxislabor-Preis von 6,85 Euro, gleich dem Gewerbelabor-Preis; dasselbe gilt für 970 0 mit 16,43 Euro. Das ist eine Eigenschaft der Datei, kein Abrechnungsanspruch — für ein Praxislabor bleiben die drei Versandpositionen gesperrt. Bei allen übrigen 171 Positionen liegt der Praxislabor-Preis 5 Prozent unter dem Gewerbelabor-Preis, siehe [[bundesmittelpreis]].
 
 ## Verarbeitungsaufwand NEM-Legierung
 

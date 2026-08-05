@@ -2,7 +2,7 @@
 titel: Bundesmittelpreis
 aliase: [BMP, Bundeseinheitlicher durchschnittlicher Preis]
 labels: [Abrechnung, BEL, Preise, Regulatorik]
-quellen: [raw/BMP_2026_Leistungen_Regelversorgung.pdf, raw/BEL_II_01_01_2022.pdf]
+quellen: [raw/BMP_2026_Leistungen_Regelversorgung.pdf, raw/BEL_II_01_01_2022.pdf, kataloge/bel_2026_v1.json, raw/recherche-2026-08/bel2_stand.md, raw/recherche-2026-08/festzuschuss.md]
 stand: 2026-08-05
 ---
 
@@ -19,6 +19,8 @@ Diese Seite ist der feste Anlaufpunkt. Andere Wiki-Seiten verlinken ausschließl
 | 2026 | 01.01.2026 – 31.12.2026 | [[bundesmittelpreise-2026]] |
 
 Ist das laufende Datum außerhalb der Gültigkeit des jüngsten Jahrgangs, gibt es keinen gültigen Bundesmittelpreis im Wiki. Dann ist die aktuelle Liste zu beschaffen, nicht der abgelaufene Jahrgang zu verwenden.
+
+Der Bundeswert ist eigenständig vereinbart und kein Mittelwert der regionalen Vergütungen. Die Kausalität läuft umgekehrt: Der Bundeswert ist die Bezugsgröße, aus der die regionalen Preise abgeleitet werden.
 
 ## Was der Bundesmittelpreis nicht ist
 
@@ -61,10 +63,44 @@ Mehrere Positionen teilen sich einen Betrag, weil die Liste sie zu Preisgruppen 
 
 Die Preisgleichheit sagt nichts über Kombinierbarkeit. Ob zwei gleichpreisige Positionen nebeneinander abrechenbar sind, richtet sich allein nach [[nebeneinander-ausschluesse-bel]] und [[mengen-und-bezugsgroessen-bel]].
 
+## Die Katalogpreise sind nicht der Bundesmittelpreis
+
+Die aktive Katalogfassung `kataloge/bel_2026_v1.json` führt für alle 175 Positionen einen `Preis_Gewerbelabor` und einen `Preis_Praxislabor`, also auch für die 58 ohne Bundesmittelpreis. Sie trägt keine Metadaten: kein Preisstand, kein Preisgebiet, keine Quelle. Ein Abgleich der 117 überlappenden Positionen grenzt sie dennoch ein.
+
+| Kennzahl | Wert |
+|---|---|
+| Positionen im Katalog | 175 |
+| davon mit Bundesmittelpreis 2026 | 117 |
+| Median-Abweichung Gewerbelabor gegenüber Bundesmittelpreis | +0,21 Prozent |
+| Positionen mit exakter Übereinstimmung | 0 von 117 |
+| Abweichung unter 1 Prozent | 98 von 117 |
+| Abweichung bis 5 Prozent | 113 von 117 |
+
+Keine einzige Position stimmt überein. Die Abweichung ist zu einheitlich für Zufall und zu groß für Rundung. Ein einheitlicher Umrechnungsfaktor erklärt den Katalog aber auch nicht.
+
+Drei Gruppen fallen aus dem Muster. Zehn Positionen des festsitzenden Zahnersatzes liegen um +2,07 Prozent höher: 102 1, 102 2, 102 3, 102 4, 102 6, 102 8, 120 0, 120 1, 162 0, 162 8. Drei Positionen der Aufstellung liegen bei −4,85 und −4,36 Prozent: 302 0, 302 8, 303 0. Und vier Positionen liegen weit darunter:
+
+| L-Nr. | Kurztext | Bundesmittelpreis | Katalog Gewerbelabor | Abweichung |
+|---|---|---:|---:|---:|
+| 801 0 | Grundeinheit ZE | 27,19 | 23,40 | −13,94 % |
+| 801 8 | Grundeinheit Instandsetzung ZE, implantatgestützt | 27,19 | 23,40 | −13,94 % |
+| 301 0 | Aufstellung, Grundeinheit | 41,38 | 36,20 | −12,52 % |
+| 301 8 | Aufstellung, Grundeinheit bei Implantatversorgung | 41,38 | 36,20 | −12,52 % |
+
+Alle vier sind Grundeinheiten mit hoher Ansatzhäufigkeit, und der Katalog rechnet dort zulasten des Labors. Ein Kostenvoranschlag mit 801 0 oder 301 0 ist preislich nicht belastbar, solange die Herkunft der Datei ungeklärt ist.
+
+`Preis_Praxislabor` ist rechnerisch der um 5 Prozent geminderte Gewerbelabor-Preis: bei 160 der 175 Positionen centgenau, bei elf weiteren innerhalb eines Cents Rundungsdifferenz. Vier Positionen weisen beide Preise gleich aus — 933 0, 933 5, 933 8 und 970 0.
+
+Preisart und Preisstand sind auseinanderzuhalten. Für 005 1 bis 005 3 stehen vier Zahlen nebeneinander: Bundesmittelpreis ab 01.01.2023 16,62 Euro, Bundesmittelpreis 2026 18,94 Euro, Katalog Gewerbelabor 18,98 Euro, Katalog Praxislabor 18,03 Euro. Der Abstand zwischen 16,62 und 18,98 Euro ist überwiegend ein Zeitunterschied von drei Jahren. Jahresgleich verglichen liegen die beiden Preisarten vier Cent auseinander.
+
 ## Offen
 
-Die Quelle nennt die Rechtsgrundlage, aber nicht die Verwendung. Wie der Bundesmittelpreis in die Berechnung der Festzuschüsse nach § 55 SGB V eingeht, ist aus den bisher ingestierten Quellen nicht belegt und hier bewusst nicht behauptet.
+Welchem Preisgebiet und welchem Stichtag `kataloge/bel_2026_v1.json` zuzuordnen ist, ist nicht geklärt. Im Repository liegt keine regionale Preisliste, gegen die sich der Fingerabdruck der drei Abweichungsgruppen halten ließe.
 
-Teilklärung aus der Recherche 2026: Die Betragstabelle des GKV-Spitzenverbands nennt als Kalkulationsbasis für 2026 einen bundeseinheitlichen Zahnersatz-Punktwert von 1,1844 Euro sowie die BEL-II-Preise nach Vereinbarung zwischen Verband Deutscher Zahntechniker-Innungen und GKV-Spitzenverband, gegenüber 2025 um 4,78 Prozent erhöht. Der Bundeswert ist damit eigenständig vereinbart und kein Mittelwert der regionalen Vergütungen. Die Festsetzung der Festzuschussbeträge selbst nimmt der Gemeinsame Bundesausschuss vor, siehe [[festzuschuss]].
+Nach eigener Recherche dürfen regional vereinbarte Höchstpreise den Bundesmittelpreis um bis zu 5 Prozent über- oder unterschreiten, und für Leistungen aus Praxislaboratorien mindern sich die Preise um 5 Prozent. Beides passt zum gemessenen Bild. Die Fundstelle ist im Repository jedoch widersprüchlich belegt — die Rechercheberichte nennen § 57 Abs. 2 Satz 3, Satz 7 und § 88 Abs. 3 SGB V für dieselbe Regel. Die Satznummer ist deshalb hier nicht genannt. Dass 113 von 117 Positionen innerhalb von 5 Prozent liegen, ist eine Messung, kein Konformitätsurteil. Erst der Normtext macht daraus einen Maßstab.
+
+Wie der Bundesmittelpreis in die Betragsfestsetzung eingeht, ist ebenfalls nicht abschließend belegt. Ein Teilbefund liegt vor: In die Festsetzung gehen die relativen Häufigkeiten der einzelnen Leistungsnummern ein, und eine Änderung des Leistungsinhalts zieht die Anpassung dieser Häufigkeit und damit der Beträge nach sich. Änderungsvereinbarung und Beschluss des Gemeinsamen Bundesausschusses sind deshalb immer datumsgleich zu lesen. Belegt ist das über die Änderungsvereinbarung zum BEL II, die noch nicht ingestiert ist.
+
+Die Kalkulationsbasis 2026 — Zahnersatz-Punktwert und die Steigerung der BEL-II-Preise — steht auf der Jahrgangsseite [[festzuschussbetraege-2026]]. Die Festsetzung der Festzuschussbeträge nimmt der Gemeinsame Bundesausschuss vor, siehe [[festzuschuss]].
 
 Verwandt: [[bel-ii]] · [[quelle-bmp-2026]]

@@ -69,4 +69,10 @@ Befund 1.1 mit Zuschlag 1.3, verblendete Krone im Verblendbereich.
 
 Der Befundkatalog führt je Befund sechs Beträge: die Bestandteile Honorar nach § 57 Abs. 1 SGB V und Material und Labor nach § 57 Abs. 2 SGB V, deren Summe der Härtefallbetrag ist, sowie die drei Abstaffelungen. Die Werte für 2026 stehen in [[festzuschussbetraege-2026]], für 2025 in [[festzuschussbetraege-2025]].
 
+Ein mit Zahlen durchgerechneter Fall — dreigliedrige Brücke mit einmal 2.1 und dreimal 2.7 über alle vier Stufen, einschließlich der Deckelung im Härtefall — steht auf der Jahrgangsseite [[festzuschussbetraege-2026]]. Diese Seite bleibt betragsfrei, weil die Beträge jährlich wechseln.
+
+## Offen
+
+Die gleitende Härtefallregelung nach § 55 Abs. 3 SGB V ist oben nur benannt. Ihre Mechanik — Einkommensgrenzen, Berechnung des erhöhten Zuschusses im Grenzbereich — ist im Repository nirgends belegt; die Rechercheberichte nennen die Regelung nur in einer Aufzählung, ohne Grenzwerte und ohne Formel. Für eine Eigenanteilsberechnung im Grenzbereich reicht das nicht. Schließbar allein durch den Normtext des § 55 SGB V, der nicht vorliegt.
+
 Verwandt: [[festzuschuss]] · [[versorgungsform]] · [[festzuschuss-befundklassen]] · [[festzuschussbetraege-2026]] · [[quelle-fz-rl-2026]]

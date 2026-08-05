@@ -114,6 +114,21 @@ Alle Angaben in EUR.
 
 Die Befunde der Klasse 8 tragen keinen eigenen Betrag. Sie werden bei Teilleistungen anteilig gewährt (Teil A Nr. 2); die Sätze 50 und 75 Prozent und die jeweiligen Basisbefunde nennt Teil B bei 8.1 bis 8.6, siehe [[festzuschuss-befundklassen]].
 
+## Durchgerechneter Fall
+
+Dreigliedrige Brücke, Metall, vestibulär verblendet, alle drei Einheiten im Verblendbereich. Befunde: einmal 2.1 für den einen fehlenden Zahn, dazu dreimal 2.7 — je Verblendung für den ersetzten Zahn und für die beiden der Lücke angrenzenden Brückenanker.
+
+| Stufe | Rechnung | Festzuschuss |
+|---|---|---:|
+| ohne Bonus | 552,96 + 3 × 79,46 | 791,34 |
+| Bonus 5 Jahre | 645,12 + 3 × 92,71 | 923,25 |
+| Bonus 10 Jahre | 691,20 + 3 × 99,33 | 989,19 |
+| Härtefall | 921,60 + 3 × 132,44 | 1.318,92 |
+
+Der Fall zeigt die Deckelung nach Teil A Nr. 4: Liegen die tatsächlich entstandenen Kosten der Regelversorgung unter dem Härtefallbetrag, wird nur der niedrigere Betrag gewährt. Nach eigener Auswertung der Abrechnungsvorlagen liegen sie hier bei 1.207,60 Euro, also unter den 1.318,92 Euro der Tabelle; der Eigenanteil im Härtefall ist dann null, und die Differenz verfällt. Die Kostenangabe stammt aus `raw/recherche-2026-08/`, nicht aus der Richtlinie.
+
+Die Mechanik der Prozentstufen steht in [[haertefall-und-bonus]].
+
 ## Kalkulationsbasis 2026
 
 Bundeseinheitlicher Zahnersatz-Punktwert 1,1844 Euro. Die BEL-II-Preise nach Vereinbarung zwischen Verband Deutscher Zahntechniker-Innungen und GKV-Spitzenverband steigen zum 01.01.2026 um 4,78 Prozent gegenüber 2025, verbunden mit einer Modifikation der Preisstruktur. Beides ist jahrgangsgebunden und deshalb hier verzeichnet, nicht auf [[festzuschuss]] oder [[bundesmittelpreis]].

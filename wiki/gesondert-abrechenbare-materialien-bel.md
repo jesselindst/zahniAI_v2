@@ -47,7 +47,7 @@ Für Nichtedelmetall-Legierungen gibt es keine Materialerstattung, sondern eine 
 
 ## Umkehrschluss
 
-Die Aufzählung ist abschließend. Was nicht darin steht, ist mit den Positionspreisen abgegolten; § 2 Ziffer 4 sagt das für die Halbfertigteile ausdrücklich und damit für alles Übrige. Nicht gesondert berechenbar sind daher unter anderem Nichtedelmetall, Zirkon- und Lithiumdisilikatrohlinge, Gips, Einbettmasse, Wachs, Sinterhilfsmittel, Verblendkeramik, Klebekomposit und das Silikon der Zahnfleischmaske.
+Nach dem Umkehrschluss aus § 2 Ziffer 4 ist alles, was nicht in der Liste steht, mit den Positionspreisen abgegolten; für die Halbfertigteile sagt die Quelle das ausdrücklich. Die Grenze dieses Schlusses steht oben. Nicht gesondert berechenbar sind daher unter anderem Nichtedelmetall, Zirkon- und Lithiumdisilikatrohlinge, Gips, Einbettmasse, Wachs, Sinterhilfsmittel, Verblendkeramik, Klebekomposit und das Silikon der Zahnfleischmaske.
 
 Auf der privaten Seite gilt diese Beschränkung nicht, dafür eine schärfere Nachweispflicht, siehe [[material-privat-goz]].
 

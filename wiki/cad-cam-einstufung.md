@@ -2,7 +2,7 @@
 titel: CAD/CAM-Einstufung
 aliase: [gefräste Krone, 3D-Druck, digitale Fertigung, Intraoralscan, monolithisch, digitale Totalprothetik]
 labels: [Abrechnung, Herstellung, BEL, BEB97]
-quellen: [raw/BEL_II_01_01_2022.pdf, raw/recherche-2026-08/cadcam_einstufung.md, raw/recherche-2026-08/neue_verfahren.md]
+quellen: [raw/BEL_II_01_01_2022.pdf, raw/recherche-2026-08/cadcam_einstufung.md, raw/recherche-2026-08/neue_verfahren.md, kataloge/bel_2026_v1.json]
 stand: 2026-08-05
 ---
 

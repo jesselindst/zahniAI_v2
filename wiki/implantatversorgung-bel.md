@@ -89,4 +89,6 @@ Bei einer Erstversorgung richtet sich der Befund nach der Situation vor dem Setz
 
 Zwei Regelkreise sind auseinanderzuhalten. ZE-RL Nr. 36 entscheidet, ob die Suprakonstruktion Regelversorgung ist. § 28 Abs. 2 SGB V entscheidet, ob das Implantat selbst Sachleistung ist. Außerhalb der Fälle nach Nr. 36 ist die Suprakonstruktion andersartige Versorgung, siehe [[versorgungsform]].
 
-Verwandt: [[bel-ii]] · [[bel-gruppe-festsitzender-zahnersatz]] · [[bel-gruppe-herausnehmbarer-zahnersatz]] · [[festzuschuss]] · [[versorgungsform]]
+Die Nummern 36 a, 36 b, 37 und 38 stammen aus der Zahnersatz-Richtlinie; ihr Belegstatus steht in [[quelle-zahnersatz-richtlinie]].
+
+Verwandt: [[quelle-zahnersatz-richtlinie]] · [[bel-ii]] · [[bel-gruppe-festsitzender-zahnersatz]] · [[bel-gruppe-herausnehmbarer-zahnersatz]] · [[festzuschuss]] · [[versorgungsform]]

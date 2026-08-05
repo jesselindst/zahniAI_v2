@@ -2,13 +2,13 @@
 titel: Positionskollision BEL und BEB 97
 aliase: [Nummernkollision, gleiche Nummer andere Leistung, Katalogverwechslung]
 labels: [Abrechnung, BEL, BEB97]
-quellen: [kataloge/bel_2026_v1.json, kataloge/beb97_zahniAI_2026_v1.json]
+quellen: [kataloge/bel_2026_v1.json, kataloge/beb97_zahniAI_2026_v1.json, raw/BMP_2026_Leistungen_Regelversorgung.pdf]
 stand: 2026-08-05
 ---
 
-135 der 175 BEL-Nummern kommen auch im BEB 97 vor. Bei 35 davon bezeichnet dieselbe Nummer eine völlig andere Leistung. Ermittelt durch Abgleich der beiden Katalogdateien im Repository.
+135 der 175 BEL-Nummern kommen auch im BEB 97 vor. Bei 37 davon bezeichnet dieselbe Nummer eine völlig andere Leistung. Ermittelt durch Abgleich der beiden Katalogdateien im Repository.
 
-Die Zahl 135 misst dabei die Prüflast im Repository, nicht die Nummerierung der BEB 97: 101 der 135 Nummern sind in der BEB-Datei als `individuell` geführt, 81 davon mit praktisch demselben Kurztext wie im BEL — also gespiegelte BEL-Positionen. Im `standard`-Bestand der Datei liegen nur 34 gemeinsame Nummern, davon 29 mit anderer Bedeutung. Was `standard` und `individuell` bedeuten, ist im Wiki nicht dokumentiert, siehe [[beb97]].
+Die Zahl 135 misst dabei die Prüflast im Repository, nicht die Nummerierung der BEB 97: 101 der 135 Nummern sind in der BEB-Datei als `individuell` geführt, 81 davon mit praktisch demselben Kurztext wie im BEL — also gespiegelte BEL-Positionen. Im `standard`-Bestand der Datei liegen nur 34 gemeinsame Nummern, davon 31 mit anderer Bedeutung. Was `standard` und `individuell` bedeuten, ist im Wiki nicht dokumentiert, siehe [[beb97]].
 
 Eine Prüfung, die nur fragt, ob eine Nummer existiert, erkennt davon nichts: Die Nummer ist gültig, nur im falschen Katalog. Deshalb trägt jede Positions-ID im Wiki ein Katalogpräfix, siehe [[positionssystematik-bel]].
 
@@ -18,9 +18,9 @@ Eine Prüfung, die nur fragt, ob eine Nummer existiert, erkennt davon nichts: Di
 2. Stimmt der Leistungstext mit dem Kurztext genau dieses Katalogs überein?
 3. Weicht er ab: Meint der Text die gleichnamige Position des anderen Katalogs?
 
-Schritt 2 ist der eigentliche Test. Er erfasst alle 35 Fälle, weil sich die Kurztexte unterscheiden. Schritt 1 allein genügt nicht.
+Schritt 2 ist der eigentliche Test. Er erfasst alle 37 Fälle, weil sich die Kurztexte unterscheiden. Schritt 1 allein genügt nicht.
 
-## Die 35 Kollisionen
+## Die 37 Kollisionen
 
 | Nummer | BEL | BEB 97 |
 |---|---|---|
@@ -54,7 +54,9 @@ Schritt 2 ist der eigentliche Test. Er erfasst alle 35 Fälle, weil sich die Kur
 | 7121 | Weichkunststoff (KFO) | Dorn |
 | 7122 | Sonderkunststoff (KFO) | Auflage |
 | 7410 | Verbindungselemente/intermaxillär | Außenbogen |
+| 8023 | LE Einarbeiten Zahn | Leistungseinheit, Wiederbefestigung Zahn |
 | 8024 | LE Basisteil Kunststoff | Leistungseinheit, Erneuerung Zahn |
+| 8026 | LE Rückenschutzplatte einarbeiten | Leistungseinheit, Regulierungselemente einarbeiten |
 | 8027 | LE Kunststoffsattel | Leistungseinheit, Basisteil aus Kunststoff |
 | 8030 | Retention, gebogen | Leistungseinheit, Kunststoffsattel lösen und wiederbefestigen |
 | 8040 | Retention, gegossen | Leistungseinheit Basis vergrößern |
@@ -94,6 +96,8 @@ Solange der BEB-Volltext nicht vorliegt, bleibt die Vertauschung unaufgelöst. E
 | 2027 | Auflage | existiert nicht |
 | 2028 | Umgehungsbügel bei Diastema | existiert nicht |
 
-Beide Richtungen sind in Abrechnungsvorlagen aufgetreten. Die BEB-Entsprechung einer Auflage ist 3805 Auflage in HG3, nicht 2027 und nicht 7122; letzteres ist die kieferorthopädische Auflage in HG7.
+Beide Richtungen sind in Abrechnungsvorlagen aufgetreten.
+
+Die BEB-Entsprechung einer gegossenen Auflage im Modellguss ist 4122 oder 4421, beide `standard` in HG4 — der Gruppe der gegossenen Halte- und Stützelemente, zwischen Ringklammer, Überwurfklammer und Stiel. Nicht 2027, die Nummer kennt der BEB nicht. Nicht 7122, das ist die kieferorthopädische Auflage in HG7. Und nicht 3805: dieser Eintrag ist `individuell` mit Spitta-Herkunft in HG3 und trägt denselben Text wie BEL 380 5 Gebogene Auflage, gehört also zum gespiegelten BEL-Bestand der Datei. Dasselbe Muster bei der Doppelbogenklammer: `standard` sind 4118 und 4405, `individuell` ist 3814.
 
 Verwandt: [[beb97]] · [[bel-ii]] · [[positionssystematik-bel]]

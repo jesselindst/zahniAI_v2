@@ -74,4 +74,6 @@ Welche Verblendung die Regelversorgung umfasst, bestimmt nicht das BEL, sondern 
 
 Für Verblendungen in diesem Bereich treten Zuschlagsbefunde hinzu: 1.3 je Verblendung einer Krone, 2.7 je Verblendung eines ersetzten Zahns, 4.7 je Ankerzahn bei Teleskopkronen. Verblendungen außerhalb des Bereichs und Vollverblendungen sind gleichartige Versorgung. Siehe [[festzuschuss]] und [[festzuschuss-befundklassen]].
 
-Verwandt: [[bel-gruppe-festsitzender-zahnersatz]] · [[implantatversorgung-bel]] · [[nebeneinander-ausschluesse-bel]] · [[gesondert-abrechenbare-materialien-bel]] · [[festzuschuss]]
+Die Verblendgrenze der Nummern 20 und 25 stammt aus der Zahnersatz-Richtlinie; ihr Belegstatus steht in [[quelle-zahnersatz-richtlinie]]. Der Bereich 15 bis 25 und 34 bis 44 ist zusätzlich über die Festzuschuss-Richtlinie belegt.
+
+Verwandt: [[quelle-zahnersatz-richtlinie]] · [[bel-gruppe-festsitzender-zahnersatz]] · [[implantatversorgung-bel]] · [[nebeneinander-ausschluesse-bel]] · [[gesondert-abrechenbare-materialien-bel]] · [[festzuschuss]]

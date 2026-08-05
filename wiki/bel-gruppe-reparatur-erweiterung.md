@@ -79,7 +79,16 @@ Neben 806 0 ist 201 0 nicht abrechenbar (BEL II, Nr. 806 0). Die Erweiterung ein
 | 810 8 | Prothesenbasis erneuern bei Implantatversorgung (Nr. 36 b) | je Prothese einmal |
 | 864 0 | KFO-Basis erneuern: vollständige Entfernung und Erneuerung der Kunststoffbasis bei Erhaltung der herausgelösten Halte-, Dehn- und Regulierungselemente | je KFO-Basis einmal |
 
-**Keine dieser Positionen ist eine Instandsetzung.** 808 0, 809 0, 810 0 und 864 0 sind ausdrücklich keine Instandsetzung im Sinne von 801 0, 802 1–802 7, 861 0, 862 0 und 863 0; die implantatgestützten Varianten entsprechend nicht im Sinne von 801 8 und 802 1–802 7 (BEL II, Nr. 808 0, 808 8, 809 0, 809 8, 810 0, 810 8, 864 0). Die Grundeinheit fällt hier also nicht an.
+**Keine dieser Positionen ist eine Instandsetzung.** Der gesperrte Kreis ist je Position verschieden und darf nicht zusammengezogen werden:
+
+| Position | keine Instandsetzung im Sinne von |
+|---|---|
+| 808 0, 809 0 | 801 0, 802 1–802 7, 861 0, 862 0, 863 0 |
+| 810 0 | 801 0, 802 1–802 7 |
+| 864 0 | 861 0, 862 0, 863 0 |
+| 808 8, 809 8, 810 8 | 801 8, 802 1–802 7 |
+
+861 0 ist danach neben 810 0 nicht gesperrt, und 801 0 nicht neben 864 0 (BEL II, Nr. 808 0, 809 0, 810 0, 864 0, 808 8, 809 8, 810 8). Die Grundeinheit fällt jeweils nicht an. Siehe [[nebeneinander-ausschluesse-bel]], dort auch die zwei ausdrücklichen Zusatz-Erlaubnisse zu 802 4 und 851 3.
 
 **Bisslagefixierung.** Für die Fixierung der Bisslage mit einem zweiten Modell und dem Einstellen in einen Fixator sind 001 0 und 011 2 abrechenbar, nicht jedoch 012 0. Bei den implantatgestützten Varianten treten 001 8 und 011 2 an diese Stelle; 012 8 ist gesperrt. Bei 808 5 gelten 001 5 und 011 5 ohne 012 5.
 

@@ -75,4 +75,6 @@ Für diese drei Zeilen liegt keine Quelle vor, die entscheidet. Sie sind bis zur
 
 Für Aufbissbehelfe existiert kein Festzuschussbefund. Sie sind Sachleistung nach der Behandlungsrichtlinie, nicht Zahnersatz nach §§ 55 ff. SGB V. Damit gibt es dort weder eine Regelversorgung im Sinne dieser Seite noch eine gleichartige Versorgung, siehe [[bel-gruppe-aufbissbehelfe]].
 
-Verwandt: [[festzuschuss]] · [[haertefall-und-bonus]] · [[festzuschuss-befundklassen]] · [[bel-ii]]
+Die Definitionen gleichartig und andersartig stammen aus der Zahnersatz-Richtlinie, deren Volltext nicht im Repository liegt. Welche ihrer Nummern anderweitig belegt sind, steht in [[quelle-zahnersatz-richtlinie]].
+
+Verwandt: [[festzuschuss]] · [[haertefall-und-bonus]] · [[festzuschuss-befundklassen]] · [[quelle-zahnersatz-richtlinie]] · [[bel-ii]]

@@ -31,7 +31,7 @@ Der Unterschied schlägt auf den Laboranteil durch. Zu 1.4 nennt der Befundkatal
 
 1.4 und 1.5 sind nicht die Adhäsivbrücke. Diese gehört zu den Befunden 2.1 und 2.2 mit dem Zuschlag 2.7.
 
-Nicht-metallische Stifte aus Glasfaser, Zirkon oder Carbon sowie Titanstifte sind gleichartige Versorgung mit Festzuschuss zum Befund 1.4, siehe [[versorgungsform]].
+Zur Einordnung nicht-metallischer Stifte und von Titanstiften siehe [[versorgungsform]]. Beides ist nicht belegt; bei Titan spricht der Wortlaut von 1.4 — konfektionierter metallischer Stiftaufbau, Materialangabe nur „Stift" ohne Legierungsbeschränkung — gegen die Einstufung als gleichartig.
 
 ## Klasse 2 — zahnbegrenzte Lücken, Lückensituation 1
 
@@ -65,13 +65,17 @@ Maßgeblich ist die Zahl der fehlenden Zähne, nicht die Zahl der Brückengliede
 
 Im Oberkiefer sind 2.1 oder 2.2 und 3.1 zusammen ansetzbar, wenn bis zu zwei nebeneinander fehlende Schneidezähne mit einer Brücke und beidseitige Freiendsituationen mit herausnehmbarem Zahnersatz versorgt werden (FZ-RL, Teil B, Befunde 2.1, 2.2 und 3.1). Das ist die einzige Kombination von Klasse 2 und Klasse 3.
 
-2.7 gilt für den ersetzten Zahn sowie für einen an die Lücke angrenzenden Brückenanker im Verblendbereich, nicht für jeden Anker.
+2.7 gilt für den ersetzten Zahn sowie für einen an die Lücke angrenzenden Brückenanker im Verblendbereich, nicht für jeden Anker. Für Flügel einer Adhäsivbrücke ist der Befund ausdrücklich nicht ansetzbar (FZ-RL, Teil B, Befund 2.7). Bei einer verblendeten Adhäsivbrücke entsteht 2.7 also je ersetztem Schneidezahn, nicht je Flügel.
+
+Protokollnotiz zur Klasse 2: Die Indikation für die Einbeziehung eines Weisheitszahns als Brückenanker ist bei 2.1 bis 2.3 besonders kritisch zu bewerten. Für Freiendbrücken gilt, dass Leistungen der Regelversorgung bei der Versorgung des nicht direkt lückenangrenzenden Pfeilerzahns nach BEMA und BEL II abzurechnen sind — obwohl für diesen Zahn nach dem Kopftext kein Befund 1.1 bis 1.3 ansetzbar ist.
 
 ### Adhäsivbrücke
 
 Regelversorgung ist die Adhäsivbrücke mit Metallgerüst, ein- oder zweiflügelig, abgebildet über 102 3 Flügel für Adhäsivbrücke und BEMA 93a und 93b. Festzuschuss sind 2.1 oder 2.2 zuzüglich 2.7 je ersetztem Schneidezahn.
 
-Beim Ersatz eines Schneidezahns besteht keine Altersgrenze; die frühere Begrenzung auf das 14. bis 20. Lebensjahr wurde durch G-BA-Beschluss vom 18.02.2016 aufgehoben, in Kraft 04.05.2016 (ZE-RL Nr. 22). Bei zwei nebeneinander fehlenden Schneidezähnen gilt die Regelversorgung weiterhin nur vom vollendeten 14. bis vor dem vollendeten 21. Lebensjahr (ZE-RL Nr. 24).
+Die Adhäsivbrücke ist nur bei 2.1 und 2.2 Regelversorgung. Ab drei nebeneinander fehlenden Zähnen führen 2.3 und 2.4 weder BEMA 93a/93b noch 102 3.
+
+Bei zwei nebeneinander fehlenden Schneidezähnen gilt die Adhäsivbrücke mit Metallgerüst ab vollendetem 21. Lebensjahr als gleichartige Versorgung (FZ-RL, Teil B, Protokollnotiz zu 2.2). Die Protokollnotiz steht ausschließlich beim Befund 2.2; beim Ersatz eines Schneidezahns nach 2.1 kennt die Richtlinie keine solche Grenze. Die frühere Begrenzung auf das 14. bis 20. Lebensjahr wurde durch G-BA-Beschluss vom 18.02.2016 aufgehoben, in Kraft 04.05.2016. Eine Untergrenze des vollendeten 14. Lebensjahres bei 2.2 ist nur über die eigene Auswertung belegt, nicht über die Festzuschuss-Richtlinie.
 
 Ein Keramikgerüst ist gleichartige Versorgung. Die Wiederherstellung läuft über Befund 6.8.1 je Flügel.
 
@@ -98,13 +102,15 @@ Bei den Lückenbefunden 2.1 bis 2.5 ist die Brücke Regelversorgung. Eine Modell
 | 4.6 | Restzahnbestand bis drei Zähne mit dentaler Verankerung bei Kombinationsversorgung | je Ankerzahn |
 | 4.7 | Verblendung einer Teleskopkrone im Verblendbereich, Zuschlag | je Ankerzahn |
 | 4.8 | dentale Verankerung durch Wurzelstiftkappen | je Ankerzahn |
-| 4.9 | schwierig zu bestimmende Lagebeziehung der Kiefer bei Total- und Deckprothesen, Zuschlag | je Gesamtbefund |
+| 4.9 | schwierig zu bestimmende Lagebeziehung der Kiefer bei Total- und schleimhautgetragenen Deckprothesen, setzt die Notwendigkeit einer Stützstiftregistrierung voraus, Zuschlag | je Gesamtbefund |
 
 Die Totalprothese gehört zu 4.2 und 4.4, nicht zur Klasse 5.
 
 Der Zuschlag 4.7 für die Verblendung einer Teleskopkrone führt im Befundkatalog nur 155 0, 160 0, 161 0, 164 0 und 165 0, also Kunststoff und Komposit. 162 0 Vestibuläre Verblendung Keramik steht dort nicht, wohl aber bei 1.3, 2.7, 6.9 und 7.3. Das entspricht dem BEL, der als Träger für 162 0 nur Krone und Brückenglied nennt, siehe [[verblendung-bel]]. Eine keramisch verblendete Teleskopkrone geht damit über die Regelversorgung hinaus.
 
 Bei 3.1, 4.1 und 4.3 gehört 201 0 Metallbasis zur Regelversorgung und braucht keine Sonderindikation.
+
+Der Zuschlag 4.5 gehört zur Klasse 4 und ist beim Befund 3.1 nicht ansetzbar. Dort ist die Metallbasis bereits Bestandteil der Regelversorgung; ein Zuschlag daneben zählte sie doppelt.
 
 Anders bei totalen Prothesen: Dort geht eine Metallbasis nach Nummer 30 der Zahnersatz-Richtlinie in der Regel über das Gebot der Wirtschaftlichkeit hinaus und unterliegt der Leistungspflicht nur in begründeten Ausnahmefällen, genannt sind Torus palatinus und Exostosen (Protokollnotiz zu 4.5). Liegt ein solcher Fall vor, bleibt die Metallbasis Regelversorgung mit dem Zuschlag 4.5; die Indikation ist zu dokumentieren. Ohne Indikation ist sie gleichartige Versorgung. Ob ausgeprägter Würgereiz und Acrylatallergie als Indikation gelten, ist in der Richtlinie nicht ausgewiesen und offen.
 
@@ -192,4 +198,6 @@ Acht der 54 Befunde führen im Katalog keine Laborleistung: 1.4 nur die Material
 
 Teil B beschreibt vier Befunde nicht als eigene Leistung, sondern als Differenz zweier Positionen: 1.3 und 2.7 als 102 4 abzüglich 102 1, 3.2 als 120 0 Teleskopkrone abzüglich 204 1, 4.5 als 303 0 abzüglich 302 0. Das erklärt ihre geringe Höhe.
 
-Verwandt: [[festzuschuss]] · [[versorgungsform]] · [[haertefall-und-bonus]] · [[verblendung-bel]] · [[festzuschussbetraege-2026]] · [[quelle-fz-rl-2026]] · [[aenderungsmatrix-fz-rl-2025-2026]]
+Die in Anspruch genommenen Nummern der Zahnersatz-Richtlinie und ihr Belegstatus stehen in [[quelle-zahnersatz-richtlinie]].
+
+Verwandt: [[quelle-zahnersatz-richtlinie]] · [[festzuschuss]] · [[versorgungsform]] · [[haertefall-und-bonus]] · [[verblendung-bel]] · [[festzuschussbetraege-2026]] · [[quelle-fz-rl-2026]] · [[aenderungsmatrix-fz-rl-2025-2026]]
