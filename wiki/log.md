@@ -325,3 +325,123 @@ Quellen". `log.md` ist jetzt im index verlinkt.
   `raw/_inbox/BMP_2026_Leistungen_Regelversorgung.pdf` (Finding 25).
 - Der `BMP_2026`-Ingest selbst — das ist ein Ingest, kein Lint-Fix, und gehört in einen eigenen
   Durchgang mit `ingest_to_wiki`.
+
+## [2026-08-05] lint | Vollprüfung mit den neuen Stilregeln (32 Seiten)
+
+Zweiter Lint-Durchgang, einen Tag nach dem ersten. Neu gegenüber dem 04.08.: die Stilregeln
+(neutral, deklarativ, Formatierung nur wo Struktur ist) und die Regel zur Konsolidierung echter
+Duplikate. Alle Findings wurden direkt auf den Seiten behoben; 31 Seiten geändert, keine Seite
+neu angelegt, keine gelöscht, keine Links gebrochen.
+
+### Recherche: zwei lange offene Punkte geschlossen
+
+Vollständigkeit der Änderungsvereinbarungen. Seit dem ersten Ingest (03.08.) stand im Wiki der
+Vorbehalt, es sei nie geprüft worden, ob nach dem 01.01.2023 weitere Änderungsvereinbarungen
+zum BEL II hinzugekommen sind — bei der obersten Stufe der Quellenrangfolge. Die
+Dokumentenübersicht des GKV-Spitzenverbands als Vertragspartei führt genau zwei: UKPS
+(22.11.2021, i. K. 01.01.2022, in der Repo-Fassung bereits enthalten) und Modellherstellung
+(14.11.2022, i. K. 01.01.2023, im Wiki abgebildet). Nach 2023 keine weitere. Der Vorbehalt in
+`quelle-bel-ii-2014` ist durch eine Tabelle mit Prüfdatum und Fundstelle ersetzt, der Hinweis
+im `index` entsprechend. Die Prüfung ist bei jedem Jahreswechsel zu wiederholen.
+
+Gemeinsame Rundschreiben. Dieselbe Übersicht führt vier Rundschreiben GKV-SV ↔ VDZI
+(19.03.2014, 29.02.2016, 18.12.2019, 27.09.2021) und die Gesichtsbogen-Erklärung zum Download.
+Das Wiki behandelte sie bisher als nicht vorliegend. Datum und Verfügbarkeit stehen jetzt in
+`quelle-bel-ii-2014`, mit der Abgrenzung zu den zwei Rundschreiben KZBV ↔ GKV-SV
+(Adhäsivbrücke 28.06.2016, Versandkosten 11.07.2016), deren Volltext weiterhin fehlt. Der
+Ingest selbst bleibt offen — das ist ein Ingest, kein Lint-Fix.
+
+### Sachliche Korrekturen
+
+`raw/_inbox/BMP_2026_Leistungen_Regelversorgung.pdf` falsch beschrieben. Der `index` behauptete
+über drei Ingests hinweg, die Datei enthalte die Zuordnung Befund → BEL-Positionen. Die Prüfung
+der Datei zeigt: Sie ist die Liste der bundeseinheitlichen durchschnittlichen Netto-Preise nach
+§ 57 Abs. 2 Satz 1 SGB V, gültig 01.01.–31.12.2026, und enthält keine einzige Befundnummer. Was
+sie tatsächlich liefert, sind die 117 L-Nrn., die die Zahnersatz-Regelversorgung bilden, mit
+ihrem Bundesmittelpreis. Beschreibung im `index` korrigiert, Auswertung in
+`bel-preisbildung-festzuschuss` ergänzt.
+
+§ 57 Abs. 2 SGB V war seit dem Ingest vom 03.08. als ungeprüft markiert. Der Wortlaut klärt
+drei Fragen: Satz 1 (GKV-SV und VDZI vereinbaren die bundeseinheitlichen Durchschnittspreise
+jährlich zum 30.09., erstmals ermittelt für 2005), Satz 3 (regionale Höchstpreise dürfen davon
+um bis zu 5 % nach oben oder unten abweichen), Satz 5 (Minderung um 5 %, soweit Zahnärzte die
+Leistung erbringen). Damit ist belegt, was das Wiki bisher nur vermutete: Der Bundeswert ist
+eigenständig vereinbart und ist die Bezugsgröße der regionalen Preise, nicht ihr Mittelwert.
+
+Preisstruktur von `kataloge/bel.json` erstmals vermessen (117 Positionen gegen die BMP-Liste
+2026): Median-Abweichung +0,21 %, 113 von 117 innerhalb des 5-%-Korridors nach § 57 Abs. 2
+Satz 3. Der Katalog verhält sich damit wie eine regionale Höchstpreisliste auf Preisstand 2026,
+ist aber nicht die Bundesmittelpreisliste — keine Position ist deckungsgleich. Die
+Praxislabor-Spalte ist bei 171 von 175 Positionen exakt der um 5 % geminderte
+Gewerbelabor-Preis, was der Minderung nach § 57 Abs. 2 Satz 5 entspricht; Ausnahmen sind
+933 0/5/8 und 970 0 mit gleichem Wert. Vier Positionen fallen aus dem Korridor, alle nach unten:
+801 0 und 801 8 mit −13,9 %, 301 0 und 301 8 mit −12,5 %. Es sind Grundeinheiten mit hoher
+Ansatzhäufigkeit; als VERIFIZIEREN vermerkt.
+
+Beispiel 005 1/2/3 war irreführend. `bel-preisbildung-festzuschuss` stellte den
+Bundesmittelpreis 2023 (16,62 €) dem Katalogwert (18,98 €) gegenüber, um zwei Preisarten zu
+belegen. Der Abstand ist überwiegend ein Zeitunterschied von drei Jahren: jahresgleich
+verglichen liegen BMP 2026 (18,94 €) und Katalog 0,04 € auseinander. Beispiel durch eine Tabelle
+mit beiden Preisständen ersetzt und um die Regel ergänzt, Preisarten nur jahresgleich zu
+vergleichen.
+
+Fehlerklasse falsch benannt. `haeufige-abrechnungsfehler` überschrieb Abschnitt 1 mit
+„Doppelabrechnung — die größte Fehlerklasse (198 Befunde / 190 Vorlagen)". Die 198 sind aber die
+Registerkategorie `positionen` insgesamt, die laut `BEFUNDBERICHT.md` „Falsche/unzulässige
+Positionen" heißt und neben der Doppelabrechnung auch die falsche Hauptgruppe umfasst —
+Abschnitt 2 derselben Seite speist sich aus derselben Kategorie. Nachgezählt: nur 55 der 198
+Befundtexte nennen überhaupt eine Doppelabrechnung. Überschrift korrigiert, Zugehörigkeit von
+Abschnitt 2 kenntlich gemacht. Dieselbe Überattribution stand in `beb97-grundlagen` unter der
+Komplettpositions-Tabelle und ist dort ebenso korrigiert. In `quelle-review-vorlagen-2026-08`
+ist neu eine Tabelle aller elf Registerkategorien mit ihren Befundzahlen hinterlegt, damit die
+Bezeichnungen nachschlagbar sind.
+
+Kaputte Tabelle in `bel-ii-grundlagen`. Die Nummernkreis-Tabelle (001–032 bis 933/970) hatte
+ihren Kopf verloren: Zwischen Tabellenkopf und Zeilen stand eine Aufzählung, die Zeilen liefen
+danach als nackte Pipe-Zeilen weiter und wurden nicht als Tabelle gerendert. In zwei getrennte
+Tabellen (Nummernkreise, Endziffern-Muster) mit eigenen Köpfen aufgeteilt.
+
+### Stil
+
+85 Warnsymbole auf 30 Seiten entfernt, dazu zwei Ausrufezeichen
+(`bel-ii-implantatversorgung`, `bel-mengenregeln`) und die Symbole der Verblendbarkeits-Matrix
+in `bel-gruppe-festsitzender-zahnersatz`, ersetzt durch „ja"/„nein"/„nicht genannt". Fettung
+außerhalb von Tabellen durchgängig aufgelöst, auch in wörtlichen Zitaten — dort war sie
+hinzugefügte Betonung, keine Struktur. Cliffhanger und wertende Zuspitzungen
+(„die gefährlichste Fehlerquelle", „leicht zu übersehen, spürbar im Geld", „Die Zahl",
+„Das ist die Stelle, an der …") in sachliche Formulierungen überführt.
+
+Beibehalten: Fettung innerhalb von Tabellenzellen, die Statusmarker VERIFIZIEREN und UNBELEGT
+sowie die Belegtypen [Q]/[P]/[E] — sie sind Struktur, keine Betonung, und der Agent liest sie
+als Flags.
+
+### Querverweise ergänzt
+
+`bel-ii-ukps`, `bel-gruppe-kieferorthopaedie` und `bel-gruppe-aufbissbehelfe` verweisen jetzt
+auf `bel-preisbildung-festzuschuss`: Alle drei Gruppen fehlen in der BMP-Regelversorgungsliste,
+was ihre Sonderstellung ohne Festzuschuss unabhängig bestätigt. Dazu
+`bel-gruppe-modellguss` → `cadcam-digitale-verfahren` (Gussweg bei 201 0),
+`bel-gruppe-festsitzender-zahnersatz` → `cadcam-digitale-verfahren`,
+`bel-gruppe-zuschlaege-versand` → `festzuschuss-versorgungsformen` (9700 nie bei EM) und
+`bel-gruppe-aufbissbehelfe` → `quelle-bel-ii-2014` (Gesichtsbogen-Erklärung).
+
+### Nicht geändert (bewusst)
+
+- Die bewusste Redundanz zwischen `haeufige-abrechnungsfehler` und den Fachseiten. Sie ist als
+  Prüfliste vor der KV-Ausgabe angelegt (Ingest-Eintrag 04.08.) und damit kein echtes Duplikat
+  im Sinne der Konsolidierungsregel. Statt zu konsolidieren, sind die Zahlen beider Seiten
+  aufeinander abgeglichen.
+- `log.md` ist append-only; die Fettung in den Einträgen vom 03. und 04.08. bleibt stehen. Die
+  neuen Stilregeln gelten ab diesem Eintrag.
+- `kataloge/bel.json` — die vier Positionen außerhalb des 5-%-Korridors sind im Wiki
+  dokumentiert, der Katalog selbst nicht angefasst.
+- Der Ingest von `BMP_2026_Leistungen_Regelversorgung.pdf` und der Rundschreiben. Beides ist
+  jetzt inhaltlich beschrieben, aber ein Ingest gehört in einen eigenen Durchgang mit
+  `ingest_to_wiki`.
+
+### Offen
+
+- 110 VERIFIZIEREN-Punkte aus dem Review vom 04.08.
+- Preisstand und KZV-Bereich von `kataloge/bel.json` weiterhin nicht dokumentiert; die vier
+  Korridor-Ausreißer ungeklärt.
+- Festzuschusskatalog `catalog_festzuschussbefund` weiterhin auf Stand 2025, soweit bekannt.

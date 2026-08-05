@@ -1,19 +1,19 @@
 # Quelle: Festzuschuss-Richtlinie (FZ-RL)
 
-Richtlinie des **Gemeinsamen Bundesausschusses (G-BA)** über die Zuordnung von Befunden zu den
-Festzuschüssen und über die Höhe der Beträge. Rechtsgrundlage: **§§ 55–57 SGB V**.
+Richtlinie des Gemeinsamen Bundesausschusses (G-BA) über die Zuordnung von Befunden zu den
+Festzuschüssen und über die Höhe der Beträge. Rechtsgrundlage: §§ 55–57 SGB V.
 
 | | |
 |---|---|
 | Herausgeber | Gemeinsamer Bundesausschuss (G-BA) — *nicht* der GKV-Spitzenverband |
-| Aktuelle Fassung | zuletzt geändert **05.12.2025**, BAnz AT 04.02.2026 B3, **in Kraft 01.01.2026** |
+| Aktuelle Fassung | zuletzt geändert 05.12.2025, BAnz AT 04.02.2026 B3, in Kraft 01.01.2026 |
 | Volltext | `g-ba.de/downloads/62-492-4045/FZ-RL_2025-12-05_iK-2026-01-01.pdf` |
 | Betragstabelle | GKV-SV, „Festzuschussbeträge ab 01.01.2026" — `gkv-spitzenverband.de/.../2026-01-01-FZ-Betraege.pdf` |
-| Aufbau | **Teil A** = Regeln zur Anwendung · **Teil B** = Befundkatalog mit Beträgen · **Teil C** = Verfahren |
+| Aufbau | Teil A = Regeln zur Anwendung · Teil B = Befundkatalog mit Beträgen · Teil C = Verfahren |
 
 ## Was hier steht und was nicht
 
-Die FZ-RL bestimmt **welcher Befund welchen Zuschuss auslöst und wie hoch er ist**. Sie sagt
+Die FZ-RL bestimmt, welcher Befund welchen Zuschuss auslöst und wie hoch er ist. Sie sagt
 nicht, welche zahntechnischen Positionen abzurechnen sind — dafür → [[quelle-bel-ii-2014]]
 (GKV) bzw. [[quelle-beb97]] (privat). Und sie definiert nicht, *was* Regelversorgung
 ist — das steht in der Zahnersatz-Richtlinie → [[quelle-zahnersatz-richtlinie]].
@@ -27,14 +27,15 @@ ist — das steht in der Zahnersatz-Richtlinie → [[quelle-zahnersatz-richtlini
              └─ BEL II  WELCHE Laborpositionen bilden die Regelversorgung ab
 ```
 
-Die Beträge werden **jährlich neu festgesetzt** (Betragsanpassung durch den G-BA, delegiert an
+Die Beträge werden jährlich neu festgesetzt (Betragsanpassung durch den G-BA, delegiert an
 den Unterausschuss Zahnärztliche Behandlung, § 56 Abs. 4 SGB V). Kalkulationsbasis 2026:
-bundeseinheitlicher ZE-Punktwert **1,1844 €**, BEL-II-Preise **+4,78 %** ggü. 2025.
+bundeseinheitlicher ZE-Punktwert 1,1844 €, BEL-II-Preise +4,78 % gegenüber 2025.
+Zur Preismechanik → [[bel-preisbildung-festzuschuss]].
 
-⚠️ **Beträge veralten jedes Jahr.** Beispiel Befund 1.1 ohne Bonus: 2025 = 229,25 €,
+Die Beträge veralten jedes Jahr. Befund 1.1 ohne Bonus: 2025 = 229,25 €,
 2026 = 239,03 € (+4,3 %). Die oft zitierte Pauschale „+4,34 % für alle Befunde" stammt aus
-Abrechnungsportalen und stimmt nicht — die Steigerung variiert je Befund.
-**In Abrechnungsvorlagen gehören deshalb Befund und Prozentmechanik, keine €-Beträge.**
+Abrechnungsportalen und trifft nicht zu — die Steigerung variiert je Befund.
+In Abrechnungsvorlagen gehören deshalb Befund und Prozentmechanik, keine €-Beträge.
 
 ## Historie der Prozentsätze
 
@@ -43,7 +44,7 @@ Abrechnungsportalen und stimmt nicht — die Steigerung variiert je Befund.
 | seit 01.10.2020 (TSVG) | 60 % | 70 % | 75 % |
 | 01.01.2005 – 30.09.2020 | 50 % | 60 % | 65 % |
 
-Das befundbezogene Festzuschusssystem gilt seit **01.01.2005**.
+Das befundbezogene Festzuschusssystem gilt seit 01.01.2005.
 
 ## Belegstatus
 
