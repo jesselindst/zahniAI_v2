@@ -11,7 +11,7 @@ Katalog aller Wissensseiten. Der Einzeiler unter "Inhalt" macht die Seite unters
 | [Mengen und Bezugsgrößen im BEL](mengen-und-bezugsgroessen-bel.md) | Kompatibilitätsgrundsatz und die Bezugsgrößen je Zahn, Kiefer, Prothese, Fall, die die Abrechnungshäufigkeit binden | 2026-08-05 · BEL_II_01_01_2022.pdf |
 | [Nebeneinander-Ausschlüsse im BEL](nebeneinander-ausschluesse-bel.md) | Sammlung aller Verbote, eine Position neben einer anderen abzurechnen, mit ihren Einschränkungen auf dasselbe Objekt | 2026-08-05 · BEL_II_01_01_2022.pdf |
 | [Rechnungsstellung im BEL](rechnungsstellung-bel.md) | Fremdleistungsnachweis, Preisgebiet bei arbeitsteiliger Fertigung, Pflicht zur Kurzbezeichnung, Herstellungsort | 2026-08-05 · BEL_II_01_01_2022.pdf |
-| [Gesondert abrechenbare Materialien im BEL](gesondert-abrechenbare-materialien-bel.md) | Abschließende Materialliste des § 2 Ziffer 4, Abgrenzung Konfektionsfertigteil gegen konfektioniertes Hilfsteil, Lote zu 75 % | 2026-08-05 · BEL_II_01_01_2022.pdf |
+| [Gesondert abrechenbare Materialien im BEL](gesondert-abrechenbare-materialien-bel.md) | Materialliste des § 2 Ziffer 4 und ihre Grenzen, Abgrenzung Konfektionsfertigteil gegen konfektioniertes Hilfsteil, Lote zu 75 % | 2026-08-05 · BEL_II_01_01_2022.pdf |
 | [CAD/CAM-Einstufung](cad-cam-einstufung.md) | Warum der BEL nicht technikneutral ist: gefräst ist gleichartig bei Kronen und Brücken, nicht bei Aufbissbehelfen; Modelle, Intraoralscan, Monolithik | 2026-08-05 · recherche-2026-08 |
 | [Qualitätssicherung und Sonderanfertigung](qualitaetssicherung-sonderanfertigung.md) | MDR-Konformitätserklärung, Dokumentation, Aufbewahrungsfristen 10/15 Jahre, eine Leistungsposition nur von einem Labor | 2026-08-05 · BEL_II_01_01_2022.pdf |
 
@@ -19,20 +19,20 @@ Katalog aller Wissensseiten. Der Einzeiler unter "Inhalt" macht die Seite unters
 
 | Seite | Inhalt | Meta |
 |---|---|---|
-| [Festzuschuss](festzuschuss.md) | Befundbezogenes System, die acht Befundklassen im Überblick, Zuschlagsbefunde für Verblendungen, was nie bezuschusst wird; Einstiegsseite | 2026-08-05 · recherche-2026-08 |
-| [Versorgungsform](versorgungsform.md) | Regelversorgung, gleichartig, andersartig: Definition, welcher Katalog gilt, wer die Rechnung erhält, 50-Prozent-Regel bei Mischfällen | 2026-08-05 · recherche-2026-08 |
-| [Härtefall und Bonus](haertefall-und-bonus.md) | Stufen 60/70/75/100 Prozent und die je Versorgungsform verschiedene Härtefallwirkung; Rechenweg für den Eigenanteil | 2026-08-05 · recherche-2026-08 |
-| [Festzuschuss-Befundklassen](festzuschuss-befundklassen.md) | Nachschlagewerk aller 54 Befunde mit Bezugsgröße, zahntechnischer Regelversorgung je Befund, Adhäsivbrücke und Metallbasis; zuständig für den Katalog fz | 2026-08-05 · fz_2025_v1.json |
-| [Festzuschussbeträge 2026](festzuschussbetraege-2026.md) | Zahlenwerk für 2026: 48 Befunde mit Honorar, Material und Labor und den drei Abstaffelungen; die aktuelle Fassung | 2026-08-05 · FZ-RL 2026 |
-| [Festzuschussbeträge 2025](festzuschussbetraege-2025.md) | Vorjahreswerte, für Leistungsdatum 2025; nur von der Festzuschuss-Seite verlinkt | 2026-08-05 · fz_2025_v1.json |
-| [Änderungsmatrix FZ-RL 2025 → 2026](aenderungsmatrix-fz-rl-2025-2026.md) | Fassungswechsel: kein Befund neu oder entfallen, keine Regelversorgungsliste geändert, 48 neue Beträge zwischen 3,03 und 9,39 Prozent | 2026-08-05 · angewendet: nein |
+| [Festzuschuss](festzuschuss.md) | Befundbezogenes System, die acht Befundklassen im Überblick, Zuschlagsbefunde für Verblendungen, was nie bezuschusst wird; Einstiegsseite | 2026-08-05 · FZ-RL_2025-12-05_iK-2026-01-01.pdf |
+| [Versorgungsform](versorgungsform.md) | Regelversorgung, gleichartig, andersartig: Definition, welcher Katalog gilt, wer die Rechnung erhält, 50-Prozent-Regel bei Mischfällen | 2026-08-05 · FZ-RL_2025-12-05_iK-2026-01-01.pdf |
+| [Härtefall und Bonus](haertefall-und-bonus.md) | Stufen 60/70/75/100 Prozent und die je Versorgungsform verschiedene Härtefallwirkung; Rechenweg für den Eigenanteil | 2026-08-05 · FZ-RL_2025-12-05_iK-2026-01-01.pdf |
+| [Festzuschuss-Befundklassen](festzuschuss-befundklassen.md) | Nachschlagewerk aller 54 Befunde mit Bezugsgröße, zahntechnischer Regelversorgung je Befund, Adhäsivbrücke und Metallbasis; zuständig für den Katalog fz | 2026-08-05 · fz_2026_v1.json |
+| [Festzuschussbeträge 2026](festzuschussbetraege-2026.md) | Zahlenwerk für 2026: 48 Befunde mit Honorar, Material und Labor und den drei Abstaffelungen; die aktuelle Fassung | 2026-08-05 · 2026-01-01-FZ-Betraege.pdf |
+| [Festzuschussbeträge 2025](festzuschussbetraege-2025.md) | Vorjahreswerte, für Leistungsdatum 2025; für Leistungsdatum 2025 | 2026-08-05 · fz_2025_v1.json |
+| [Änderungsmatrix FZ-RL 2025 → 2026](aenderungsmatrix-fz-rl-2025-2026.md) | Fassungswechsel: kein Befund neu oder entfallen, keine Regelversorgungsliste geändert, 48 neue Beträge zwischen 3,03 und 9,39 Prozent | 2026-08-05 · FZ-RL_2025-12-05_iK-2026-01-01.pdf |
 
 ## Private Abrechnung
 
 | Seite | Inhalt | Meta |
 |---|---|---|
 | [BEB 97](beb97.md) | Nomenklaturliste ohne Preise, Kalkulation über Planzeit mal Kostensatz, Hauptgruppen, Doppelabrechnungsfallen, Stand gegenüber BEB Zahntechnik | 2026-08-05 · recherche-2026-08 |
-| [Positionskollision BEL und BEB 97](positionskollision-bel-beb97.md) | 135 gemeinsame Nummern, 33 mit anderer Bedeutung, 1360 und 1370 vertauscht; Prüfregel für den Kostenvoranschlag | 2026-08-05 · Katalogabgleich |
+| [Positionskollision BEL und BEB 97](positionskollision-bel-beb97.md) | 135 gemeinsame Nummern, 33 mit anderer Bedeutung, 1360 und 1370 vertauscht; Prüfregel für den Kostenvoranschlag | 2026-08-05 · bel_2026_v1.json, beb97_zahniAI_2026_v1.json |
 | [Material in der privaten Abrechnung](material-privat-goz.md) | § 9 und § 10 GOZ, Bezeichnung/Gewicht/Tagespreis der Legierung, Kostenvoranschlag ab 1000 Euro, Gegenprobe zur GKV-Liste | 2026-08-05 · recherche-2026-08 |
 
 ## Versorgungsformen

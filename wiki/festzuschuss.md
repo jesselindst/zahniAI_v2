@@ -2,7 +2,7 @@
 titel: Festzuschuss
 aliase: [Festzuschusssystem, befundbezogener Festzuschuss, Befund, FZ-RL, Festzuschuss-Richtlinie]
 labels: [Abrechnung, Regulatorik, Preise]
-quellen: [raw/FZ-RL_2025-12-05_iK-2026-01-01.pdf, kataloge/fz_2026_v1.json]
+quellen: [raw/FZ-RL_2025-12-05_iK-2026-01-01.pdf, kataloge/fz_2026_v1.json, raw/2026-01-01-FZ-Betraege.pdf, raw/recherche-2026-08/festzuschuss.md]
 stand: 2026-08-05
 gueltig_von: 2005-01-01
 gueltig_bis:
@@ -37,17 +37,17 @@ Ein Versicherter mit einer Einzelzahnlücke erhält den Zuschuss zum Befund 2.1,
 
 ## Zuschlagsbefunde
 
-Neben dem tragenden Befund treten Zuschläge hinzu. Sie werden regelmäßig übersehen und wirken unmittelbar auf den Eigenanteil.
+Neben dem tragenden Befund treten Zuschläge hinzu. Sie wirken unmittelbar auf den Eigenanteil.
 
 | Befund | Gegenstand | Bezugsgröße |
 |---|---|---|
 | 1.3 | Verblendung einer Krone im Verblendbereich | je Verblendung |
-| 2.7 | Verblendung eines ersetzten Zahns oder eines der Lücke angrenzenden Brückenankers im Verblendbereich | je Verblendung |
-| 4.7 | Verblendung einer Teleskopkrone im Verblendbereich | je Ankerzahn |
 | 2.6 | disparallele Pfeilerzähne bei festsitzendem Zahnersatz | je Lücke |
-| 3.2 | verkürzte Zahnreihe | höchstens zweimal je Kiefer |
+| 2.7 | Verblendung eines ersetzten Zahns oder eines der Lücke angrenzenden Brückenankers im Verblendbereich | je Verblendung |
+| 3.2 | verkürzte Zahnreihe | je Eckzahn oder erstem Prämolaren, höchstens zweimal je Kiefer |
 | 4.5 | Notwendigkeit einer Metallbasis | je Kiefer |
-| 4.9 | schwierig zu bestimmende Lagebeziehung der Kiefer | — |
+| 4.7 | Verblendung einer Teleskopkrone im Verblendbereich | je Ankerzahn |
+| 4.9 | schwierig zu bestimmende Lagebeziehung der Kiefer | Zuschlag je Gesamtbefund |
 
 Der Verblendbereich umfasst im Oberkiefer die Zähne 15 bis 25, im Unterkiefer 34 bis 44. Festzuschüsse für Verblendungen werden immer dann gewährt, wenn die Regelversorgung diese vorsieht (FZ-RL, Teil A Nr. 2). Welche BEL-Position welche Verblendung trägt, steht in [[verblendung-bel]].
 
@@ -63,20 +63,28 @@ Klasse 7 gilt ausschließlich für die Erneuerung und Wiederherstellung einer vo
 
 ## Weitere Voraussetzungen aus Teil A
 
-Ein Befund ist nur ansetzbar, wenn die in seiner Beschreibung geregelten Voraussetzungen vorliegen (FZ-RL, Teil A Nr. 1). Vorhandener Zahnersatz einschließlich Suprakonstruktionen wird dabei natürlichen Zähnen gleichgestellt, soweit er noch funktionstüchtig ist oder die Funktionstüchtigkeit wiederhergestellt werden kann.
+Ein Befund ist nur ansetzbar, wenn die in seiner Beschreibung geregelten Voraussetzungen vorliegen (FZ-RL, Teil A Nr. 1). Vorhandener Zahnersatz einschließlich Suprakonstruktionen wird dabei natürlichen Zähnen gleichgestellt, soweit er noch funktionstüchtig ist oder die Funktionstüchtigkeit wiederhergestellt werden kann. Bei Erneuerungen und Erweiterungen von festsitzenden, nach der Versorgung teilweise zahngetragenen Suprakonstruktionen werden bereits vorhandene Suprakonstruktionen ebenfalls natürlichen Zähnen gleichgestellt (Teil A Nr. 1 Satz 3).
 
-Der Festzuschuss wird erst gewährt, wenn der auslösende Befund so versorgt ist, dass keine weitere Versorgungsnotwendigkeit besteht; bei Teilleistungen anteilig (FZ-RL, Teil A Nr. 2). Erfolgt die Versorgung in medizinisch sinnvollen Therapieschritten, werden die Festzuschüsse auf Basis des Gesamtbefundes ermittelt und je Therapieschritt gewährt, ohne insgesamt höher auszufallen; die Krankenkasse kann den Befund und den geplanten Therapieschritt begutachten lassen (Protokollnotiz zu Nr. 2).
+Der Festzuschuss wird erst gewährt, wenn der auslösende Befund so versorgt ist, dass keine weitere Versorgungsnotwendigkeit besteht; bei Teilleistungen anteilig (FZ-RL, Teil A Nr. 2). Ermittelt wird auf Basis der befundbezogenen, im Einzelfall tatsächlich eingliederungsfähigen Regelversorgungen. Erfolgt die Versorgung in medizinisch sinnvollen Therapieschritten, werden die Festzuschüsse auf Basis des Gesamtbefundes ermittelt und je Therapieschritt gewährt, ohne insgesamt höher auszufallen; die Krankenkasse kann den Befund und den geplanten Therapieschritt begutachten lassen (Protokollnotiz zu Nr. 2).
 
 Bei der Versorgung soll eine funktionell ausreichende Gegenbezahnung vorhanden sein oder im Laufe der Behandlung hergestellt werden (FZ-RL, Teil A Nr. 3).
 
 ## Bezugsgrößen sind nicht austauschbar
 
-Innerhalb einer Klasse wechselt die Bezugsgröße. Die Befunde 2.1 und 2.2 gelten je Lücke, 2.3 und 2.4 je Kiefer. Eine dreigliedrige Brücke löst damit einmal 2.3 aus, nicht dreimal 2.1.
+Innerhalb einer Klasse wechselt die Bezugsgröße. Die Befunde 2.1 und 2.2 gelten je Lücke, 2.3 und 2.4 je Kiefer.
+
+Maßgeblich ist die Zahl der fehlenden Zähne, nicht die Zahl der Brückenglieder. Drei nebeneinander fehlende Zähne lösen einmal 2.3 je Kiefer aus, nicht dreimal 2.1. Eine dreigliedrige Brücke ersetzt einen fehlenden Zahn und löst 2.1 aus (FZ-RL, Teil B, Befunde 2.1 bis 2.4).
+
+Im Oberkiefer sind 2.1 oder 2.2 und 3.1 zusammen ansetzbar, wenn bis zu zwei nebeneinander fehlende Schneidezähne mit einer Brücke und beidseitige Freiendsituationen mit herausnehmbarem Zahnersatz versorgt werden (FZ-RL, Teil B, Befunde 2.1, 2.2 und 3.1). Sonst schließen Klasse 2 und Klasse 3 einander aus.
+
+Für lückenangrenzende Zähne eines Befundes der Klasse 2 sind die Befunde 1.1 bis 1.3 nicht ansetzbar, siehe [[festzuschuss-befundklassen]].
 
 ## Beträge
 
-Die Beträge werden jährlich neu festgesetzt und stehen deshalb nicht auf dieser Seite, sondern auf einer Jahrgangsseite: [[festzuschussbetraege-2026]], Vorjahr [[festzuschussbetraege-2025]]. Läuft ein Jahrgang aus, entsteht eine neue Seite und wird hier eingehängt; alle übrigen Seiten bleiben unberührt. Zuständig ist der Gemeinsame Bundesausschuss, nicht der GKV-Spitzenverband; Rechtsgrundlage der Betragsfestsetzung ist § 56 Abs. 4 SGB V. Kalkulationsbasis 2026 ist ein bundeseinheitlicher Zahnersatz-Punktwert von 1,1844 Euro sowie die BEL-II-Preise nach Vereinbarung zwischen Verband Deutscher Zahntechniker-Innungen und GKV-Spitzenverband, siehe [[bundesmittelpreis]].
+Die Beträge werden jährlich neu festgesetzt und stehen deshalb nicht auf dieser Seite, sondern auf einer Jahrgangsseite: [[festzuschussbetraege-2026]], Vorjahr [[festzuschussbetraege-2025]]. Läuft ein Jahrgang aus, entsteht eine neue Seite und wird hier eingehängt; alle übrigen Seiten bleiben unberührt. Zuständig ist der Gemeinsame Bundesausschuss, nicht der GKV-Spitzenverband; Rechtsgrundlage der Betragsfestsetzung ist § 56 Abs. 4 SGB V.
 
-Eine Abrechnungsvorlage trägt Befund und Prozentmechanik, keine Beträge. Ein Betrag in einer Vorlage ist nach spätestens einem Jahr falsch.
+Kalkulationsbasis ist der jährlich vereinbarte Zahnersatz-Punktwert und die BEL-II-Preise nach Vereinbarung zwischen Verband Deutscher Zahntechniker-Innungen und GKV-Spitzenverband. Der Punktwert ist jahrgangsgebunden und steht auf der Jahrgangsseite, siehe [[festzuschussbetraege-2026]] und [[bundesmittelpreis]].
+
+Eine Abrechnungsvorlage trägt Befund und Prozentmechanik, keine Beträge.
 
 Verwandt: [[versorgungsform]] · [[haertefall-und-bonus]] · [[festzuschuss-befundklassen]] · [[festzuschussbetraege-2026]] · [[quelle-fz-rl-2026]] · [[quelle-recherche-abrechnungsrahmen-2026]]

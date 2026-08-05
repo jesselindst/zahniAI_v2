@@ -1,3 +1,8 @@
+---
+kataloge: []
+stand: 2026-08-05
+---
+
 # Festzuschuss
 
 - Befund: 6.0 je Prothese (prothetisch versorgtes Gebiss ohne Befundveränderung, wiederherstellungsbedürftige herausnehmbare/Kombinationsversorgung ohne Notwendigkeit der Abformung UND ohne Notwendigkeit zahntechnischer Leistungen) — das Regelversorgungs-Verzeichnis zu 6.0 enthält keine einzige BEL-Position; sobald echte Instandsetzung anfällt: 6.1 (ohne Abformung) / 6.2 (Kunststoffbereich mit Abformung) / 6.3 (gegossener Metallbereich)

@@ -6,7 +6,9 @@ quellen: [kataloge/bel_2026_v1.json, kataloge/beb97_zahniAI_2026_v1.json]
 stand: 2026-08-05
 ---
 
-135 der 175 BEL-Nummern kommen auch im BEB 97 vor. Bei 33 davon bezeichnet dieselbe Nummer eine völlig andere Leistung. Zwei Nummern sind gegeneinander vertauscht. Ermittelt durch Abgleich der beiden Katalogdateien im Repository.
+135 der 175 BEL-Nummern kommen auch im BEB 97 vor. Bei 35 davon bezeichnet dieselbe Nummer eine völlig andere Leistung. Ermittelt durch Abgleich der beiden Katalogdateien im Repository.
+
+Die Zahl 135 misst dabei die Prüflast im Repository, nicht die Nummerierung der BEB 97: 101 der 135 Nummern sind in der BEB-Datei als `individuell` geführt, 81 davon mit praktisch demselben Kurztext wie im BEL — also gespiegelte BEL-Positionen. Im `standard`-Bestand der Datei liegen nur 34 gemeinsame Nummern, davon 29 mit anderer Bedeutung. Was `standard` und `individuell` bedeuten, ist im Wiki nicht dokumentiert, siehe [[beb97]].
 
 Eine Prüfung, die nur fragt, ob eine Nummer existiert, erkennt davon nichts: Die Nummer ist gültig, nur im falschen Katalog. Deshalb trägt jede Positions-ID im Wiki ein Katalogpräfix, siehe [[positionssystematik-bel]].
 
@@ -16,13 +18,14 @@ Eine Prüfung, die nur fragt, ob eine Nummer existiert, erkennt davon nichts: Di
 2. Stimmt der Leistungstext mit dem Kurztext genau dieses Katalogs überein?
 3. Weicht er ab: Meint der Text die gleichnamige Position des anderen Katalogs?
 
-Schritt 2 ist der eigentliche Test. Er erfasst alle 33 Fälle, weil sich die Kurztexte unterscheiden. Schritt 1 allein genügt nicht.
+Schritt 2 ist der eigentliche Test. Er erfasst alle 35 Fälle, weil sich die Kurztexte unterscheiden. Schritt 1 allein genügt nicht.
 
-## Die 33 Kollisionen
+## Die 35 Kollisionen
 
 | Nummer | BEL | BEB 97 |
 |---|---|---|
 | 0010 | Modell | Spezialmodell |
+| 0021 | Doublieren eines Modells | Modell für Sägesegmente |
 | 0022 | Platzhalter einfügen | Okklusionsmodell für Sägesegmente |
 | 0023 | Verwendung von Kunststoff | Modell für Einzelstümpfe |
 | 0025 | Doublieren eines Modells UKPS | Dosierungsstumpf |
@@ -52,18 +55,32 @@ Schritt 2 ist der eigentliche Test. Er erfasst alle 33 Fälle, weil sich die Kur
 | 7122 | Sonderkunststoff (KFO) | Auflage |
 | 7410 | Verbindungselemente/intermaxillär | Außenbogen |
 | 8024 | LE Basisteil Kunststoff | Leistungseinheit, Erneuerung Zahn |
+| 8027 | LE Kunststoffsattel | Leistungseinheit, Basisteil aus Kunststoff |
 | 8030 | Retention, gebogen | Leistungseinheit, Kunststoffsattel lösen und wiederbefestigen |
 | 8040 | Retention, gegossen | Leistungseinheit Basis vergrößern |
 | 8208 | Instandsetzung Krone/implantatgestützt | Leistungseinheit, Nachbereiten Keramikverblendung |
 
-## Vertauscht: 1360 und 1370
+## 8027 gegen 8024
 
 | Nummer | BEL | BEB 97 |
+|---|---|---|
+| 8024 | LE Basisteil Kunststoff | Leistungseinheit, Erneuerung Zahn |
+| 8027 | LE Kunststoffsattel | Leistungseinheit, Basisteil aus Kunststoff |
+
+Der BEB-Kurztext von 8027 benennt genau die Leistung, die im BEL unter 8024 steht. Ein Dreher um drei Stellen führt hier zu einer gültigen Nummer mit passend klingendem Text im falschen Katalog.
+
+## 1360 und 1370: Datenfehler der Katalogdatei
+
+| Nummer | BEL | BEB-Datei |
 |---|---|---|
 | 1360 | Gefrästes Lager | Schubverteilungsarm |
 | 1370 | Schubverteilungsarm | Gefrästes Lager |
 
-Beide Leistungen existieren in beiden Katalogen, jeweils unter der Nummer der anderen. Ein Katalogwechsel ohne Nummernprüfung dreht hier die Leistung um, ohne dass Kurztext oder Plausibilität auffallen.
+Die BEL-Seite ist unabhängig zweitbelegt: die Bundesmittelpreisliste 2026 führt 136 0 Gefrästes Lager und 137 0 Schubverteilungsarm.
+
+Die BEB-Seite ist mit hoher Wahrscheinlichkeit ein Importfehler der Datei `beb97_zahniAI_2026_v1.json`, keine Eigenschaft der BEB 97: Beide Einträge sind `individuell` mit Spitta-Herkunft und liegen in HG1 inmitten eines Blocks gespiegelter BEL-Nummern, während die BEB-Position für den Schubverteilungsarm als `standard` unter 3215 in HG3 steht — der Gruppe der Verankerungselemente, in die sie gehört. HG1 führt Kunststoffarbeiten, Provisorien, Verblendungen und Basen.
+
+Solange der BEB-Volltext nicht vorliegt, bleibt die Vertauschung unaufgelöst. Ein Katalogwechsel ohne Nummernprüfung dreht die Leistung um, ohne dass Kurztext oder Plausibilität auffallen.
 
 ## 0023 als folgenreichster Fall
 

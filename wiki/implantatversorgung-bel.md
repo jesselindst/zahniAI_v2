@@ -2,7 +2,7 @@
 titel: Implantatversorgung im BEL
 aliase: [Ausnahmeindikation Implantat, Nr. 36 Zahnersatz-Richtlinie]
 labels: [Abrechnung, BEL]
-quellen: [raw/BEL_II_01_01_2022.pdf]
+quellen: [raw/BEL_II_01_01_2022.pdf, raw/FZ-RL_2025-12-05_iK-2026-01-01.pdf, kataloge/fz_2026_v1.json]
 stand: 2026-08-05
 ---
 

@@ -8,6 +8,16 @@ schliesst_aus:
   - bel:8070 | bel:8030 | Metallverbindung ist in 8030 enthalten | nebeneinander-ausschluesse-bel
   - bel:8070 | bel:8040 | Metallverbindung ist in 8040 enthalten | nebeneinander-ausschluesse-bel
   - bel:8070 | bel:8060 | Metallverbindung ist in 8060 enthalten | nebeneinander-ausschluesse-bel
+  - bel:8024 | bel:8023 | Neugestaltung eines bukkalen Schildes bei Erweiterung nach 802 3 | nebeneinander-ausschluesse-bel
+  - bel:8080 | bel:8010 | Unterfuetterung ist keine Instandsetzung | nebeneinander-ausschluesse-bel
+  - bel:8080 | bel:8610 | Unterfuetterung ist keine Instandsetzung | nebeneinander-ausschluesse-bel
+  - bel:8090 | bel:8010 | Unterfuetterung ist keine Instandsetzung | nebeneinander-ausschluesse-bel
+  - bel:8090 | bel:8610 | Unterfuetterung ist keine Instandsetzung | nebeneinander-ausschluesse-bel
+  - bel:8100 | bel:8010 | Basiserneuerung ist keine Instandsetzung; Quelle nennt nur 801 0 und 802 1 bis 802 7 | nebeneinander-ausschluesse-bel
+  - bel:8640 | bel:8610 | KFO-Basiserneuerung; Quelle nennt nur 861 0, 862 0 und 863 0 | nebeneinander-ausschluesse-bel
+  - bel:8088 | bel:8018 | Unterfuetterung ist keine Instandsetzung, implantatgestuetzt | nebeneinander-ausschluesse-bel
+  - bel:8098 | bel:8018 | Unterfuetterung ist keine Instandsetzung, implantatgestuetzt | nebeneinander-ausschluesse-bel
+  - bel:8108 | bel:8018 | Basiserneuerung ist keine Instandsetzung, implantatgestuetzt | nebeneinander-ausschluesse-bel
 ersetzt_durch_bei:
   - bel:1347 | bel:8130 | Austausch eines Kunststofffertigteils am Sekundaerteil eines Kugelknopfankers | nebeneinander-ausschluesse-bel
 stand: 2026-08-05

@@ -32,7 +32,7 @@ Bei arbeitsteiliger Fertigung gilt zusätzlich das Preisgebiet des jeweils herst
 
 ## Deckung: nur Regelversorgung
 
-Die Liste trägt den Zusatz „Leistungen für die Regelversorgung" und deckt 117 der BEL-Positionen ab. 58 BEL-Positionen haben keinen Bundesmittelpreis. Die Lücke ist nicht zufällig, sondern folgt einer Linie: **außerhalb des Zahnersatzes gibt es keinen Bundesmittelpreis.**
+Die Liste trägt den Zusatz „Leistungen für die Regelversorgung" und deckt 117 der BEL-Positionen ab. 58 BEL-Positionen haben keinen Bundesmittelpreis. Die Lücke folgt weitgehend einer Linie: außerhalb des Zahnersatzes gibt es keinen Bundesmittelpreis. Eine Ausnahme trägt sie nicht — 002 1 dient auch dem Zahnersatz und hat trotzdem keinen, siehe unten.
 
 Ohne Bundesmittelpreis sind vollständig:
 
@@ -41,7 +41,9 @@ Ohne Bundesmittelpreis sind vollständig:
 - die gesamte Kieferorthopädie — 701 0 bis 751 0 (siehe [[bel-gruppe-kieferorthopaedie]])
 - die Instandsetzung von KFO-Geräten und Aufbissbehelfen — 861 0, 862 0, 863 0, 864 0, 870 0
 
-Dazu sechs Positionen der Arbeitsvorbereitung, die das BEL ausdrücklich an kieferorthopädische Leistungen bindet: 002 1 (Doublieren), 003 0 (Set-up je Segment), 005 4 (Set-up-Modell für KFO), 011 1 (Modellpaar trimmen), 013 0 (Modellpaar sockeln), 020 2 (Basis für Konstruktionsbiss). Siehe [[bel-gruppe-arbeitsvorbereitung]].
+Dazu fünf Positionen der Arbeitsvorbereitung, die das BEL ausdrücklich an kieferorthopädische Leistungen bindet: 003 0 (Set-up je Segment), 005 4 (Set-up-Modell für KFO), 011 1 (Modellpaar trimmen), 013 0 (Modellpaar sockeln), 020 2 (Basis für Konstruktionsbiss).
+
+002 1 (Doublieren eines Modells) hat ebenfalls keinen Bundesmittelpreis, ist aber nicht KFO-gebunden: Der Leistungsinhalt nennt Bissführungsplatte, Kralle, Kappe, abnehmbare Schiene über mehr als drei Zähne, Set-up-Modell und Crozat-Modell, also auch Zahnersatz. Siehe [[bel-gruppe-arbeitsvorbereitung]].
 
 Für eine Leistung ohne Bundesmittelpreis lässt sich aus dieser Quelle kein Preis ableiten. Ein Preis aus einer inhaltlich verwandten Position ist keine zulässige Ersatzgröße.
 

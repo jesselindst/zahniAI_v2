@@ -52,7 +52,7 @@ Die neun Nummern tragen die Anwendungsregeln, die zuvor nur mittelbar belegt war
 
 Drei Protokollnotizen ergänzen: Therapieschritte in begründeten Ausnahmefällen mit Ermittlung auf Basis des Gesamtbefundes und Begutachtungsmöglichkeit der Kasse; die Begrenzung auf die entstandenen Kosten auch bei Nicht-Härtefällen; die Ankündigung einer Überprüfung der Auswirkungen.
 
-Damit sind die Aussagen der Seiten [[festzuschuss]], [[haertefall-und-bonus]] und [[versorgungsform]] primärquellenbelegt. Sie stützten sich zuvor auf [[quelle-recherche-abrechnungsrahmen-2026]].
+Damit sind die Aussagen der Seiten [[festzuschuss]], [[festzuschuss-befundklassen]], [[haertefall-und-bonus]] und [[versorgungsform]] primärquellenbelegt. Sie stützten sich zuvor auf [[quelle-recherche-abrechnungsrahmen-2026]].
 
 ## Vier Zuschlagsbefunde sind Differenzbeträge
 

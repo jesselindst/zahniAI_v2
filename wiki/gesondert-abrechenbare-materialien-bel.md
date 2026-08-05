@@ -2,11 +2,11 @@
 titel: Gesondert abrechenbare Materialien im BEL
 aliase: [Zusatzkosten BEL, Konfektionsfertigteil, konfektioniertes Hilfsteil]
 labels: [Abrechnung, BEL, Material]
-quellen: [raw/BEL_II_01_01_2022.pdf]
+quellen: [raw/BEL_II_01_01_2022.pdf, raw/recherche-2026-08/materialabrechnung.md]
 stand: 2026-08-05
 ---
 
-Die Vergütung einer BEL-Position deckt das verwendete Material grundsätzlich mit ab. § 2 Ziffer 4 der Einleitenden Bestimmungen zählt abschließend auf, was daneben gesondert abgerechnet werden kann.
+Die Vergütung einer BEL-Position deckt das verwendete Material grundsätzlich mit ab. § 2 Ziffer 4 der Einleitenden Bestimmungen zählt auf, was daneben gesondert abgerechnet werden kann. Die Liste als abschließend zu lesen ist ein Umkehrschluss: Die Quelle sagt „Neben den aufgeführten Leistungen können die Kosten für … abgerechnet werden“ und begründet den Ausschluss ausdrücklich nur für die Halbfertigteile. Für Leistungen nach § 2 Ziffer 1 und 2, die nach tatsächlichem Aufwand abgerechnet werden, gilt sie nicht.
 
 ## Die Liste
 

@@ -2,7 +2,7 @@
 titel: Versorgungsform
 aliase: [Regelversorgung, gleichartig, gleichartige Versorgung, andersartig, andersartige Versorgung, Mehrkosten]
 labels: [Abrechnung, Regulatorik, BEL, BEB97]
-quellen: [raw/FZ-RL_2025-12-05_iK-2026-01-01.pdf, raw/recherche-2026-08/festzuschuss.md]
+quellen: [raw/FZ-RL_2025-12-05_iK-2026-01-01.pdf, raw/recherche-2026-08/festzuschuss.md, raw/recherche-2026-08/cadcam_einstufung.md, kataloge/fz_2026_v1.json]
 stand: 2026-08-05
 gueltig_von: 2016-05-04
 gueltig_bis:
@@ -47,18 +47,29 @@ Begleitleistungen wie Anästhesien, Röntgenaufnahmen sowie parodontologische un
 
 Die Abrechnungsgrundlage nennt Teil A Nr. 8 ausdrücklich: BEMA und BEL für die Regelversorgung, die Gebührenordnung für Zahnärzte für die Mehrkosten der gleichartigen und für die gesamte andersartige Versorgung. In den Ausnahmefällen nach Nr. 36 der Zahnersatz-Richtlinie bleiben BEMA und BEL Abrechnungsgrundlage.
 
+Bei Wiederherstellungen ist nicht die Art der wiederherzustellenden Versorgung maßgeblich. Liegen die Voraussetzungen eines Befundes 6.0 bis 6.10 vor und ist die Wiederherstellungsmaßnahme selbst als Regelversorgung abgebildet, handelt es sich um eine Wiederherstellung innerhalb der Regelversorgung (FZ-RL, Teil B, Protokollnotiz zur Klasse 6). Die Reparatur einer gleichartig oder andersartig versorgten Arbeit ist damit nicht automatisch selbst gleich- oder andersartig, siehe [[festzuschuss-befundklassen]].
+
 ## Einordnungen, die häufig falsch getroffen werden
 
-| Fall | zutreffende Form |
-|---|---|
-| Flexible Klammerprothese aus thermoplastischem Kunststoff | gleichartig, Festzuschuss bleibt |
-| Nicht-metallische Stifte aus Glasfaser, Zirkon oder Carbon sowie Titanstifte | gleichartig, Festzuschuss zum Befund 1.4 |
-| Adhäsivbrücke mit Keramikgerüst | gleichartig; Regelversorgung ist das Metallgerüst |
-| Gefräste Krone oder Brücke | gleichartig, siehe [[cad-cam-einstufung]] |
-| Modellgussprothese bei einem Lückenbefund 2.1 bis 2.5 | andersartig; dort ist die Brücke Regelversorgung |
-| Implantatgetragene Prothese statt Totalprothese | andersartig, Befund 4.2 oder 4.4 bleibt |
+| Fall | zutreffende Form | Beleg |
+|---|---|---|
+| Flexible Klammerprothese aus thermoplastischem Kunststoff | gleichartig, Festzuschuss bleibt | unbelegt, siehe unten |
+| Nicht-metallische Stifte aus Glasfaser, Zirkon oder Carbon | gleichartig, Festzuschuss zum Befund 1.4 | unbelegt, siehe unten |
+| Titanstifte | offen, siehe unten | — |
+| Adhäsivbrücke mit Keramikgerüst | gleichartig; Regelversorgung ist das Metallgerüst | FZ-RL, Teil B, Befunde 2.1 und 2.2 |
+| Gefräste Krone oder Brücke | gleichartig, siehe [[cad-cam-einstufung]] | eigene Recherche |
+| Modellgussprothese bei einem Lückenbefund 2.1 bis 2.5 | andersartig; dort ist die Brücke Regelversorgung | FZ-RL, Teil B, Klasse 2 |
+| Implantatgetragene Prothese statt Totalprothese | andersartig, Befund 4.2 oder 4.4 bleibt | FZ-RL, Teil A Nr. 6 und 7 |
 
-Die Einstufung „keine Leistung der gesetzlichen Krankenversicherung" ist bei den ersten beiden Fällen unzutreffend und geht zulasten des Versicherten: Ihm entgeht ein Zuschuss, auf den er Anspruch hat.
+Die Einstufung „keine Leistung der gesetzlichen Krankenversicherung" ist bei den ersten beiden Fällen unzutreffend, soweit sie zutreffen: Dem Versicherten entgeht sonst ein Zuschuss, auf den er Anspruch hat.
+
+### Drei offene Einordnungen
+
+Für diese drei Zeilen liegt keine Quelle vor, die entscheidet. Sie sind bis zur Klärung nicht als gesichert zu verwenden.
+
+- **Flexible Klammerprothese.** Keine Fundstelle in den vorliegenden Quellen. Die Vorlage `vorlagen/Herausnehmbar/FlexibleProthese/` führt sie unter Privatleistung und vermerkt selbst, dass die Einstufung KZV-abhängig und vor Rechnungsstellung zu klären ist. Wiki und Vorlagenbestand widersprechen sich; entscheidbar nur durch KZV-Auskunft.
+- **Nicht-metallische Stifte.** Keine Fundstelle. Die eigene Recherche zur Materialabrechnung führt konfektionierte Stifte ausdrücklich als unbelegt.
+- **Titanstifte.** Befund 1.4 verlangt einen konfektionierten metallischen Stiftaufbau, und die Materialangabe des Katalogs lautet allein „Stift" ohne Legierungsbeschränkung — anders als bei 1.5, wo NEM steht. Titan ist metallisch und konfektioniert und erfüllt den Wortlaut der Regelversorgung damit. Die Einstufung als gleichartig ist dem Wortlaut nach nicht gedeckt.
 
 ## Aufbissbehelfe kennen keine Versorgungsform
 

@@ -60,7 +60,7 @@ Anlage 2 ordnet die Positionen acht Gruppen zu:
 | Aufbissbehelfe | 401 0 – 404 0 | [[bel-gruppe-aufbissbehelfe]] |
 | Unterkieferprotrusionsschienen | 501 0 – 521 0 | [[unterkieferprotrusionsschiene]] |
 | Kieferorthopädie | 701 0 – 751 0 | [[bel-gruppe-kieferorthopaedie]] |
-| Reparatur/Erweiterungen | 801 0 – 870 0 | [[bel-gruppe-reparatur-erweiterung]] |
+| Reparatur/Erweiterungen | 801 0 – 970 0 | [[bel-gruppe-reparatur-erweiterung]] |
 
 Versandkosten (933er) und der Verarbeitungsaufwand für NEM-Legierungen (970 0) stehen in Anlage 2 unter Reparatur/Erweiterungen, sind aber gruppenübergreifend anwendbar, siehe [[bel-zuschlaege-versand]].
 

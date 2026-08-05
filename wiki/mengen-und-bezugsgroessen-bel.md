@@ -55,7 +55,7 @@ Wird eine weitere Bissnahme erforderlich, sind 302 0, 302 8 und 303 0 erneut abr
 - 384 0 (Zahn zahnfarben hinterlegt) ist im Oberkiefer bis einschließlich Zahn 5, im Unterkiefer bis einschließlich Zahn 4 abrechenbar.
 - 021 2 (Funktionslöffel) ist bei einem zahnlosen Kiefer oder bei einem Kiefer mit einem Restzahnbestand von bis zu drei Zähnen abrechenbar.
 - 021 5 (Basis für Aufstellung) ist bei einem zahnlosen Kiefer, bei einem Restzahnbestand von bis zu drei Zähnen oder bei Interimsprothesen abrechenbar.
-- 155 0 (Konditionierung) ist je Flügel, je Krone, Brückenglied oder Rückenschutzplatte abrechenbar — bei 404 0 dagegen je Zahn.
+- 155 0 (Konditionierung) ist je Flügel für Adhäsivbrücke nach 102 3 und bei Verblendungen nach 164 0 je Krone, Brückenglied oder Rückenschutzplatte abrechenbar — bei 404 0 dagegen je Zahn. Die Quelle bindet 155 0 damit an die Kompositverblendung; bei Keramikverblendung nach 162 0 ist sie nach diesem Wortlaut nicht angesetzt.
 - 970 0 (Verarbeitungsaufwand NEM) ist nur zu einer abschließend aufgezählten Liste von Positionen abrechenbar, siehe [[bel-zuschlaege-versand]].
 
 Verwandt: [[bel-ii]] · [[positionssystematik-bel]] · [[nebeneinander-ausschluesse-bel]]

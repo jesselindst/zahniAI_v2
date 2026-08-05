@@ -22,7 +22,7 @@ stand: 2026-08-05
 
 Das Dokument besteht aus drei Teilen: dem Vertragstext (§§ 1–6), Anlage 1 mit den Einleitenden Bestimmungen (§§ 1–5) und dem Verzeichnisteil, sowie Anlage 2 mit den Kurzbezeichnungen der Leistungspositionen.
 
-Der Verzeichnisteil beschreibt rund 130 Leistungspositionen, jeweils mit Leistungsinhalt, Kurztext nach Anlage 2 und — wo einschlägig — Erläuterungen zur Abrechnung. Die Erläuterungen zur Abrechnung tragen die eigentliche Regelungssubstanz: Mengengrenzen, Ausschlüsse, Indikationsvorbehalte.
+Der Verzeichnisteil beschreibt 175 Leistungspositionen, jeweils mit Leistungsinhalt, Kurztext nach Anlage 2 und — wo einschlägig — Erläuterungen zur Abrechnung. Die Erläuterungen zur Abrechnung tragen die eigentliche Regelungssubstanz: Mengengrenzen, Ausschlüsse, Indikationsvorbehalte.
 
 Das Dokument enthält keine Preise.
 

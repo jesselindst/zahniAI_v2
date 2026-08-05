@@ -112,6 +112,10 @@ Alle Angaben in EUR.
 | 8.5 | — | — | — | — | — | — |
 | 8.6 | — | — | — | — | — | — |
 
-Die Befunde der Klasse 8 tragen keinen eigenen Betrag. Sie werden nach Teil A Nr. 2 anteilig aus dem jeweiligen Befund gewährt, zu 50 oder 75 Prozent.
+Die Befunde der Klasse 8 tragen keinen eigenen Betrag. Sie werden bei Teilleistungen anteilig gewährt (Teil A Nr. 2); die Sätze 50 und 75 Prozent und die jeweiligen Basisbefunde nennt Teil B bei 8.1 bis 8.6, siehe [[festzuschuss-befundklassen]].
+
+## Kalkulationsbasis 2026
+
+Bundeseinheitlicher Zahnersatz-Punktwert 1,1844 Euro. Die BEL-II-Preise nach Vereinbarung zwischen Verband Deutscher Zahntechniker-Innungen und GKV-Spitzenverband steigen zum 01.01.2026 um 4,78 Prozent gegenüber 2025, verbunden mit einer Modifikation der Preisstruktur. Beides ist jahrgangsgebunden und deshalb hier verzeichnet, nicht auf [[festzuschuss]] oder [[bundesmittelpreis]].
 
 Verwandt: [[festzuschuss]] · [[festzuschuss-befundklassen]] · [[haertefall-und-bonus]] · [[quelle-fz-rl-2026]]

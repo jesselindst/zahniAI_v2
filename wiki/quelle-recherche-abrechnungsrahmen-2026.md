@@ -59,12 +59,11 @@ Festzuschussbeträge in Euro bleiben außen vor, weil sie jährlich neu festgese
 
 Die Quelle verweist auf Regelwerke, die im Wiki nicht als eigene Quelle vorliegen:
 
-- Festzuschuss-Richtlinie des Gemeinsamen Bundesausschusses, Fassung mit Wirkung ab 01.01.2026
 - Zahnersatz-Richtlinie in der Fassung vom 18.02.2016
 - Festzuschuss-Kompendium der Kassenzahnärztlichen Bundesvereinigung
 - Gemeinsames Rundschreiben zu Adhäsivbrücken vom 28.06.2016 sowie das Rundschreiben zum BEL II vom 19.03.2014
 - Änderungsvereinbarung zum BEL II vom 14.11.2022, liegt als PDF in `raw/_inbox/`
 
-Die Befundnummern des Festzuschusssystems sind keine Katalogpositionen und deshalb nicht als Positions-IDs geführt. Ein Katalog `fz` unter `kataloge/` würde sie prüfbar machen; er ist bislang nicht angelegt.
+Die Befundnummern des Festzuschusssystems sind inzwischen als Positions-IDs mit dem Präfix `fz` geführt und über `kataloge/fz_2026_v1.json` prüfbar. Zuständig für alle 54 ist [[festzuschuss-befundklassen]]. Der Stand dieser Seite bei ihrer Entstehung war ein anderer.
 
 110 Punkte der Prüfung sind ausdrücklich offen. Dazu zählen die Zuordnung der GOZ-Nummern für den laborgefertigten Stiftaufbau, die Mengenlogik der BEB-Position 0918 und die Frage, ob ausgeprägter Würgereiz und Acrylatallergie als Indikation für eine Metallbasis gelten.

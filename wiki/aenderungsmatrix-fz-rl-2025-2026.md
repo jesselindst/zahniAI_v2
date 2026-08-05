@@ -6,7 +6,7 @@ quellen: [raw/FZ-RL_2025-12-05_iK-2026-01-01.pdf, kataloge/fz_2026_v1.json, kata
 stand: 2026-08-05
 von_fassung: 2025
 nach_fassung: 2026
-angewendet: nein
+angewendet: ja
 ---
 
 Fassungswechsel der Festzuschuss-Richtlinie zum 01.01.2026, Beschluss des Gemeinsamen Bundesausschusses vom 05.12.2025. Angewendet wird diese Matrix vom Lint-Lauf, nicht vom Ingest.
@@ -114,5 +114,11 @@ Teil B beschreibt vier Befunde nicht als eigene Leistung, sondern als Differenz 
 | Abrechnungsvorlagen | keine; die Vorlagen führen Befunde nicht als Positions-IDs, siehe `vorlagen/_REGISTER.md` |
 
 Da kein Befund entfallen und keine Regelversorgungsliste geändert ist, entsteht kein Anpassungsbedarf an den Wissensseiten. Zu tun bleibt allein, dass jede Betragsangabe auf die Jahrgangsseite 2026 zeigt.
+
+## Angewendet am 2026-08-05
+
+Alle 54 Zeilen abgearbeitet, keine Zeile der Art `offen`. Geprüft und bestätigt: keine Wissensseite trägt einen Festzuschussbetrag außerhalb der beiden Jahrgangsseiten, auf `fz`-Positionen liegt keine Kante, keine der 228 Abrechnungsvorlagen führt Befundnummern als Positions-IDs. Alle 324 Betragsfelder der Jahrgangsseite 2026 stimmen mit `fz_2026_v1.json` überein, alle 216 der Jahrgangsseite 2025 mit `fz_2025_v1.json`.
+
+Beim Anwenden zusätzlich bereinigt: Der jahrgangsgebundene Zahnersatz-Punktwert 2026 stand auf den Konzeptseiten [[festzuschuss]] und [[bundesmittelpreis]] und auf keiner Jahrgangsseite; er steht jetzt auf [[festzuschussbetraege-2026]]. Die Klasse-8-Zeilen der Jahrgangsseite 2025 trugen 0,00 als Platzhalter und sind auf „—" umgestellt, weil sie als Betrag gelesen falsch sind. [[festzuschussbetraege-2025]] verweist jetzt auf die aktuelle Fassung und auf diese Matrix.
 
 Verwandt: [[festzuschuss]] · [[festzuschuss-befundklassen]] · [[quelle-fz-rl-2026]] · [[quelle-fz-rl-2025]]

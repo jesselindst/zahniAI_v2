@@ -2,7 +2,7 @@
 titel: CAD/CAM-Einstufung
 aliase: [gefräste Krone, 3D-Druck, digitale Fertigung, Intraoralscan, monolithisch, digitale Totalprothetik]
 labels: [Abrechnung, Herstellung, BEL, BEB97]
-quellen: [raw/recherche-2026-08/cadcam_einstufung.md, raw/recherche-2026-08/neue_verfahren.md]
+quellen: [raw/BEL_II_01_01_2022.pdf, raw/recherche-2026-08/cadcam_einstufung.md, raw/recherche-2026-08/neue_verfahren.md]
 stand: 2026-08-05
 ---
 
@@ -32,7 +32,7 @@ Die Leistungstexte der 401 0 und 402 0 enthalten keine Vorgabe zum Herstellungsv
 
 Gedruckte Modelle laufen nicht über die BEL-Modellpositionen und auch nicht über die alten BEB-Modellnummern. Der Druck verändert den Zeitaufwand, sodass eine Kalkulation nach der alten Planzeit nicht trägt. Labore legen dafür eigene BEB-Positionen an.
 
-002 3 Verwendung von Kunststoff ist seit 01.01.2023 ausdrücklich nicht für Stümpfe und Sockel ansetzbar und damit für CAD/CAM-Stumpfmodelle erst recht nicht, siehe [[bel-gruppe-arbeitsvorbereitung]].
+002 3 Verwendung von Kunststoff ist für Kunststoffstümpfe nicht abrechenbar; das gilt seit der Fassung 01.01.2022 unverändert und damit für CAD/CAM-Stumpfmodelle erst recht. Der Gips- oder Kunststoffsockel ist nach der Änderungsvereinbarung zum 01.01.2023 Leistungsbestandteil der Modellpositionen 005 1 bis 005 3 und deshalb nicht mehr über 002 3 ansetzbar, siehe [[bel-gruppe-arbeitsvorbereitung]].
 
 ## Intraoralscan und Datensatz
 
@@ -60,7 +60,7 @@ Die Konsequenz verschiebt den BEL-Anteil und damit den Eigenanteil deutlich. Vor
 
 ## Offene Punkte
 
-Das Inkrafttreten des BEL II 2014 wird in der Fachliteratur teils mit 01.01.2014, teils mit 01.04.2014 angegeben. Für die Einstufungsfrage ist das unerheblich, geklärt ist es nicht.
+Vertragliches Inkrafttreten des BEL II 2014 ist der 01.01.2014 (BEL II, Vertrag, § 6); die bundesweite praktische Einführung erfolgte zum 01.04.2014. Die beiden in der Fachliteratur genannten Daten bezeichnen also nicht denselben Sachverhalt.
 
 Für die Gegenposition, der Fertigungsweg sei technikneutral und eine gefräste Krone aus Nichtedelmetall damit Regelversorgung, wurde keine offizielle Quelle gefunden.
 

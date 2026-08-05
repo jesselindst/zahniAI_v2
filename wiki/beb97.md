@@ -30,16 +30,18 @@ Für die Vergleichsmatrix beim Labor-Customizing folgt daraus: Eine Laborpositio
 
 Die erste Ziffer der Positionsnummer folgt der Hauptgruppe. Die Hauptgruppe bestimmt den Kostensatz und sagt zugleich, für welche Art Arbeit die Position gedacht ist.
 
-| Hauptgruppe | Bereich |
-|---|---|
-| HG0 | Arbeitsvorbereitung, Modelle, Stümpfe, Hilfsteile, Dokumentation, Zuschläge |
-| HG1 | Kunststoffarbeiten, Provisorien, Verblendungen, Basen |
-| HG2 | Guss- und Frästechnik, Metallbasis, Modellguss, Kronen, Brückenglieder, CAD-Konstruktion |
-| HG3 | Verankerungselemente, Teleskope, Geschiebe, Stege, Sekundärteile |
-| HG4 | Tertiärstrukturen, Passungen, Schienen |
-| HG5 | Oberflächenbearbeitung, Konditionieren, Nachbearbeiten |
-| HG6 | Prothetik, Aufstellung, Fertigstellung, Sonderverfahren |
-| HG7 | Kieferorthopädie |
+| Hauptgruppe | Bereich | Positionen |
+|---|---|---|
+| HG0 | Arbeitsvorbereitung, Modelle, Stümpfe, Hilfsteile, Dokumentation, Scan und CAD-Auftragsanlage | 211 |
+| HG1 | Kunststoffarbeiten, Provisorien, Verblendungen, Basen, Bisswälle | 105 |
+| HG2 | Kronen, Brückenglieder, Inlays und Onlays, Schultern, CAD/CAM-Einheiten | 267 |
+| HG3 | Verankerungselemente, Teleskope, Geschiebe, Stege, Riegel, Sekundärteile, Fertigstellung je Zahn | 127 |
+| HG4 | Metallbasis, Klammern, Bügel, Rückenschutzplatten, Passungen | 82 |
+| HG5 | Lötungen, lötfreie Verbindung und Laserschweißen, Vergoldung, Konditionieren | 37 |
+| HG6 | Aufstellung, Fertigstellung, Basisteile, Gussgitter und Retentionen | 60 |
+| HG7 | Kieferorthopädie, Schienen, Resektionsprothetik | 147 |
+| HG8 | Instandsetzung, Unterfütterung, Erweiterung | 64 |
+| HG9 | Versand, Verarbeitungsaufwand NEM, 3D-Modell-Material | 3 |
 
 Eine Position aus der falschen Hauptgruppe ist ein Abrechnungsfehler, auch wenn der Kurztext passt. 6411 Spezialpressverfahren liegt in HG6 und deckt Prothesen ab; für eine gepresste Lithiumdisilikatkrone ist es die falsche Position. 2515 beschreibt ein Kunststoff-Onlay und trägt kein Komposit-Onlay.
 
@@ -49,27 +51,30 @@ Der Katalog führt für dieselbe Arbeit vielfach beides: eine Komplettposition u
 
 | Komplettposition | daneben nicht abrechenbar |
 |---|---|
-| 2807, 2810, 2815, 2829 vollständig verblendet | 2612, 2616 separate Verblendung |
-| 2552 bis 2554 und 2844 bis 2846 vollverblendete CAD/CAM-Einheiten | dieselbe Verblendung erneut |
+| 2807, 2810, 2815 vollständig verblendet | 2612, 2616 separate Verblendung |
 | 2613, 2653 | dieselbe Verblendung erneut |
 
 ## BEL und BEB nicht für dieselbe Arbeit
 
-Ebenfalls Doppelabrechnung, aber schwerer zu erkennen, weil zwei Kataloge im Spiel sind. 102 4 Krone für vestibuläre Verblendung zusammen mit 162 0 Vestibuläre Verblendung Keramik deckt dieselbe Leistung ab wie die BEB-Positionen 2122, 2314 und 2612. Leistungsbestandteile sind mit der Position abgegolten (BEL II, Anlage 1, § 3 Ziffer 3), siehe [[nebeneinander-ausschluesse-bel]].
+Ebenfalls Doppelabrechnung, aber schwerer zu erkennen, weil zwei Kataloge im Spiel sind. 102 4 Krone für vestibuläre Verblendung zusammen mit 162 0 Vestibuläre Verblendung Keramik deckt dieselbe Leistung ab wie die BEB-Positionen 2121, 2313 und 2611 — die Teilverblendungsvarianten. Vestibulär ist Teilverblendung; 2122, 2314 und 2612 sind die Vollverblendungsvarianten und damit nicht deckungsgleich. Die Zuordnung ist aus den Kurztexten beider Kataloge erschlossen, ein Dokument, das BEB gegen BEL abbildet, liegt nicht vor.
+
+Material ist mit den Vergütungen für die aufgeführten Leistungen abgegolten, soweit es nicht in der Liste der gesondert abrechenbaren Materialien steht (BEL II, Anlage 1, § 2 Ziffer 4). Welche Teilleistungen in einer Position eingeschlossen sind, ergibt sich aus ihrem Leistungsinhalt im Verzeichnisteil. Siehe [[nebeneinander-ausschluesse-bel]] und [[gesondert-abrechenbare-materialien-bel]].
 
 In einer reinen Regelversorgung hat der BEB keinen Platz. Jede angesetzte BEB-Position macht die Versorgung gleichartig und löst die Mehrkostenvereinbarung aus, siehe [[versorgungsform]].
 
 ## Katalogschwächen
 
-Der Katalog enthält 1103 Positionen. Bekannte Schwächen, ermittelt aus `kataloge/beb97_zahniAI_2026_v1.json`:
+Der Katalog enthält 1103 Positionen. Davon sind 779 als `standard` und 324 als `individuell` geführt; die 324 tragen zusätzlich ein Feld `quellen` mit Werten wie `spitta`, `intern` oder `dent_content`. Was die beiden Typen bedeuten und welche Positionen damit originäre BEB 97 sind, ist im Wiki nicht dokumentiert und im Katalog nicht erklärt. Alle Aussagen dieser Seite und der Kollisionsseite hängen an dieser Unterscheidung.
+
+Bekannte Schwächen, ermittelt aus `kataloge/beb97_zahniAI_2026_v1.json`:
 
 - 32 Kurztexte sind doppelt vergeben. Kritisch bei identischem Text und abweichender Kalkulation: 0917 und 2848 tragen beide „Konstruktion CAD-Krone zur Verblendung", die eine in HG0 mit 40 Minuten, die andere in HG2 mit 45 Minuten. Weitere Paare sind 0909 und 2840, 3805 mit 4122, 4421 und 7122 sowie 1360 und 3215.
 - Die Nummernfolge hat Lücken, die zu Erfindungen einladen. 2026 Ney-Stiel existiert, 2027 und 2028 nicht.
-- 135 Nummern kommen auch im BEL vor, 33 davon mit anderer Bedeutung, siehe [[positionskollision-bel-beb97]].
+- Nummern, die auch im BEL vorkommen und dort etwas anderes bezeichnen, siehe [[positionskollision-bel-beb97]].
 
 ## Stand 2026
 
-Die BEB 97 ist nach Fachverlagsangaben weiterhin die am häufigsten genutzte Liste. Inhaltlich gilt sie als veraltet, vor allem bei digitalen Verfahren; originäre Positionen für 3D-Druck oder Datensatzhandling enthält sie nicht. Labore legen dafür eigene Nummern an und kalkulieren neu, siehe [[cad-cam-einstufung]].
+Die BEB 97 ist nach Fachverlagsangaben weiterhin die am häufigsten genutzte Liste. Inhaltlich gilt sie als veraltet, vor allem bei digitalen Verfahren; originäre Positionen für 3D-Druck oder Datensatzhandling enthält sie nicht. Die Datei führt solche Positionen durchaus — 0856, 0871, 0915, 0916, 0923, 0927, 0937, 0943 und 9850 nennen den Druck ausdrücklich —, aber alle davon sind `individuell`, also nachträglich ergänzt und nicht Teil des originären Bestands. Labore legen dafür eigene Nummern an und kalkulieren neu, siehe [[cad-cam-einstufung]].
 
 Nachfolger ist die BEB Zahntechnik in der 4. Auflage 2023 mit rund 153 Digitalpositionen. Ein Wechsel ist nicht erzwungen; maßgeblich ist, welches Verzeichnis das Labor seiner Kalkulation zugrunde legt. Im Repository ist das die BEB 97.
 

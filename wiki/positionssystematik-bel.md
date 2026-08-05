@@ -42,7 +42,7 @@ Zwei dieser Positionen brechen das Muster und tragen Suffix 6: `021 6` (Basis f�
 
 `021 7` (Individueller Löffel UKPS) bricht das Suffix-Muster. Der Nummernkreis 5xx und die Reparaturpositionen 850 0 sowie 851 1–851 4 sind ohnehin eigenständig. Einzelheiten in [[unterkieferprotrusionsschiene]].
 
-**Suffix 5 bedeutet nicht generell UKPS.** `005 5` (Fräsmodell), `021 5` (Basis für Aufstellung), `202 5` (Kralle) und `380 5` (Gebogene Auflage) tragen dasselbe Suffix ohne UKPS-Bezug. Wer vom Suffix auf die Versorgungsart schließt, rechnet hier falsch ab.
+**Suffix 5 bedeutet nicht generell UKPS.** `005 5` (Fräsmodell), `021 5` (Basis für Aufstellung), `202 5` (Kralle), `380 5` (Gebogene Auflage) und `802 5` (LE Halte- und/oder Stützvorrichtung einarbeiten) tragen dasselbe Suffix ohne UKPS-Bezug. Wer vom Suffix auf die Versorgungsart schließt, rechnet hier falsch ab.
 
 ## Suffixe innerhalb einer Familie
 

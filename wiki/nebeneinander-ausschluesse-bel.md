@@ -76,9 +76,20 @@ Wird ein Halte- oder Abstützelement hergestellt, das in der Erläuterung zu 750
 
 ## Unterfütterung und Basiserneuerung sind keine Instandsetzung
 
-808 0, 809 0, 810 0 und 864 0 sind ausdrücklich keine Instandsetzung im Sinne der Instandsetzungspositionen. Die Grundeinheit 801 0 beziehungsweise 861 0 und die Leistungseinheiten 802 1–802 7, 862 0, 863 0 sind daneben also nicht über die Instandsetzungssystematik abrechenbar (BEL II, Nr. 808 0, 809 0, 810 0, 864 0). Für die implantatgestützten Varianten 808 8, 809 8 und 810 8 gilt dasselbe gegenüber 801 8 und 802 1–802 7.
+Unterfütterung und Basiserneuerung sind ausdrücklich keine Instandsetzung. Der Kreis der dadurch gesperrten Positionen ist aber je Position verschieden und darf nicht zusammengezogen werden:
 
-Für die Fixierung der Bisslage mit einem zweiten Modell und dem Einstellen in einen Fixator sind bei diesen Positionen 001 0 und 011 2 abrechenbar, nicht jedoch 012 0 (BEL II, Nr. 808 0, 809 0, 810 0, 864 0). Bei den implantatgestützten Varianten treten 001 8 und 011 2 an diese Stelle, 012 8 bleibt gesperrt. Bei UKPS gilt 808 5 mit 001 5 und 011 5, ohne 012 5.
+| Position | keine Instandsetzung im Sinne von |
+|---|---|
+| 808 0, 809 0 | 801 0, 802 1–802 7, 861 0, 862 0, 863 0 |
+| 810 0 | 801 0, 802 1–802 7 |
+| 864 0 | 861 0, 862 0, 863 0 |
+| 808 8, 809 8, 810 8 | 801 8, 802 1–802 7 |
+
+861 0 ist danach neben 810 0 nicht gesperrt, und 801 0 nicht neben 864 0 (BEL II, Nr. 808 0, 809 0, 810 0, 864 0, 808 8, 809 8, 810 8).
+
+Zwei ausdrückliche Zusatz-Erlaubnisse begrenzen die Sperre: Ist neben einer Erweiterung nach 802 4 eine Unterfütterung notwendig, ist diese zusätzlich nach 808 0, 808 8, 809 0, 809 8, 810 0 und 810 8 abrechenbar; ist neben 851 3 eine Teilunterfütterung notwendig, zusätzlich nach 808 5 (BEL II, Nr. 802 4 und Nr. 851 3).
+
+Für die Fixierung der Bisslage mit einem zweiten Modell und dem Einstellen in einen Fixator sind bei diesen Positionen 001 0 und 011 2 abrechenbar, nicht jedoch 012 0 (BEL II, Nr. 808 0, 809 0, 810 0, 864 0). Bei 808 8 und 809 8 treten 001 8 und 011 2 an diese Stelle, gesperrt ist 012 8. Bei 810 8 nennt der Verzeichnistext an dieser Stelle 012 0, nicht 012 8; systematisch wäre 012 8 zu erwarten. Die Abweichung ist nicht aufgelöst und hier nicht stillschweigend geglättet. Bei UKPS gilt 808 5 mit 001 5 und 011 5, ohne 012 5.
 
 ## Wer darf abrechnen
 

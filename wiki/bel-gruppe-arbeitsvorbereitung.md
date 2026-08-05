@@ -14,6 +14,11 @@ schliesst_aus:
   - bel:0128 | bel:8088 | wenn Lateral- und Protrusionsbewegung nicht erforderlich | nebeneinander-ausschluesse-bel
   - bel:0310 | bel:0320 | wechselseitig, direktes gegen indirektes Verfahren | nebeneinander-ausschluesse-bel
   - bel:0021 | bel:2010 | Duplikatmodell aus Einbettmasse | bel-gruppe-arbeitsvorbereitung
+  - bel:0120 | bel:8090 | Bisslagefixierung nur mit 001 0 und 011 2, nicht 012 0 | nebeneinander-ausschluesse-bel
+  - bel:0120 | bel:8100 | Bisslagefixierung nur mit 001 0 und 011 2, nicht 012 0 | nebeneinander-ausschluesse-bel
+  - bel:0120 | bel:8640 | Bisslagefixierung nur mit 001 0 und 011 2, nicht 012 0 | nebeneinander-ausschluesse-bel
+  - bel:0125 | bel:8085 | UKPS: Bisslagefixierung nur mit 001 5 und 011 5, nicht 012 5 | nebeneinander-ausschluesse-bel
+  - bel:0128 | bel:8098 | implantatgestuetzt: nur 001 8 und 011 2, nicht 012 8 | nebeneinander-ausschluesse-bel
 stand: 2026-08-05
 ---
 
@@ -41,7 +46,9 @@ Für das Erstellen von Arbeitsmodellen ist 002 1 bis auf diese Ausnahmefälle ni
 
 Zu 005 1, 005 2 und 005 3 ist 002 3 abrechenbar, wenn ein Kunststoffmodell gefertigt wird (BEL II, Stand 01.01.2022, Nr. 005 1 bis 005 3).
 
-Konflikt mit einer jüngeren Fassung. Die Änderungsvereinbarung Modellherstellung zwischen Verband Deutscher Zahntechniker-Innungen und GKV-Spitzenverband, in Kraft zum 01.01.2023, fasst 002 3 sowie 005 1 bis 005 3 neu: Der Gips- oder Kunststoffsockel ist seither Leistungsbestandteil der Modellpositionen, die Erläuterung zur Abrechnung lautet dort „Keine". Der Preisanteil der 002 3 wurde kostenneutral eingerechnet, auf Basis 2022 von 10,93 Euro auf 16,07 Euro. Ein zusätzlicher Ansatz von 002 3 wäre nach dieser Fassung Überabrechnung. Neu ist außerdem die Bezugsgröße der 002 3: je aufgefülltem Sekundärteil, höchstens dreimal je Modell.
+Konflikt mit einer jüngeren Fassung. Die Änderungsvereinbarung Modellherstellung zwischen Verband Deutscher Zahntechniker-Innungen und GKV-Spitzenverband, in Kraft zum 01.01.2023, fasst 002 3 sowie 005 1 bis 005 3 neu: Der Gips- oder Kunststoffsockel ist seither Leistungsbestandteil der Modellpositionen — nicht nur bei Kunststoff, sondern auch bei Gips —, die Erläuterung zur Abrechnung lautet dort „Keine". Der Preisanteil der 002 3 wurde kostenneutral eingerechnet, auf Basis 2022 von 10,93 Euro auf 16,07 Euro, seit 01.01.2023 auf 16,62 Euro. Ein zusätzlicher Ansatz von 002 3 wäre nach dieser Fassung Überabrechnung.
+
+Die Bezugsgröße der 002 3 hat dabei zwei Zweige, die nicht zusammenfallen: zur Darstellung der im Mund verbliebenen individuellen Primärteile je aufgefülltem Sekundärteil, für die Darstellung der Zahnfleischpartien je Front- und/oder Seitenzahngebiet und höchstens dreimal je Modell. Der Deckel gilt nur für den zweiten Zweig.
 
 Die Änderungsvereinbarung liegt als PDF in `raw/_inbox/` und ist noch nicht ingestiert; bis dahin steht die Aussage der Fassung 01.01.2022 hier unverändert daneben. Beleg für den Konflikt: `raw/recherche-2026-08/bel2_stand.md`, Wortlaut der Vereinbarung dort geprüft.
 
@@ -55,9 +62,9 @@ Die Änderungsvereinbarung liegt als PDF in `raw/_inbox/` und ist noch nicht ing
 
 | L-Nr. | Leistung | Anmerkung |
 |---|---|---|
-| 005 1 | Sägemodell | bei Kunststoffmodell zusätzlich 002 3 |
-| 005 2 | Einzelstumpfmodell | bei Kunststoffmodell zusätzlich 002 3 |
-| 005 3 | Modell nach Überabdruck | bei Kunststoffmodell zusätzlich 002 3 |
+| 005 1 | Sägemodell | Fassung 2022: bei Kunststoffmodell zusätzlich 002 3 — strittig, siehe Konflikt oben |
+| 005 2 | Einzelstumpfmodell | Fassung 2022: bei Kunststoffmodell zusätzlich 002 3 — strittig, siehe Konflikt oben |
+| 005 3 | Modell nach Überabdruck | Fassung 2022: bei Kunststoffmodell zusätzlich 002 3 — strittig, siehe Konflikt oben |
 | 005 4 | Set-up-Modell für KFO | in Verbindung mit KFO-Planungen und -Leistungen nach 003 0 |
 | 005 5 | Fräsmodell | Modell zur Aufnahme von Frässtümpfen; einmal je Kiefer, unabhängig von der Zahl der Fräsungen |
 
@@ -134,7 +141,9 @@ Für die Herstellung nach 031 0 ist ein Formteil nach 032 0 nicht abrechenbar (B
 
 ## Positionen ohne Bundesmittelpreis
 
-Sechs Positionen dieser Gruppe fehlen in der Preisliste für die Regelversorgung: 002 1 (Doublieren), 003 0 (Set-up je Segment), 005 4 (Set-up-Modell für KFO), 011 1 (Modellpaar trimmen), 013 0 (Modellpaar sockeln), 020 2 (Basis für Konstruktionsbiss). Alle sechs bindet das BEL ausdrücklich an kieferorthopädische Leistungen. Dazu kommen die UKPS-Varianten 001 5, 002 5, 011 5, 012 5, 020 5 und 021 7. Siehe [[bundesmittelpreis]].
+Sechs Positionen dieser Gruppe fehlen in der Preisliste für die Regelversorgung: 002 1 (Doublieren), 003 0 (Set-up je Segment), 005 4 (Set-up-Modell für KFO), 011 1 (Modellpaar trimmen), 013 0 (Modellpaar sockeln), 020 2 (Basis für Konstruktionsbiss). Fünf davon bindet das BEL ausdrücklich an kieferorthopädische Leistungen; 002 1 nicht, dessen Leistungsinhalt nennt auch Kralle und Kappe (siehe oben). Dazu kommen die UKPS-Varianten 001 5, 002 5, 011 5, 012 5, 020 5 und 021 7. Siehe [[bundesmittelpreis]].
+
+Gemeint ist damit allein der Bundesmittelpreis. Die aktive Katalogfassung `kataloge/bel_2026_v1.json` führt für diese Positionen einen Preis. Kein Bundesmittelpreis bedeutet nicht, dass die Position unbepreist ist.
 
 ## 002 3 im BEB
 

@@ -2,7 +2,7 @@
 titel: Material in der privaten Abrechnung
 aliase: [GOZ § 9, GOZ § 10, Auslagen zahntechnische Leistungen, Tagespreis Legierung, Materialnachweis]
 labels: [Abrechnung, Material, BEB97, Regulatorik]
-quellen: [raw/recherche-2026-08/materialabrechnung.md]
+quellen: [raw/recherche-2026-08/materialabrechnung.md, raw/recherche-2026-08/beb_stand.md, raw/recherche-2026-08/bel2_stand.md, raw/BEL_II_01_01_2022.pdf]
 stand: 2026-08-05
 ---
 
@@ -52,7 +52,7 @@ Ein Labor darf einen Rohling auch in die Positionspreise einkalkulieren. Entsche
 
 ## Fremdleistungen
 
-Im Fräszentrum eingekaufte Käppchen und Gerüste sind als Fremdleistung weiterzugeben. Handling-Zuschläge von 15 bis 20 Prozent auf eingekaufte Implantat- und Geschiebeteile werden in der Fachliteratur als üblich beschrieben, sind aber nicht normiert und strittig.
+Im Fräszentrum eingekaufte Käppchen und Gerüste sind als Fremdleistung 1:1 weiterzugeben. Handling-Zuschläge von 15 bis 20 Prozent auf eingekaufte Implantat- und Geschiebeteile werden in der Fachliteratur als üblich beschrieben, sind aber nicht normiert und strittig.
 
 ## Gegenprobe zur GKV-Seite
 
@@ -69,11 +69,11 @@ Beide Seiten treten in derselben Versorgung nebeneinander auf, sobald sie gleich
 | Gips, Wachs, Einbettmasse | abgegolten | einkalkuliert |
 | Lote | nicht, ausgenommen 75 Prozent bei 807 0 | frei kalkulierbar |
 
-Abgegoltenes Material als gesondert berechenbar zu führen, war der häufigste Materialfehler in der Prüfung der Abrechnungsvorlagen.
+Abgegoltenes Material als gesondert berechenbar zu führen, war ein häufiger Materialfehler in der Prüfung der Abrechnungsvorlagen.
 
 ## Regionale Sonderregeln
 
-Auf der GKV-Seite bestehen landesspezifische Regelungen, die auf die Materialkosten durchschlagen. Belegt sind die Berechnung von Gold mit drei Prozent über dem Listenpreis der Scheideanstalt in Hamburg, ein Zuschlag von 15 Prozent auf den Einzelgarniturpreis für Konfektionszähne in Bayern sowie NEM-Verrechnungseinheiten der einzelnen Kassenzahnärztlichen Vereinigungen bei Edelmetall statt Nichtedelmetall.
+Auf der GKV-Seite bestehen landesspezifische Regelungen, die auf die Materialkosten durchschlagen. Belegt sind die Berechnung von Gold mit drei Prozent über dem Listenpreis der Scheideanstalt in Hamburg, ein Zuschlag von 15 Prozent auf den Einzelgarniturpreis für Konfektionszähne in Bayern sowie NEM-Verrechnungseinheiten der jeweiligen Kassenzahnärztlichen Vereinigung, belegt für die KZV Berlin bei Edelmetall statt Nichtedelmetall.
 
 Praxislabore geben Zahnpreise unverändert weiter. Gewerbliche Labore dürfen zum Staffelpreis einkaufen und zum Einzelpreis berechnen.
 

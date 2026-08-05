@@ -2,7 +2,7 @@
 titel: Härtefall und Bonus
 aliase: [Bonusheft, Härtefallregelung, gleitende Härtefallregelung, Eigenanteil, Zuschussstufen]
 labels: [Abrechnung, Regulatorik]
-quellen: [raw/FZ-RL_2025-12-05_iK-2026-01-01.pdf, kataloge/fz_2026_v1.json]
+quellen: [raw/FZ-RL_2025-12-05_iK-2026-01-01.pdf, kataloge/fz_2026_v1.json, raw/recherche-2026-08/festzuschuss.md]
 stand: 2026-08-05
 gueltig_von: 2020-10-01
 gueltig_bis:

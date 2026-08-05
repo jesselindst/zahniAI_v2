@@ -16,7 +16,7 @@ Das bindet in beide Richtungen: nichts Unerbrachtes ansetzen, nichts Erbrachtes 
 
 ## Kurzbezeichnung ist Pflicht
 
-Für jede Einzelleistung ist in der Rechnung mindestens die aus Anlage 2 ersichtliche, aus Leistungsnummer und Kurztext bestehende Kurzbezeichnung anzugeben (BEL II, Anlage 1, § 3 Ziffer 3). Die Nummer allein genügt nicht, der eigene Formulierung ebensowenig — der Kurztext ist vereinbart.
+Für jede Einzelleistung ist in der Rechnung mindestens die aus Anlage 2 ersichtliche, aus Leistungsnummer und Kurztext bestehende Kurzbezeichnung anzugeben (BEL II, Anlage 1, § 3 Ziffer 3). Die Nummer allein genügt nicht, die eigene Formulierung ebenso wenig — der Kurztext ist vereinbart.
 
 Die vollständige Zuordnung von Nummer zu Kurztext steht in Anlage 2 der Quelle (`raw/BEL_II_01_01_2022.pdf`, Seiten 128–135) und wird hier nicht dupliziert. Zur Lesart der Nummern siehe [[positionssystematik-bel]].
 

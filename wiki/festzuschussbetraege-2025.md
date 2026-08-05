@@ -2,7 +2,7 @@
 titel: Festzuschussbeträge 2025
 aliase: [FZ-Beträge 2025, Festzuschusstabelle 2025]
 labels: [Abrechnung, Preise, Regulatorik]
-quellen: [kataloge/fz_2025_v1.json]
+quellen: [kataloge/fz_2025_v1.json, raw/recherche-2026-08/festzuschuss.md]
 stand: 2026-08-05
 gueltig_von: 2025-01-01
 gueltig_bis: 2025-12-31
@@ -14,7 +14,7 @@ Diese Seite trägt nur die Beträge. Was ein Festzuschuss ist, wie die Stufen zu
 
 Die Beträge gelten je Befund und Bezugsgröße. Welche Bezugsgröße das ist, steht in [[festzuschuss-befundklassen]].
 
-Für 2026 hat der Gemeinsame Bundesausschuss am 05.12.2025 neue Beträge festgesetzt, in Kraft ab 01.01.2026. Sie liegen nicht im Wiki; die Fassung 2025 ist damit nicht die aktuelle.
+Diese Seite ist nicht die aktuelle Fassung. Für Leistungsdaten ab 01.01.2026 gelten die Beträge in [[festzuschussbetraege-2026]], festgesetzt durch Beschluss vom 05.12.2025. Was sich geändert hat, steht in [[aenderungsmatrix-fz-rl-2025-2026]]: 48 Befunde mit neuen Beträgen, kein Befund neu oder entfallen. Eine Fortschreibung der Werte dieser Seite ins Folgejahr ist unzulässig.
 
 Alle Angaben in EUR.
 
@@ -103,13 +103,15 @@ Alle Angaben in EUR.
 
 ## Klasse 8 — Nicht vollendete Behandlung (Teilleistungen)
 
+Die Befunde der Klasse 8 tragen keinen eigenen Betrag. Sie werden anteilig aus einem Basisbefund gewährt, zu 50 oder 75 Prozent; welche Basisbefunde in Frage kommen, steht in [[festzuschuss-befundklassen]]. Der Katalog der Fassung 2025 führt hier 0,00 als Platzhalter — als Betrag gelesen wäre das falsch.
+
 | Befund | ohne Bonus | Bonus 5 Jahre | Bonus 10 Jahre | Härtefall |
 |---|---:|---:|---:|---:|
-| 8.1 | 0,00 | 0,00 | 0,00 | 0,00 |
-| 8.2 | 0,00 | 0,00 | 0,00 | 0,00 |
-| 8.3 | 0,00 | 0,00 | 0,00 | 0,00 |
-| 8.4 | 0,00 | 0,00 | 0,00 | 0,00 |
-| 8.5 | 0,00 | 0,00 | 0,00 | 0,00 |
-| 8.6 | 0,00 | 0,00 | 0,00 | 0,00 |
+| 8.1 | — | — | — | — |
+| 8.2 | — | — | — | — |
+| 8.3 | — | — | — | — |
+| 8.4 | — | — | — | — |
+| 8.5 | — | — | — | — |
+| 8.6 | — | — | — | — |
 
-Verwandt: [[festzuschuss]] · [[festzuschuss-befundklassen]] · [[haertefall-und-bonus]] · [[quelle-fz-rl-2025]]
+Verwandt: [[festzuschuss]] · [[festzuschuss-befundklassen]] · [[haertefall-und-bonus]] · [[festzuschussbetraege-2026]] · [[aenderungsmatrix-fz-rl-2025-2026]] · [[quelle-fz-rl-2025]]

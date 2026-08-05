@@ -37,17 +37,33 @@ Nicht-metallische Stifte aus Glasfaser, Zirkon oder Carbon sowie Titanstifte sin
 
 Voraussetzung: höchstens vier fehlende Zähne je Kiefer, ansonsten geschlossene Zahnreihe, keine Freiendsituation.
 
+### Voraussetzungen im Einzelnen
+
+Der Kopftext der Klasse 2 regelt, wann eine Freiendsituation vorliegt und wie gezählt wird. Diese Sätze entscheiden die Weiche zwischen Klasse 2 und Befund 3.1 (FZ-RL, Teil B, Kopftext Klasse 2):
+
+- Ein fehlender Zahn 7 löst eine Freiendsituation aus. Das gilt nicht, wenn Zahn 8 vorhanden und als Brückenanker verwendbar ist.
+- Fehlt Zahn 7 einseitig oder beidseitig und besteht dafür keine Versorgungsnotwendigkeit, liegt keine Freiendsituation vor.
+- Auch nicht versorgungsbedürftige Freiendsituationen zählen bei der Ermittlung der Zahl der fehlenden Zähne je Kiefer mit.
+- Ein fehlender Weisheitszahn wird nicht mitgezählt.
+- Für lückenangrenzende Zähne eines Befundes der Klasse 2 sind die Befunde 1.1 bis 1.3 nicht ansetzbar. Das gilt bei Versorgung mit Freiendbrücken auch für den Pfeilerzahn, der an den lückenangrenzenden Pfeilerzahn angrenzt.
+
+Der letzte Satz ist ein Ansetzbarkeitsausschluss mit unmittelbarer Wirkung auf den Kostenvoranschlag: Für einen Brückenanker der Klasse 2 gibt es keine Kronen-Befundnummer.
+
 | Befund | Gegenstand | Bezugsgröße |
 |---|---|---|
 | 2.1 | ein fehlender Zahn | je Lücke |
 | 2.2 | zwei nebeneinander fehlende Zähne | je Lücke |
 | 2.3 | drei nebeneinander fehlende Zähne | je Kiefer |
 | 2.4 | Frontzahnlücke mit vier nebeneinander fehlenden Zähnen | je Kiefer |
-| 2.5 | unmittelbar angrenzende weitere zahnbegrenzte Lücke mit einem fehlenden Zahn | je Lücke |
+| 2.5 | unmittelbar angrenzende weitere zahnbegrenzte Lücke mit einem fehlenden Zahn | im Befundtext nicht angegeben |
 | 2.6 | disparallele Pfeilerzähne zur festsitzenden Versorgung, Zuschlag | je Lücke |
 | 2.7 | fehlender Zahn im Verblendbereich, Zuschlag | je Verblendung |
 
-Der Wechsel der Bezugsgröße von je Lücke auf je Kiefer zwischen 2.2 und 2.3 wird häufig übersehen. Eine dreigliedrige Brücke löst 2.3 aus, eine viergliedrige 2.4 oder 3.1.
+Zwischen 2.2 und 2.3 wechselt die Bezugsgröße von je Lücke auf je Kiefer.
+
+Maßgeblich ist die Zahl der fehlenden Zähne, nicht die Zahl der Brückenglieder. Eine dreigliedrige Brücke ersetzt einen fehlenden Zahn und löst 2.1 aus; drei nebeneinander fehlende Zähne lösen einmal 2.3 je Kiefer aus.
+
+Im Oberkiefer sind 2.1 oder 2.2 und 3.1 zusammen ansetzbar, wenn bis zu zwei nebeneinander fehlende Schneidezähne mit einer Brücke und beidseitige Freiendsituationen mit herausnehmbarem Zahnersatz versorgt werden (FZ-RL, Teil B, Befunde 2.1, 2.2 und 3.1). Das ist die einzige Kombination von Klasse 2 und Klasse 3.
 
 2.7 gilt für den ersetzten Zahn sowie für einen an die Lücke angrenzenden Brückenanker im Verblendbereich, nicht für jeden Anker.
 
@@ -64,7 +80,7 @@ Ein Keramikgerüst ist gleichartige Versorgung. Die Wiederherstellung läuft üb
 | Befund | Gegenstand | Bezugsgröße |
 |---|---|---|
 | 3.1 | alle zahnbegrenzten Lücken außerhalb 2.1 bis 2.5 und 4 oder Freiendsituation | je Kiefer |
-| 3.2 | verkürzte Zahnreihe, beidseitig bis zu den Eckzähnen oder ersten Prämolaren oder einseitig, Zuschlag | höchstens zweimal je Kiefer |
+| 3.2 | verkürzte Zahnreihe, beidseitig bis zu den Eckzähnen oder ersten Prämolaren oder einseitig, Zuschlag | je Eckzahn oder erstem Prämolaren, höchstens zweimal je Kiefer |
 
 3.1 ist der tragende Befund der Modellgussprothese. 201 0 Metallbasis steht im Befundkatalog bei 3.1, 4.1, 4.3 und 4.5, nicht bei 2.7; 2.7 ist der Verblendzuschlag beim festsitzenden Zahnersatz. Siehe [[bel-gruppe-modellguss]].
 
@@ -82,13 +98,15 @@ Bei den Lückenbefunden 2.1 bis 2.5 ist die Brücke Regelversorgung. Eine Modell
 | 4.6 | Restzahnbestand bis drei Zähne mit dentaler Verankerung bei Kombinationsversorgung | je Ankerzahn |
 | 4.7 | Verblendung einer Teleskopkrone im Verblendbereich, Zuschlag | je Ankerzahn |
 | 4.8 | dentale Verankerung durch Wurzelstiftkappen | je Ankerzahn |
-| 4.9 | schwierig zu bestimmende Lagebeziehung der Kiefer bei Total- und Deckprothesen | — |
+| 4.9 | schwierig zu bestimmende Lagebeziehung der Kiefer bei Total- und Deckprothesen, Zuschlag | je Gesamtbefund |
 
 Die Totalprothese gehört zu 4.2 und 4.4, nicht zur Klasse 5.
 
 Der Zuschlag 4.7 für die Verblendung einer Teleskopkrone führt im Befundkatalog nur 155 0, 160 0, 161 0, 164 0 und 165 0, also Kunststoff und Komposit. 162 0 Vestibuläre Verblendung Keramik steht dort nicht, wohl aber bei 1.3, 2.7, 6.9 und 7.3. Das entspricht dem BEL, der als Träger für 162 0 nur Krone und Brückenglied nennt, siehe [[verblendung-bel]]. Eine keramisch verblendete Teleskopkrone geht damit über die Regelversorgung hinaus.
 
-Eine Metallbasis mit medizinischer Indikation bleibt Regelversorgung mit dem Zuschlag 4.5; die Indikation ist zu dokumentieren. Die Zahnersatz-Richtlinie nennt als Ausnahmefälle insbesondere Torus palatinus und Exostosen. Ohne Indikation ist die Metallbasis gleichartige Versorgung. Ob ausgeprägter Würgereiz und Acrylatallergie als Indikation gelten, ist in der Richtlinie nicht ausgewiesen und offen.
+Bei 3.1, 4.1 und 4.3 gehört 201 0 Metallbasis zur Regelversorgung und braucht keine Sonderindikation.
+
+Anders bei totalen Prothesen: Dort geht eine Metallbasis nach Nummer 30 der Zahnersatz-Richtlinie in der Regel über das Gebot der Wirtschaftlichkeit hinaus und unterliegt der Leistungspflicht nur in begründeten Ausnahmefällen, genannt sind Torus palatinus und Exostosen (Protokollnotiz zu 4.5). Liegt ein solcher Fall vor, bleibt die Metallbasis Regelversorgung mit dem Zuschlag 4.5; die Indikation ist zu dokumentieren. Ohne Indikation ist sie gleichartige Versorgung. Ob ausgeprägter Würgereiz und Acrylatallergie als Indikation gelten, ist in der Richtlinie nicht ausgewiesen und offen.
 
 ## Klasse 5 — Interimsversorgung
 
@@ -101,18 +119,39 @@ Eine Metallbasis mit medizinischer Indikation bleibt Regelversorgung mit dem Zus
 
 Alle vier Befunde setzen voraus, dass eine endgültige Versorgung nicht sofort möglich ist. Klasse 5 ist die Interimsversorgung.
 
+Für 5.1 bis 5.3 ist die Zahl der fehlenden Zähne im zu versorgenden Gebiet ausschlaggebend, nicht im Kiefer insgesamt. 5.4 ist nur beim zahnlosen Kiefer ansetzbar (Protokollnotiz zur Klasse 5).
+
 ## Klasse 6 — Wiederherstellung konventioneller Zahnersatz
 
-| Befund | Gegenstand |
-|---|---|
-| 6.0 bis 6.3 | wiederherstellungsbedürftige herausnehmbare oder Kombinationsversorgung, nach Umfang gestaffelt |
-| 6.4, 6.4.1, 6.5, 6.5.1 | erweiterungsbedürftige Versorgung bei Befundveränderung |
-| 6.6 | verändertes Prothesenlager bei Teilzahnersatz, je Prothese |
-| 6.7 | verändertes Prothesenlager bei totalem Zahnersatz oder Deckprothese, je Kiefer |
-| 6.8 | wiederherstellungsbedürftiger festsitzender rezementierbarer Zahnersatz, je Zahn |
-| 6.8.1 | je Flügel einer Adhäsivbrücke |
-| 6.9 | wiederherstellungsbedürftige Facette oder Verblendung im Verblendbereich |
-| 6.10 | erneuerungsbedürftiges Primär- oder Sekundärteleskop, je Zahn |
+Die Einstufung einer Wiederherstellung richtet sich nicht nach der Art der wiederherzustellenden Versorgung. Liegen die Voraussetzungen eines Befundes 6.0 bis 6.10 vor und ist die Wiederherstellungsmaßnahme selbst als Regelversorgung abgebildet, handelt es sich um eine Wiederherstellung innerhalb der Regelversorgung (Protokollnotiz zur Klasse 6). Die Reparatur einer gleich- oder andersartigen Versorgung kann damit Regelversorgung sein, siehe [[versorgungsform]].
+
+Ohne Befundveränderung — die vier Befunde unterscheiden sich nach Abformung und Werkstoffbereich:
+
+| Befund | Unterscheidungsmerkmal | Bezugsgröße |
+|---|---|---|
+| 6.0 | ohne Abformung und ohne Notwendigkeit zahntechnischer Leistungen, auch Auffüllen von Sekundärteleskopen im direkten Verfahren | je Prothese |
+| 6.1 | ohne Notwendigkeit der Abformung | je Prothese |
+| 6.2 | mit Abformung, Maßnahmen im Kunststoffbereich, auch Wiederbefestigung von Sekundärteleskopen oder anderen Verbindungselementen | je Prothese |
+| 6.3 | Maßnahmen im gegossenen Metallbereich, auch Wiederbefestigung von Sekundärteleskopen oder anderen Verbindungselementen | je Prothese |
+
+6.0 ist damit der einzige Befund der Klasse, der eine zahntechnische Leistung ausdrücklich ausschließt. Das erklärt, warum sein Regelversorgungs-Verzeichnis leer ist.
+
+Mit Befundveränderung und weitere Befunde:
+
+| Befund | Gegenstand | Bezugsgröße |
+|---|---|---|
+| 6.4 | Erweiterung, Maßnahmen im Kunststoffbereich, um einen Zahn | je Prothese |
+| 6.4.1 | dieselbe Erweiterung, jeder weitere Zahn | je Prothese |
+| 6.5 | Erweiterung, Maßnahmen im gegossenen Metallbereich, um einen Zahn | je Prothese |
+| 6.5.1 | dieselbe Erweiterung, jeder weitere Zahn | je Prothese |
+| 6.6 | verändertes Prothesenlager bei Teilzahnersatz | je Prothese |
+| 6.7 | verändertes Prothesenlager bei totalem Zahnersatz oder Deckprothese | je Kiefer |
+| 6.8 | wiederherstellungsbedürftiger festsitzender rezementierbarer Zahnersatz | je Zahn |
+| 6.8.1 | Flügel einer Adhäsivbrücke | je Flügel |
+| 6.9 | wiederherstellungsbedürftige Facette oder Verblendung im Verblendbereich an Krone, Sekundärteleskop, Brückenanker oder Brückenglied | je Verblendung |
+| 6.10 | erneuerungsbedürftiges Primär- oder Sekundärteleskop | je Zahn |
+
+6.10 ist Regelversorgung, wenn zugleich ein Befund 3.2 oder 4.6 vorliegt. Der Befund ist nicht ansetzbar, wenn an einem Zahn sowohl Primär- als auch Sekundärteleskop erneuert oder erweitert werden (Protokollnotiz zu 6.10).
 
 Die zugehörigen BEL-Positionen stehen in [[bel-gruppe-reparatur-erweiterung]].
 
@@ -132,13 +171,18 @@ Klasse 7 kommt bei einer Erstversorgung nicht in Betracht. Dort gilt der Befund 
 
 ## Klasse 8 — nicht vollendete Behandlung
 
-| Befund | Gegenstand | Anteil |
-|---|---|---|
-| 8.1 | nach Präparation eines Zahnes, einer Teleskopkrone oder einer Wurzelstiftkappe | 50 Prozent |
-| 8.2 | wie 8.1, wenn weitergehende Maßnahmen durchgeführt wurden | 75 Prozent |
-| 8.3 | nach Präparation der Ankerzähne einer Brücke | 50 Prozent der Befunde 2.1 ff. |
-| 8.4 | wie 8.3 mit weitergehenden Maßnahmen | 75 Prozent |
-| 8.5, 8.6 | nach Abformung und Ermittlung der Bissverhältnisse für Teilprothese oder Cover-Denture-Prothese | gestaffelt |
+Die Befunde der Klasse 8 tragen keinen eigenen Betrag. Sie sind ein Prozentsatz eines Basisbefundes, und welche Basisbefunde in Frage kommen, ist je Befund abschließend aufgezählt.
+
+| Befund | Gegenstand | Anteil | Basisbefunde |
+|---|---|---|---|
+| 8.1 | nach Präparation eines erhaltungswürdigen Zahnes, einer Teleskopkrone oder einer Wurzelstiftkappe | 50 Prozent | 1.1, 1.2, 1.5, 3.2, 4.6 oder 4.8 |
+| 8.2 | wie 8.1, wenn auch weitergehende Maßnahmen durchgeführt wurden | 75 Prozent | 1.1, 1.2, 1.5, 3.2, 4.6 oder 4.8; ggf. zusätzlich 1.3 oder 4.7 |
+| 8.3 | nach Präparation der Ankerzähne einer Brücke | 50 Prozent | 2.1 bis 2.5 |
+| 8.4 | wie 8.3 mit weitergehenden Maßnahmen | 75 Prozent | 2.1 bis 2.5; ggf. zusätzlich 2.7 für Ankerzähne oder Brückenzwischenglieder |
+| 8.5 | nach Abformung und Ermittlung der Bissverhältnisse zur Eingliederung einer Teilprothese, Cover-Denture-Prothese oder Totalprothese | 50 Prozent | 3.1, 4.1 bis 4.4 oder 5.1 bis 5.4 |
+| 8.6 | wie 8.5 mit weitergehenden Maßnahmen | 75 Prozent | 3.1, 4.1 bis 4.4 oder 5.1 bis 5.4; ggf. zusätzlich 4.5 oder 4.9 |
+
+1.4 ist bei 8.1 und 8.2 nicht als Basisbefund genannt, 2.6 und 2.7 nicht bei 8.3. Die Aufzählungen sind eng zu lesen.
 
 ## Befunde ohne zahntechnische Regelversorgung
 
@@ -146,6 +190,6 @@ Acht der 54 Befunde führen im Katalog keine Laborleistung: 1.4 nur die Material
 
 ## Vier Zuschläge sind Differenzbeträge
 
-Teil B beschreibt vier Befunde nicht als eigene Leistung, sondern als Differenz zweier Positionen: 1.3 und 2.7 als 102 4 abzüglich 102 1, 3.2 als Teleskopversorgung abzüglich 204 1, 4.5 als 303 0 abzüglich 302 0. Das erklärt ihre geringe Höhe.
+Teil B beschreibt vier Befunde nicht als eigene Leistung, sondern als Differenz zweier Positionen: 1.3 und 2.7 als 102 4 abzüglich 102 1, 3.2 als 120 0 Teleskopkrone abzüglich 204 1, 4.5 als 303 0 abzüglich 302 0. Das erklärt ihre geringe Höhe.
 
 Verwandt: [[festzuschuss]] · [[versorgungsform]] · [[haertefall-und-bonus]] · [[verblendung-bel]] · [[festzuschussbetraege-2026]] · [[quelle-fz-rl-2026]] · [[aenderungsmatrix-fz-rl-2025-2026]]
