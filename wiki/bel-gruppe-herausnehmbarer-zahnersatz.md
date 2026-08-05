@@ -2,20 +2,20 @@
 titel: BEL-Gruppe Herausnehmbarer Zahnersatz
 aliase: [Herausnehmbarer Zahnersatz, Prothese BEL, Aufstellung]
 labels: [Abrechnung, BEL, Herstellung]
-positionen: [3010, 3018, 3020, 3028, 3030, 3410, 3610, 3618, 3620, 3628, 3800, 3805, 3810, 3821, 3822, 3830, 3840]
+positionen: [bel:3010, bel:3018, bel:3020, bel:3028, bel:3030, bel:3410, bel:3610, bel:3618, bel:3620, bel:3628, bel:3800, bel:3805, bel:3810, bel:3821, bel:3822, bel:3830, bel:3840]
 quellen: [raw/BEL_II_01_01_2022.pdf]
 schliesst_aus:
-  - 3030 | 3410 | derselbe Konfektionszahn | nebeneinander-ausschluesse-bel
-  - 3830 | 3020 | derselbe Zahn | nebeneinander-ausschluesse-bel
-  - 3830 | 3028 | derselbe Zahn | nebeneinander-ausschluesse-bel
-  - 3830 | 3030 | derselbe Zahn | nebeneinander-ausschluesse-bel
-  - 3830 | 3410 | derselbe Zahn | nebeneinander-ausschluesse-bel
-  - 3830 | 3620 | derselbe Zahn | nebeneinander-ausschluesse-bel
-  - 3830 | 3628 | derselbe Zahn | nebeneinander-ausschluesse-bel
-  - 3010 | 4010 | am Aufbissbehelf | nebeneinander-ausschluesse-bel
-  - 3010 | 4020 | am Aufbissbehelf | nebeneinander-ausschluesse-bel
-  - 3610 | 4010 | am Aufbissbehelf | nebeneinander-ausschluesse-bel
-  - 3610 | 4020 | am Aufbissbehelf | nebeneinander-ausschluesse-bel
+  - bel:3030 | bel:3410 | derselbe Konfektionszahn | nebeneinander-ausschluesse-bel
+  - bel:3830 | bel:3020 | derselbe Zahn | nebeneinander-ausschluesse-bel
+  - bel:3830 | bel:3028 | derselbe Zahn | nebeneinander-ausschluesse-bel
+  - bel:3830 | bel:3030 | derselbe Zahn | nebeneinander-ausschluesse-bel
+  - bel:3830 | bel:3410 | derselbe Zahn | nebeneinander-ausschluesse-bel
+  - bel:3830 | bel:3620 | derselbe Zahn | nebeneinander-ausschluesse-bel
+  - bel:3830 | bel:3628 | derselbe Zahn | nebeneinander-ausschluesse-bel
+  - bel:3010 | bel:4010 | am Aufbissbehelf | nebeneinander-ausschluesse-bel
+  - bel:3010 | bel:4020 | am Aufbissbehelf | nebeneinander-ausschluesse-bel
+  - bel:3610 | bel:4010 | am Aufbissbehelf | nebeneinander-ausschluesse-bel
+  - bel:3610 | bel:4020 | am Aufbissbehelf | nebeneinander-ausschluesse-bel
 stand: 2026-08-05
 ---
 

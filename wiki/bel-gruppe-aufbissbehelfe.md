@@ -2,7 +2,7 @@
 titel: BEL-Gruppe Aufbissbehelfe
 aliase: [Aufbissbehelf, Knirscherschiene, Aufbissschiene, semipermanente Schiene]
 labels: [Abrechnung, BEL, Herstellung]
-positionen: [4010, 4020, 4030, 4040]
+positionen: [bel:4010, bel:4020, bel:4030, bel:4040]
 quellen: [raw/BEL_II_01_01_2022.pdf]
 stand: 2026-08-05
 ---

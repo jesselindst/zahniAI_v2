@@ -2,14 +2,14 @@
 titel: BEL-Gruppe Reparatur und Erweiterung
 aliase: [Instandsetzung, Reparatur BEL, Unterfütterung, Leistungseinheit]
 labels: [Abrechnung, BEL, Herstellung]
-positionen: [8010, 8018, 8021, 8022, 8023, 8024, 8025, 8026, 8027, 8030, 8040, 8060, 8070, 8080, 8085, 8088, 8090, 8098, 8100, 8108, 8130, 8200, 8208, 8500, 8511, 8512, 8513, 8514, 8610, 8620, 8630, 8640, 8700]
+positionen: [bel:8010, bel:8018, bel:8021, bel:8022, bel:8023, bel:8024, bel:8025, bel:8026, bel:8027, bel:8030, bel:8040, bel:8060, bel:8070, bel:8080, bel:8085, bel:8088, bel:8090, bel:8098, bel:8100, bel:8108, bel:8130, bel:8200, bel:8208, bel:8500, bel:8511, bel:8512, bel:8513, bel:8514, bel:8610, bel:8620, bel:8630, bel:8640, bel:8700]
 quellen: [raw/BEL_II_01_01_2022.pdf]
 schliesst_aus:
-  - 8070 | 8030 | Metallverbindung ist in 8030 enthalten | nebeneinander-ausschluesse-bel
-  - 8070 | 8040 | Metallverbindung ist in 8040 enthalten | nebeneinander-ausschluesse-bel
-  - 8070 | 8060 | Metallverbindung ist in 8060 enthalten | nebeneinander-ausschluesse-bel
+  - bel:8070 | bel:8030 | Metallverbindung ist in 8030 enthalten | nebeneinander-ausschluesse-bel
+  - bel:8070 | bel:8040 | Metallverbindung ist in 8040 enthalten | nebeneinander-ausschluesse-bel
+  - bel:8070 | bel:8060 | Metallverbindung ist in 8060 enthalten | nebeneinander-ausschluesse-bel
 ersetzt_durch_bei:
-  - 1347 | 8130 | Austausch eines Kunststofffertigteils am Sekundaerteil eines Kugelknopfankers | nebeneinander-ausschluesse-bel
+  - bel:1347 | bel:8130 | Austausch eines Kunststofffertigteils am Sekundaerteil eines Kugelknopfankers | nebeneinander-ausschluesse-bel
 stand: 2026-08-05
 ---
 

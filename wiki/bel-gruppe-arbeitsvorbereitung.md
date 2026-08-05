@@ -2,18 +2,18 @@
 titel: BEL-Gruppe Arbeitsvorbereitung
 aliase: [Arbeitsvorbereitung, Modellherstellung BEL]
 labels: [Abrechnung, BEL, Herstellung]
-positionen: [0010, 0015, 0018, 0021, 0022, 0023, 0024, 0025, 0030, 0051, 0052, 0053, 0054, 0055, 0060, 0070, 0111, 0112, 0115, 0120, 0125, 0128, 0130, 0201, 0202, 0205, 0211, 0212, 0213, 0214, 0215, 0216, 0217, 0218, 0220, 0228, 0230, 0240, 0310, 0320]
+positionen: [bel:0010, bel:0015, bel:0018, bel:0021, bel:0022, bel:0023, bel:0024, bel:0025, bel:0030, bel:0051, bel:0052, bel:0053, bel:0054, bel:0055, bel:0060, bel:0070, bel:0111, bel:0112, bel:0115, bel:0120, bel:0125, bel:0128, bel:0130, bel:0201, bel:0202, bel:0205, bel:0211, bel:0212, bel:0213, bel:0214, bel:0215, bel:0216, bel:0217, bel:0218, bel:0220, bel:0228, bel:0230, bel:0240, bel:0310, bel:0320]
 quellen: [raw/BEL_II_01_01_2022.pdf]
 schliesst_aus:
-  - 0111 | 0130 | dasselbe Modellpaar | nebeneinander-ausschluesse-bel
-  - 0112 | 0120 | bei Wiederherstellungen | nebeneinander-ausschluesse-bel
-  - 0115 | 0125 | bei Wiederherstellungen | nebeneinander-ausschluesse-bel
-  - 0120 | 0320 | wenn Lateral- und Protrusionsbewegung nicht erforderlich | nebeneinander-ausschluesse-bel
-  - 0120 | 1040 | wenn Lateral- und Protrusionsbewegung nicht erforderlich | nebeneinander-ausschluesse-bel
-  - 0120 | 8080 | wenn Lateral- und Protrusionsbewegung nicht erforderlich | nebeneinander-ausschluesse-bel
-  - 0128 | 8088 | wenn Lateral- und Protrusionsbewegung nicht erforderlich | nebeneinander-ausschluesse-bel
-  - 0310 | 0320 | wechselseitig, direktes gegen indirektes Verfahren | nebeneinander-ausschluesse-bel
-  - 0021 | 2010 | Duplikatmodell aus Einbettmasse | bel-gruppe-arbeitsvorbereitung
+  - bel:0111 | bel:0130 | dasselbe Modellpaar | nebeneinander-ausschluesse-bel
+  - bel:0112 | bel:0120 | bei Wiederherstellungen | nebeneinander-ausschluesse-bel
+  - bel:0115 | bel:0125 | bei Wiederherstellungen | nebeneinander-ausschluesse-bel
+  - bel:0120 | bel:0320 | wenn Lateral- und Protrusionsbewegung nicht erforderlich | nebeneinander-ausschluesse-bel
+  - bel:0120 | bel:1040 | wenn Lateral- und Protrusionsbewegung nicht erforderlich | nebeneinander-ausschluesse-bel
+  - bel:0120 | bel:8080 | wenn Lateral- und Protrusionsbewegung nicht erforderlich | nebeneinander-ausschluesse-bel
+  - bel:0128 | bel:8088 | wenn Lateral- und Protrusionsbewegung nicht erforderlich | nebeneinander-ausschluesse-bel
+  - bel:0310 | bel:0320 | wechselseitig, direktes gegen indirektes Verfahren | nebeneinander-ausschluesse-bel
+  - bel:0021 | bel:2010 | Duplikatmodell aus Einbettmasse | bel-gruppe-arbeitsvorbereitung
 stand: 2026-08-05
 ---
 

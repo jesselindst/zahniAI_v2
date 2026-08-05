@@ -2,14 +2,14 @@
 titel: BEL-Gruppe Festsitzender Zahnersatz
 aliase: [Festsitzender Zahnersatz, Krone BEL, Brücke BEL]
 labels: [Abrechnung, BEL, Herstellung]
-positionen: [1013, 1021, 1022, 1023, 1024, 1026, 1028, 1031, 1032, 1033, 1040, 1050, 1100, 1200, 1201, 1331, 1341, 1343, 1347, 1349, 1360, 1370]
+positionen: [bel:1013, bel:1021, bel:1022, bel:1023, bel:1024, bel:1026, bel:1028, bel:1031, bel:1032, bel:1033, bel:1040, bel:1050, bel:1100, bel:1200, bel:1201, bel:1331, bel:1341, bel:1343, bel:1347, bel:1349, bel:1360, bel:1370]
 quellen: [raw/BEL_II_01_01_2022.pdf]
 schliesst_aus:
-  - 1013 | 1050 | derselbe Zahn | nebeneinander-ausschluesse-bel
-  - 1022 | 1600 | immer | nebeneinander-ausschluesse-bel
-  - 1022 | 1620 | immer | nebeneinander-ausschluesse-bel
-  - 1022 | 1640 | immer | nebeneinander-ausschluesse-bel
-  - 1031 | 1032 | dieselbe Krone oder dasselbe Brueckenglied | nebeneinander-ausschluesse-bel
+  - bel:1013 | bel:1050 | derselbe Zahn | nebeneinander-ausschluesse-bel
+  - bel:1022 | bel:1600 | immer | nebeneinander-ausschluesse-bel
+  - bel:1022 | bel:1620 | immer | nebeneinander-ausschluesse-bel
+  - bel:1022 | bel:1640 | immer | nebeneinander-ausschluesse-bel
+  - bel:1031 | bel:1032 | dieselbe Krone oder dasselbe Brueckenglied | nebeneinander-ausschluesse-bel
 stand: 2026-08-05
 ---
 

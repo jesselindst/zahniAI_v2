@@ -2,21 +2,21 @@
 titel: BEL-Gruppe Modellguss
 aliase: [Modellguss, Metallbasis, Klammer BEL]
 labels: [Abrechnung, BEL, Herstellung]
-positionen: [2010, 2021, 2025, 2026, 2027, 2028, 2031, 2041, 2050, 2081, 2082, 2083, 2100, 2110, 2120]
+positionen: [bel:2010, bel:2021, bel:2025, bel:2026, bel:2027, bel:2028, bel:2031, bel:2041, bel:2050, bel:2081, bel:2082, bel:2083, bel:2100, bel:2110, bel:2120]
 quellen: [raw/BEL_II_01_01_2022.pdf]
 schliesst_aus:
-  - 2010 | 8060 | immer | nebeneinander-ausschluesse-bel
-  - 2081 | 3020 | immer | nebeneinander-ausschluesse-bel
-  - 2081 | 3030 | immer | nebeneinander-ausschluesse-bel
-  - 2081 | 3620 | immer | nebeneinander-ausschluesse-bel
-  - 2082 | 3020 | fuer den Metallzahn | nebeneinander-ausschluesse-bel
-  - 2082 | 3030 | fuer den Metallzahn | nebeneinander-ausschluesse-bel
-  - 2082 | 3620 | fuer den Metallzahn | nebeneinander-ausschluesse-bel
-  - 2083 | 3020 | fuer die Metallkauflaeche | nebeneinander-ausschluesse-bel
-  - 2083 | 3030 | fuer die Metallkauflaeche | nebeneinander-ausschluesse-bel
-  - 2083 | 3620 | fuer die Metallkauflaeche | nebeneinander-ausschluesse-bel
+  - bel:2010 | bel:8060 | immer | nebeneinander-ausschluesse-bel
+  - bel:2081 | bel:3020 | immer | nebeneinander-ausschluesse-bel
+  - bel:2081 | bel:3030 | immer | nebeneinander-ausschluesse-bel
+  - bel:2081 | bel:3620 | immer | nebeneinander-ausschluesse-bel
+  - bel:2082 | bel:3020 | fuer den Metallzahn | nebeneinander-ausschluesse-bel
+  - bel:2082 | bel:3030 | fuer den Metallzahn | nebeneinander-ausschluesse-bel
+  - bel:2082 | bel:3620 | fuer den Metallzahn | nebeneinander-ausschluesse-bel
+  - bel:2083 | bel:3020 | fuer die Metallkauflaeche | nebeneinander-ausschluesse-bel
+  - bel:2083 | bel:3030 | fuer die Metallkauflaeche | nebeneinander-ausschluesse-bel
+  - bel:2083 | bel:3620 | fuer die Metallkauflaeche | nebeneinander-ausschluesse-bel
 enthalten_in:
-  - 2026 | 2050 | Ney-Stiel ist Bestandteil der Bonwillklammer | bel-gruppe-modellguss
+  - bel:2026 | bel:2050 | Ney-Stiel ist Bestandteil der Bonwillklammer | bel-gruppe-modellguss
 stand: 2026-08-05
 ---
 

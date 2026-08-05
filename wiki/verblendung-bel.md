@@ -2,7 +2,7 @@
 titel: Verblendung im BEL
 aliase: [Vestibuläre Verblendung, Facette, Zahnfleisch aus Kunststoff]
 labels: [Abrechnung, BEL, Material]
-positionen: [1500, 1550, 1600, 1610, 1620, 1628, 1630, 1638, 1640, 1650]
+positionen: [bel:1500, bel:1550, bel:1600, bel:1610, bel:1620, bel:1628, bel:1630, bel:1638, bel:1640, bel:1650]
 quellen: [raw/BEL_II_01_01_2022.pdf]
 stand: 2026-08-05
 ---

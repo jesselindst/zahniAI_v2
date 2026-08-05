@@ -2,7 +2,7 @@
 titel: Versandkosten und NEM-Verarbeitungsaufwand
 aliase: [Versandkosten, 933 0, NEM-Zuschlag, 970 0]
 labels: [Abrechnung, BEL, Material]
-positionen: [9330, 9335, 9338, 9700]
+positionen: [bel:9330, bel:9335, bel:9338, bel:9700]
 quellen: [raw/BEL_II_01_01_2022.pdf]
 stand: 2026-08-05
 ---
