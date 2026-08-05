@@ -24,7 +24,7 @@ Die erste Stelle bestimmt die Gruppe (BEL II, Anlage 2):
 | 8xx | Reparatur und Erweiterung |
 | 9xx | Versandkosten, Verarbeitungsaufwand |
 
-6xx ist nicht belegt. Die Gruppenzugehörigkeit sagt nichts über Kombinierbarkeit: Positionen verschiedener Gruppen sind grundsätzlich miteinander kompatibel, siehe [[mengen-und-bezugsgroessen-bel]].
+6xx ist nicht belegt. Anlage 2 kennt nur die ersten acht als eigene Gruppenüberschrift; die Positionen des Kreises 9xx stehen dort unter Reparatur/Erweiterungen, obwohl sie gruppenübergreifend anwendbar sind (siehe [[bel-zuschlaege-versand]]). Die Gruppenzugehörigkeit sagt nichts über Kombinierbarkeit: Positionen verschiedener Gruppen sind grundsätzlich miteinander kompatibel, siehe [[mengen-und-bezugsgroessen-bel]].
 
 ## Suffixe als Versorgungsmarker
 

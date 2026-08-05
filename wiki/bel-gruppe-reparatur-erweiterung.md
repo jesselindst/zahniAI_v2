@@ -2,7 +2,14 @@
 titel: BEL-Gruppe Reparatur und Erweiterung
 aliase: [Instandsetzung, Reparatur BEL, Unterfütterung, Leistungseinheit]
 labels: [Abrechnung, BEL, Herstellung]
+positionen: [8010, 8018, 8021, 8022, 8023, 8024, 8025, 8026, 8027, 8030, 8040, 8060, 8070, 8080, 8085, 8088, 8090, 8098, 8100, 8108, 8130, 8200, 8208, 8500, 8511, 8512, 8513, 8514, 8610, 8620, 8630, 8640, 8700]
 quellen: [raw/BEL_II_01_01_2022.pdf]
+schliesst_aus:
+  - 8070 | 8030 | Metallverbindung ist in 8030 enthalten | nebeneinander-ausschluesse-bel
+  - 8070 | 8040 | Metallverbindung ist in 8040 enthalten | nebeneinander-ausschluesse-bel
+  - 8070 | 8060 | Metallverbindung ist in 8060 enthalten | nebeneinander-ausschluesse-bel
+ersetzt_durch_bei:
+  - 1347 | 8130 | Austausch eines Kunststofffertigteils am Sekundaerteil eines Kugelknopfankers | nebeneinander-ausschluesse-bel
 stand: 2026-08-05
 ---
 
@@ -19,7 +26,7 @@ Instandsetzungen werden zweistufig abgerechnet: eine Grundeinheit je Werkstück,
 | KFO/FKO-Gerät oder Aufbissbehelf | 861 0 | 862 0, 863 0, 802 1, 802 2, 802 3, 802 4 |
 | Unterkieferprotrusionsschiene | 850 0 | 510 0, 511 0, 520 0, 521 0, 851 1–851 4 |
 
-Die Listen sind abschließend formuliert (BEL II, Nr. 801 0, 801 8, 850 0, 861 0). 801 8 trägt einen engeren Satz als 801 0 — die Verblendungspositionen und die individuell gefertigten Zähne fehlen dort.
+Die Listen sind abschließend formuliert (BEL II, Nr. 801 0, 801 8, 850 0, 861 0). 801 8 trägt einen deutlich engeren Satz als 801 0: dort fehlen nicht nur die Verblendungspositionen und die individuell gefertigten Zähne, sondern auch die Leistungseinheiten 802 5, 802 6 und 802 7.
 
 Zur UKPS-Instandsetzung siehe [[unterkieferprotrusionsschiene]].
 

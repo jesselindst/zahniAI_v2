@@ -2,7 +2,18 @@
 titel: BEL-Gruppe Arbeitsvorbereitung
 aliase: [Arbeitsvorbereitung, Modellherstellung BEL]
 labels: [Abrechnung, BEL, Herstellung]
+positionen: [0010, 0015, 0018, 0021, 0022, 0023, 0024, 0025, 0030, 0051, 0052, 0053, 0054, 0055, 0060, 0070, 0111, 0112, 0115, 0120, 0125, 0128, 0130, 0201, 0202, 0205, 0211, 0212, 0213, 0214, 0215, 0216, 0217, 0218, 0220, 0228, 0230, 0240, 0310, 0320]
 quellen: [raw/BEL_II_01_01_2022.pdf]
+schliesst_aus:
+  - 0111 | 0130 | dasselbe Modellpaar | nebeneinander-ausschluesse-bel
+  - 0112 | 0120 | bei Wiederherstellungen | nebeneinander-ausschluesse-bel
+  - 0115 | 0125 | bei Wiederherstellungen | nebeneinander-ausschluesse-bel
+  - 0120 | 0320 | wenn Lateral- und Protrusionsbewegung nicht erforderlich | nebeneinander-ausschluesse-bel
+  - 0120 | 1040 | wenn Lateral- und Protrusionsbewegung nicht erforderlich | nebeneinander-ausschluesse-bel
+  - 0120 | 8080 | wenn Lateral- und Protrusionsbewegung nicht erforderlich | nebeneinander-ausschluesse-bel
+  - 0128 | 8088 | wenn Lateral- und Protrusionsbewegung nicht erforderlich | nebeneinander-ausschluesse-bel
+  - 0310 | 0320 | wechselseitig, direktes gegen indirektes Verfahren | nebeneinander-ausschluesse-bel
+  - 0021 | 2010 | Duplikatmodell aus Einbettmasse | bel-gruppe-arbeitsvorbereitung
 stand: 2026-08-05
 ---
 

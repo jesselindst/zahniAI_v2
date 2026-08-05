@@ -2,7 +2,14 @@
 titel: BEL-Gruppe Kieferorthopädie
 aliase: [Kieferorthopädie, KFO, FKO-Gerät]
 labels: [Abrechnung, BEL, Herstellung]
+positionen: [7010, 7020, 7030, 7040, 7050, 7100, 7110, 7121, 7122, 7200, 7210, 7220, 7300, 7310, 7320, 7330, 7340, 7400, 7410, 7420, 7430, 7440, 7500, 7510]
 quellen: [raw/BEL_II_01_01_2022.pdf]
+schliesst_aus:
+  - 7121 | 7100 | bei Verwendung elastischer Fertigteile | nebeneinander-ausschluesse-bel
+ersetzt_durch_bei:
+  - 7030 | 7100 | schiefe Ebene in Verbindung mit einer Basis nach 7010 | nebeneinander-ausschluesse-bel
+  - 7500 | 3800 | Element nicht in der Erlaeuterung zu 7500 benannt | bel-gruppe-kieferorthopaedie
+  - 7510 | 3810 | Element nicht in der Erlaeuterung zu 7510 benannt | bel-gruppe-kieferorthopaedie
 stand: 2026-08-05
 ---
 

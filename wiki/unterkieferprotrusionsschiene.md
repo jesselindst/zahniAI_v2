@@ -2,6 +2,7 @@
 titel: Unterkieferprotrusionsschiene
 aliase: [UKPS, Protrusionsschiene]
 labels: [Abrechnung, BEL, Herstellung]
+positionen: [5010, 5020, 5100, 5110, 5200, 5210]
 quellen: [raw/BEL_II_01_01_2022.pdf]
 stand: 2026-08-05
 ---
