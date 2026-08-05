@@ -35,6 +35,9 @@ KANTEN_ALLE = KANTEN + ["entspricht"]
 KATALOGE = {
     "bel": r"\d{4}",
     "beb97": r"\d{4}",
+    # Festzuschuss-Befunde der FZ-RL. 1.1 bis 8.6, mit 6.10 und den
+    # dreistelligen Untergliederungen 6.4.1, 6.5.1 und 6.8.1.
+    "fz": r"\d\.\d{1,2}(\.\d)?",
     "bebzt": r"[\d.]{4,8}",   # Format ungeprueft, bei erstem Ingest verifizieren
     "goz": r"\d{4}",
     "bema": r"[A-Za-z0-9]{1,5}",

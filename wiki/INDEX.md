@@ -22,7 +22,8 @@ Katalog aller Wissensseiten. Der Einzeiler unter "Inhalt" macht die Seite unters
 | [Festzuschuss](festzuschuss.md) | Befundbezogenes System, die acht Befundklassen im Überblick, Zuschlagsbefunde für Verblendungen, was nie bezuschusst wird; Einstiegsseite | 2026-08-05 · recherche-2026-08 |
 | [Versorgungsform](versorgungsform.md) | Regelversorgung, gleichartig, andersartig: Definition, welcher Katalog gilt, wer die Rechnung erhält, 50-Prozent-Regel bei Mischfällen | 2026-08-05 · recherche-2026-08 |
 | [Härtefall und Bonus](haertefall-und-bonus.md) | Stufen 60/70/75/100 Prozent und die je Versorgungsform verschiedene Härtefallwirkung; Rechenweg für den Eigenanteil | 2026-08-05 · recherche-2026-08 |
-| [Festzuschuss-Befundklassen](festzuschuss-befundklassen.md) | Nachschlagewerk Klasse 1 bis 8 mit Bezugsgröße je Befund, Adhäsivbrücke und Metallbasis im Einzelnen | 2026-08-05 · recherche-2026-08 |
+| [Festzuschuss-Befundklassen](festzuschuss-befundklassen.md) | Nachschlagewerk aller 54 Befunde mit Bezugsgröße, zahntechnischer Regelversorgung je Befund, Adhäsivbrücke und Metallbasis; zuständig für den Katalog fz | 2026-08-05 · fz_2025_v1.json |
+| [Festzuschussbeträge 2025](festzuschussbetraege-2025.md) | Zahlenwerk für 2025: 54 Befunde mal vier Stufen; nur von der Festzuschuss-Seite verlinkt. Nicht die aktuelle Fassung | 2026-08-05 · fz_2025_v1.json |
 
 ## Private Abrechnung
 
@@ -65,5 +66,6 @@ Katalog aller Wissensseiten. Der Einzeiler unter "Inhalt" macht die Seite unters
 | Seite | Inhalt | Meta |
 |---|---|---|
 | [BEL II, Stand 01.01.2022](quelle-bel-ii-2022.md) | Bundeseinheitliches Leistungsverzeichnis nach § 88 Abs. 1 SGB V, 135 Seiten; Herkunft der 18 BEL-Wissensseiten, offene Verweise auf Zahnersatz-Richtlinie und Rundschreiben | 2026-08-05 · raw/BEL_II_01_01_2022.pdf |
+| [Festzuschuss-Richtlinie, Fassung 2025](quelle-fz-rl-2025.md) | Befundkatalog Teil B als strukturierter Katalog: 54 Befunde mit Beschreibung, zahntechnischer Regelversorgung und Beträgen. Durch die Fassung 2026 überholt | 2026-08-05 · kataloge/fz_2025_v1.json |
 | [Recherche Abrechnungsrahmen 2026](quelle-recherche-abrechnungsrahmen-2026.md) | Eigene Auswertung: sieben Rechercheberichte zu Festzuschuss, BEB, Material und digitalen Verfahren, dazu die Prüfung von 228 Abrechnungsvorlagen mit 642 Befunden | 2026-08-05 · raw/recherche-2026-08/ |
 | [Bundesmittelpreise 2026](quelle-bmp-2026.md) | Preistabelle für 2026, 117 Positionen; beschreibt auch, wie beim Jahreswechsel eine neue Jahrgangsseite eingehängt wird | 2026-08-05 · raw/BMP_2026_Leistungen_Regelversorgung.pdf |

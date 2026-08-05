@@ -49,3 +49,23 @@ Aus dem Abgleich der beiden Katalogdateien: 135 der 175 BEL-Nummern kommen auch 
 Nicht übernommen: die 642 Einzelbefunde (vorlagenspezifisch, bleiben im Register), Festzuschussbeträge in Euro (jährlich neu festgesetzt), Legierungspreise (täglich), BEB-Preise (laborspezifisch).
 
 Die Befundnummern des Festzuschusssystems sind keine Katalogpositionen und deshalb nicht als Positions-IDs geführt. Ein Katalog fz unter kataloge/ würde sie prüfbar machen; er ist nicht angelegt.
+
+## [2026-08-05] ingest | Festzuschuss-Richtlinie, Befundkatalog Fassung 2025
+
+2 neue Seiten, 4 bestehende ergänzt, 1 neuer Katalog. graph.py meldet keine Befunde.
+
+Die Quelle ist zugleich Katalog: `FZ-RL_2024-11-21_iK-2025-01-01.json` liegt jetzt als `kataloge/fz_2025_v1.json`. Präfix `fz` in scripts/graph.py registriert, Nummernformat `\d\.\d{1,2}(\.\d)?` wegen 6.10 und der dreistelligen Untergliederungen 6.4.1, 6.5.1 und 6.8.1. Die 54 Befundnummern sind damit prüfbare Positions-IDs; festzuschuss-befundklassen ist für sie zuständig. Der offene Punkt aus dem vorigen Ingest ist damit erledigt.
+
+Beträge auf einer eigenen Jahrgangsseite festzuschussbetraege-2025, nach dem Muster von bundesmittelpreise-2026: nur von der Konzeptseite verlinkt, mit gueltig_von und gueltig_bis. Auf den Konzeptseiten steht kein Betrag.
+
+Die Fassung ist nicht die aktuelle. Der Gemeinsame Bundesausschuss hat am 05.12.2025 neue Beträge festgesetzt, in Kraft ab 01.01.2026; sie liegen nicht vor. Befund 1.1 ohne Bonus: 229,25 Euro 2025 gegen 239,03 Euro 2026. Auf der Quellseite und der Jahrgangsseite vermerkt.
+
+Das Feld regelversorgung_zahntechnik beantwortet Fragen, die vorher nur mittelbar zu klären waren, und wurde als Konsequenz aufgeschrieben statt als Tabelle kopiert:
+
+- 201 0 Metallbasis steht bei 3.1, 4.1, 4.3 und 4.5, nicht bei 2.7. Bestätigt die Zuordnung des Modellgusses zu Klasse 3.
+- 102 3 Flügel für Adhäsivbrücke steht bei 2.1 und 2.2, nicht bei 1.4 oder 1.5.
+- 162 0 Verblendung Keramik steht bei 1.3, 2.7, 6.9 und 7.3, nicht bei 4.7. Der Teleskop-Verblendzuschlag kennt nur Kunststoff und Komposit. Deckt sich mit verblendung-bel, wo 162 0 als Träger nur Krone und Brückenglied nennt.
+- Befund 1.4 führt keine Laborleistung, nur die Materialangabe Stift. Der konfektionierte Stiftaufbau ist Regelversorgung ohne zahntechnischen Anteil, anders als der gegossene nach 1.5.
+- Acht Befunde ohne Laborleistung: 1.4, 6.0 und 8.1 bis 8.6.
+
+Nicht enthalten: Teil A mit den Anwendungsregeln und Teil C mit dem Verfahren. Härtefallwirkung, Verblendbereich, Mischfallregel und Erstattungsweg stützen sich weiter auf quelle-recherche-abrechnungsrahmen-2026.

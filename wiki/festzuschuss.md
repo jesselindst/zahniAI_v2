@@ -2,7 +2,7 @@
 titel: Festzuschuss
 aliase: [Festzuschusssystem, befundbezogener Festzuschuss, Befund, FZ-RL, Festzuschuss-Richtlinie]
 labels: [Abrechnung, Regulatorik, Preise]
-quellen: [raw/recherche-2026-08/festzuschuss.md]
+quellen: [kataloge/fz_2025_v1.json, raw/recherche-2026-08/festzuschuss.md]
 stand: 2026-08-05
 gueltig_von: 2005-01-01
 gueltig_bis:
@@ -67,8 +67,8 @@ Innerhalb einer Klasse wechselt die Bezugsgröße. Die Befunde 2.1 und 2.2 gelte
 
 ## Beträge
 
-Die Beträge werden jährlich neu festgesetzt und stehen deshalb nicht auf dieser Seite. Zuständig ist der Gemeinsame Bundesausschuss, nicht der GKV-Spitzenverband; Rechtsgrundlage der Betragsfestsetzung ist § 56 Abs. 4 SGB V. Kalkulationsbasis 2026 ist ein bundeseinheitlicher Zahnersatz-Punktwert von 1,1844 Euro sowie die BEL-II-Preise nach Vereinbarung zwischen Verband Deutscher Zahntechniker-Innungen und GKV-Spitzenverband, siehe [[bundesmittelpreis]].
+Die Beträge werden jährlich neu festgesetzt und stehen deshalb nicht auf dieser Seite, sondern auf einer Jahrgangsseite: [[festzuschussbetraege-2025]]. Läuft ein Jahrgang aus, entsteht eine neue Seite und wird hier eingehängt; alle übrigen Seiten bleiben unberührt. Zuständig ist der Gemeinsame Bundesausschuss, nicht der GKV-Spitzenverband; Rechtsgrundlage der Betragsfestsetzung ist § 56 Abs. 4 SGB V. Kalkulationsbasis 2026 ist ein bundeseinheitlicher Zahnersatz-Punktwert von 1,1844 Euro sowie die BEL-II-Preise nach Vereinbarung zwischen Verband Deutscher Zahntechniker-Innungen und GKV-Spitzenverband, siehe [[bundesmittelpreis]].
 
 Eine Abrechnungsvorlage trägt Befund und Prozentmechanik, keine Beträge. Ein Betrag in einer Vorlage ist nach spätestens einem Jahr falsch.
 
-Verwandt: [[versorgungsform]] · [[haertefall-und-bonus]] · [[festzuschuss-befundklassen]] · [[quelle-recherche-abrechnungsrahmen-2026]]
+Verwandt: [[versorgungsform]] · [[haertefall-und-bonus]] · [[festzuschuss-befundklassen]] · [[festzuschussbetraege-2025]] · [[quelle-fz-rl-2025]] · [[quelle-recherche-abrechnungsrahmen-2026]]

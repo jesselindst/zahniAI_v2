@@ -2,7 +2,7 @@
 titel: Härtefall und Bonus
 aliase: [Bonusheft, Härtefallregelung, gleitende Härtefallregelung, Eigenanteil, Zuschussstufen]
 labels: [Abrechnung, Regulatorik]
-quellen: [raw/recherche-2026-08/festzuschuss.md]
+quellen: [kataloge/fz_2025_v1.json, raw/recherche-2026-08/festzuschuss.md]
 stand: 2026-08-05
 gueltig_von: 2020-10-01
 gueltig_bis:
@@ -67,4 +67,6 @@ Befund 1.1 mit Zuschlag 1.3, verblendete Krone im Verblendbereich.
 | dieselbe Krone, Härtefall | tatsächliche Kosten der Regelversorgung, Eigenanteil null |
 | vollverblendete Zirkonkrone, Härtefall | fester 100-Prozent-Betrag zu 1.1 und 1.3; die Differenz zur Zirkonkrone trägt der Versicherte |
 
-Verwandt: [[festzuschuss]] · [[versorgungsform]] · [[festzuschuss-befundklassen]]
+Der Befundkatalog führt je Befund genau diese vier Beträge: ohne Bonus, Bonus über fünf Jahre, Bonus über zehn Jahre und Härtefall. Die Werte für 2025 stehen in [[festzuschussbetraege-2025]].
+
+Verwandt: [[festzuschuss]] · [[versorgungsform]] · [[festzuschuss-befundklassen]] · [[festzuschussbetraege-2025]]
