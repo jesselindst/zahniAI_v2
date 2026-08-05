@@ -6,6 +6,8 @@ quellen: [kataloge/fz_2025_v1.json]
 stand: 2026-08-05
 gueltig_von: 2025-01-01
 gueltig_bis: 2025-12-31
+ersetzt_durch:
+  - quelle-fz-rl-2026
 ---
 
 ## Dokument
@@ -23,15 +25,17 @@ Der Befundkatalog der Festzuschuss-Richtlinie in strukturierter Form. Je Befund 
 
 Damit ist er zugleich Quelle und Katalog: Die Befundnummern sind Positions-IDs mit dem Präfix `fz` und werden von `scripts/graph.py` gegen diese Datei geprüft.
 
-## Nicht die aktuelle Fassung
+## Abgelöst
 
-Der Gemeinsame Bundesausschuss hat am 05.12.2025 neue Beträge festgesetzt, veröffentlicht im Bundesanzeiger AT 04.02.2026 B3, in Kraft ab 01.01.2026. Diese Fassung liegt nicht vor.
+Diese Fassung ist durch [[quelle-fz-rl-2026]] abgelöst, Beschluss vom 05.12.2025, in Kraft ab 01.01.2026. Der Wortlaut bleibt hier stehen, weil Altfälle ihn brauchen: Für Leistungen mit Leistungsdatum 2025 gelten diese Beträge.
+
+Was sich geändert hat, steht in [[aenderungsmatrix-fz-rl-2025-2026]].
 
 Die Abweichung ist erheblich. Befund 1.1 ohne Bonus lag 2025 bei 229,25 Euro und liegt 2026 bei 239,03 Euro, rund 4,3 Prozent höher. Die Steigerung ist je Befund verschieden; eine pauschale Fortschreibung ist nicht zulässig.
 
 Ein Kostenvoranschlag mit den Beträgen dieser Seite ist für Leistungen ab 01.01.2026 falsch. Die Beträge stehen deshalb ausschließlich auf der Jahrgangsseite [[festzuschussbetraege-2025]], nicht auf den Konzeptseiten.
 
-Kommt die Fassung 2026 hinzu, gilt Abschnitt 11 des Ingest-Skills: Die neue Katalogdatei tritt als `fz_2026_v1.json` daneben, die Fassung 2025 bleibt liegen, und der Wechsel wird als Änderungsmatrix erfasst.
+Die Fassung 2026 liegt als `kataloge/fz_2026_v1.json` daneben und ist die aktive; diese Datei bleibt als Diff-Grundlage liegen.
 
 ## Entstandene und ergänzte Seiten
 
@@ -53,7 +57,7 @@ Die Liste der zahntechnischen Leistungen je Befund entscheidet Fragen, die zuvor
 
 ## Offene Punkte
 
-Der Katalog enthält Teil B der Richtlinie. Teil A mit den Anwendungsregeln und Teil C mit dem Verfahren liegen nicht vor. Aussagen zu Härtefallwirkung, Verblendbereich, Mischfällen und Erstattungsweg stützen sich weiterhin auf [[quelle-recherche-abrechnungsrahmen-2026]].
+Der Katalog enthält nur Teil B der Richtlinie. Teil A liegt seit dem Ingest der Fassung 2026 vor, siehe [[quelle-fz-rl-2026]].
 
 Die Zahnersatz-Richtlinie, die definiert, was für einen Befund Regelversorgung ist, liegt ebenfalls nicht vor.
 

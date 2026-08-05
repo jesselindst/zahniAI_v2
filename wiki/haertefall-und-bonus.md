@@ -2,7 +2,7 @@
 titel: Härtefall und Bonus
 aliase: [Bonusheft, Härtefallregelung, gleitende Härtefallregelung, Eigenanteil, Zuschussstufen]
 labels: [Abrechnung, Regulatorik]
-quellen: [kataloge/fz_2025_v1.json, raw/recherche-2026-08/festzuschuss.md]
+quellen: [raw/FZ-RL_2025-12-05_iK-2026-01-01.pdf, kataloge/fz_2026_v1.json]
 stand: 2026-08-05
 gueltig_von: 2020-10-01
 gueltig_bis:
@@ -29,16 +29,16 @@ Härtefallkriterien sind geringe Bruttoeinnahmen unterhalb der Bezugsgrößengre
 
 Das ist die Stelle, an der Eigenanteilsrechnungen regelmäßig falsch werden.
 
-Bei einer tatsächlich durchgeführten Regelversorgung wird der 40-Prozent-Anteil an die tatsächlich anfallenden Kosten angepasst, höchstens bis zur Höhe der entstandenen Kosten (§ 55 Abs. 2 SGB V, wörtlich übernommen in FZ-RL Teil A Nr. 4). Die Kasse trägt die Regelversorgung damit vollständig; es bleibt kein Eigenanteil. Ausgenommen sind Mehrkosten für Edelmetall oder Reinmetall statt Nichtedelmetall.
+Bei einer tatsächlich durchgeführten Regelversorgung gewähren die Kassen den weiteren Betrag von 40 Prozent „angepasst an die Höhe der für die jeweilige Regelversorgungsleistung tatsächlich anfallenden Kosten, höchstens jedoch in Höhe der … entstandenen Kosten" (FZ-RL, Teil A Nr. 4). Die Kasse trägt die Regelversorgung damit vollständig; es bleibt kein Eigenanteil. Ausgenommen sind Mehrkosten für Edelmetall oder Reinmetall statt Nichtedelmetall.
 
-Bei gleichartiger oder andersartiger Versorgung leisten die Kassen laut FZ-RL Teil A Nr. 5 „nur den Festzuschuss nach § 55 Absatz 1 Satz 2 SGB V und den Betrag in Höhe von 40 Prozent der … festgesetzten Beträge für die jeweilige Regelversorgung". Das ist der feste Tabellenbetrag ohne Anpassung an die tatsächlichen Regelversorgungskosten. Alle Mehrkosten trägt der Versicherte.
+Bei gleichartiger oder andersartiger Versorgung leisten die Kassen laut FZ-RL, Teil A Nr. 5, „nur den Festzuschuss nach § 55 Absatz 1 Satz 2 SGB V und den Betrag in Höhe von 40 Prozent der … festgesetzten Beträge für die jeweilige Regelversorgung". Das ist der feste Tabellenbetrag ohne Anpassung an die tatsächlichen Regelversorgungskosten. Alle Mehrkosten trägt der Versicherte.
 
 | | Härtefall bei Regelversorgung | Härtefall bei gleich- oder andersartiger Versorgung |
 |---|---|---|
 | Kasse trägt | tatsächliche Kosten der Regelversorgung | festen 100-Prozent-Betrag der Tabelle |
 | Eigenanteil | keiner, außer Edelmetallmehrkosten | Gesamtkosten abzüglich des festen Betrags |
 
-In beiden Fällen begrenzt die Protokollnotiz zu FZ-RL Teil A Nr. 4 die Leistung auf die tatsächlich entstandenen Gesamtkosten.
+Die Protokollnotiz zu Teil A Nr. 4 hält fest, dass Festzuschüsse auch bei Nicht-Härtefällen höchstens in Höhe der entstandenen Kosten gewährt werden. Die Deckelung gilt also nicht nur im Härtefall.
 
 Härtefall bedeutet damit nicht in jedem Fall Zuzahlungsfreiheit.
 
@@ -67,6 +67,6 @@ Befund 1.1 mit Zuschlag 1.3, verblendete Krone im Verblendbereich.
 | dieselbe Krone, Härtefall | tatsächliche Kosten der Regelversorgung, Eigenanteil null |
 | vollverblendete Zirkonkrone, Härtefall | fester 100-Prozent-Betrag zu 1.1 und 1.3; die Differenz zur Zirkonkrone trägt der Versicherte |
 
-Der Befundkatalog führt je Befund genau diese vier Beträge: ohne Bonus, Bonus über fünf Jahre, Bonus über zehn Jahre und Härtefall. Die Werte für 2025 stehen in [[festzuschussbetraege-2025]].
+Der Befundkatalog führt je Befund sechs Beträge: die Bestandteile Honorar nach § 57 Abs. 1 SGB V und Material und Labor nach § 57 Abs. 2 SGB V, deren Summe der Härtefallbetrag ist, sowie die drei Abstaffelungen. Die Werte für 2026 stehen in [[festzuschussbetraege-2026]], für 2025 in [[festzuschussbetraege-2025]].
 
-Verwandt: [[festzuschuss]] · [[versorgungsform]] · [[festzuschuss-befundklassen]] · [[festzuschussbetraege-2025]]
+Verwandt: [[festzuschuss]] · [[versorgungsform]] · [[festzuschuss-befundklassen]] · [[festzuschussbetraege-2026]] · [[quelle-fz-rl-2026]]

@@ -2,7 +2,7 @@
 titel: Versorgungsform
 aliase: [Regelversorgung, gleichartig, gleichartige Versorgung, andersartig, andersartige Versorgung, Mehrkosten]
 labels: [Abrechnung, Regulatorik, BEL, BEB97]
-quellen: [raw/recherche-2026-08/festzuschuss.md]
+quellen: [raw/FZ-RL_2025-12-05_iK-2026-01-01.pdf, raw/recherche-2026-08/festzuschuss.md]
 stand: 2026-08-05
 gueltig_von: 2016-05-04
 gueltig_bis:
@@ -43,7 +43,9 @@ Enthält ein Fall Regelversorgungs- oder gleichartige und zugleich andersartige 
 
 Edelmetall oder Reinmetall statt Nichtedelmetall macht eine Regelversorgung nicht gleichartig (KZBV, Festzuschuss-Kompendium, Kap. 1.2.2). Der Patient trägt die Mehrkosten, die Versorgung bleibt Regelversorgung. Der BEL-Anteil wird über NEM-Verrechnungseinheiten der jeweiligen KZV angerechnet; 970 0 ist bei Edelmetall nicht ansetzbar, siehe [[bel-zuschlaege-versand]].
 
-Begleitleistungen wie Anästhesie, Röntgen sowie parodontologische und konservierende Leistungen bleiben auch bei gleich- oder andersartiger Wahl vertragszahnärztliche Sachleistungen (FZ-RL Teil A Nr. 9).
+Begleitleistungen wie Anästhesien, Röntgenaufnahmen sowie parodontologische und konservierende Leistungen bleiben auch bei gleich- oder andersartiger Wahl vertragszahnärztliche Leistungen (FZ-RL, Teil A Nr. 9).
+
+Die Abrechnungsgrundlage nennt Teil A Nr. 8 ausdrücklich: BEMA und BEL für die Regelversorgung, die Gebührenordnung für Zahnärzte für die Mehrkosten der gleichartigen und für die gesamte andersartige Versorgung. In den Ausnahmefällen nach Nr. 36 der Zahnersatz-Richtlinie bleiben BEMA und BEL Abrechnungsgrundlage.
 
 ## Einordnungen, die häufig falsch getroffen werden
 

@@ -1,6 +1,6 @@
 # Vorlagenregister
 
-Generiert am 2026-08-05 13:53 aus 228 Vorlagen. Abgeleitet, nicht Quelle: jede Aenderung von Hand geht beim naechsten Lauf verloren. Neu erzeugen mit `python3 scripts/graph.py`.
+Generiert am 2026-08-05 14:11 aus 228 Vorlagen. Abgeleitet, nicht Quelle: jede Aenderung von Hand geht beim naechsten Lauf verloren. Neu erzeugen mit `python3 scripts/graph.py`.
 
 Position -> Vorlagen, die sie verwenden. Zum Ausfuellen der Wirkungs-Spalte einer Aenderungsmatrix und zum Nachziehen der Vorlagen nach einem Fassungswechsel.
 

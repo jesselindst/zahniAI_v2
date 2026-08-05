@@ -23,7 +23,9 @@ Katalog aller Wissensseiten. Der Einzeiler unter "Inhalt" macht die Seite unters
 | [Versorgungsform](versorgungsform.md) | Regelversorgung, gleichartig, andersartig: Definition, welcher Katalog gilt, wer die Rechnung erhält, 50-Prozent-Regel bei Mischfällen | 2026-08-05 · recherche-2026-08 |
 | [Härtefall und Bonus](haertefall-und-bonus.md) | Stufen 60/70/75/100 Prozent und die je Versorgungsform verschiedene Härtefallwirkung; Rechenweg für den Eigenanteil | 2026-08-05 · recherche-2026-08 |
 | [Festzuschuss-Befundklassen](festzuschuss-befundklassen.md) | Nachschlagewerk aller 54 Befunde mit Bezugsgröße, zahntechnischer Regelversorgung je Befund, Adhäsivbrücke und Metallbasis; zuständig für den Katalog fz | 2026-08-05 · fz_2025_v1.json |
-| [Festzuschussbeträge 2025](festzuschussbetraege-2025.md) | Zahlenwerk für 2025: 54 Befunde mal vier Stufen; nur von der Festzuschuss-Seite verlinkt. Nicht die aktuelle Fassung | 2026-08-05 · fz_2025_v1.json |
+| [Festzuschussbeträge 2026](festzuschussbetraege-2026.md) | Zahlenwerk für 2026: 48 Befunde mit Honorar, Material und Labor und den drei Abstaffelungen; die aktuelle Fassung | 2026-08-05 · FZ-RL 2026 |
+| [Festzuschussbeträge 2025](festzuschussbetraege-2025.md) | Vorjahreswerte, für Leistungsdatum 2025; nur von der Festzuschuss-Seite verlinkt | 2026-08-05 · fz_2025_v1.json |
+| [Änderungsmatrix FZ-RL 2025 → 2026](aenderungsmatrix-fz-rl-2025-2026.md) | Fassungswechsel: kein Befund neu oder entfallen, keine Regelversorgungsliste geändert, 48 neue Beträge zwischen 3,03 und 9,39 Prozent | 2026-08-05 · angewendet: nein |
 
 ## Private Abrechnung
 
@@ -66,6 +68,7 @@ Katalog aller Wissensseiten. Der Einzeiler unter "Inhalt" macht die Seite unters
 | Seite | Inhalt | Meta |
 |---|---|---|
 | [BEL II, Stand 01.01.2022](quelle-bel-ii-2022.md) | Bundeseinheitliches Leistungsverzeichnis nach § 88 Abs. 1 SGB V, 135 Seiten; Herkunft der 18 BEL-Wissensseiten, offene Verweise auf Zahnersatz-Richtlinie und Rundschreiben | 2026-08-05 · raw/BEL_II_01_01_2022.pdf |
-| [Festzuschuss-Richtlinie, Fassung 2025](quelle-fz-rl-2025.md) | Befundkatalog Teil B als strukturierter Katalog: 54 Befunde mit Beschreibung, zahntechnischer Regelversorgung und Beträgen. Durch die Fassung 2026 überholt | 2026-08-05 · kataloge/fz_2025_v1.json |
+| [Festzuschuss-Richtlinie, Fassung 2026](quelle-fz-rl-2026.md) | Vollständige Richtlinie mit Teil A: neun Anwendungsregeln, Härtefallmechanik, Abrechnungsgrundlage, Suprakonstruktionen; dazu Teil B mit BEMA-Positionen und den vier Differenzbefunden | 2026-08-05 · raw/FZ-RL_2025-12-05_iK-2026-01-01.pdf |
+| [Festzuschuss-Richtlinie, Fassung 2025](quelle-fz-rl-2025.md) | Nur Teil B als Katalog. Durch die Fassung 2026 abgelöst, bleibt für Altfälle | 2026-08-05 · kataloge/fz_2025_v1.json |
 | [Recherche Abrechnungsrahmen 2026](quelle-recherche-abrechnungsrahmen-2026.md) | Eigene Auswertung: sieben Rechercheberichte zu Festzuschuss, BEB, Material und digitalen Verfahren, dazu die Prüfung von 228 Abrechnungsvorlagen mit 642 Befunden | 2026-08-05 · raw/recherche-2026-08/ |
 | [Bundesmittelpreise 2026](quelle-bmp-2026.md) | Preistabelle für 2026, 117 Positionen; beschreibt auch, wie beim Jahreswechsel eine neue Jahrgangsseite eingehängt wird | 2026-08-05 · raw/BMP_2026_Leistungen_Regelversorgung.pdf |

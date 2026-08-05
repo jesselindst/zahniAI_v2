@@ -69,3 +69,25 @@ Das Feld regelversorgung_zahntechnik beantwortet Fragen, die vorher nur mittelba
 - Acht Befunde ohne Laborleistung: 1.4, 6.0 und 8.1 bis 8.6.
 
 Nicht enthalten: Teil A mit den Anwendungsregeln und Teil C mit dem Verfahren. Härtefallwirkung, Verblendbereich, Mischfallregel und Erstattungsweg stützen sich weiter auf quelle-recherche-abrechnungsrahmen-2026.
+
+## [2026-08-05] ingest | Festzuschuss-Richtlinie, Fassung 2026 (Fassungswechsel)
+
+3 neue Seiten, 5 bestehende ergänzt, 1 neuer Katalog. graph.py meldet keine Befunde. Zwei Quellen in einem Lauf, weil die Betragstabelle des GKV-Spitzenverbands denselben Beschluss in kompakter Form wiedergibt und keine eigene Seite trägt.
+
+Nach Abschnitt 11 behandelt: Der Ingest erzeugt eine Änderungsmatrix, keine neuen Wissensseiten für den Befundkatalog. Beide Herkünfte geprüft — Katalog-Diff fz_2025_v1.json gegen fz_2026_v1.json und der Volltext von Teil B. Zusätzlich rückwärts gelesen: jede Aussage der vier Festzuschuss-Seiten gegen die neue Fassung.
+
+Ergebnis: kein Befund neu, keiner entfallen, keine Regelversorgungsliste geändert. 48 Befunde mit neuen Beträgen, Steigerung 3,03 bis 9,39 Prozent, Median 4,78. Eine pauschale Fortschreibung des Vorjahresbetrags wäre also falsch gewesen.
+
+Vier vermeintliche Streichungen aus dem ersten Parserlauf haben sich am Rohtext als Artefakte erwiesen: 1550, 0112, 0010, 8060, 2041, 3020 und 1024 stehen im PDF, nur nicht am Zeilenanfang oder hinter dem Wort abzüglich. Ohne die Gegenprobe wären sechs falsche Befunde in die Matrix gelangt.
+
+Erstmals liegt Teil A vor. Die neun Anwendungsregeln waren bisher nur über den Recherchebericht belegt und stehen jetzt primärquellenbelegt auf festzuschuss, haertefall-und-bonus und versorgungsform. Neu aufgenommen: die Gleichstellung funktionstüchtigen Zahnersatzes mit natürlichen Zähnen (Nr. 1), die Gewährung erst bei abgeschlossener Versorgungsnotwendigkeit samt Therapieschritt-Protokollnotiz (Nr. 2), die Gegenbezahnung (Nr. 3) und die Deckelung auf die entstandenen Kosten auch bei Nicht-Härtefällen.
+
+Fachlicher Fund aus Teil B: Vier Zuschlagsbefunde sind Differenzbeträge — 1.3 und 2.7 als 102 4 abzüglich 102 1, 3.2 als Teleskopversorgung abzüglich 204 1, 4.5 als 303 0 abzüglich 302 0. Das erklärt ihre geringe Höhe und war aus der Fassung 2025 nicht ersichtlich. Im Katalog als Feld abzueglich festgehalten.
+
+Der Katalog 2026 führt zusätzlich die BEMA-Positionen je Befund, die Betragsbestandteile Honorar und Material/Labor nach § 57 Abs. 1 und 2 SGB V und null statt 0,00 bei den sechs Befunden der Klasse 8, die keinen eigenen Betrag tragen. Die zahntechnischen Listen sind aus 2025 übernommen, nachdem der Abgleich für alle 54 Befunde keine Abweichung ergab.
+
+quelle-fz-rl-2025 trägt jetzt ersetzt_durch, quelle-fz-rl-2026 trägt ersetzt. Der Wortlaut der alten Fassung bleibt stehen; für Leistungsdatum 2025 gelten diese Beträge.
+
+Widerspruch in der Quelle: Teil A Nr. 8 verweist auf das BEL II – 2004. Maßgeblich ist seit Langem das BEL II – 2014. Die Fundstelle ist im Richtlinientext nicht nachgeführt; auf der Quellseite vermerkt, nicht stillschweigend korrigiert.
+
+Offen: Die Zahnersatz-Richtlinie liegt weiterhin nicht vor, obwohl Teil A an mehreren Stellen auf sie verweist und sie bestimmt, was für einen Befund Regelversorgung ist. Sie trägt insbesondere Nr. 36 zur Suprakonstruktion und Nr. 20 zum Verblendbereich. In raw/_inbox liegt weiter die Änderungsvereinbarung zum BEL II, die den Konflikt in bel-gruppe-arbeitsvorbereitung auflösen würde.

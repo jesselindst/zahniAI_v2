@@ -2,7 +2,7 @@
 titel: Festzuschuss
 aliase: [Festzuschusssystem, befundbezogener Festzuschuss, Befund, FZ-RL, Festzuschuss-Richtlinie]
 labels: [Abrechnung, Regulatorik, Preise]
-quellen: [kataloge/fz_2025_v1.json, raw/recherche-2026-08/festzuschuss.md]
+quellen: [raw/FZ-RL_2025-12-05_iK-2026-01-01.pdf, kataloge/fz_2026_v1.json]
 stand: 2026-08-05
 gueltig_von: 2005-01-01
 gueltig_bis:
@@ -49,17 +49,25 @@ Neben dem tragenden Befund treten Zuschläge hinzu. Sie werden regelmäßig übe
 | 4.5 | Notwendigkeit einer Metallbasis | je Kiefer |
 | 4.9 | schwierig zu bestimmende Lagebeziehung der Kiefer | — |
 
-Der Verblendbereich umfasst im Oberkiefer die Zähne 15 bis 25, im Unterkiefer 34 bis 44. Festzuschüsse für Verblendungen werden gewährt, wenn die Regelversorgung sie vorsieht (FZ-RL Teil A Nr. 2 Satz 3). Welche BEL-Position welche Verblendung trägt, steht in [[verblendung-bel]].
+Der Verblendbereich umfasst im Oberkiefer die Zähne 15 bis 25, im Unterkiefer 34 bis 44. Festzuschüsse für Verblendungen werden immer dann gewährt, wenn die Regelversorgung diese vorsieht (FZ-RL, Teil A Nr. 2). Welche BEL-Position welche Verblendung trägt, steht in [[verblendung-bel]].
 
 ## Was nie einen Festzuschuss auslöst
 
-Implantate, Implantataufbauten und implantatbedingte Verbindungselemente (ZE-RL Nr. 38, FZ-RL Teil A Nr. 7). Das gilt auch dann, wenn die Suprakonstruktion selbst bezuschusst wird, siehe [[implantatversorgung-bel]].
+Implantate, Implantataufbauten und implantatbedingte Verbindungselemente, und zwar bei Erstversorgung ebenso wie bei Erneuerung und Wiederherstellung (FZ-RL, Teil A Nr. 7). Das gilt auch dann, wenn die Suprakonstruktion selbst bezuschusst wird, siehe [[implantatversorgung-bel]].
 
 ## Erstversorgung mit Implantaten
 
-Maßgeblich ist die Befundsituation vor dem Setzen der Implantate (FZ-RL Teil A Nr. 6). Bei einer Einzelzahnlücke ist das der Befund 2.1, beim zahnlosen Kiefer 4.2 oder 4.4. Der Befund 1.1 setzt einen erhaltungswürdigen Zahn voraus und scheidet damit aus.
+Maßgeblich ist die Befundsituation vor dem Setzen der Implantate (FZ-RL, Teil A Nr. 6). Festzuschüsse werden auch dann gewährt, wenn eine Suprakonstruktion außerhalb der in der Zahnersatz-Richtlinie genannten Fälle gewählt wird (FZ-RL, Teil A Nr. 6). Bei einer Einzelzahnlücke ist das der Befund 2.1, beim zahnlosen Kiefer 4.2 oder 4.4. Der Befund 1.1 setzt einen erhaltungswürdigen Zahn voraus und scheidet damit aus.
 
 Klasse 7 gilt ausschließlich für die Erneuerung und Wiederherstellung einer vorhandenen Suprakonstruktion. Bei einer Erstversorgung ist sie stets unzutreffend.
+
+## Weitere Voraussetzungen aus Teil A
+
+Ein Befund ist nur ansetzbar, wenn die in seiner Beschreibung geregelten Voraussetzungen vorliegen (FZ-RL, Teil A Nr. 1). Vorhandener Zahnersatz einschließlich Suprakonstruktionen wird dabei natürlichen Zähnen gleichgestellt, soweit er noch funktionstüchtig ist oder die Funktionstüchtigkeit wiederhergestellt werden kann.
+
+Der Festzuschuss wird erst gewährt, wenn der auslösende Befund so versorgt ist, dass keine weitere Versorgungsnotwendigkeit besteht; bei Teilleistungen anteilig (FZ-RL, Teil A Nr. 2). Erfolgt die Versorgung in medizinisch sinnvollen Therapieschritten, werden die Festzuschüsse auf Basis des Gesamtbefundes ermittelt und je Therapieschritt gewährt, ohne insgesamt höher auszufallen; die Krankenkasse kann den Befund und den geplanten Therapieschritt begutachten lassen (Protokollnotiz zu Nr. 2).
+
+Bei der Versorgung soll eine funktionell ausreichende Gegenbezahnung vorhanden sein oder im Laufe der Behandlung hergestellt werden (FZ-RL, Teil A Nr. 3).
 
 ## Bezugsgrößen sind nicht austauschbar
 
@@ -67,8 +75,8 @@ Innerhalb einer Klasse wechselt die Bezugsgröße. Die Befunde 2.1 und 2.2 gelte
 
 ## Beträge
 
-Die Beträge werden jährlich neu festgesetzt und stehen deshalb nicht auf dieser Seite, sondern auf einer Jahrgangsseite: [[festzuschussbetraege-2025]]. Läuft ein Jahrgang aus, entsteht eine neue Seite und wird hier eingehängt; alle übrigen Seiten bleiben unberührt. Zuständig ist der Gemeinsame Bundesausschuss, nicht der GKV-Spitzenverband; Rechtsgrundlage der Betragsfestsetzung ist § 56 Abs. 4 SGB V. Kalkulationsbasis 2026 ist ein bundeseinheitlicher Zahnersatz-Punktwert von 1,1844 Euro sowie die BEL-II-Preise nach Vereinbarung zwischen Verband Deutscher Zahntechniker-Innungen und GKV-Spitzenverband, siehe [[bundesmittelpreis]].
+Die Beträge werden jährlich neu festgesetzt und stehen deshalb nicht auf dieser Seite, sondern auf einer Jahrgangsseite: [[festzuschussbetraege-2026]], Vorjahr [[festzuschussbetraege-2025]]. Läuft ein Jahrgang aus, entsteht eine neue Seite und wird hier eingehängt; alle übrigen Seiten bleiben unberührt. Zuständig ist der Gemeinsame Bundesausschuss, nicht der GKV-Spitzenverband; Rechtsgrundlage der Betragsfestsetzung ist § 56 Abs. 4 SGB V. Kalkulationsbasis 2026 ist ein bundeseinheitlicher Zahnersatz-Punktwert von 1,1844 Euro sowie die BEL-II-Preise nach Vereinbarung zwischen Verband Deutscher Zahntechniker-Innungen und GKV-Spitzenverband, siehe [[bundesmittelpreis]].
 
 Eine Abrechnungsvorlage trägt Befund und Prozentmechanik, keine Beträge. Ein Betrag in einer Vorlage ist nach spätestens einem Jahr falsch.
 
-Verwandt: [[versorgungsform]] · [[haertefall-und-bonus]] · [[festzuschuss-befundklassen]] · [[festzuschussbetraege-2025]] · [[quelle-fz-rl-2025]] · [[quelle-recherche-abrechnungsrahmen-2026]]
+Verwandt: [[versorgungsform]] · [[haertefall-und-bonus]] · [[festzuschuss-befundklassen]] · [[festzuschussbetraege-2026]] · [[quelle-fz-rl-2026]] · [[quelle-recherche-abrechnungsrahmen-2026]]

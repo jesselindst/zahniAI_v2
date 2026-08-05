@@ -3,15 +3,15 @@ titel: Festzuschuss-Befundklassen
 aliase: [Befundklasse, Befundnummer, Befundkatalog, Regelversorgung je Befund]
 labels: [Abrechnung, Regulatorik]
 positionen: [fz:1.1, fz:1.2, fz:1.3, fz:1.4, fz:1.5, fz:2.1, fz:2.2, fz:2.3, fz:2.4, fz:2.5, fz:2.6, fz:2.7, fz:3.1, fz:3.2, fz:4.1, fz:4.2, fz:4.3, fz:4.4, fz:4.5, fz:4.6, fz:4.7, fz:4.8, fz:4.9, fz:5.1, fz:5.2, fz:5.3, fz:5.4, fz:6.0, fz:6.1, fz:6.2, fz:6.3, fz:6.4, fz:6.4.1, fz:6.5, fz:6.5.1, fz:6.6, fz:6.7, fz:6.8, fz:6.8.1, fz:6.9, fz:6.10, fz:7.1, fz:7.2, fz:7.3, fz:7.4, fz:7.5, fz:7.6, fz:7.7, fz:8.1, fz:8.2, fz:8.3, fz:8.4, fz:8.5, fz:8.6]
-quellen: [kataloge/fz_2025_v1.json, raw/recherche-2026-08/festzuschuss.md]
+quellen: [raw/FZ-RL_2025-12-05_iK-2026-01-01.pdf, kataloge/fz_2026_v1.json]
 stand: 2026-08-05
 gueltig_von: 2016-05-04
 gueltig_bis:
 ---
 
-Nachschlagewerk zu den 54 Befunden der Festzuschuss-Richtlinie mit ihren Bezugsgrößen. Systematik und Grundsätze stehen in [[festzuschuss]], die Prozentmechanik in [[haertefall-und-bonus]], die Beträge auf der Jahrgangsseite [[festzuschussbetraege-2025]].
+Nachschlagewerk zu den 54 Befunden der Festzuschuss-Richtlinie mit ihren Bezugsgrößen. Systematik und Grundsätze stehen in [[festzuschuss]], die Prozentmechanik in [[haertefall-und-bonus]], die Beträge auf der Jahrgangsseite [[festzuschussbetraege-2026]].
 
-Diese Seite ist zuständig für alle Befundnummern des Katalogs `fz`. Sie werden gegen [[quelle-fz-rl-2025]] geprüft.
+Diese Seite ist zuständig für alle Befundnummern des Katalogs `fz`. Sie werden gegen [[quelle-fz-rl-2026]] geprüft.
 
 Die Bezugsgröße wechselt innerhalb einer Klasse. Sie ist bei jedem Befund mitgeführt und darf nicht wegfallen.
 
@@ -144,4 +144,8 @@ Klasse 7 kommt bei einer Erstversorgung nicht in Betracht. Dort gilt der Befund 
 
 Acht der 54 Befunde führen im Katalog keine Laborleistung: 1.4 nur die Materialangabe Stift, 6.0 keine, sowie 8.1 bis 8.6, die als Prozentsatz anderer Befunde definiert sind. Ein Kostenvoranschlag ohne BEL-Anteil ist bei diesen Befunden kein Fehler.
 
-Verwandt: [[festzuschuss]] · [[versorgungsform]] · [[haertefall-und-bonus]] · [[verblendung-bel]] · [[festzuschussbetraege-2025]] · [[quelle-fz-rl-2025]]
+## Vier Zuschläge sind Differenzbeträge
+
+Teil B beschreibt vier Befunde nicht als eigene Leistung, sondern als Differenz zweier Positionen: 1.3 und 2.7 als 102 4 abzüglich 102 1, 3.2 als Teleskopversorgung abzüglich 204 1, 4.5 als 303 0 abzüglich 302 0. Das erklärt ihre geringe Höhe.
+
+Verwandt: [[festzuschuss]] · [[versorgungsform]] · [[haertefall-und-bonus]] · [[verblendung-bel]] · [[festzuschussbetraege-2026]] · [[quelle-fz-rl-2026]] · [[aenderungsmatrix-fz-rl-2025-2026]]
