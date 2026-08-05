@@ -1,53 +1,71 @@
 ---
 name: query_wiki
-description: Fragen aus dem Wiki beantworten — Seiten über index.md finden, Antwort mit Belegen bis zur Originalquelle synthetisieren, Lücken und Konflikte benennen, wertvolle Antworten ins Wiki zurückschreiben. Nutze diesen Skill für jede inhaltliche Frage zu Abrechnung, Positionen, Werkstoffen oder Verfahren — auch wenn nicht ausdrücklich nach dem Wiki gefragt wird.
+description: Fragen aus dem Wiki beantworten — Seiten über INDEX.md und GRAPH.md finden, Antwort mit Belegen bis zur Originalquelle, Lücken und Konflikte benennen, wertvolle Antworten zurückschreiben. Nutze diesen Skill für jede inhaltliche Frage zu Abrechnung, Positionen, Werkstoffen oder Verfahren — auch wenn nicht ausdrücklich nach dem Wiki gefragt wird.
 ---
 
 # Query
 
 Beantworte aus dem Wiki: $ARGUMENTS
 
-## 1. Suchen
+## 1. Graph erzeugen
 
-Lies `index.md` und wähle daraus die einschlägigen Seiten, dann lies diese vollständig — nicht nur den Treffer-Absatz. Der Nachbarkontext auf einer Seite entscheidet oft, ob eine Aussage überhaupt für den Fall gilt.
+`python3 scripts/graph.py`. Seit dem letzten Lauf können Seiten geändert worden sein; ein veraltetes Positionsregister ist bei einer Abrechnungsfrage teurer als gar keins.
 
-Folge von dort den Querverweisen. Antworten zur Abrechnung hängen fast immer an mehr als einer Seite: Position, Leistungsinhalt, Ausschlüsse, Kombinierbarkeit.
+## 2. Katalog klären
 
-Suche auch unter Synonymen, Abkürzungen und den `aliase`-Einträgen im Frontmatter. Wer nach "Modellgussbasis" fragt, meint die Seite "Modellguss-Basis". Bringt der Index nichts, grepe über `wiki/`, bevor du eine Lücke meldest.
+Eine nackte Positionsnummer ist mehrdeutig: `0021` ist im BEL Doublieren, im BEB97 ein Modell für Sägesegmente. 135 der 175 BEL-Nummern sind doppelt belegt.
 
-## 2. Antwort bilden
+Geht der Katalog aus der Frage nicht hervor, frag nach. Nicht raten, auch nicht nach Wahrscheinlichkeit. Steht er fest, nenne ihn in der Antwort — die Nummer allein trägt ihn nicht.
 
-Trenne sichtbar, was belegt ist, von dem, was du erschließt:
+## 3. Suchen
 
-- **Belegt** — steht so auf einer Wiki-Seite, die ihrerseits eine Quelle nennt.
-- **Abgeleitet** — ergibt sich aus der Kombination mehrerer Seiten. Kennzeichne das und schreibe dazu, aus welchen Seiten. Hier entstehen die Fehler, und bei Abrechnungsfragen kosten sie Geld.
+- Konkrete Position: Positionsregister in `GRAPH.md`, dort steht sie als `bel:2010` mit zuständiger Seite. Keine Seite heißt nicht, dass es die Position nicht gibt — die meisten BEB-Positionen tragen keine Regel. Dann gibt der Rohkatalog unter `kataloge/` die Auskunft.
+- Sonst über `INDEX.md`.
+- Gefundene Seiten vollständig lesen, nicht nur den Treffer-Absatz. Der Nachbarkontext entscheidet oft, ob eine Aussage für den Fall gilt.
+- Querverweisen und der Backlink-Tabelle folgen. Abrechnungsantworten hängen fast immer an mehreren Seiten: Position, Leistungsinhalt, Ausschlüsse, Kombinierbarkeit.
+- Auch unter Synonymen, Abkürzungen und `aliase` suchen. Bringt beides nichts, über `wiki/` grepen, bevor du eine Lücke meldest.
 
-Belegformat: Wiki-Seite und Originalquelle, z. B. `→ [Modellguss-Basis](wiki/modellguss-basis.md), BEL II Nr. 001 0`. Ohne die Originalquelle ist die Antwort nicht prüfbar, ohne die Wiki-Seite nicht weiterverfolgbar.
+## 4. Kanten benutzen
 
-**Konflikte** stehen im Wiki bewusst offen. Trägst du auf einen, gibst du beide Aussagen mit ihren Quellen wieder und entscheidest nicht selbst.
+Kanten sagen, wo du nachsehen musst — sie sind kein Beleg. Bevor ein Ausschluss oder eine Alternative in die Antwort eingeht, liest du die Prosa auf der verwiesenen Seite.
 
-**Alter prüfen.** Vergleiche das `stand:`-Feld der genutzten Seiten mit der Frage. Bei Regelwerken, die jährlich fortgeschrieben werden, weise auf den Stand hin.
+Die Geltung im dritten Feld ist Teil der Regel. „Nicht nebeneinander abrechenbar für denselben Zahn" ist etwas anderes als „nicht nebeneinander abrechenbar". Fällt sie weg, ist die Antwort falsch.
 
-**Tagesaktuelle Zahlen** stehen absichtlich nicht im Wiki. Fragt jemand nach Preisen oder aktuellen Beträgen, verweist du auf die hinterlegte Quelle in `raw/`, statt eine Lücke zu melden.
+Eine Kante ohne passende Prosa auf der Zielseite ist ein Lint-Befund, keine Grundlage.
 
-## 3. Wenn das Wiki es nicht hergibt
+Ableitungen bleiben innerhalb eines Regelwerks. Die einzige Brücke ist `entspricht` — und sie sagt nur, dass zwei Positionen dieselbe Leistung decken, nicht dass die Regeln des einen Katalogs im anderen gelten.
 
-Suche liefert immer Treffer. Dass Seiten gefunden wurden, heißt nicht, dass die Antwort darin steht. Prüfe vor dem Schreiben: Beantwortet eine konkrete Aussage auf einer dieser Seiten die Frage — oder klingt das Gefundene nur ähnlich?
+## 5. Antwort bilden
 
-Im Zweifel: "Das Wiki beantwortet das nicht." Dann nennst du, welche Quelle eingepflegt werden müsste, und wenn möglich, wo sie zu finden ist. Nie raten, nie aus schwach passenden Treffern synthetisieren.
+Sichtbar trennen:
 
-Eine solche Antwort wird nie ins Wiki zurückgeschrieben — sonst wird die Vermutung beim nächsten Mal zur Quelle.
+- **Belegt** — steht so auf einer Wiki-Seite, die eine Quelle nennt
+- **Abgeleitet** — aus mehreren Seiten kombiniert. Kennzeichnen und dazuschreiben, aus welchen. Hier entstehen die Fehler, und sie kosten Geld.
 
-Teilantworten sind der Normalfall: Beantworte, was gedeckt ist, und benenne die Lücke genau, statt beides zu vermischen.
+Belegformat: `→ [[bel-gruppe-modellguss]], BEL II Nr. 201 0`. Ohne Originalquelle nicht prüfbar, ohne Wiki-Seite nicht weiterverfolgbar.
 
-## 4. Zurückschreiben
+**Konflikte** stehen im Wiki bewusst offen: beide Aussagen mit Quellen wiedergeben, nicht selbst entscheiden.
 
-Antworten, die echte Synthese enthalten — ein Vergleich, eine Ableitung über mehrere Seiten, ein Zusammenhang, den vorher niemand aufgeschrieben hatte — gehören ins Wiki, sonst verschwinden sie im Chatverlauf und werden beim nächsten Mal neu erarbeitet.
+**Geltungszeitraum.** Bei einer Frage zu einem Leistungsdatum gegen `gueltig_von`/`gueltig_bis` prüfen. Bei `ersetzt_durch:` gilt für heutige Fälle die Nachfolgerin, für Altfälle die alte Seite.
 
-Zurückgeschrieben wird, was belegt ist und über eine Einzelseite hinausgeht. Nicht zurückgeschrieben wird das reine Vorlesen einer vorhandenen Seite, Abgeleitetes ohne tragende Belege und alles aus Abschnitt 3.
+**Tagesaktuelle Zahlen** stehen absichtlich nicht im Wiki. Auf die Quelle in `raw/` oder die Jahrgangsseite verweisen, statt eine Lücke zu melden.
 
-Beim Zurückschreiben gelten dieselben Regeln wie beim Ingest: Frontmatter mit Labels und Quellen, Belege im Text, Rückverlinkung von den beteiligten Seiten, Eintrag in `index.md` und in `log.md` mit Präfix `## [Datum] query | Titel`.
+## 6. Wenn das Wiki es nicht hergibt
 
-## 5. Form
+Suche liefert immer Treffer. Prüfe vor dem Schreiben: Beantwortet eine konkrete Aussage die Frage — oder klingt das Gefundene nur ähnlich?
 
-Prosa als Standard. Tabelle, wenn mehrere Positionen gegen dieselben Kriterien verglichen werden. Die Antwort ist so lang wie nötig — bei einer Ja/Nein-Frage zur Abrechenbarkeit sind zwei Sätze und ein Beleg die vollständige Antwort.
+Im Zweifel: „Das Wiki beantwortet das nicht", plus welche Quelle eingepflegt werden müsste und wo sie zu finden ist. Nie raten, nie aus schwachen Treffern synthetisieren. Solche Antworten werden nie zurückgeschrieben — sonst wird die Vermutung beim nächsten Mal zur Quelle.
+
+Teilantworten sind der Normalfall: beantworten, was gedeckt ist, und die Lücke genau benennen.
+
+## 7. Zurückschreiben
+
+Zurückgeschrieben wird, was belegt ist und über eine Einzelseite hinausgeht — ein Vergleich, eine Ableitung, ein neu entdeckter Zusammenhang. Nicht zurückgeschrieben wird das Vorlesen einer Seite, Abgeleitetes ohne tragende Belege und alles aus Abschnitt 6.
+
+Die Begründung mitschreiben, nicht nur das Ergebnis: warum diese Auslegung, was dagegen sprach.
+
+Es gelten die Ingest-Regeln: Frontmatter mit `labels`, `positionen`, `quellen`, `stand`, Belege im Text, Rückverlinkung, Eintrag in `INDEX.md` und `LOG.md` mit Präfix `## [Datum] query | Titel`. Danach `graph.py` und Befunde prüfen.
+
+## 8. Form
+
+Prosa als Standard, Tabelle beim Vergleich mehrerer Positionen gegen dieselben Kriterien. Bei einer Ja/Nein-Frage zur Abrechenbarkeit sind zwei Sätze und ein Beleg die vollständige Antwort.

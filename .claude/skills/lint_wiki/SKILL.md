@@ -1,87 +1,125 @@
 ---
 name: lint_wiki
-description: Health-Check des Wikis — findet Widersprüche, veraltete und unbelegte Aussagen, verwaiste Seiten, fehlende Querverweise, Duplikate und Wissenslücken. Mechanische Mängel werden direkt behoben, inhaltliche Eingriffe vorgelegt. Nutze diesen Skill immer, wenn es um Wiki-Pflege, Aufräumen, Konsistenz- oder Gesundheitsprüfung des Wikis geht — auch wenn das Wort "lint" nicht fällt.
+description: Health-Check des Wikis — findet Widersprüche, veraltete und unbelegte Aussagen, verwaiste Seiten, fehlende Querverweise und Kanten, doppelte Prosa. Mechanisches wird behoben, Inhaltliches vorgelegt. Nutze diesen Skill immer, wenn es um Wiki-Pflege, Aufräumen, Konsistenz- oder Gesundheitsprüfung geht — auch wenn das Wort "lint" nicht fällt.
 ---
 
 # Lint
 
-Ein Lint-Lauf ist eine Gesundheitsprüfung, kein Umbau. Er hält das Wiki konsistent, während es wächst.
+Ein Lint-Lauf ist eine Gesundheitsprüfung, kein Umbau.
 
-Grundregel: Was mechanisch und umkehrbar ist, behebst du selbst. Was Bedeutung verändert — Widersprüche auflösen, Aussagen löschen, Seiten zusammenführen — legst du vor. Ein Lauf, der still Inhalte umschreibt, erzeugt genau die Drift, die er verhindern soll: Niemand merkt, dass eine Entscheidung getroffen wurde, und das Ergebnis wird beim nächsten Lauf zur Grundlage.
+Grundregel: Du behebst, was du belegen kannst. Vorgelegt wird nur, wo keine Quelle entscheidet — dort wäre Ändern gleichbedeutend mit Erfinden.
 
-## 1. Umfang festlegen
+Was du änderst, machst du nachvollziehbar: `LOG.md` je Lauf, `git diff` je Seite. Das ist die Kontrolle, nicht die Rückfrage.
 
-Ohne Angabe: alle Seiten, die seit dem letzten `lint`-Eintrag in `LOG.md` geändert wurden, plus deren direkte Nachbarn (verlinkte und verlinkende Seiten). Dort haben frische Ingests Drift erzeugt.
+Vergleichsgrundlagen sind `raw/`, `kataloge/*.json` und die Änderungsmatrizen im Wiki. Prüfst du nur gegen `raw/` und liegt dort eine abgelaufene Fassung, bestätigt der Lauf ein veraltetes Wiki als gesund.
 
-Den letzten Lauf findest du mit `grep "^## \[" LOG.md | grep lint | tail -1`.
+## 1. Graph erzeugen
 
-Ein vollständiger Lauf über das ganze Wiki nur auf ausdrückliche Ansage. Bei größeren Wikis lieber nach Themencluster als alles auf einmal — ein Lauf, der zu viel umfasst, wird oberflächlich.
+`python3 scripts/graph.py` ausführen, `wiki/GRAPH.md` lesen. Nichts anderes hält die Datei aktuell. `GRAPH.md` ist abgeleitet: kein Index-Eintrag, keine Handänderung, zählt nicht als verwaiste Seite.
 
-## 2. Prüfen (nur lesen)
+Der Abschnitt „Befunde" nimmt dir die mechanische Prüfung ab — verwaiste Seiten, Links und Kanten ins Leere, Kanten ohne Geltung, doppelt beanspruchte Positionen, IDs ohne Entsprechung im Rohkatalog, Kataloggrenzen-Verstöße, `kein_aequivalent` ohne Begründung, fehlendes `stand:`.
 
-Sammle erst alle Befunde, ohne etwas zu ändern. Danach entscheidest du, was davon behoben und was vorgelegt wird.
+„Katalogabdeckung" zeigt die Quote je Katalog; eine niedrige BEB-Quote ist richtig, nicht behebbar. „Katalogzuordnung" zeigt den Stand der `entspricht`-Kanten.
+
+## 2. Umfang
+
+Ohne Angabe: Seiten, die seit dem letzten `lint`-Eintrag in `LOG.md` geändert wurden, plus deren Nachbarn laut Backlink-Tabelle. Letzter Lauf: `grep "^## \[" wiki/LOG.md | grep lint | tail -1`.
+
+Die Graph-Befunde gelten immer fürs ganze Wiki, sie sind billig. Nicht angewendete Änderungsmatrizen (`angewendet: nein`) gehören immer dazu, unabhängig vom gewählten Umfang.
+
+Vollständiger inhaltlicher Lauf nur auf Ansage, bei größerem Umfang nach Themencluster. Ein Lauf, der zu viel umfasst, wird oberflächlich.
+
+## 3. Prüfen (nur lesen)
+
+Erst alle Befunde sammeln, ohne zu ändern.
 
 | Befund | Woran erkennbar |
 |---|---|
 | Widerspruch | Zwei Seiten sagen Unvereinbares über denselben Sachverhalt |
-| veraltete Aussage | Eine neuere Quelle in `raw/` überholt, was auf der Seite steht |
-| unbelegte Aussage | Behauptung ohne Verweis auf eine Quelle in `raw/` |
-| verwaiste Seite | Keine eingehenden Links |
-| fehlender Querverweis | Eine Seite nennt ein Konzept mit eigener Seite, verlinkt aber nicht dorthin |
-| fehlende Seite | Ein Konzept wird auf mehreren Seiten miterklärt, hat aber keine eigene Seite |
-| Duplikat | Derselbe Sachverhalt an mehreren Stellen ausgeschrieben statt verlinkt |
-| Lücke | Eine Frage, die das Wiki naheliegend beantworten sollte, aber nicht kann |
-| Stilverstoß | siehe Abschnitt 6 |
+| veraltete Aussage | Eine neuere Quelle in `raw/` überholt die Seite |
+| unbelegte Aussage | Behauptung ohne Verweis auf `raw/` |
+| Kante ohne Prosa | Die Kante verweist auf eine Seite, wo die Regel nicht ausformuliert ist |
+| Position ohne Kante | Der Text nennt Ausschluss oder Alternative, das Frontmatter nicht |
+| fehlende `alternativ_zu` | Text benennt Alternativen („alternativ zu", „je Arbeitsmodell genau eine") ohne Kante |
+| `entspricht` ohne Kardinalität | Nicht-1:1-Zuordnung als mehrere unabhängige Kanten statt in der Geltung |
+| fehlender Querverweis | Seite nennt ein Konzept mit eigener Seite ohne Link |
+| fehlende Seite | Konzept wird auf mehreren Seiten miterklärt, hat keine eigene |
+| Duplikat | Derselbe Sachverhalt mehrfach ausgeschrieben statt verlinkt |
+| Lücke | Naheliegende Frage, die das Wiki nicht beantwortet |
+| abgelaufene Quelle | Eine Quellseite trägt ein `gueltig_bis` in der Vergangenheit, die daran hängenden Seiten gelten unverändert weiter |
+| offene Matrix | Eine Änderungsmatrix mit `angewendet: nein` |
+| Stilverstoß | siehe Abschnitt 9 |
 
-Klärungsgrundlage ist immer `raw/`. Findet sich dort kein Beleg für eine Aussage, lautet der Befund "unbelegt" — nicht "stimmt". Wiki-Seiten belegen einander nicht gegenseitig, sonst zementiert sich ein früherer Fehler.
+Klärungsgrundlage sind `raw/` und `kataloge/*.json`. Ohne Beleg dort lautet der Befund „unbelegt", nicht „stimmt" — Wiki-Seiten belegen einander nicht. Ausnahme sind Änderungsmatrizen: Sie sind belegtes, freigegebenes Wissen und dürfen als Grundlage dienen.
 
-## 3. Direkt beheben
+## 4. Ändern
 
-Diese Eingriffe ändern keine Aussage und sind leicht rückgängig zu machen:
+- fehlende Querverweise, Links auf verwaiste Seiten
+- fehlende `positionen:` — Nummern stehen im Text, das Präfix folgt aus der Quelle der Seite
+- Kanten, deren Regel als Prosa bereits auf einer Seite steht, samt Geltung und Prosaverweis
+- Stilverstöße, kaputte Links, uneinheitliche Benennung
+- **Widerspruch**, wenn `raw/` ihn entscheidet. Vorher prüfen, ob beide recht haben: unterschiedliche Geltungsbereiche (Kasse gegen privat, Gewerbe- gegen Praxislabor) oder Stände sind kein Widerspruch, sondern eine fehlende Einschränkung — dann ergänzt du die Einschränkung, statt eine Seite zu korrigieren.
+- **Veraltete Aussage.** Nicht überschreiben: `ersetzt_durch:` und `ersetzt:` setzen, alter Wortlaut bleibt stehen. Altfälle brauchen ihn.
+- **Duplikate und Zusammenführungen**, wenn es sich um dieselbe Sache handelt (Abschnitt 8).
 
-- fehlende Querverweise ergänzen
-- verwaiste Seiten von passenden Stellen aus verlinken
-- Stilverstöße korrigieren
-- kaputte Links, falsche Seitentitel, uneinheitliche Benennung
+Nach jeder Runde `graph.py` erneut laufen lassen. Im Protokoll steht, was du geändert hast — nicht nur wie viel.
 
-## 4. Vorlegen statt ausführen
+## 5. Vorlegen
 
-Bei diesen Befunden beschreibst du das Problem, deine Empfehlung und die Belege aus `raw/` — und wartest auf Entscheidung:
+Nur, wo keine Quelle entscheidet:
 
-- **Widerspruch.** Beide Formulierungen zitieren, die Quellenlage je Seite nennen, sagen welche du für richtig hältst und warum. Wenn `raw/` die Frage nicht entscheidet, ist das selbst das Ergebnis: dann bleibt der Widerspruch als offene Frage auf beiden Seiten vermerkt.
-- **Unbelegte Aussage.** Nicht löschen. Als unbelegt markieren und vorlegen — eine Aussage ohne Beleg kann trotzdem stimmen und wertvoll sein, die Quelle wurde vielleicht nur nie eingepflegt.
-- **Seiten zusammenführen.** Siehe Abschnitt 5.
-- **Neue Seite anlegen.** Vorschlagen, mit Begründung, welche bestehenden Seiten dann dorthin verlinken würden.
+- **Widerspruch ohne Klärung in `raw/`.** Bleibt als offene Frage auf beiden Seiten vermerkt.
+- **Unbelegte Aussage.** Nicht löschen, als unbelegt markieren. Sie kann stimmen; vielleicht wurde nur die Quelle nie eingepflegt.
+- **Fehlendes Äquivalent.** `kein_aequivalent` trägst du nur ein, wenn die Quelle es hergibt. Eine Position, zu der du nichts findest, ist nicht dasselbe wie eine ohne Entsprechung.
+- **Matrixzeilen der Art `offen`.** Siehe Abschnitt 6.
 
-## 5. Redundanz, aber ohne Informationsverlust
+## 6. Änderungsmatrix anwenden
 
-Redundanz beseitigen heißt: eine Tatsache steht an genau einer Stelle, alles andere verlinkt dorthin. Es heißt nicht, Text zu kürzen. Wortzahl ist kein Ziel — ein Wiki, das Information verliert, um kürzer zu werden, hat seinen Zweck verfehlt. Du entfernst die zweite Ausformulierung, nicht den zweiten Gedanken.
+Trägt eine Matrix im Wiki `angewendet: nein`, ist das der Auftrag. Aufruf mit Matrixnamen, oder du findest sie beim Umfang-Schritt.
 
-Zusammenführen nur bei echtem Duplikat: Übersetzung, Abkürzung, Synonym, dieselbe Sache anders benannt. Nicht bei verwandten Themen, nicht bei Eltern-Kind-Beziehungen. Im Zweifel getrennt lassen und verlinken — eine falsch zusammengeführte Seite kostet mehr Arbeit als ein fehlender Link.
+Je Zeile, außer `unveraendert_geprueft`:
 
-## 6. Lücken und offene Fragen
+1. Alte Position im Positionsregister von `GRAPH.md` nachschlagen — das gibt die zuständige Seite.
+2. Über Backlinks und Volltext alle weiteren Fundstellen sammeln.
+3. **Kanten nicht vergessen.** Jede Kante, die auf die alte Position zeigt, ist betroffen — sie steht im Frontmatter, nicht im Text, und fällt beim Lesen sonst durch.
+4. Ändern nach Art der Zeile: `umbenannt` und `ersetzt_durch` → Referenzen umstellen, alte Seite bekommt `ersetzt_durch:`. `entfallen` → `gueltig_bis` setzen, Aussage bleibt stehen. `regel_geaendert` → neue Regel aus der Quelle einarbeiten, alte mit `gueltig_bis`.
+5. Zeilen der Art `offen` nicht anwenden, sondern vorlegen.
 
-Recherchiere Lücken im Web, aber schreibe das Ergebnis nicht direkt ins Wiki. Was du findest, gehört zuerst als Quelle nach `raw/`, dann wird daraus eine Wiki-Aussage mit Verweis. Andernfalls erzeugt der Lauf genau den Befund, den er beseitigen soll — Aussagen ohne Beleg —, und die Quellenschicht verliert ihre Rolle als einzige Grundlage.
+Danach `angewendet: ja` in der Matrix und ein Protokolleintrag mit der Zahl geänderter Seiten und Kanten je Zeile. Eine halb angewendete Matrix ist schlimmer als eine unangewendete — läuft der Lauf nicht durch, bleibt `nein` stehen und du hältst im Protokoll fest, wie weit du gekommen bist.
 
-Am Ende jedes Laufs: 2–5 offene Fragen nennen, die sich aus den Befunden ergeben, und Quellen, deren Suche sich lohnen würde. Das ist oft der wertvollste Teil — Lücken sieht man erst, wenn das Vorhandene geordnet ist.
+## 7. Was Lint nicht tut
 
-## 7. Stil
+Lint erzeugt keine Abrechnungsartefakte. Aus `entspricht`-Kanten ließen sich Vorlagen für einen anderen Katalog ableiten — das ist Generierung mit eigener Prüfpflicht (jede Ausgangsposition abgehakt: abgebildet, aufgeteilt, zusammengefasst oder ohne Äquivalent) und gehört in einen eigenen Skill. Eine Vorlage ist zudem mehr als eine Positionsliste; Mengen, Bemerkungen und Hinweiszeilen tragen Bedingungen, die sich nicht mit den Nummern übersetzen.
 
-- Neutral und deklarativ.
-- Kurze Sätze, ein Gedanke pro Satz.
-- Die Modelle, die das Wiki lesen, folgen Anweisungen zuverlässig; sie brauchen keine rhetorische Betonung. Fettung und Symbole nur, wo echte Struktur ist: Tabellen, Kennzahlen, Formeln.
-- Keine Ausrufezeichen, keine Emoji, keine Cliffhanger, keine Anmoderation ("In diesem Abschnitt betrachten wir…"). Die Seite beginnt mit dem Inhalt.
+Fällt dir eine mögliche Ableitung auf, vermerkst du sie unter den offenen Punkten.
 
-## 8. Protokollieren
+## 8. Redundanz ohne Informationsverlust
 
-Ein Eintrag pro Lauf, nicht pro Korrektur — sonst ertrinkt `LOG.md` und die Zeitleiste wird unlesbar.
+Eine Tatsache steht an genau einer Stelle, alles andere verlinkt dorthin. Das heißt nicht kürzen: Wortzahl ist kein Ziel. Du entfernst die zweite Ausformulierung, nicht den zweiten Gedanken.
+
+Zusammenführen nur bei echtem Duplikat — Übersetzung, Abkürzung, Synonym, dieselbe Sache anders benannt. Nicht bei verwandten Themen, nicht bei Eltern-Kind-Beziehungen. Im Zweifel getrennt lassen und verlinken.
+
+## 9. Stil
+
+Neutral, deklarativ, kurze Sätze. Fettung und Symbole nur bei echter Struktur: Tabellen, Kennzahlen, Formeln. Keine Ausrufezeichen, keine Emoji, keine Anmoderation.
+
+## 10. Lücken
+
+Recherchierte Ergebnisse nicht direkt ins Wiki schreiben. Fundstücke gehören als Quelle nach `raw/_inbox/` und dann durch den Ingest — sonst erzeugt der Lauf die unbelegten Aussagen, die er beseitigen soll.
+
+Am Ende 2–5 offene Fragen nennen und Quellen, deren Suche sich lohnt.
+
+## 11. Protokollieren
+
+Ein Eintrag pro Lauf, nicht pro Korrektur:
 
 ```
-## [2026-08-05] lint | Themencluster Retrieval
-Geprüft: 23 Seiten (seit letztem Lauf geändert + Nachbarn)
-Behoben: 6 Querverweise, 2 verwaiste Seiten verlinkt, 4 Stilkorrekturen
-Vorgelegt: Widerspruch bm25-scoring/hybrid-search (Recall-Zahl); Zusammenführung reranking + cross-encoder
-Offen: Woher stammt die 84,8-%-Angabe auf evaluation.md? Quelle zu Chunk-Größen fehlt.
+## [2026-08-05] lint | Gruppenseiten BEL
+Geprüft: 12 Seiten. Graph: 0 verwaist, 0 kaputte Links.
+Behoben: positionen: auf 8 Seiten, 23 Kanten aus vorhandener Prosa, 6 Querverweise.
+Matrix BEB97 2025→2026 angewendet: 14 Zeilen, 22 Seiten, 9 Kanten. 2 Zeilen offen.
+Vorgelegt: doppelte Ausschlussprosa 2010/8060 auf drei Seiten.
+Offen: Gilt der BEL-Stand 2022 noch? Rundschreiben nicht ingested.
 ```
 
-Vorgelegte Punkte trägst du erst nach der Entscheidung als behoben nach. Befunde, die bewusst so bleiben sollen, hältst du ebenfalls fest — sonst meldet sie der nächste Lauf erneut.
+Vorgelegtes erst nach der Entscheidung als behoben nachtragen. Befunde, die bewusst bleiben, ebenfalls festhalten — sonst meldet sie der nächste Lauf erneut.

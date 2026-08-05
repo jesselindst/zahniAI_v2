@@ -1,6 +1,6 @@
 # Graph
 
-Generiert am 2026-08-05 12:38 aus 22 Seiten. Abgeleitet, nicht Quelle: jede Aenderung von Hand geht beim naechsten Lauf verloren. Neu erzeugen mit `python3 scripts/graph.py`.
+Generiert am 2026-08-05 12:40 aus 22 Seiten. Abgeleitet, nicht Quelle: jede Aenderung von Hand geht beim naechsten Lauf verloren. Neu erzeugen mit `python3 scripts/graph.py`.
 
 ## Befunde
 
