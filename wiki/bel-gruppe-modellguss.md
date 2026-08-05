@@ -1,63 +1,67 @@
-# BEL-Gruppe: Modellguss (201 0 – 212 0)
+---
+titel: BEL-Gruppe Modellguss
+aliase: [Modellguss, Metallbasis, Klammer BEL]
+labels: [Abrechnung, BEL, Herstellung]
+quellen: [raw/BEL_II_01_01_2022.pdf]
+stand: 2026-08-05
+---
 
-Metallbasis, gegossene Halte-/Stützelemente, Rückenschutz.
-Quelle: [[quelle-bel-ii-2014]], S. 59–68 und 131.
+Nummernkreis 201 0 bis 212 0. Metallbasis, gegossene Halte- und Stützelemente, metallische Kauflächen.
 
-## Metallbasis (201 0)
-Basis einer **Modellgussprothese** für OK oder UK; ggf. Kragenfassung; **Duplikatmodell aus
-Einbettmasse ist enthalten** (deshalb dafür kein 002 1 Doublieren → [[bel-ausschlussregeln]]).
+## Metallbasis
 
-Zwei Sonderregeln:
-- **UK ohne Sublingualbügel:** Kann bei einer UK-Modellgussprothese kein Sublingualbügel
-  angefertigt werden, sind neben 201 0 die **202 1 (fortlaufende Klammer)**, **202 5** und
-  **208 3** abrechenbar.
-- **Deckprothese:** Für ein gegossenes **Retentionsgitter** oder einen gegossenen
-  **Retentionsbügel** bei einer schleimhautgetragenen Deckprothese ist **201 0** berechenbar.
+**201 0 Metallbasis** — Basis einer Modellgussprothese für eine Ober- oder Unterkieferprothese, ggf. Kragenfassung, Duplikatmodell aus Einbettmasse.
 
-⚠️ Neben **806 0** (gegossenes Basisteil zur Erweiterung) ist **201 0 nicht** abrechenbar.
+Kann bei einer Unterkiefer-Modellgussprothese kein Sublingualbügel angefertigt werden, sind neben 201 0 die Positionen 202 1 (fortlaufende Klammer), 202 5 und 208 3 abrechenbar (BEL II, Nr. 201 0).
 
-## Gegossene Halte-, Stütz- und Verbindungselemente
-### Einarmig (202 x)
-| L-Nr. | Kurztext | Umfasst / Regel |
-|-------|----------|-----------------|
-| 202 1 | Einarmige gegossene Haltevorrichtung | einarmige Klammer, **Inlayklammer**, **fortlaufende Klammer (je Zahn)**, Bonyhardklammer |
-| 202 5 | Kralle | einarmiges Halteelement, umfasst einen **Frontzahn von mesial oder distal** und stützt sich **inzisal** ab. **1× je Kralle** |
-| 202 6 | Ney-Stiel | kleiner Verbinder zwischen Modellgussbasis und Halte-/Stützelement oder Teleskopkrone, **der nicht vom Sattel ausgeht**. Abrechenbar bei **sattelferner** Anbringung. ⚠️ **Nicht neben 205 0** (dort Bestandteil) |
-| 202 7 | Auflage | Stützelement. Nur abrechenbar, wenn die gegossene Auflage **nicht Bestandteil einer Halte- und Stützvorrichtung** ist (sonst in 204 1 enthalten) |
-| 202 8 | Umgehungsbügel bei Diastema | ergänzendes gegossenes Element zur Verbindung von Metallbasisteilen um ein Diastema. **Auch bei festsitzendem Zahnersatz** abrechenbar |
+Für die Herstellung eines gegossenen Retentionsgitters oder eines gegossenen Retentionsbügels bei einer schleimhautgetragenen Deckprothese ist 201 0 berechenbar.
 
-### Zwei-/mehrarmig (203 1, 204 1, 205 0)
-| L-Nr. | Kurztext | Umfasst |
-|-------|----------|---------|
-| 203 1 | Zweiarmige gegossene Haltevorrichtung | zweiarmige Klammer, Approximal-, Ring-, Rücklauf-, Bonyhardklammer **mit Gegenlager**, zwei Zähne umfassende Doppelbogenklammer — **ohne Auflage** |
-| 204 1 | Zweiarmige gegossene Halte- und Stützvorr. m. Auflage | dieselben **plus Überwurfklammer**, jeweils **mit Auflage** |
-| 205 0 | Bonwillklammer | **202 6 (Ney-Stiel) ist Bestandteil** und daneben nicht abrechenbar |
+Neben 806 0 (gegossenes Basisteil zur Erweiterung) ist 201 0 nicht abrechenbar (BEL II, Nr. 806 0).
 
-**Abgrenzungslogik:** 203 1 = zwei Arme ohne Auflage · 204 1 = zwei Arme mit Auflage ·
-202 7 = nur die Auflage, wenn sie *nicht* Teil einer Halte-und-Stütz-Vorrichtung ist.
-Gebogene (nicht gegossene) Gegenstücke → **380 0 / 380 5 / 381 0**
-([[bel-gruppe-herausnehmbarer-zahnersatz]]).
+Das Duplikatmodell aus Einbettmasse ist in 201 0 enthalten. Deshalb ist 002 1 (Doublieren) bei Duplikatmodell aus Einbettmasse nicht abrechenbar, siehe [[bel-gruppe-arbeitsvorbereitung]].
 
-## Rückenschutz, Metallzahn, Metallkaufläche (208 x)
-| L-Nr. | Kurztext | Indikation |
-|-------|----------|-----------|
-| 208 1 | Rückenschutzplatte | gegossen, für Verblendung, **auch mit Kaufläche**. Bei ungünstigen Biss-/Okklusionsverhältnissen, **einzeln stehenden Zähnen** oder **über einem Sekundärteil eines Kugelknopfankers** |
-| 208 2 | Metallzahn, gegossen | bei ungünstigen Biss-/Okklusionsverhältnissen, für **verengte Einzelzahnlücken** oder über einem Kugelknopfanker-Sekundärteil |
-| 208 3 | Metallkaufläche, gegossen | bei ungünstigen Biss-/Okklusionsverhältnissen oder über einem Kugelknopfanker-Sekundärteil |
+## Einarmige gegossene Elemente
 
-⚠️ **Für alle drei gilt:** Daneben sind **302 0, 303 0 und 362 0 nicht abrechenbar** (bei
-208 2 / 208 3 jeweils bezogen auf den Metallzahn bzw. die Metallkaufläche). Ein Metallzahn
-ist eben kein aufgestellter und fertiggestellter Konfektionszahn.
+| L-Nr. | Leistung | Umfasst / Bedingung |
+|---|---|---|
+| 202 1 | Einarmige gegossene Haltevorrichtung | einarmige Klammer, Inlayklammer, fortlaufende Klammer (je Zahn), Bonyhardklammer |
+| 202 5 | Kralle | einarmiges gegossenes Halteelement, das einen Frontzahn von mesial oder distal umfasst und sich inzisal abstützt; je Kralle einmal |
+| 202 6 | Ney-Stiel | gegossenes Element an einer Klammer oder teleskopierenden Krone für eine sattelferne Verbindung mit der Modellgussbasis; nur bei sattelferner Anbringung |
+| 202 7 | Auflage | Stützelement; nur abrechenbar, wenn die gegossene Auflage nicht Bestandteil einer Halte- und Stützvorrichtung ist |
+| 202 8 | Umgehungsbügel bei Diastema | ergänzendes gegossenes Element zur Verbindung von Metallbasisteilen; auch bei festsitzendem Zahnersatz abrechenbar |
 
-208 1 ist verblendbar mit **160 0** oder **164 0**.
+Der Ney-Stiel ist ein kleiner Verbinder zwischen Modellgussbasis und Halte- oder Stützelement oder Teleskopkrone, der nicht vom Sattel ausgeht (BEL II, Nr. 202 6).
 
-## Ergänzende Modellguss-Positionen
-| L-Nr. | Kurztext | Regel |
-|-------|----------|-------|
-| 210 0 | Lösungshilfe | **gegossene** Vorrichtung zum Lösen eines Kombinationszahnersatzes durch den Patienten. Eine **gebogene** Lösungshilfe → **380 0** |
-| 211 0 | Unterfütterbarer Abschlussrand | an einer **OK-Metallbasis**; nur bei **Totalprothese** oder **schleimhautgetragener Deckprothese** |
-| 212 0 | Zuschlag einzelne gegossene Klammer | Klammer einzeln gegossen, ggf. inkl. Duplikatmodell aus Einbettmasse. **1× je Prothese** — bei wiederherzustellender Modellgussprothese oder bei Herstellung einer **Kunststoffprothese mit gegossenen Halte-/Stützelementen** |
+## Zwei- und mehrarmige Elemente
 
-## Verwandt
-[[bel-gruppe-herausnehmbarer-zahnersatz]] · [[bel-gruppe-festsitzender-zahnersatz]] ·
-[[bel-ausschlussregeln]] · [[bel-mengenregeln]]
+**203 1 Zweiarmige gegossene Haltevorrichtung** — zweiarmige Klammer, Approximal-, Ring-, Rücklauf-, Bonyhardklammer mit Gegenlager sowie die zwei Zähne umfassende Doppelbogenklammer.
+
+**204 1 Zweiarmige gegossene Halte- und Stützvorrichtung mit Auflage** — dieselben Klammern jeweils mit Auflage, dazu die Überwurfklammer.
+
+**205 0 Bonwillklammer** — 202 6 ist Bestandteil von 205 0 und im Zusammenhang mit 205 0 nicht abrechenbar (BEL II, Nr. 205 0).
+
+Die Unterscheidung zwischen 203 1 und 204 1 liegt allein in der Auflage. Ist die Auflage Bestandteil der Vorrichtung, greift 204 1 und 202 7 entfällt.
+
+## Metallische Kauflächen und Rückenschutz
+
+| L-Nr. | Leistung | Indikation |
+|---|---|---|
+| 208 1 | Rückenschutzplatte | gegossen, für Verblendung, auch mit Kaufläche; bei ungünstigen Biss- und Okklusionsverhältnissen, einzeln stehenden Zähnen oder über einem Sekundärteil eines Kugelknopfankers |
+| 208 2 | Metallzahn, gegossen | bei ungünstigen Biss- und Okklusionsverhältnissen, für die Versorgung von verengten Einzelzahnlücken oder über einem Sekundärteil eines Kugelknopfankers |
+| 208 3 | Metallkaufläche, gegossen | bei ungünstigen Biss- und Okklusionsverhältnissen oder über einem Sekundärteil eines Kugelknopfankers |
+
+Neben allen drei Positionen sind 302 0, 303 0 und 362 0 nicht abrechenbar — bei 208 2 und 208 3 jeweils bezogen auf den Metallzahn bzw. die Metallkaufläche (BEL II, Nr. 208 1, 208 2, 208 3). Ein Metallzahn wird also nicht zusätzlich als aufgestellter und fertiggestellter Konfektionszahn berechnet.
+
+Für die vestibuläre Verblendung einer Rückenschutzplatte nach 208 1 sind 160 0 oder 164 0 abrechenbar, siehe [[verblendung-bel]].
+
+## Weitere Positionen
+
+**210 0 Lösungshilfe** — gegossene Vorrichtung, die der Lösung eines Kombinationszahnersatzes durch den Patienten dient. Eine gebogene Lösungshilfe ist nach 380 0 abrechenbar (BEL II, Nr. 210 0).
+
+**211 0 Unterfütterbarer Abschlussrand** einer Oberkiefer-Metallbasis — bei einer Totalprothese oder bei einer schleimhautgetragenen Deckprothese abrechenbar.
+
+**212 0 Zuschlag einzelne gegossene Klammer** — Klammer einzeln gegossen, ggf. einschließlich Duplikatmodell aus Einbettmasse. Bei einer wiederherzustellenden Modellgussprothese je Prothese oder bei der Herstellung einer Kunststoffprothese mit gegossenen Halte- und/oder Stützelementen je Prothese einmal abrechenbar (BEL II, Nr. 212 0).
+
+212 0 ist ein Zuschlag für den Fall, dass nicht mit der Basis mitgegossen wird — also bei Reparatur oder bei Kunststoffprothese mit gegossenen Elementen. Er fällt je Prothese einmal an, nicht je Klammer.
+
+Verwandt: [[bel-ii]] · [[bel-gruppe-herausnehmbarer-zahnersatz]] · [[nebeneinander-ausschluesse-bel]] · [[mengen-und-bezugsgroessen-bel]]
